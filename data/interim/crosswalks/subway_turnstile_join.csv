@@ -1,0 +1,543 @@
+,name,url,line,objectid,notes,geometry,Remote,Booth,station,line_name,Division
+0,Astor Pl,http://web.mta.info/nyct/service/,4-6-6 Express,1,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.99106999861966 40.73005400028978),R160,R219,ASTOR PLACE,6,IRT
+1,Canal St,http://web.mta.info/nyct/service/,4-6-6 Express,2,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-74.00019299927328 40.71880300107709),R118,A066,CANAL ST,JNQRZ6,BMT
+2,50th St,http://web.mta.info/nyct/service/,1-2,3,"1-all times, 2-nights",POINT (-73.98384899986625 40.76172799961419),R116,R154,50 ST,1,IRT
+3,Bergen St,http://web.mta.info/nyct/service/,2-3-4,4,"4-nights, 3-all other times, 2-all times",POINT (-73.97499915116808 40.68086213682956),R058,R617,BERGEN ST,23,IRT
+4,Pennsylvania Ave,http://web.mta.info/nyct/service/,3-4,5,"4-nights, 3-all other times",POINT (-73.89488591154061 40.66471445143568),R067,R632,PENNSYLVANIA AV,3,IRT
+5,238th St,http://web.mta.info/nyct/service/,1,6,"1-all times, exit only northbound",POINT (-73.90087000018522 40.88466700064975),R306,R196,238 ST,1,IRT
+6,Cathedral Pkwy (110th St),http://web.mta.info/nyct/service/,A-B-C,7,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.95806670661364 40.80058155811496),R334,N035,CATHEDRL-110 ST,BC,IND
+7,Kingston - Throop Aves,http://web.mta.info/nyct/service/,A-C,8,"A-nights, C-all other times",POINT (-73.94085899871263 40.67991899941601),R199,N119,KINGSTON-THROOP,C,IND
+8,65th St,http://web.mta.info/nyct/service/,E-M-R,9,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.8987883783301 40.74971952935675),R340,N322,65 ST,MR,IND
+9,36th St,http://web.mta.info/nyct/service/,E-M-R,10,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.92901818461539 40.75196004401078),R197,C018,36 ST,DNR,BMT
+10,Delancey St - Essex St,http://web.mta.info/nyct/service/,J-M-Z,11,"J-all times, M-all times exc nights, Z-rush hours AM westbound, PM eastbound",POINT (-73.98740940202974 40.71830605618619),R142,N525,DELANCEY ST,FJMZ,IND
+11,Van Siclen Ave,http://web.mta.info/nyct/service/,J-Z,12,"Z-rush hours AM westbound, PM eastbound, J-all other times",POINT (-73.89165772702445 40.67802821447783),R434,J021,VAN SICLEN AVE,JZ,BMT
+12,Norwood Ave,http://web.mta.info/nyct/service/,J-Z,13,"Z-rush hours AM westbound, PM eastbound, J-all other times",POINT (-73.87962599910783 40.68152000045683),R436,J023,NORWOOD AVE,JZ,BMT
+13,104th-102nd Sts,http://web.mta.info/nyct/service/,J-Z,14,"Z-rush hours AM westbound, PM eastbound, J-all other times",POINT (-73.84443500029684 40.69516599823373),R007,J034,104 ST,JZ,BMT
+14,DeKalb Ave,http://web.mta.info/nyct/service/,B-D-N-Q-R,15,"B-weekdays and evenings, D-all other times, N-nights, R-all other times, Q-all times",POINT (-73.98177094440949 40.69064811996979),R099,C008,DEKALB AVE,BDNQR,BMT
+15,Beach 105th St,http://web.mta.info/nyct/service/,A-S,16,"A-rush hours AM northbound, PM southbound, S Broad Channel to Rockaway Park-all times",POINT (-73.82758075034528 40.58326843810286),R418,N186,BEACH 105 ST,AS,IND
+16,Beach 90th St,http://web.mta.info/nyct/service/,A-S,17,"A-rush hours AM northbound, PM southbound, S Broad Channel to Rockaway Park-all times",POINT (-73.81365140419632 40.58809156457325),R416,N184,BEACH 90 ST,AS,IND
+17,Freeman St,http://web.mta.info/nyct/service/,2-5,18,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.89175225349464 40.82998744638412),R409,R320,FREEMAN ST,25,IRT
+18,Freeman St,http://web.mta.info/nyct/service/,2-5,18,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.89175225349464 40.82998744638412),R409,R319,FREEMAN ST,25,IRT
+19,Intervale Ave,http://web.mta.info/nyct/service/,2-5,19,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.89661738461646 40.82214213117079),R407,R316,INTERVALE-163,25,IRT
+20,182nd-183rd Sts,http://web.mta.info/nyct/service/,B-D,20,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.90074099998965 40.85609299881864),R237,N215,182-183 ST,BD,IND
+21,174th-175th Sts,http://web.mta.info/nyct/service/,B-D,21,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.91013600050078 40.84589999983414),R253,N210,174-175 ST,BD,IND
+22,167th St,http://web.mta.info/nyct/service/,B-D,22,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.91843200082253 40.83376899862797),R104,N207,167 ST,BD,IND
+23,167th St,http://web.mta.info/nyct/service/,B-D,22,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.91843200082253 40.83376899862797),R104,N206,167 ST,BD,IND
+24,Mets - Willets Point,http://web.mta.info/nyct/service/,7-7 Express,23,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.8456249984179 40.75462199881262),R328,R532,METS-WILLETS PT,7,IRT
+25,Junction Blvd,http://web.mta.info/nyct/service/,7-7 Express,24,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.86952700103515 40.74914499948836),R097,R528,JUNCTION BLVD,7,IRT
+26,Flushing - Main St,http://web.mta.info/nyct/service/,7-7 Express,25,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.83003000262508 40.75959999915012),,,,,
+27,Buhre Ave,http://web.mta.info/nyct/service/,6-6 Express,26,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",POINT (-73.83256900003744 40.8468099988855),R428,R422,BUHRE AVE,6,IRT
+28,3rd Ave - 138th St,http://web.mta.info/nyct/service/,6-6 Express,27,"6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.92613800014134 40.81047600117261),,,,,
+29,Castle Hill Ave,http://web.mta.info/nyct/service/,6-6 Express,28,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",POINT (-73.85122199961472 40.83425499825462),R106,R418,CASTLE HILL AVE,6,IRT
+30,Brooklyn Bridge - City Hall,http://web.mta.info/nyct/service/,4-5-6-6 Express,29,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",POINT (-74.0041310005885 40.71306499943314),R044,R210,BROOKLYN BRIDGE,456JZ,IRT
+31,Zerega Ave,http://web.mta.info/nyct/service/,6-6 Express,30,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",POINT (-73.84703599875439 40.83648800060816),R326,R419,ZEREGA AVE,6,IRT
+32,Grand Central - 42nd St,http://web.mta.info/nyct/service/,4-5-6-6 Express,31,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.97671329925841 40.75180742981634),,,,,
+33,33rd St,http://web.mta.info/nyct/service/,4-6-6 Express,32,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.98207600148947 40.74608099909145),R176,R231,33 ST,6,IRT
+34,96th St,http://web.mta.info/nyct/service/,4-6-6 Express,33,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.9510700015425 40.78567199998607),R144,R251,96 ST,6,IRT
+35,77th St,http://web.mta.info/nyct/service/,4-6-6 Express,34,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.95987399886047 40.77362000074615),R178,R248,77 ST,6,IRT
+36,Chauncey St,http://web.mta.info/nyct/service/,J-Z,35,"Z-rush hours AM westbound, PM eastbound, J-all other times",POINT (-73.91038357033376 40.68285130087804),R432,J017,CHAUNCEY ST,JZ,BMT
+37,Union St,http://web.mta.info/nyct/service/,D-N-R,36,"D,N-nights, R-all other times",POINT (-73.98310999909673 40.67731566735096),R231,C010,UNION ST,R,BMT
+38,Elmhurst Ave,http://web.mta.info/nyct/service/,E-M-R,37,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.8820347465864 40.74237007972169),R218,N325A,ELMHURST AVE,MR,IND
+39,Ralph Ave,http://web.mta.info/nyct/service/,A-C,38,"A-nights, C-all other times",POINT (-73.92078599933306 40.67882200087337),R438,N121B,RALPH AVE,C,IND
+40,Pelham Pkwy,http://web.mta.info/nyct/service/,2-5,39,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.86748067850041 40.8571924091606),R361,R328,PELHAM PARKWAY,25,IRT
+41,Gun Hill Rd,http://web.mta.info/nyct/service/,2-5,40,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.86613410538703 40.87783938517202),R226,R728,GUN HILL ROAD,5,IRT
+42,Nereid Ave (238 St),http://web.mta.info/nyct/service/,2-5,41,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.8543153107622 40.89828651557529),R444,R335,NEREID AVE,25,IRT
+43,Franklin Ave,http://web.mta.info/nyct/service/,2-3-4-5,42,"2,4-all times, 3-all times exc nights, 5-weekdays",POINT (-73.9580997367769 40.67076515344894),R123,R622,FRANKLIN AVE,2345S,IRT
+44,Simpson St,http://web.mta.info/nyct/service/,2-5,43,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.89306639507903 40.8239768412374),R408,R318,SIMPSON ST,25,IRT
+45,Simpson St,http://web.mta.info/nyct/service/,2-5,43,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.89306639507903 40.8239768412374),R408,R317,SIMPSON ST,25,IRT
+46,Bronx Park East,http://web.mta.info/nyct/service/,2-5,44,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.86835609178098 40.84876866633893),R389,R326,BRONX PARK EAST,25,IRT
+47,Winthrop St,http://web.mta.info/nyct/service/,2-5,45,"2-all times, 5-weekdays",POINT (-73.95007934590994 40.65665931376077),R451,R637,WINTHROP ST,25,IRT
+48,Van Siclen Ave,http://web.mta.info/nyct/service/,3-4,46,"4-nights, 3-all other times",POINT (-73.88940491730106 40.66551796305964),R068,R633,VAN SICLEN AVE,3,IRT
+49,149th St - Grand Concourse,http://web.mta.info/nyct/service/,4,47,4-all times,POINT (-73.92738475426179 40.81830344372315),R205,R261,149 ST-GR CONC,245,IRT
+50,161st St - Yankee Stadium,http://web.mta.info/nyct/service/,4,48,4-all times,POINT (-73.92569199505733 40.82823032742169),R195,N203,161 ST-YANKEE,BD4,IND
+51,Lexington Ave - 59th St,http://web.mta.info/nyct/service/,4-5-6-6 Express,49,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.96796700047319 40.76252600030458),,,,,
+52,E 149th St,http://web.mta.info/nyct/service/,6,50,6-all times,POINT (-73.90409799875945 40.81211799827203),R449,R408,E 149 ST,6,IRT
+53,E 149th St,http://web.mta.info/nyct/service/,6,50,6-all times,POINT (-73.90409799875945 40.81211799827203),R449,R409,E 149 ST,6,IRT
+54,Morrison Av - Soundview,http://web.mta.info/nyct/service/,6,51,6-all times,POINT (-73.87451599929486 40.82952100156747),R120,R415,MORRISON AVE,6,IRT
+55,Whitlock Ave,http://web.mta.info/nyct/service/,6,52,6-all times,POINT (-73.88628299853249 40.82652500055904),R325,R413,WHITLOCK AVE,6,IRT
+56,St Lawrence Ave,http://web.mta.info/nyct/service/,6,53,6-all times,POINT (-73.86761799923673 40.8315090005233),R245,R416,ST LAWRENCE AVE,6,IRT
+57,Woodside - 61st St,http://web.mta.info/nyct/service/,7-7 Express,54,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.90298400173006 40.74563000113839),,,,,
+58,Far Rockaway - Mott Ave,http://web.mta.info/nyct/service/,A,55,A-all times,POINT (-73.75540499924732 40.60399500168754),R285,N196,FAR ROCKAWAY,A,IND
+59,72nd St,http://web.mta.info/nyct/service/,A-B-C,56,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.976336575218 40.77551939729258),R281,N046,72 ST,BC,IND
+60,96th St,http://web.mta.info/nyct/service/,A-B-C,57,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.96460245687166 40.79161879767014),R144,R251,96 ST,6,IRT
+61,168th St,http://web.mta.info/nyct/service/,A-C,58,"A-all times, C-all times exc nights",POINT (-73.93956099985425 40.84071899990795),,,,,
+62,Kingsbridge Rd,http://web.mta.info/nyct/service/,B-D,59,"B-rush hours, D-all times",POINT (-73.89350900003311 40.86697799999945),R155,N221,KINGSBRIDGE RD,BD,IND
+63,Kingsbridge Rd,http://web.mta.info/nyct/service/,B-D,59,"B-rush hours, D-all times",POINT (-73.89350900003311 40.86697799999945),R155,N220,KINGSBRIDGE RD,BD,IND
+64,42nd St - Bryant Pk,http://web.mta.info/nyct/service/,B-D-F-M,60,"B,M-weekdays and evenings, D,F-all times",POINT (-73.98459099904711 40.75418400131255),R021,N503,42 ST-BRYANT PK,BDFM7,IND
+65,Prospect Park,http://web.mta.info/nyct/service/,B-Q-S,61,"B-weekdays and evenings, Q,S to Franklin Av-Fulton St-all times",POINT (-73.96203130426609 40.6616334551018),R196,B012,PROSPECT PARK,BQS,BMT
+66,Prospect Park,http://web.mta.info/nyct/service/,B-Q-S,61,"B-weekdays and evenings, Q,S to Franklin Av-Fulton St-all times",POINT (-73.96203130426609 40.6616334551018),R196,B013,PROSPECT PARK,BQS,BMT
+67,55th St,http://web.mta.info/nyct/service/,D,62,D-all times,POINT (-73.99534882595742 40.63147876093745),R247,E005,55 ST,D,BMT
+68,Jamaica - Van Wyck,http://web.mta.info/nyct/service/,E,63,E-all times,POINT (-73.81701287135405 40.70289855287313),R342,N604,JAMAICA-VAN WYC,E,IND
+69,Kew Gardens - Union Tpke,http://web.mta.info/nyct/service/,E-F,64,"E,F-all times",POINT (-73.8303702709878 40.71403481957103),,,,,
+70,Sutphin Blvd - Archer Av,http://web.mta.info/nyct/service/,E-J-Z,65,"E,J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.80800471963833 40.700382424235),R024,N605,SUTPHIN BLVD,EJZ,IND
+71,Court Sq - 23rd St,http://web.mta.info/nyct/service/,E-M,66,"E-all times, M-weekdays and evenings",POINT (-73.94605470266329 40.74776812141432),R359,N307,COURT SQ-23 ST,EMG,IND
+72,67th Ave,http://web.mta.info/nyct/service/,E-M-R,67,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.85286048434907 40.72650547581301),R219,N331,67 AVE,MR,IND
+73,Grand Ave - Newtown,http://web.mta.info/nyct/service/,E-M-R,68,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.87722085669182 40.73681341819714),R254,N327,GRAND AV-NEWTON,MR,IND
+74,Ditmas Ave,http://web.mta.info/nyct/service/,F,69,F-all times,POINT (-73.97817199965161 40.63611866666291),R420,N548,DITMAS AVE,F,IND
+75,Ditmas Ave,http://web.mta.info/nyct/service/,F,69,F-all times,POINT (-73.97817199965161 40.63611866666291),R420,N547,DITMAS AVE,F,IND
+76,Classon Ave,http://web.mta.info/nyct/service/,G,70,G-all times,POINT (-73.95999000137212 40.68888900026455),R287,N419,CLASSON AVE,G,IND
+77,Broadway,http://web.mta.info/nyct/service/,G,71,G-all times,POINT (-73.95031225606621 40.70612657627417),R299,N412,BROADWAY,G,IND
+78,Lorimer St,http://web.mta.info/nyct/service/,L,72,L-all times,POINT (-73.95024799996972 40.71407200064717),R268,H012,LORIMER ST,GL,BMT
+79,Sutter Ave,http://web.mta.info/nyct/service/,L,73,L-all times,POINT (-73.9019160004208 40.66914500061398),R349,H037,SUTTER AVE,L,BMT
+80,Wilson Ave,http://web.mta.info/nyct/service/,L,74,L-all times,POINT (-73.90395860491864 40.68886654246024),R295,H032,WILSON AVE,L,BMT
+81,Halsey St,http://web.mta.info/nyct/service/,J,75,J-all times,POINT (-73.9166388842194 40.68641527070434),R381,J016,HALSEY ST,J,BMT
+82,Lorimer St,http://web.mta.info/nyct/service/,J-M,76,"J-all times, skips weekdays AM westbound, PM eastbound, M-all times exc nights",POINT (-73.94735499884204 40.7038440000421),R353,J005,LORIMER ST,JM,BMT
+83,8th Ave,http://web.mta.info/nyct/service/,N,77,N-all times,POINT (-74.01151599772157 40.63497099964717),R390,D002,8 AVE,N,BMT
+84,36th Ave,http://web.mta.info/nyct/service/,N-W,78,"N-all times, W part time",POINT (-73.929861999118 40.7564420005104),,,,,
+85,Broadway,http://web.mta.info/nyct/service/,N-W,79,"N-all times, W part time",POINT (-73.92582299919906 40.76143199880055),R299,N412,BROADWAY,G,IND
+86,Times Sq - 42nd St,http://web.mta.info/nyct/service/,N-Q-R-W,80,"N,Q-all times, R-all times exc nights, W part time",POINT (-73.98676800153976 40.75461199851542),,,,,
+87,Grand Central - 42nd St,http://web.mta.info/nyct/service/,S,81,"S to Times Sq-all times exc nights, closed nights-use 7",POINT (-73.97918899989101 40.75276866674217),,,,,
+88,Park Pl,http://web.mta.info/nyct/service/,S,82,S Franklin Av-Fulton St to Prospect Park-all times,POINT (-73.95762400074634 40.67477166685263),R029,R115,PARK PLACE,23ACE,IRT
+89,111th St,http://web.mta.info/nyct/service/,A-S,83,"S Euclid Av to Ozone Park-Lefferts Blvd-nights, A-all other times",POINT (-73.83216299845388 40.68433100001238),R008,J035,111 ST,J,BMT
+90,W 4th St - Washington Sq (Lower),http://web.mta.info/nyct/service/,B-D-F-M,84,"B,M-weekdays and evenings, D,F-all times",POINT (-74.00030814755975 40.73225449336788),R138,N080,W 4 ST-WASH SQ,ABCDEFM,IND
+91,51st St,http://web.mta.info/nyct/service/,4-6-6 Express,85,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.97192000069982 40.75710699989316),R049,R243,51 ST,6,IRT
+92,86th St,http://web.mta.info/nyct/service/,1-2,86,"1-all times, 2-nights",POINT (-73.97621799859327 40.78864400073892),R167,R164,86 ST,1,IRT
+93,233rd St,http://web.mta.info/nyct/service/,2-5,87,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.85736239521543 40.89314324138378),R367,R334,233 ST,25,IRT
+94,66th St - Lincoln Ctr,http://web.mta.info/nyct/service/,1-2,88,"1-all times, 2-nights",POINT (-73.98220899995783 40.77344000052039),R164,R160A,66 ST-LINCOLN,1,IRT
+95,Hunts Point Ave,http://web.mta.info/nyct/service/,6-6 Express,89,"6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.89054900017344 40.82094799852307),R146,R412,HUNTS POINT AVE,6,IRT
+96,Canal St,http://web.mta.info/nyct/service/,1-2,90,"1-all times, 2-nights",POINT (-74.0062770001748 40.72285399778783),R118,A066,CANAL ST,JNQRZ6,BMT
+97,Middletown Rd,http://web.mta.info/nyct/service/,6-6 Express,91,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",POINT (-73.83632199755944 40.84386300128381),R427,R421,MIDDLETOWN ROAD,6,IRT
+98,23rd St,http://web.mta.info/nyct/service/,4-6-6 Express,92,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.98659900207888 40.7398640004746),R111,N076,23 ST,CE,IND
+99,Court Sq,http://web.mta.info/nyct/service/,7-7 Express,93,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.94526400039679 40.74702299889643),R346,R508,COURT SQ,7,IRT
+100,59th St - Columbus Circle,http://web.mta.info/nyct/service/,1-2,94,"1-all times, 2-nights",POINT (-73.98192900232715 40.76824700063689),R084,R158,59 ST-COLUMBUS,1ABCD,IRT
+101,Hunters Point Ave,http://web.mta.info/nyct/service/,7-7 Express,95,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.94891600093909 40.74221599986316),R134,R507,HUNTERS PT AVE,7,IRT
+102,23rd St,http://web.mta.info/nyct/service/,1-2,96,"1-all times, 2-nights",POINT (-73.99565700164869 40.74408099989751),R111,N076,23 ST,CE,IND
+103,Houston St,http://web.mta.info/nyct/service/,1-2,97,"1-all times, 2-nights",POINT (-74.00536700180581 40.7282510007302),R290,R123,HOUSTON ST,1,IRT
+104,104th St,http://web.mta.info/nyct/service/,A-S,98,"S Euclid Av to Ozone Park-Lefferts Blvd-nights, A-all other times",POINT (-73.83768300060997 40.68171100109119),R007,J034,104 ST,JZ,BMT
+105,Broad Channel,http://web.mta.info/nyct/service/,A-S,99,"A,S to Rockaway Park-all times",POINT (-73.81583268782963 40.60840218069683),R415,N183,BROAD CHANNEL,AS,IND
+106,Ocean Pkwy,http://web.mta.info/nyct/service/,Q,100,Q-all times,POINT (-73.96850099975177 40.57631166708091),R264,B032,OCEAN PARKWAY,Q,BMT
+107,Vernon Blvd - Jackson Ave,http://web.mta.info/nyct/service/,7-7 Express,101,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.95358099875249 40.74262599969749),R276,R504,VERNON/JACKSON,7,IRT
+108,68th St - Hunter College,http://web.mta.info/nyct/service/,4-6-6 Express,102,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.96387000158042 40.76814100049679),R177,R246,68ST-HUNTER COL,6,IRT
+109,Queensboro Plz,http://web.mta.info/nyct/service/,7-7 Express-N-W,103,"7,N-all times, 7 Express-rush hours AM westbound, PM eastbound, W part time",POINT (-73.94016353519091 40.7506356510148),R121,R509,QUEENSBORO PLZ,7NQ,IRT
+110,Rockaway Blvd,http://web.mta.info/nyct/service/,A-S,104,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",POINT (-73.8438529979573 40.68042899958841),R385,N134,ROCKAWAY BLVD,A,IND
+111,Union Sq - 14th St,http://web.mta.info/nyct/service/,4-5-6-6 Express,105,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.98995099881881 40.73467300099612),,,,,
+112,Bedford - Nostrand Aves,http://web.mta.info/nyct/service/,G,106,G-all times,POINT (-73.95352200064022 40.68962700158444),R269,N417,BEDFORD/NOSTRAN,G,IND
+113,15th St - Prospect Park,http://web.mta.info/nyct/service/,F-G,107,"F,G-all times",POINT (-73.97973580592873 40.66003568810021),R241,N542,15 ST-PROSPECT,FG,IND
+114,7th Ave,http://web.mta.info/nyct/service/,F-G,108,"F,G-all times",POINT (-73.98025117900944 40.66624469001985),,,,,
+115,Ft Hamilton Pkwy,http://web.mta.info/nyct/service/,F-G,109,"F,G-all times",POINT (-73.97577599917474 40.65078166803418),R289,N543,FT HAMILTON PKY,FG,IND
+116,Church Ave,http://web.mta.info/nyct/service/,F-G,110,"F,G-all times",POINT (-73.97972116229084 40.64427200012998),R204,N546,CHURCH AVE,FG,IND
+117,Church Ave,http://web.mta.info/nyct/service/,F-G,110,"F,G-all times",POINT (-73.97972116229084 40.64427200012998),R204,N545,CHURCH AVE,FG,IND
+118,Beverly Rd,http://web.mta.info/nyct/service/,Q,111,Q-all times,POINT (-73.96435779623125 40.64390459860419),R210,R641,BEVERLY ROAD,25,IRT
+119,Church Ave,http://web.mta.info/nyct/service/,B-Q,112,"B-weekdays and evenings, Q-all times",POINT (-73.96288246192114 40.65049324646484),R098,B016,CHURCH AVE,BQ,BMT
+120,Church Ave,http://web.mta.info/nyct/service/,B-Q,112,"B-weekdays and evenings, Q-all times",POINT (-73.96288246192114 40.65049324646484),R098,B015,CHURCH AVE,BQ,BMT
+121,Newkirk Ave,http://web.mta.info/nyct/service/,B-Q,113,"B-weekdays and evenings, Q-all times",POINT (-73.96269486837261 40.63514193733789),R149,B019,NEWKIRK AVE,BQ,BMT
+122,Parkside Ave,http://web.mta.info/nyct/service/,Q,114,Q-all times,POINT (-73.96145343987648 40.65507304163716),R148,B014,PARKSIDE AVE,BQ,BMT
+123,Grand Army Plaza,http://web.mta.info/nyct/service/,2-3-4,115,"4-nights, 3-all other times, 2-all times",POINT (-73.97095633192281 40.6752946951032),R059,R619,GRAND ARMY PLAZ,23,IRT
+124,Atlantic Av - Barclay's Center,http://web.mta.info/nyct/service/,2-3-4-5,116,"2,4-all times, 3-all times exc nights, 5-weekdays",POINT (-73.97754993539385 40.68442016526762),R057,R610,ATLANTIC AVE,2345BDNQR,IRT
+125,Rockaway Ave,http://web.mta.info/nyct/service/,A-C,117,"A-nights, C-all other times",POINT (-73.91194599726617 40.67833999988351),R439,N122,ROCKAWAY AVE,C,IND
+126,Fulton St,http://web.mta.info/nyct/service/,G,118,G-all times,POINT (-73.97537499833149 40.68711899950771),R318,N422,FULTON ST,G,IND
+127,Clinton - Washington Aves,http://web.mta.info/nyct/service/,G,119,G-all times,POINT (-73.9667959986695 40.68809400106055),R317,N420B,CLINTON-WASH AV,G,IND
+128,7th Ave,http://web.mta.info/nyct/service/,B-Q,120,"B-weekdays and evenings, Q-all times",POINT (-73.97285279191024 40.67710217983294),R171,B004,7 AVE,BQ,BMT
+129,Atlantic Av - Barclay's Center,http://web.mta.info/nyct/service/,B-Q,121,"B-weekdays and evenings, Q-all times",POINT (-73.97678343963167 40.68448832345369),R057,R610,ATLANTIC AVE,2345BDNQR,IRT
+130,Atlantic Av - Barclay's Center,http://web.mta.info/nyct/service/,D-N-Q-R,122,"D,N-all times, R-all times exc nights",POINT (-73.97880999956767 40.68366566727943),R057,R610,ATLANTIC AVE,2345BDNQR,IRT
+131,Borough Hall,http://web.mta.info/nyct/service/,4-5,123,"4-all times, 5-weekdays",POINT (-73.99015100090539 40.69240399999104),R108,R602,BOROUGH HALL/CT,2345R,IRT
+132,Aqueduct Racetrack,http://web.mta.info/nyct/service/,A,124,"A-to Manhattan only, racing days only",POINT (-73.83591899965162 40.67209699917284),R464,N181A,AQUEDUCT TRACK,A,IND
+133,Morris Park,http://web.mta.info/nyct/service/,5,125,5-all times,POINT (-73.86049500117254 40.85436399966426),R329,R726,MORRIS PARK,5,IRT
+134,Pelham Pkwy,http://web.mta.info/nyct/service/,5,126,5-all times,POINT (-73.85535900043564 40.85898499982012),R361,R328,PELHAM PARKWAY,25,IRT
+135,Nostrand Ave,http://web.mta.info/nyct/service/,A-C,127,"A-all times, C-all times exc nights",POINT (-73.95042600099683 40.68043800006226),R198,N116,NOSTRAND AVE,AC,IND
+136,Nostrand Ave,http://web.mta.info/nyct/service/,A-C,127,"A-all times, C-all times exc nights",POINT (-73.95042600099683 40.68043800006226),R198,N117,NOSTRAND AVE,AC,IND
+137,Nevins St,http://web.mta.info/nyct/service/,2-3-4-5,128,"2,4-all times, 3-all times exc nights, 5-weekdays",POINT (-73.98040679874578 40.68831058019022),R056,R608,NEVINS ST,2345,IRT
+138,Nevins St,http://web.mta.info/nyct/service/,2-3-4-5,128,"2,4-all times, 3-all times exc nights, 5-weekdays",POINT (-73.98040679874578 40.68831058019022),R056,R609,NEVINS ST,2345,IRT
+139,Eastern Pkwy - Bklyn Museum,http://web.mta.info/nyct/service/,2-3-4,129,"4-nights, 3-all other times, 2-all times",POINT (-73.96422203748425 40.67203223545925),R060,R621,EASTERN PKWY,23,IRT
+140,Beverly Rd,http://web.mta.info/nyct/service/,2-5,130,"2-all times, 5-weekdays",POINT (-73.94884798381702 40.64512351894373),R210,R641,BEVERLY ROAD,25,IRT
+141,Church Ave,http://web.mta.info/nyct/service/,2-5,131,"2-all times, 5-weekdays",POINT (-73.94945514035334 40.6508606878022),R109,R639,CHURCH AVE,25,IRT
+142,Newkirk Ave,http://web.mta.info/nyct/service/,2-5,132,"2-all times, 5-weekdays",POINT (-73.94829990822407 40.63999124275311),R135,R643,NEWKIRK AVE,25,IRT
+143,Newkirk Ave,http://web.mta.info/nyct/service/,2-5,132,"2-all times, 5-weekdays",POINT (-73.94829990822407 40.63999124275311),R135,R644,NEWKIRK AVE,25,IRT
+144,Brooklyn College - Flatbush Ave,http://web.mta.info/nyct/service/,2-5,133,"2-all times, 5-weekdays",POINT (-73.94754120734406 40.63284240700742),,,,,
+145,Sterling St,http://web.mta.info/nyct/service/,2-5,134,"2-all times, 5-weekdays",POINT (-73.95072891124937 40.6627729934283),R209,R636,STERLING ST,25,IRT
+146,Crown Hts - Utica Ave,http://web.mta.info/nyct/service/,3-4,135,"3-all times exc nights, 4-all times",POINT (-73.93293256081851 40.66897831107809),R062,R626,CROWN HTS-UTICA,34,IRT
+147,Kingston Ave,http://web.mta.info/nyct/service/,3-4,136,"4-nights, 3-all other times",POINT (-73.94215978392963 40.66948144864978),R124,R624,KINGSTON AVE,3,IRT
+148,Nassau Ave,http://web.mta.info/nyct/service/,G,137,G-all times,POINT (-73.95118300016523 40.72447999780827),R256,N408A,NASSAU AV,G,IND
+149,Greenpoint Ave,http://web.mta.info/nyct/service/,G,138,G-all times,POINT (-73.95442500146235 40.73126699971465),R239,N405,GREENPOINT AVE,G,IND
+150,Greenpoint Ave,http://web.mta.info/nyct/service/,G,138,G-all times,POINT (-73.95442500146235 40.73126699971465),R239,N403,GREENPOINT AVE,G,IND
+151,Marcy Ave,http://web.mta.info/nyct/service/,J-M-Z,139,"J-all times, M-all times exc nights, Z-rush hours AM westbound, PM eastbound",POINT (-73.95783200075729 40.70838300001792),R460,J002,MARCY AVE,JMZ,BMT
+152,Marcy Ave,http://web.mta.info/nyct/service/,J-M-Z,139,"J-all times, M-all times exc nights, Z-rush hours AM westbound, PM eastbound",POINT (-73.95783200075729 40.70838300001792),R460,J001,MARCY AVE,JMZ,BMT
+153,Hewes St,http://web.mta.info/nyct/service/,J-M,140,"J-all times, skips weekdays AM westbound, PM eastbound, M-all times exc nights",POINT (-73.95348800038457 40.706889998054),R352,J003,HEWES ST,JM,BMT
+154,138th St - Grand Concourse,http://web.mta.info/nyct/service/,4-5,141,"4-all times, skips rush hours AM southbound, PM northbound, 5-all times exc nights",POINT (-73.92984899935611 40.81322399958908),R307,R259,138 ST-GR CONC,45,IRT
+155,5th Ave - 53rd St,http://web.mta.info/nyct/service/,E-M,142,"E-all times, M-weekdays and evenings",POINT (-73.9752485052734 40.76008683231326),R015,N303,5 AVE-53 ST,EM,IND
+156,Lexington Ave - 53rd St,http://web.mta.info/nyct/service/,E-M,143,"E-all times, M-weekdays and evenings",POINT (-73.96907237490204 40.75746830782865),R016,N305A,LEXINGTON-53 ST,EM6,IND
+157,28th St,http://web.mta.info/nyct/service/,N-Q-R-W,144,"N-all times, R-all times exc nights, part time",POINT (-73.98869800128737 40.74545399979951),R143,R228,28 ST,6,IRT
+158,Herald Sq - 34th St,http://web.mta.info/nyct/service/,N-Q-R-W,145,"N,Q-all times, R-all times exc nights",POINT (-73.9879368338264 40.74964456009442),R022,N506,34 ST-HERALD SQ,BDFMNQR,IND
+159,1st Ave,http://web.mta.info/nyct/service/,L,146,L-all times,POINT (-73.98168087489128 40.73097497580066),R248,H007,1 AVE,L,BMT
+160,1st Ave,http://web.mta.info/nyct/service/,L,146,L-all times,POINT (-73.98168087489128 40.73097497580066),R248,H008,1 AVE,L,BMT
+161,Times Sq - 42nd St,http://web.mta.info/nyct/service/,S,147,"S to Grand Central-all times exc nights, closed nights-use 7",POINT (-73.98622899953202 40.75598300057008),,,,,
+162,Metropolitan Ave,http://web.mta.info/nyct/service/,G,148,G-all times,POINT (-73.9514239994525 40.71277400073426),R100,K026,METROPOLITAN AV,M,BMT
+163,Grand St,http://web.mta.info/nyct/service/,L,149,L-all times,POINT (-73.94049699874644 40.71157600064823),R250,H016,GRAND ST,L,BMT
+164,Grand St,http://web.mta.info/nyct/service/,L,149,L-all times,POINT (-73.94049699874644 40.71157600064823),R250,H015,GRAND ST,L,BMT
+165,Graham Ave,http://web.mta.info/nyct/service/,L,150,L-all times,POINT (-73.94394399869037 40.71457599836364),R249,H014,GRAHAM AVE,L,BMT
+166,Graham Ave,http://web.mta.info/nyct/service/,L,150,L-all times,POINT (-73.94394399869037 40.71457599836364),R249,H013,GRAHAM AVE,L,BMT
+167,Bedford Ave,http://web.mta.info/nyct/service/,L,151,L-all times,POINT (-73.95666499806525 40.71717399858899),R235,H009,BEDFORD AVE,L,BMT
+168,Montrose Ave,http://web.mta.info/nyct/service/,L,152,L-all times,POINT (-73.93979284713505 40.70739106438455),R265,H017,MONTROSE AVE,L,BMT
+169,Long Island City - Court Sq,http://web.mta.info/nyct/service/,G,153,G-all times,POINT (-73.94381559597835 40.74630503357145),,,,,
+170,21st St,http://web.mta.info/nyct/service/,G,154,G-all times,POINT (-73.94959999975519 40.7441286664954),R303,N603,21 ST,F,IND
+171,39th Ave,http://web.mta.info/nyct/service/,N-W,155,"N-all times, W part time",POINT (-73.93285137679598 40.75276306140845),R090,R510,BEEBE-39 AVE,NQ,BMT
+172,145th St,http://web.mta.info/nyct/service/,1,156,1-all times,POINT (-73.95035999879713 40.82655099962194),R273,R178,145 ST,1,IRT
+173,145th St,http://web.mta.info/nyct/service/,1,156,1-all times,POINT (-73.95035999879713 40.82655099962194),R273,R177,145 ST,1,IRT
+174,157th St,http://web.mta.info/nyct/service/,1,157,1-all times,POINT (-73.94488999901047 40.8340410001399),R193,R180,157 ST,1,IRT
+175,157th St,http://web.mta.info/nyct/service/,1,157,1-all times,POINT (-73.94488999901047 40.8340410001399),R193,R179,157 ST,1,IRT
+176,96th St,http://web.mta.info/nyct/service/,1-2-3,158,"1,2,3-all times",POINT (-73.97232299915696 40.79391900121471),R168,R168A,96 ST,123,IRT
+177,96th St,http://web.mta.info/nyct/service/,1-2-3,158,"1,2,3-all times",POINT (-73.97232299915696 40.79391900121471),R168,R168,96 ST,123,IRT
+178,103rd St,http://web.mta.info/nyct/service/,1,159,1-all times,POINT (-73.96837899960818 40.79944600033483),R191,R170,103 ST,1,IRT
+179,Central Park North (110th St),http://web.mta.info/nyct/service/,2-3,160,"2,3-all times",POINT (-73.95182200176913 40.79907499977324),,,,,
+180,103rd St,http://web.mta.info/nyct/service/,A-B-C,161,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.96137008267617 40.79606073990453),R180,R252,103 ST,6,IRT
+181,72nd St,http://web.mta.info/nyct/service/,1-2-3,162,"1,2,3-all times",POINT (-73.98197000159583 40.77845300068614),R452,R161B,72 ST,123,IRT
+182,72nd St,http://web.mta.info/nyct/service/,1-2-3,162,"1,2,3-all times",POINT (-73.98197000159583 40.77845300068614),R452,R161A,72 ST,123,IRT
+183,81st St,http://web.mta.info/nyct/service/,A-B-C,163,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.97209794937208 40.78134608418206),,,,,
+184,75th Ave,http://web.mta.info/nyct/service/,E-F,164,"E-evenings, weekends, nights, F-all times",POINT (-73.83692369387158 40.71804465348743),R341,N334B,75 AVE,EF,IND
+185,86th St,http://web.mta.info/nyct/service/,A-B-C,165,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.96882849429672 40.78582304678557),R167,R164,86 ST,1,IRT
+186,Cathedral Pkwy (110th St),http://web.mta.info/nyct/service/,1,166,1-all times,POINT (-73.9668470005456 40.80396699961484),,,,,
+187,116th St - Columbia University,http://web.mta.info/nyct/service/,1,167,1-all times,POINT (-73.96410999757751 40.80772200123086),R159,R173,116 ST-COLUMBIA,1,IRT
+188,125th St,http://web.mta.info/nyct/service/,2-3,168,"2,3-all times",POINT (-73.94549500011411 40.80775399918281),R206,R304,125 ST,23,IRT
+189,125th St,http://web.mta.info/nyct/service/,2-3,168,"2,3-all times",POINT (-73.94549500011411 40.80775399918281),R206,R305,125 ST,23,IRT
+190,135th St,http://web.mta.info/nyct/service/,2-3,169,"2,3-all times",POINT (-73.94077000106708 40.8142290003391),R207,R306,135 ST,23,IRT
+191,135th St,http://web.mta.info/nyct/service/,2-3,169,"2,3-all times",POINT (-73.94077000106708 40.8142290003391),R207,R307,135 ST,23,IRT
+192,116th St,http://web.mta.info/nyct/service/,2-3,170,"2,3-all times",POINT (-73.94962500096905 40.802097999133),R324,R303,116 ST,23,IRT
+193,116th St,http://web.mta.info/nyct/service/,2-3,170,"2,3-all times",POINT (-73.94962500096905 40.802097999133),R324,R302,116 ST,23,IRT
+194,Tremont Ave,http://web.mta.info/nyct/service/,B-D,171,"B-rush hours, D-all times",POINT (-73.90522700122354 40.85040999951023),R154,N213,TREMONT AVE,BD,IND
+195,Tremont Ave,http://web.mta.info/nyct/service/,B-D,171,"B-rush hours, D-all times",POINT (-73.90522700122354 40.85040999951023),R154,N214,TREMONT AVE,BD,IND
+196,137th St - City College,http://web.mta.info/nyct/service/,1,172,1-all times,POINT (-73.95367600087873 40.82200799968475),R169,R176,137 ST-CITY COL,1,IRT
+197,145th St,http://web.mta.info/nyct/service/,3,173,"3-all times, exit only northbound",POINT (-73.93624499873299 40.82042099969279),R344,R308,145 ST,3,IRT
+198,176th St,http://web.mta.info/nyct/service/,4,174,4-all times,POINT (-73.91179399884471 40.8484800012369),R309,R286,176 ST,4,IRT
+199,Burnside Ave,http://web.mta.info/nyct/service/,4,175,4-all times,POINT (-73.9076840015997 40.85345300155693),R244,R287,BURNSIDE AVE,4,IRT
+200,170th St,http://web.mta.info/nyct/service/,B-D,176,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.91339999846983 40.83930599964156),R443,N209,170 ST,BD,IND
+201,170th St,http://web.mta.info/nyct/service/,B-D,176,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.91339999846983 40.83930599964156),R443,N208,170 ST,BD,IND
+202,168th St,http://web.mta.info/nyct/service/,1,177,1-all times,POINT (-73.94013299907257 40.84055599914853),,,,,
+203,181st St,http://web.mta.info/nyct/service/,1,178,1-all times,POINT (-73.9335959996056 40.84950499974065),R260,R183,181 ST,1,IRT
+204,191st St,http://web.mta.info/nyct/service/,1,179,1-all times,POINT (-73.92941199742039 40.85522500175836),R274,R185,191 ST,1,IRT
+205,175th St,http://web.mta.info/nyct/service/,A,180,A-all times,POINT (-73.93970399761596 40.84739100072403),R126,N010,175 ST,A,IND
+206,175th St,http://web.mta.info/nyct/service/,A,180,A-all times,POINT (-73.93970399761596 40.84739100072403),R126,N011,175 ST,A,IND
+207,Beach 44th St,http://web.mta.info/nyct/service/,A,181,A-all times,POINT (-73.77601299999507 40.59294299908617),R337,N193,BEACH 44 ST,A,IND
+208,Beach 60th St,http://web.mta.info/nyct/service/,A,182,A-all times,POINT (-73.7885219980118 40.59237400121235),R336,N192,BEACH 60 ST,A,IND
+209,Beach 98th St,http://web.mta.info/nyct/service/,A-S,183,"A-rush hours AM northbound, PM southbound, S Broad Channel to Rockaway Park-all times",POINT (-73.82052058959523 40.58538569133279),R417,N185,BEACH 98 ST,AS,IND
+210,Rockaway Park - Beach 116 St,http://web.mta.info/nyct/service/,A-S,184,"A-rush hours AM northbound, PM southbound, S to Broad Channel-all times",POINT (-73.83559008701239 40.58095586557351),R419,N187,ROCKAWAY PK 116,AS,IND
+211,Beach 36th St,http://web.mta.info/nyct/service/,A,185,A-all times,POINT (-73.76817499939688 40.59539800166876),R338,N194,BEACH 36 ST,A,IND
+212,Beach 25th St,http://web.mta.info/nyct/service/,A,186,A-all times,POINT (-73.76135299762073 40.60006600105881),R358,N195,BEACH 25 ST,A,IND
+213,Parsons Blvd,http://web.mta.info/nyct/service/,F,187,F-all times,POINT (-73.80328900021885 40.70757199961569),R114,N339A,PARSONS BLVD,F,IND
+214,Parsons Blvd,http://web.mta.info/nyct/service/,F,187,F-all times,POINT (-73.80328900021885 40.70757199961569),R114,N339,PARSONS BLVD,F,IND
+215,169th St,http://web.mta.info/nyct/service/,F,188,F-all times,POINT (-73.79347419927721 40.710517502784),R115,N340,169 ST,F,IND
+216,169th St,http://web.mta.info/nyct/service/,F,188,F-all times,POINT (-73.79347419927721 40.710517502784),R115,N340A,169 ST,F,IND
+217,103rd St - Corona Plaza,http://web.mta.info/nyct/service/,7,189,7-all times,POINT (-73.86269999830412 40.74986500055554),R208,R529,103 ST-CORONA,7,IRT
+218,111th St,http://web.mta.info/nyct/service/,7,190,7-all times,POINT (-73.85533399834884 40.75172999941711),R310,R530,111 ST,7,IRT
+219,63rd Dr - Rego Park,http://web.mta.info/nyct/service/,E-M-R,191,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.86161820097203 40.72976397242243),R202,N330B,63 DR-REGO PARK,MR,IND
+220,Grant Ave,http://web.mta.info/nyct/service/,A-S,192,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",POINT (-73.86504999877702 40.67704400054478),R382,N129,GRANT AVE,A,IND
+221,79th St,http://web.mta.info/nyct/service/,1-2,193,"1-all times, 2-nights",POINT (-73.97991700056134 40.78393399959032),R166,R162,79 ST,1,IRT
+222,Atlantic Ave,http://web.mta.info/nyct/service/,L,194,L-all times,POINT (-73.9030969995401 40.67534466640805),R348,H035,ATLANTIC AVE,L,BMT
+223,Christopher St - Sheridan Sq,http://web.mta.info/nyct/service/,1-2,195,"1-all times, 2-nights",POINT (-74.00290599855235 40.73342200104225),R189,R125,CHRISTOPHER ST,1,IRT
+224,Ozone Park - Lefferts Blvd,http://web.mta.info/nyct/service/,A-S,196,"S to Euclid Av-nights, A-all other times",POINT (-73.82579799906613 40.68595099878361),,,,,
+225,Times Sq - 42nd St,http://web.mta.info/nyct/service/,7-7 Express,197,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.98769099825152 40.75547700198251),,,,,
+226,W 8th St - NY Aquarium,http://web.mta.info/nyct/service/,F-Q,198,"F,Q-all times",POINT (-73.97595787413822 40.57603381810365),R312,G011,W 8 ST-AQUARIUM,FQ,BMT
+227,28th St,http://web.mta.info/nyct/service/,1-2,199,"1-all times, 2-nights",POINT (-73.99336500134324 40.74721499918219),R143,R228,28 ST,6,IRT
+228,28th St,http://web.mta.info/nyct/service/,4-6-6 Express,200,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.98426400110407 40.74306999925903),R143,R228,28 ST,6,IRT
+229,Pelham Bay Park,http://web.mta.info/nyct/service/,6-6 Express,201,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",POINT (-73.82812100059289 40.85246199951662),R429,R423,PELHAM BAY PARK,6,IRT
+230,Westchester Sq - E Tremont Ave,http://web.mta.info/nyct/service/,6-6 Express,202,"6 Express-weekdays AM southbound, PM northbound, 6-all other times",POINT (-73.84295199925012 40.83989200101392),R107,R420,WESTCHESTER SQ,6,IRT
+231,18th St,http://web.mta.info/nyct/service/,1-2,203,"1-all times, 2-nights",POINT (-73.99787100060406 40.7410399998021),R321,R129,18 ST,1,IRT
+232,Grand Central - 42nd St,http://web.mta.info/nyct/service/,7-7 Express,204,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.97604100111508 40.75143100028686),,,,,
+233,Beach 67th St,http://web.mta.info/nyct/service/,A,205,A-all times,POINT (-73.79692399984209 40.59092700078133),R335,N191,BEACH 67 ST,A,IND
+234,W 4th St - Washington Sq (Upper),http://web.mta.info/nyct/service/,A-C-E,206,"A,E-all times, C-all times exc nights",POINT (-74.00049500225435 40.73233799774325),R138,N080,W 4 ST-WASH SQ,ABCDEFM,IND
+235,85th St - Forest Pky,http://web.mta.info/nyct/service/,J,207,J-all times,POINT (-73.86008700006875 40.69242699966103),,,,,
+236,Woodhaven Blvd,http://web.mta.info/nyct/service/,J-Z,208,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.85205199740794 40.69370399880105),R006,J031,WOODHAVEN BLVD,JZ,BMT
+237,Woodhaven Blvd,http://web.mta.info/nyct/service/,J-Z,208,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.85205199740794 40.69370399880105),R006,J032,WOODHAVEN BLVD,JZ,BMT
+238,111th St,http://web.mta.info/nyct/service/,J,209,J-all times,POINT (-73.83679338454697 40.69711481069648),R008,J035,111 ST,J,BMT
+239,121st St,http://web.mta.info/nyct/service/,J-Z,210,"Z-rush hours AM westbound, PM eastbound, J-all other times",POINT (-73.82834900017954 40.70048199851531),R009,J037,121 ST,JZ,BMT
+240,Halsey St,http://web.mta.info/nyct/service/,L,211,L-all times,POINT (-73.90393400118631 40.69551800114878),R266,H028,HALSEY ST,L,BMT
+241,Halsey St,http://web.mta.info/nyct/service/,L,211,L-all times,POINT (-73.90393400118631 40.69551800114878),R266,H030,HALSEY ST,L,BMT
+242,Myrtle - Wyckoff Aves,http://web.mta.info/nyct/service/,L,212,L-all times,POINT (-73.91097571826469 40.69947106242714),,,,,
+243,New Lots Ave,http://web.mta.info/nyct/service/,3-4,213,"4-nights, 3-all other times",POINT (-73.88411070800329 40.6663149325969),R069,R634,NEW LOTS AVE,3,IRT
+244,Van Siclen Ave,http://web.mta.info/nyct/service/,A-C,214,"A-nights, C-all other times",POINT (-73.8903580002471 40.67270999906104),R441,N126,VAN SICLEN AVE,C,IND
+245,Cleveland St,http://web.mta.info/nyct/service/,J,215,J-all times,POINT (-73.8851940021643 40.67977799896116),R435,J022,CLEVELAND ST,J,BMT
+246,Livonia Ave,http://web.mta.info/nyct/service/,L,216,L-all times,POINT (-73.90056237226057 40.66405727094644),R350,H038,LIVONIA AVE,L,BMT
+247,Junius St,http://web.mta.info/nyct/service/,3-4,217,"4-nights, 3-all other times",POINT (-73.90244864183562 40.66358900181724),R066,R630,JUNIUS ST,3,IRT
+248,Rockaway Ave,http://web.mta.info/nyct/service/,3-4,218,"4-nights, 3-all other times",POINT (-73.90895833584449 40.66261748815223),R065,R629,ROCKAWAY AVE,3,IRT
+249,Canarsie - Rockaway Pkwy,http://web.mta.info/nyct/service/,L,219,L-all times,POINT (-73.90185000017287 40.64665366739528),,,,,
+250,E 105th St,http://web.mta.info/nyct/service/,L,220,L-all times,POINT (-73.89954769388724 40.65046878544699),R376,H040,EAST 105 ST,L,BMT
+251,Saratoga Ave,http://web.mta.info/nyct/service/,3-4,221,"4-nights, 3-all other times",POINT (-73.91633025007947 40.6615297898075),R064,R628,SARATOGA AVE,3,IRT
+252,Sutter Ave - Rutland Road,http://web.mta.info/nyct/service/,3-4,222,"4-nights, 3-all other times",POINT (-73.92252118536001 40.66476678877493),R063,R627,SUTTER AVE,3,IRT
+253,New Lots Ave,http://web.mta.info/nyct/service/,L,223,L-all times,POINT (-73.89927796057142 40.65891477368527),R375,H039,NEW LOTS AVE,L,BMT
+254,Broadway Junction,http://web.mta.info/nyct/service/,J-Z,224,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.90428999746412 40.67936600147369),,,,,
+255,Alabama Ave,http://web.mta.info/nyct/service/,J,225,J-all times,POINT (-73.89852600159652 40.67699800000376),R433,J020,ALABAMA AVE,J,BMT
+256,Shepherd Ave,http://web.mta.info/nyct/service/,A-C,226,"A-nights, C-all other times",POINT (-73.88074999747269 40.6741300014559),R442,N127,SHEPHERD AVE,C,IND
+257,Crescent St,http://web.mta.info/nyct/service/,J-Z,227,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.87392925215778 40.68315265707736),R437,J024,CRESCENT ST,JZ,BMT
+258,Cypress Hills,http://web.mta.info/nyct/service/,J,228,J-all times,POINT (-73.87332199882995 40.68961600083875),R003,J025,CYPRESS HILLS,J,BMT
+259,75th St - Eldert Ln,http://web.mta.info/nyct/service/,J-Z,229,"Z-rush hours AM westbound, PM eastbound, J-all other times",POINT (-73.86728799944963 40.69129000124673),,,,,
+260,69th St,http://web.mta.info/nyct/service/,7,230,7-all times,POINT (-73.8964029993185 40.74632499941028),R347,R524,69 ST-FISK AVE,7,IRT
+261,74th St - Broadway,http://web.mta.info/nyct/service/,7,231,7-all times,POINT (-73.8912051289911 40.74686757382911),R018,R525,74 ST-BROADWAY,EFMR7,IRT
+262,Woodhaven Blvd - Queens Mall,http://web.mta.info/nyct/service/,E-M-R,232,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.86943208612348 40.73309737380972),R201,N329,WOODHAVEN BLVD,MR,IND
+263,Myrtle - Wyckoff Aves,http://web.mta.info/nyct/service/,M,233,M-all times,POINT (-73.91217899939602 40.69945400090837),,,,,
+264,Seneca Ave,http://web.mta.info/nyct/service/,M,234,M-all times,POINT (-73.90758199885423 40.70291899894902),R402,K022,SENECA AVE,M,BMT
+265,DeKalb Ave,http://web.mta.info/nyct/service/,L,235,L-all times,POINT (-73.91823200219723 40.70369299961644),R236,H023,DEKALB AVE,L,BMT
+266,52nd St,http://web.mta.info/nyct/service/,7,236,7-all times,POINT (-73.91254899891254 40.74414900102158),R327,R521,52 ST-LINCOLN,7,IRT
+267,46th St,http://web.mta.info/nyct/service/,E-M-R,237,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.91352174995538 40.7563169526081),R267,N316,46 ST,MR,IND
+268,Northern Blvd,http://web.mta.info/nyct/service/,E-M-R,238,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.90606508052358 40.75282482923608),R298,N318,NORTHERN BLVD,MR,IND
+269,46th St,http://web.mta.info/nyct/service/,7,239,7-all times,POINT (-73.91843500103973 40.74313200060382),R267,N316,46 ST,MR,IND
+270,82nd St - Jackson Hts,http://web.mta.info/nyct/service/,7,240,7-all times,POINT (-73.88369700071884 40.74765899955914),R096,R526,82 ST-JACKSON H,7,IRT
+271,90th St - Elmhurst Av,http://web.mta.info/nyct/service/,7,241,7-all times,POINT (-73.87661299986985 40.74840800060913),R122,R527,90 ST-ELMHURST,7,IRT
+272,Howard Beach - JFK Airport,http://web.mta.info/nyct/service/,A,242,A-all times,POINT (-73.83030100071032 40.66047600004959),R414,N182,HOWARD BCH-JFK,A,IND
+273,Aqueduct - North Conduit Av,http://web.mta.info/nyct/service/,A,243,A-all times,POINT (-73.83405799948723 40.66823400169982),R357,N181,AQUEDUCT-N CNDT,A,IND
+274,Briarwood - Van Wyck Blvd,http://web.mta.info/nyct/service/,E-F,244,"E-evenings, weekends, nights, F-all times",POINT (-73.82069263637443 40.70916181536946),,,,,
+275,Forest Hills - 71st Av,http://web.mta.info/nyct/service/,E-F-M-R,245,"E,F-all times, M-weekdays and evenings, R-all times exc nights",POINT (-73.84451672012669 40.72159430953587),R141,N333A,FOREST HILLS-71,EFMR,IND
+276,Sutphin Blvd,http://web.mta.info/nyct/service/,F,246,F-all times,POINT (-73.81083299897232 40.70541799906764),R128,N338B,SUTPHIN BLVD,F,IND
+277,Sutphin Blvd,http://web.mta.info/nyct/service/,F,246,F-all times,POINT (-73.81083299897232 40.70541799906764),R128,N338,SUTPHIN BLVD,F,IND
+278,Jamaica Ctr - Parsons / Archer,http://web.mta.info/nyct/service/,E-J-Z,247,"E,J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.80109632298924 40.70206737621188),R025,N606,JAMAICA CENTER,EJZ,IND
+279,225th St,http://web.mta.info/nyct/service/,2-5,248,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.86021461772737 40.88802825863786),R366,R333,225 ST,25,IRT
+280,Elder Ave,http://web.mta.info/nyct/service/,6,249,6-all times,POINT (-73.87915899874777 40.82858400108929),R162,R414,ELDER AVE,6,IRT
+281,Longwood Ave,http://web.mta.info/nyct/service/,6,250,6-all times,POINT (-73.89643499897414 40.81610399997241),R450,R410,LONGWOOD AVE,6,IRT
+282,Longwood Ave,http://web.mta.info/nyct/service/,6,250,6-all times,POINT (-73.89643499897414 40.81610399997241),R450,R411,LONGWOOD AVE,6,IRT
+283,Astoria Blvd,http://web.mta.info/nyct/service/,N-W,251,"N-all times, W part time",POINT (-73.91809500109238 40.77003699949086),,,,,
+284,Astoria - Ditmars Blvd,http://web.mta.info/nyct/service/,N-W,252,"N-all times, W part time",POINT (-73.91203400010311 40.77503566652366),,,,,
+285,Jackson Ave,http://web.mta.info/nyct/service/,2-5,253,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.9077019387083 40.81643746686396),R405,R312,JACKSON AVE,25,IRT
+286,Prospect Ave,http://web.mta.info/nyct/service/,2-5,254,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.90177778730917 40.81948726483844),R406,R314,PROSPECT AVE,25,IRT
+287,Prospect Ave,http://web.mta.info/nyct/service/,2-5,254,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.90177778730917 40.81948726483844),R406,R315,PROSPECT AVE,25,IRT
+288,Cypress Ave,http://web.mta.info/nyct/service/,6,255,6-all times,POINT (-73.91404199994753 40.8053680007636),R447,R404,CYPRESS AVE,6,IRT
+289,Cypress Ave,http://web.mta.info/nyct/service/,6,255,6-all times,POINT (-73.91404199994753 40.8053680007636),R447,R405,CYPRESS AVE,6,IRT
+290,174th St,http://web.mta.info/nyct/service/,2-5,256,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.88769359812888 40.83719555017061),R386,R322,174 ST,25,IRT
+291,174th St,http://web.mta.info/nyct/service/,2-5,256,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.88769359812888 40.83719555017061),R386,R321,174 ST,25,IRT
+292,Allerton Ave,http://web.mta.info/nyct/service/,2-5,257,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.86723422851625 40.86548337793927),R362,R329,ALLERTON AVE,25,IRT
+293,E 143rd St - St Mary's St,http://web.mta.info/nyct/service/,6,258,6-all times,POINT (-73.90765699936489 40.80871900090143),R448,R406,E 143 ST,6,IRT
+294,Kingsbridge Rd,http://web.mta.info/nyct/service/,4,259,4-all times,POINT (-73.89717400101743 40.8677600008858),R161,R290,KINGSBRIDGE RD,4,IRT
+295,Bedford Park Blvd - Lehman College,http://web.mta.info/nyct/service/,4,260,4-all times,POINT (-73.89006400069478 40.87341199980121),R183,R291,BEDFORD PARK BL,4,IRT
+296,Harlem - 148 St,http://web.mta.info/nyct/service/,3,261,3-all times,POINT (-73.93647000005559 40.82388000080457),,,,,
+297,Mt Eden Ave,http://web.mta.info/nyct/service/,4,262,4-all times,POINT (-73.91468499860341 40.84443400092679),R308,R285,MT EDEN AVE,4,IRT
+298,Fordham Rd,http://web.mta.info/nyct/service/,B-D,263,"B-rush hours, D-all times",POINT (-73.89774900102401 40.8612959986835),R119,R289,FORDHAM ROAD,4,IRT
+299,170th St,http://web.mta.info/nyct/service/,4,264,4-all times,POINT (-73.91779099745928 40.84007499993004),R243,R284,170 ST,4,IRT
+300,Bedford Park Blvd,http://web.mta.info/nyct/service/,B-D,265,"B-rush hours, D-all times",POINT (-73.88713799889574 40.87324399861646),R156,N222,BEDFORD PARK BL,BD,IND
+301,Marble Hill - 225th St,http://web.mta.info/nyct/service/,1,266,1-all times,POINT (-73.90983099923551 40.87456099941789),R039,R192,MARBLE HILL-225,1,IRT
+302,231st St,http://web.mta.info/nyct/service/,1,267,1-all times,POINT (-73.90483400107873 40.87885599817935),R040,R194,231 ST,1,IRT
+303,215th St,http://web.mta.info/nyct/service/,1,268,1-all times,POINT (-73.91527899954356 40.86944399946045),R038,R190,215 ST,1,IRT
+304,207th St,http://web.mta.info/nyct/service/,1,269,1-all times,POINT (-73.91881900132312 40.86461400052585),R037,R188,207 ST,1,IRT
+305,Inwood - 207th St,http://web.mta.info/nyct/service/,A,270,A-all times,POINT (-73.91989900100465 40.86807199999737),R173,N002A,INWOOD-207 ST,A,IND
+306,Van Cortlandt Park - 242nd St,http://web.mta.info/nyct/service/,1,271,1-all times,POINT (-73.89858300049647 40.88924800011476),,,,,
+307,West Farms Sq - E Tremont Av,http://web.mta.info/nyct/service/,2-5,272,"2-all times, 5-all times exc nights, skips rush hours AM southbound, PM northbound",POINT (-73.87996127877184 40.84020763241799),,,,,
+308,219th St,http://web.mta.info/nyct/service/,2-5,273,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.8625097078866 40.88388797462527),R365,R332,219 ST,25,IRT
+309,Mosholu Pkwy,http://web.mta.info/nyct/service/,4,274,4-all times,POINT (-73.88465499988732 40.87974999947229),R133,R293,MOSHOLU PARKWAY,4,IRT
+310,Norwood - 205th St,http://web.mta.info/nyct/service/,D,275,D-all times,POINT (-73.87885499918691 40.87481100011182),R157,N224,NORWOOD-205 ST,D,IND
+311,Burke Ave,http://web.mta.info/nyct/service/,2-5,276,"2-all times, 5-rush hours AM southbound, PM northbound",POINT (-73.86705361747603 40.87125880254771),R363,R330,BURKE AVE,25,IRT
+312,Baychester Ave,http://web.mta.info/nyct/service/,5,277,5-all times,POINT (-73.83859099802153 40.87866300037311),R292,R729,BAYCHESTER AVE,5,IRT
+313,Eastchester - Dyre Ave,http://web.mta.info/nyct/service/,5,278,5-all times,POINT (-73.8308340021742 40.88829999901007),,,,,
+314,Jamaica - 179th St,http://web.mta.info/nyct/service/,F,279,F-all times,POINT (-73.78381700176453 40.71264566674405),R019,N343,JAMAICA-179 ST,F,IND
+315,Wakefield - 241st St,http://web.mta.info/nyct/service/,2,280,2-all times,POINT (-73.85061999879539 40.90312500054124),R145,R336,WAKEFIELD-241,2,IRT
+316,Botanic Garden,http://web.mta.info/nyct/service/,S,281,S Franklin Av-Fulton St to Prospect Park-all times,POINT (-73.95924499945693 40.6703426665844),R412,B010,BOTANIC GARDEN,S2345,BMT
+317,Bushwick - Aberdeen,http://web.mta.info/nyct/service/,L,282,L-all times,POINT (-73.90526176305106 40.68286062551184),R313,H033,BUSHWICK AVE,L,BMT
+318,Broadway Junction,http://web.mta.info/nyct/service/,L,283,L-all times,POINT (-73.90311757920684 40.67845624842869),,,,,
+319,Gun Hill Rd,http://web.mta.info/nyct/service/,5,284,5-all times,POINT (-73.84638400151765 40.86952599962676),R364,R331,GUN HILL ROAD,25,IRT
+320,E 180th St,http://web.mta.info/nyct/service/,2-5,285,"2,5-all times",POINT (-73.87334609510884 40.8418630412186),R388,R325,E 180 ST,25,IRT
+321,Dyckman St,http://web.mta.info/nyct/service/,1,286,1-all times,POINT (-73.92553600006474 40.86053100138796),R036,R186,DYCKMAN ST,1,IRT
+322,125th St,http://web.mta.info/nyct/service/,1,287,1-all times,POINT (-73.95837200097044 40.81558099997893),R034,R174,125 ST,1,IRT
+323,Franklin Ave - Fulton St,http://web.mta.info/nyct/service/,S,288,S to Prospect Park-all times,POINT (-73.95582700110425 40.68059566598263),R123,R622,FRANKLIN AVE,2345S,IRT
+324,149th St - Grand Concourse,http://web.mta.info/nyct/service/,2-5,289,"2-all times, 5-all times exc nights",POINT (-73.92672247438611 40.81833014409742),R205,R261,149 ST-GR CONC,245,IRT
+325,3rd Ave - 149th St,http://web.mta.info/nyct/service/,2-5,290,"2-all times, 5-all times exc nights",POINT (-73.91779152760981 40.81602925251001),,,,,
+326,167th St,http://web.mta.info/nyct/service/,4,291,4-all times,POINT (-73.92139999784426 40.83553699933672),R221,R283,167 ST,4,IRT
+327,Brook Ave,http://web.mta.info/nyct/service/,6,292,6-all times,POINT (-73.91923999909432 40.80756599987699),R446,R402,BROOK AVE,6,IRT
+328,Brook Ave,http://web.mta.info/nyct/service/,6,292,6-all times,POINT (-73.91923999909432 40.80756599987699),R446,R403,BROOK AVE,6,IRT
+329,33rd St,http://web.mta.info/nyct/service/,7,293,7-all times,POINT (-73.93099699953838 40.74458699983993),R176,R231,33 ST,6,IRT
+330,40th St,http://web.mta.info/nyct/service/,7,294,7-all times,POINT (-73.9240159984882 40.74378100149132),R261,R518,40 ST-LOWERY ST,7,IRT
+331,145th St,http://web.mta.info/nyct/service/,A-B-C-D,295,"A,D-all times, B-weekdays and evenings, C-all times exc nights",POINT (-73.94408792823116 40.82476636087191),R101,N020,145 ST,ABCD,IND
+332,145th St,http://web.mta.info/nyct/service/,A-B-C-D,295,"A,D-all times, B-weekdays and evenings, C-all times exc nights",POINT (-73.94408792823116 40.82476636087191),R101,N019,145 ST,ABCD,IND
+333,155th St,http://web.mta.info/nyct/service/,B-D,296,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.93820899811622 40.8301349999812),R315,N202,155 ST,BD,IND
+334,161st St - Yankee Stadium,http://web.mta.info/nyct/service/,B-D,297,"B-rush hours, D-all times, skips rush hours AM southbound, PM northbound",POINT (-73.92565099775477 40.82790499884585),R195,N203,161 ST-YANKEE,BD4,IND
+335,Utica Ave,http://web.mta.info/nyct/service/,A-C,298,"A-all times, C-all times exc nights",POINT (-73.93072899914027 40.67936399950546),R153,N120,UTICA AVE,AC,IND
+336,Utica Ave,http://web.mta.info/nyct/service/,A-C,298,"A-all times, C-all times exc nights",POINT (-73.93072899914027 40.67936399950546),R153,N120A,UTICA AVE,AC,IND
+337,Steinway St,http://web.mta.info/nyct/service/,E-M-R,299,"E-nights, R-all other times, M-weekdays and evenings",POINT (-73.92052647168271 40.75698735912575),R238,N315,STEINWAY ST,MR,IND
+338,Kosciuszko St,http://web.mta.info/nyct/service/,J,300,J-all times,POINT (-73.92850899927413 40.69317200129202),R379,J012,KOSCIUSZKO ST,J,BMT
+339,Gates Ave,http://web.mta.info/nyct/service/,J-Z,301,"Z-rush hours AM westbound, PM eastbound, J-all other times",POINT (-73.92215600150752 40.68958399901391),R380,J013,GATES AVE,JZ,BMT
+340,Central Ave,http://web.mta.info/nyct/service/,M,302,M-all times,POINT (-73.92724299902838 40.69787300011831),R401,K017,CENTRAL AVE,M,BMT
+341,Knickerbocker Ave,http://web.mta.info/nyct/service/,M,303,M-all times,POINT (-73.91972000188625 40.69866000123805),R413,K019,KNICKERBOCKER,M,BMT
+342,30th Ave,http://web.mta.info/nyct/service/,N-W,304,"N-all times, W part time",POINT (-73.9214790001739 40.76677866673298),,,,,
+343,Jefferson St,http://web.mta.info/nyct/service/,L,305,L-all times,POINT (-73.9229130000312 40.70660666598872),R279,H022,JEFFERSON ST,L,BMT
+344,Morgan Ave,http://web.mta.info/nyct/service/,L,306,L-all times,POINT (-73.93314700024209 40.70615166680729),R294,H019,MORGAN AVE,L,BMT
+345,Queens Plz,http://web.mta.info/nyct/service/,E-M-R,307,"E-all times, M-weekdays and evenings, R-all times exc nights",POINT (-73.93713823965695 40.74891771986323),R140,N309A,QUEENS PLAZA,EMR,IND
+346,18th Ave,http://web.mta.info/nyct/service/,F,308,F-all times,POINT (-73.97697099965796 40.62975466638584),R242,N549,18 AVE,F,IND
+347,18th Ave,http://web.mta.info/nyct/service/,F,308,F-all times,POINT (-73.97697099965796 40.62975466638584),R242,N550,18 AVE,F,IND
+348,77th St,http://web.mta.info/nyct/service/,R,309,R-all times,POINT (-74.02550999962661 40.62974166688691),R214,C024,77 ST,R,BMT
+349,Bay Ridge Ave,http://web.mta.info/nyct/service/,R,310,R-all times,POINT (-74.02337699950728 40.63496666682377),R213,C023,BAY RIDGE AVE,R,BMT
+350,50th St,http://web.mta.info/nyct/service/,D,311,D-all times,POINT (-73.9946587805514 40.6362608909614),R234,E004,50 ST,D,BMT
+351,Ft Hamilton Pkwy,http://web.mta.info/nyct/service/,N,312,N-all times,POINT (-74.00535100046275 40.63138566722445),R391,D003,FT HAMILTON PKY,N,BMT
+352,25th Ave,http://web.mta.info/nyct/service/,D,313,D-all times,POINT (-73.98682900011477 40.59770366695856),R399,E015,25 AVE,D,BMT
+353,Bay Pky,http://web.mta.info/nyct/service/,D,314,D-all times,POINT (-73.9936762000529 40.60195046157232),R374,E014,BAY PARKWAY,D,BMT
+354,20th Ave,http://web.mta.info/nyct/service/,N,315,N-all times,POINT (-73.98452199846113 40.61710899986601),R393,D009,20 AVE,N,BMT
+355,18th Ave,http://web.mta.info/nyct/service/,N,316,N-all times,POINT (-73.99045399865993 40.62068699768002),R392,D008,18 AVE,N,BMT
+356,Bay Ridge - 95th St,http://web.mta.info/nyct/service/,R,317,R-all times,POINT (-74.03087600085765 40.61662166725951),R216,C027,BAY RIDGE-95 ST,R,BMT
+357,86th St,http://web.mta.info/nyct/service/,R,318,R-all times,POINT (-74.0283979999864 40.62268666715025),R215,C025,86 ST,R,BMT
+358,86th St,http://web.mta.info/nyct/service/,R,318,R-all times,POINT (-74.0283979999864 40.62268666715025),R215,C026,86 ST,R,BMT
+359,79th St,http://web.mta.info/nyct/service/,D,319,D-all times,POINT (-74.00058287431507 40.61315892569516),R371,E011,79 ST,D,BMT
+360,71st St,http://web.mta.info/nyct/service/,D,320,D-all times,POINT (-73.99884094850685 40.61925870977273),R370,E009,71 ST,D,BMT
+361,20th Ave,http://web.mta.info/nyct/service/,D,321,D-all times,POINT (-73.99817432157568 40.60467699816932),R373,E013,20 AVE,D,BMT
+362,18th Ave,http://web.mta.info/nyct/service/,D,322,D-all times,POINT (-74.00159259239406 40.60773573171741),R372,E012,18 AVE,D,BMT
+363,62nd St,http://web.mta.info/nyct/service/,D,323,D-all times,POINT (-73.99685724994863 40.6262244629222),,,,,
+364,New Utrecht Ave,http://web.mta.info/nyct/service/,N,324,N-all times,POINT (-73.99635300025969 40.62484166725887),R398,D005,NEW UTRECHT AVE,ND,BMT
+365,Ave U,http://web.mta.info/nyct/service/,F,325,F-all times,POINT (-73.97337641974885 40.59592482551748),R425,N559,AVE U,F,IND
+366,Kings Hwy,http://web.mta.info/nyct/service/,F,326,F-all times,POINT (-73.9723553085244 40.60325840512827),R130,N557,KINGS HIGHWAY,F,IND
+367,Brighton Beach,http://web.mta.info/nyct/service/,B-Q,327,"B-weekdays and evenings, Q-all times",POINT (-73.96135378598797 40.57771019664244),R172,B029,BRIGHTON BEACH,BQ,BMT
+368,Brighton Beach,http://web.mta.info/nyct/service/,B-Q,327,"B-weekdays and evenings, Q-all times",POINT (-73.96135378598797 40.57771019664244),R172,B031,BRIGHTON BEACH,BQ,BMT
+369,Sheepshead Bay,http://web.mta.info/nyct/service/,B-Q,328,"B-weekdays and evenings, Q-all times",POINT (-73.95405791257907 40.58654754707536),R136,B027,SHEEPSHEAD BAY,BQ,BMT
+370,Sheepshead Bay,http://web.mta.info/nyct/service/,B-Q,328,"B-weekdays and evenings, Q-all times",POINT (-73.95405791257907 40.58654754707536),R136,B028,SHEEPSHEAD BAY,BQ,BMT
+371,Ave U,http://web.mta.info/nyct/service/,Q,329,Q-all times,POINT (-73.95581122316301 40.59930895095475),R150,B025,AVE U,BQ,BMT
+372,Kings Hwy,http://web.mta.info/nyct/service/,B-Q,330,"B-weekdays and evenings, Q-all times",POINT (-73.95760873538083 40.60863864539601),R211,B024,KINGS HIGHWAY,BQ,BMT
+373,Ave U,http://web.mta.info/nyct/service/,N,331,N-all times,POINT (-73.97908400099428 40.59723599992044),R396,D015,AVE U,N,BMT
+374,Kings Hwy,http://web.mta.info/nyct/service/,N,332,N-all times,POINT (-73.98037300229343 40.60405899980493),R395,D012,KINGS HIGHWAY,N,BMT
+375,Neptune Ave,http://web.mta.info/nyct/service/,F,333,F-all times,POINT (-73.97459272818807 40.58073875849146),R426,N562,NEPTUNE AVE,F,IND
+376,Ave X,http://web.mta.info/nyct/service/,F,334,F-all times,POINT (-73.97426599968905 40.58944966662528),R271,N561,AVE X,F,IND
+377,Bay 50th St,http://web.mta.info/nyct/service/,D,335,D-all times,POINT (-73.98376500045946 40.58884066651933),R400,E016,BAY 50 ST,D,BMT
+378,Gravesend - 86th St,http://web.mta.info/nyct/service/,N,336,N-all times,POINT (-73.97818899936274 40.59246500088859),,,,,
+379,Ave P,http://web.mta.info/nyct/service/,F,337,F-all times,POINT (-73.97300281528751 40.60884280894992),R424,N556,AVE P,F,IND
+380,Ave N,http://web.mta.info/nyct/service/,F,338,F-all times,POINT (-73.97404850873143 40.61435671190883),R423,N555,AVE N,F,IND
+381,Ave N,http://web.mta.info/nyct/service/,F,338,F-all times,POINT (-73.97404850873143 40.61435671190883),R423,N554,AVE N,F,IND
+382,Bay Pky,http://web.mta.info/nyct/service/,F,339,F-all times,POINT (-73.97525697822149 40.62073162316788),,,,,
+383,Ave M,http://web.mta.info/nyct/service/,Q,340,Q-all times,POINT (-73.9592431052215 40.61739774444374),R229,B022,AVE M,BQ,BMT
+384,Bay Pky,http://web.mta.info/nyct/service/,N,341,N-all times,POINT (-73.98178001069293 40.61145578989005),R394,D010,BAY PKY-22 AVE,N,BMT
+385,Ave I,http://web.mta.info/nyct/service/,F,342,F-all times,POINT (-73.97606933170925 40.62501744019143),R421,N551,AVE I,F,IND
+386,Ave J,http://web.mta.info/nyct/service/,Q,343,Q-all times,POINT (-73.96069316246925 40.62502281991517),R228,B021,AVE J,BQ,BMT
+387,Ave H,http://web.mta.info/nyct/service/,Q,344,Q-all times,POINT (-73.96151793942495 40.62920837758969),R263,B020,AVE H,BQ,BMT
+388,Neck Rd,http://web.mta.info/nyct/service/,Q,345,Q-all times,POINT (-73.95507827493762 40.59532169111695),R230,B026,NECK ROAD,BQ,BMT
+389,21st St - Queensbridge,http://web.mta.info/nyct/service/,F,346,F-all times,POINT (-73.94193761457447 40.75373927087553),R303,N603,21 ST,F,IND
+390,50th St,http://web.mta.info/nyct/service/,A-C-E,347,"A-nights, C-all other times, E-all times",POINT (-73.98598400026407 40.76245599925997),R116,R154,50 ST,1,IRT
+391,7th Ave,http://web.mta.info/nyct/service/,B-D-E,348,"D,E-all times, B-weekdays and evenings",POINT (-73.98169782344476 40.76297015245628),R171,B004,7 AVE,BQ,BMT
+392,47th-50th Sts - Rockefeller Ctr,http://web.mta.info/nyct/service/,B-D-F-M,349,"B,M-weekdays and evenings, D,F-all times",POINT (-73.98133100227702 40.75864100159815),R020,N500,47-50 ST-ROCK,BDFM,IND
+393,57th St,http://web.mta.info/nyct/service/,F,350,F-all times,POINT (-73.97736800085171 40.76408500081713),R302,N600,57 ST,F,IND
+394,Lexington Ave - 63rd St,http://web.mta.info/nyct/service/,F-Q,351,"F-all times, Q all times",POINT (-73.96608964413245 40.76461809442373),,,,,
+395,Roosevelt Island - Main St,http://web.mta.info/nyct/service/,F,352,F-all times,POINT (-73.95323499978866 40.75917199967108),R259,N602,ROOSEVELT IS,F,IND
+396,59th St - Columbus Circle,http://web.mta.info/nyct/service/,A-B-C-D,353,"A,D-all times, B-weekdays and evenings, C-all times exc nights",POINT (-73.98164872301398 40.76824953177606),R084,R158,59 ST-COLUMBUS,1ABCD,IRT
+397,49th St,http://web.mta.info/nyct/service/,N-Q-R-W,354,"N-all times, Q-all times exc weekends, R-all times exc nights, W part time",POINT (-73.98420956591096 40.75980197387069),,,,,
+398,57th St,http://web.mta.info/nyct/service/,N-Q-R-W,355,"N,Q-all times, R-all times exc nights, W part time",POINT (-73.98072973372128 40.76456552501829),R302,N600,57 ST,F,IND
+399,5th Ave - 59th St,http://web.mta.info/nyct/service/,N-R-W,356,"N-all times, R-all times exc nights, W part time",POINT (-73.97334700047045 40.76481099975528),R079,A006,5 AVE-59 ST,NQR,BMT
+400,Lexington Ave - 59th St,http://web.mta.info/nyct/service/,N-R-W,357,"N-all times, R-all times exc nights, W part time",POINT (-73.96737501711436 40.76270885539456),,,,,
+401,34th St - Penn Station,http://web.mta.info/nyct/service/,1-2-3,358,"1,2,3-all times",POINT (-73.99105699913983 40.75037300003949),R031,R141,34 ST-PENN STA,123,IRT
+402,Times Sq - 42nd St,http://web.mta.info/nyct/service/,1-2-3,359,"1,2,3-all times",POINT (-73.98749500051885 40.75528999995681),,,,,
+403,Fulton St,http://web.mta.info/nyct/service/,A-C,360,"A-all times, C-all times exc nights",POINT (-74.00762309323994 40.71016216530185),R002,A077,FULTON ST,ACJZ2345,BMT
+404,Chambers St,http://web.mta.info/nyct/service/,A-C,361,"A-all times, C-all times exc nights",POINT (-74.00858473570133 40.71411100077403),R029,N091,CHAMBERS ST,ACE23,IND
+405,42nd St - Port Authority Bus Term,http://web.mta.info/nyct/service/,A-C-E,362,"A,E-all times, C-all times exc nights",POINT (-73.98973500085859 40.7573079985515),R010,N062A,42 ST-PA BUS TE,ACENQRS1237,IND
+406,Myrtle-Willoughby Aves,http://web.mta.info/nyct/service/,G,363,G-all times,POINT (-73.94906699890156 40.69461899903765),R286,N415,MYRTLE-WILLOUGH,G,IND
+407,Flushing Ave,http://web.mta.info/nyct/service/,G,364,G-all times,POINT (-73.95023400102571 40.70037666622154),R316,N414,FLUSHING AVE,G,IND
+408,Flushing Ave,http://web.mta.info/nyct/service/,G,364,G-all times,POINT (-73.95023400102571 40.70037666622154),R316,N414A,FLUSHING AVE,G,IND
+409,23rd St,http://web.mta.info/nyct/service/,F-M,365,"F-all times, M-weekdays and evenings",POINT (-73.99276500471389 40.742954317826),R111,N076,23 ST,CE,IND
+410,Herald Sq - 34th St,http://web.mta.info/nyct/service/,B-D-F-M,366,"B,M-weekdays and evenings, D,F-all times",POINT (-73.98777189072918 40.74978939990011),R022,N506,34 ST-HERALD SQ,BDFMNQR,IND
+411,Hoyt - Schermerhorn Sts,http://web.mta.info/nyct/service/,A-C-G,367,"A,G-all times, C-all times exc nights",POINT (-73.98503624034139 40.68840847580642),R217,N108,HOYT/SCHERMER,ACG,IND
+412,Jay St - MetroTech,http://web.mta.info/nyct/service/,A-C-F,368,"A,F-all times, C-all times exc nights",POINT (-73.98721815267317 40.69247063684708),R127,N103,JAY ST-METROTEC,ACF,IND
+413,East Broadway,http://web.mta.info/nyct/service/,F,369,F-all times,POINT (-73.99017700122197 40.71385500102041),R257,N529,EAST BROADWAY,F,IND
+414,East Broadway,http://web.mta.info/nyct/service/,F,369,F-all times,POINT (-73.99017700122197 40.71385500102041),R257,N528,EAST BROADWAY,F,IND
+415,Delancey St - Essex St,http://web.mta.info/nyct/service/,F,370,F-all times,POINT (-73.98807806807719 40.71868074219453),R142,N525,DELANCEY ST,FJMZ,IND
+416,Lower East Side - 2nd Ave,http://web.mta.info/nyct/service/,F,371,F-all times,POINT (-73.98993800003434 40.72340166574911),,,,,
+417,Flushing Ave,http://web.mta.info/nyct/service/,J-M,372,"J-all times, skips weekdays AM westbound, PM eastbound, M-all times exc nights",POINT (-73.94137734838365 40.70040440298112),R377,J007,FLUSHING AVE,JM,BMT
+418,Myrtle Ave,http://web.mta.info/nyct/service/,J-M-Z,373,"J,M-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.9356230012996 40.6971950005145),R378,J009,MYRTLE AVE,JMZ,BMT
+419,4th Av - 9th St,http://web.mta.info/nyct/service/,F-G,374,"F,G-all times",POINT (-73.98977899938897 40.67027166728493),R258,N537,4 AVE,DFGMNR,IND
+420,Smith - 9th Sts,http://web.mta.info/nyct/service/,F-G,375,"F,G-all times",POINT (-73.99589172790934 40.67364106090412),R270,N536,SMITH-9 ST,FG,IND
+421,Bergen St,http://web.mta.info/nyct/service/,F-G,376,"F,G-all times",POINT (-73.99075649573565 40.68611054725977),R129,N532,BERGEN ST,FG,IND
+422,Bergen St,http://web.mta.info/nyct/service/,F-G,376,"F,G-all times",POINT (-73.99075649573565 40.68611054725977),R129,N531,BERGEN ST,FG,IND
+423,Bergen St,http://web.mta.info/nyct/service/,F-G,376,"F,G-all times",POINT (-73.99075649573565 40.68611054725977),R129,N533,BERGEN ST,FG,IND
+424,Jay St - MetroTech,http://web.mta.info/nyct/service/,N-R,377,"N-nights, R-all other times",POINT (-73.98605667854612 40.69225539645323),R089,C003,JAY ST-METROTEC,R,BMT
+425,Court St,http://web.mta.info/nyct/service/,N-R,378,"N-nights, R-all other times",POINT (-73.99181830901125 40.69419648077699),,,,,
+426,Union Sq - 14th St,http://web.mta.info/nyct/service/,N-Q-R-W,379,"N,Q-all times, R-all times exc nights",POINT (-73.99053886181645 40.73587226699812),,,,,
+427,23rd St,http://web.mta.info/nyct/service/,N-Q-R-W,380,"N-all times, Q-nights, R-all times exc nights",POINT (-73.98934400102907 40.74130266729),R111,N076,23 ST,CE,IND
+428,Prospect Ave,http://web.mta.info/nyct/service/,D-N-R,381,"D,N-nights, R-all other times",POINT (-73.99287200067424 40.66541366712979),R246,C014,PROSPECT AVE,R,BMT
+429,4th Av - 9th St,http://web.mta.info/nyct/service/,D-N-R,382,"D,N-nights, R-all other times",POINT (-73.98830199974512 40.67084666684276),R258,N537,4 AVE,DFGMNR,IND
+430,3rd Ave,http://web.mta.info/nyct/service/,L,383,L-all times,POINT (-73.98575000112093 40.73269099971662),R330,H005,3 AVE,L,BMT
+431,3rd Ave,http://web.mta.info/nyct/service/,L,383,L-all times,POINT (-73.98575000112093 40.73269099971662),R330,H006,3 AVE,L,BMT
+432,Union Sq - 14th St,http://web.mta.info/nyct/service/,L,384,L-all times,POINT (-73.99066976901818 40.73476331217923),,,,,
+433,Liberty Ave,http://web.mta.info/nyct/service/,A-C,385,"A-nights, C-all other times",POINT (-73.89654800103929 40.67454199987086),R440,N125,LIBERTY AVE,C,IND
+434,Broadway Junction,http://web.mta.info/nyct/service/,A-C,386,"A-all times, C-all times exc nights",POINT (-73.90531600055341 40.67833366608023),,,,,
+435,59th St,http://web.mta.info/nyct/service/,N-R,387,"N,R-all times",POINT (-74.01788099953987 40.6413616662838),R212,C021,59 ST,NR,BMT
+436,59th St,http://web.mta.info/nyct/service/,N-R,387,"N,R-all times",POINT (-74.01788099953987 40.6413616662838),R212,C022,59 ST,NR,BMT
+437,45th St,http://web.mta.info/nyct/service/,N-R,388,"N-nights, R-all times, skips nights northbound",POINT (-74.01000600074939 40.64893866661281),R232,C019,45 ST,R,BMT
+438,36th St,http://web.mta.info/nyct/service/,D-N-R,389,"D,N,R-all times",POINT (-74.00354899951809 40.65514366633887),R197,C018,36 ST,DNR,BMT
+439,9th Ave,http://web.mta.info/nyct/service/,D,390,D-all times,POINT (-73.99444874451204 40.64648407726636),R368,E001,9 AVE,D,BMT
+440,53rd St,http://web.mta.info/nyct/service/,N-R,391,"N-nights, R-all times, skips nights northbound",POINT (-74.01403399986317 40.64506866735981),R233,C020,53 ST,R,BMT
+441,Ft Hamilton Pkwy,http://web.mta.info/nyct/service/,D,392,D-all times,POINT (-73.9942022375285 40.64091271144466),R369,E003,FT HAMILTON PKY,D,BMT
+442,25th St,http://web.mta.info/nyct/service/,D-N-R,393,"D,N-nights, R-all other times",POINT (-73.99809099974297 40.66039666692321),R278,C016,25 ST,R,BMT
+443,Carroll St,http://web.mta.info/nyct/service/,F-G,394,"F,G-all times",POINT (-73.99494697998841 40.68027335170176),R220,N535,CARROLL ST,FG,IND
+444,Carroll St,http://web.mta.info/nyct/service/,F-G,394,"F,G-all times",POINT (-73.99494697998841 40.68027335170176),R220,N534,CARROLL ST,FG,IND
+445,Spring St,http://web.mta.info/nyct/service/,A-C-E,395,"A-nights, C-all other times, E-all times",POINT (-74.00373899843763 40.72622700129312),R282,N086,SPRING ST,CE,IND
+446,181st St,http://web.mta.info/nyct/service/,A,396,A-all times,POINT (-73.93796900205011 40.85169499974462),R174,N007A,181 ST,A,IND
+447,181st St,http://web.mta.info/nyct/service/,A,396,A-all times,POINT (-73.93796900205011 40.85169499974462),R174,N009,181 ST,A,IND
+448,190th St,http://web.mta.info/nyct/service/,A,397,A-all times,POINT (-73.93417999964333 40.85902199892482),R280,N006A,190 ST,A,IND
+449,116th St,http://web.mta.info/nyct/service/,A-B-C,398,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.95479778057312 40.80505813344211),R182,R256,116 ST,6,IRT
+450,125th St,http://web.mta.info/nyct/service/,A-B-C-D,399,"A,D-all times, B-weekdays and evenings, C-all times exc nights",POINT (-73.95224799734774 40.81107167299457),R034,R174,125 ST,1,IRT
+451,Prince St,http://web.mta.info/nyct/service/,N-Q-R-W,400,"N-all times, Q-nights, R-all times exc nights",POINT (-73.99770200045987 40.72432866597571),R086,A041,PRINCE ST-B'WAY,NR,BMT
+452,8th St - NYU,http://web.mta.info/nyct/service/,N-Q-R-W,401,"N-all times, Q-nights, R-all times exc nights",POINT (-73.99250799849149 40.73046499853991),R085,A038,8 ST-B'WAY NYU,NR,BMT
+453,Fulton St,http://web.mta.info/nyct/service/,2-3,402,"2-all times, 3-all times exc nights",POINT (-74.00657099970202 40.70941599925865),R002,A077,FULTON ST,ACJZ2345,BMT
+454,Park Pl,http://web.mta.info/nyct/service/,2-3,403,"2-all times, 3-all times exc nights",POINT (-74.00881099997359 40.71305099907769),R029,R115,PARK PLACE,23ACE,IRT
+455,Chambers St,http://web.mta.info/nyct/service/,1-2-3,404,"1,2-all times, 3-all times exc nights",POINT (-74.00926600170112 40.71547800011327),R030,R116,CHAMBERS ST,123,IRT
+456,Hoyt St,http://web.mta.info/nyct/service/,2-3,405,"2-all times, 3-all times exc nights",POINT (-73.98506379575646 40.69054418535472),R225,R606,HOYT ST,23,IRT
+457,Hoyt St,http://web.mta.info/nyct/service/,2-3,405,"2-all times, 3-all times exc nights",POINT (-73.98506379575646 40.69054418535472),R456,R605,HOYT ST,23,IRT
+458,Borough Hall,http://web.mta.info/nyct/service/,2-3,406,"2-all times, 3-all times exc nights",POINT (-73.98999799960687 40.69321899961108),R108,R602,BOROUGH HALL/CT,2345R,IRT
+459,183rd St,http://web.mta.info/nyct/service/,4,407,4-all times,POINT (-73.90387900151532 40.85840700040842),R275,R288,183 ST,4,IRT
+460,Fordham Rd,http://web.mta.info/nyct/service/,4,408,4-all times,POINT (-73.90103399921699 40.86280299988937),R112,N217,FORDHAM ROAD,BD,IND
+461,World Trade Center,http://web.mta.info/nyct/service/,E,409,E-all times,POINT (-74.00974461517701 40.71256392680817),R029,N094,WORLD TRADE CTR,23ACE,IND
+462,Canal St - Holland Tunnel,http://web.mta.info/nyct/service/,A-C-E,410,"A,E-all times, C-all times exc nights",POINT (-74.0052290023424 40.72082400007119),R139,N089,CANAL ST,ACE,IND
+463,155th St,http://web.mta.info/nyct/service/,A-C,411,"A-nights, C-all other times",POINT (-73.94151400082208 40.83051799929251),R315,N202,155 ST,BD,IND
+464,163rd St - Amsterdam Av,http://web.mta.info/nyct/service/,A-C,412,"A-nights, C-all other times",POINT (-73.93989200188344 40.83601299923096),R296,N016A,163 ST-AMSTERDM,C,IND
+465,Fulton St,http://web.mta.info/nyct/service/,J-Z,413,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-74.00793800110387 40.71002266658424),R002,A077,FULTON ST,ACJZ2345,BMT
+466,Chambers St,http://web.mta.info/nyct/service/,J-Z,414,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-74.00340673031336 40.71323378962671),R029,N091,CHAMBERS ST,ACE23,IND
+467,Canal St,http://web.mta.info/nyct/service/,J-Z,415,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.99982638545937 40.71817387697391),R118,A066,CANAL ST,JNQRZ6,BMT
+468,City Hall,http://web.mta.info/nyct/service/,R-W,416,"N-nights, R-all other times",POINT (-74.00698581780337 40.71327233111697),,,,,
+469,Canal St,http://web.mta.info/nyct/service/,R-W,417,"N-nights, R-all other times",POINT (-74.0018260000577 40.71946500105898),R118,A066,CANAL ST,JNQRZ6,BMT
+470,South Ferry,http://web.mta.info/nyct/service/,1,418,1-all times,POINT (-74.01316895919258 40.70173050757447),R001,R101S,SOUTH FERRY,R1,IRT
+471,Bowling Green,http://web.mta.info/nyct/service/,4-5,419,"4-all times, 5-all times exc nights",POINT (-74.01400799803432 40.70491399928076),R041,R201,BOWLING GREEN,45,IRT
+472,Bowling Green,http://web.mta.info/nyct/service/,4-5,419,"4-all times, 5-all times exc nights",POINT (-74.01400799803432 40.70491399928076),R041,R200A,BOWLING GREEN,45,IRT
+473,Bowling Green,http://web.mta.info/nyct/service/,4-5,419,"4-all times, 5-all times exc nights",POINT (-74.01400799803432 40.70491399928076),R042,R202,BOWLING GREEN,45,IRT
+474,Wall St,http://web.mta.info/nyct/service/,4-5,420,"4-all times, 5-weekdays",POINT (-74.01186199860112 40.70755700086603),R043,R203,WALL ST,45,IRT
+475,Wall St,http://web.mta.info/nyct/service/,4-5,420,"4-all times, 5-weekdays",POINT (-74.01186199860112 40.70755700086603),R043,R203A,WALL ST,45,IRT
+476,Wall St,http://web.mta.info/nyct/service/,4-5,420,"4-all times, 5-weekdays",POINT (-74.01186199860112 40.70755700086603),R043,R204,WALL ST,45,IRT
+477,Wall St,http://web.mta.info/nyct/service/,4-5,420,"4-all times, 5-weekdays",POINT (-74.01186199860112 40.70755700086603),R043,R204A,WALL ST,45,IRT
+478,Whitehall St,http://web.mta.info/nyct/service/,R-W,421,"N-nights, R-all other times",POINT (-74.0130072374272 40.70314237359914),R001,A060,WHITEHALL ST,R1,BMT
+479,Rector St,http://web.mta.info/nyct/service/,R-W,422,"N-nights, R-all other times",POINT (-74.01297456253795 40.70774475629447),R227,A055,RECTOR ST,R,BMT
+480,Fresh Pond Rd,http://web.mta.info/nyct/service/,M,423,M-all times,POINT (-73.8958980017196 40.70622599823048),R404,K025,FRESH POND ROAD,M,BMT
+481,Middle Village - Metropolitan Ave,http://web.mta.info/nyct/service/,M,424,M-all times,POINT (-73.88957722978091 40.71143130505826),,,,,
+482,Rector St,http://web.mta.info/nyct/service/,1,425,1-all times,POINT (-74.01378300119742 40.70751299952178),R304,R103,RECTOR ST,1,IRT
+483,Rector St,http://web.mta.info/nyct/service/,1,425,1-all times,POINT (-74.01378300119742 40.70751299952178),R304,R102,RECTOR ST,1,IRT
+484,Cortlandt St,http://web.mta.info/nyct/service/,1,426,Temporarily closed,POINT (-74.01218800112292 40.7118350008202),R305,R107,CORTLANDT ST,1,IRT
+485,Cortlandt St,http://web.mta.info/nyct/service/,1,426,Temporarily closed,POINT (-74.01218800112292 40.7118350008202),R305,R106,CORTLANDT ST,1,IRT
+486,Cortlandt St,http://web.mta.info/nyct/service/,1,426,Temporarily closed,POINT (-74.01218800112292 40.7118350008202),R305,R108,CORTLANDT ST,1,IRT
+487,Cortlandt St,http://web.mta.info/nyct/service/,1,426,Temporarily closed,POINT (-74.01218800112292 40.7118350008202),R305,R109,CORTLANDT ST,1,IRT
+488,Fulton St,http://web.mta.info/nyct/service/,4-5,427,"4-all times, 5-weekdays",POINT (-74.00950899856461 40.71036799882214),R002,A077,FULTON ST,ACJZ2345,BMT
+489,Broad St,http://web.mta.info/nyct/service/,J-Z,428,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-74.01105599991755 40.706476001106),R125,A083,BROAD ST,JZ,BMT
+490,Broad St,http://web.mta.info/nyct/service/,J-Z,428,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-74.01105599991755 40.706476001106),R125,A084,BROAD ST,JZ,BMT
+491,Broad St,http://web.mta.info/nyct/service/,J-Z,428,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-74.01105599991755 40.706476001106),R125,A085,BROAD ST,JZ,BMT
+492,Cortlandt St,http://web.mta.info/nyct/service/,R-W,429,"N-nights, R-all other times",POINT (-74.01113196473266 40.7105129841524),R088,A050,CORTLANDT ST,R,BMT
+493,Wall St,http://web.mta.info/nyct/service/,2-3,430,"2-all times, 3-all times exc nights",POINT (-74.00909999844257 40.70682099975338),R027,R111,WALL ST,23,IRT
+494,Wall St,http://web.mta.info/nyct/service/,2-3,430,"2-all times, 3-all times exc nights",POINT (-74.00909999844257 40.70682099975338),R027,R110,WALL ST,23,IRT
+495,Wall St,http://web.mta.info/nyct/service/,2-3,430,"2-all times, 3-all times exc nights",POINT (-74.00909999844257 40.70682099975338),R027,R112,WALL ST,23,IRT
+496,Wall St,http://web.mta.info/nyct/service/,2-3,430,"2-all times, 3-all times exc nights",POINT (-74.00909999844257 40.70682099975338),R027,R112A,WALL ST,23,IRT
+497,Dyckman St,http://web.mta.info/nyct/service/,A,431,A-all times,POINT (-73.92727099960726 40.86549099896892),R036,R186,DYCKMAN ST,1,IRT
+498,Grand St,http://web.mta.info/nyct/service/,B-D,432,"B-weekdays and evenings, D-all times",POINT (-73.99375299913589 40.71826699954992),R240,N520,GRAND ST,BD,IND
+499,Broadway - Lafayette St,http://web.mta.info/nyct/service/,B-D-F-M,433,"B,M-weekdays and evenings, D,F-all times",POINT (-73.99620399876055 40.72529699873805),R461,N519,BROADWAY/LAFAY,BDFQ6,IND
+500,Bowery,http://web.mta.info/nyct/service/,J-Z,434,"J-all times, Z-rush hours AM westbound, PM eastbound",POINT (-73.99380690654237 40.72024688314725),R311,A064,BOWERY,JZ,BMT
+501,Canal St,http://web.mta.info/nyct/service/,N-Q,435,"N-all times, Q-weekdays and evenings",POINT (-74.00105471306033 40.71881426358713),R118,A066,CANAL ST,JNQRZ6,BMT
+502,23rd St,http://web.mta.info/nyct/service/,A-C-E,436,"A-nights, C-all other times, E-all times",POINT (-73.99804100117201 40.74590599939995),R111,N076,23 ST,CE,IND
+503,34th St - Penn Station,http://web.mta.info/nyct/service/,A-C-E,437,"A,E-all times, C-all times exc nights",POINT (-73.99339099970578 40.75228700077589),R012,N067,34 ST-PENN STA,ACE,IND
+504,Jackson Hts - Roosevelt Av,http://web.mta.info/nyct/service/,E-F-M-R,438,"E,F-all times, M-weekdays and evenings, R-all times exc nights",POINT (-73.89129866519697 40.74653969115889),,,,,
+505,14th St,http://web.mta.info/nyct/service/,1-2-3,439,"1,2-all times, 3-all times exc nights",POINT (-74.00020100063497 40.73782599972812),R105,R127,14 ST,123FLM,IRT
+506,135th St,http://web.mta.info/nyct/service/,A-B-C,440,"A-nights, B-weekdays and evenings, C-all times exc nights",POINT (-73.94753480879213 40.81790555921268),R207,R306,135 ST,23,IRT
+507,14th St,http://web.mta.info/nyct/service/,F-M,441,"F-all times, M-weekdays and evenings",POINT (-73.99620899921355 40.73822799969515),R105,R127,14 ST,123FLM,IRT
+508,6th Ave,http://web.mta.info/nyct/service/,L,442,L-all times,POINT (-73.99775078874781 40.73774146981052),R163,H003,6 AVE,FLM123,BMT
+509,8th Ave,http://web.mta.info/nyct/service/,L,443,L-all times,POINT (-74.00257800104762 40.73977666638199),R175,H001,8 AVE,ACEL,BMT
+510,14th St,http://web.mta.info/nyct/service/,A-C-E,444,"A,E-all times, C-all times exc nights",POINT (-74.00168999937027 40.7408930001933),R105,R127,14 ST,123FLM,IRT
+511,Nostrand Ave,http://web.mta.info/nyct/service/,3-4,445,"4-nights, 3-all other times",POINT (-73.9504262489579 40.66993815093054),R061,R623,NOSTRAND AVE,3,IRT
+512,Clark St,http://web.mta.info/nyct/service/,2-3,446,"2-all times, 3-all times exc nights",POINT (-73.99308599821961 40.69746599996469),R224,R600,CLARK ST,23,IRT
+513,Franklin Ave,http://web.mta.info/nyct/service/,A-C,447,"A-nights, C-all other times",POINT (-73.95684800014614 40.68137966658742),R297,N113,FRANKLIN AVE,ACS,IND
+514,Clinton - Washington Aves,http://web.mta.info/nyct/service/,A-C,448,"A-nights, C-all other times",POINT (-73.96583799857275 40.68326299912644),R284,N111,CLINTON-WASH AV,C,IND
+515,Forest Ave,http://web.mta.info/nyct/service/,M,449,M-all times,POINT (-73.90307500005954 40.70441200087814),R403,K024,FOREST AVE,M,BMT
+516,110th St,http://web.mta.info/nyct/service/,4-6-6 Express,450,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.94424999687163 40.79502000011311),R181,R253,110 ST,6,IRT
+517,86th St,http://web.mta.info/nyct/service/,4-5-6-6 Express,451,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.95558899985132 40.77949199820952),R179,R250,86 ST,456,IRT
+518,86th St,http://web.mta.info/nyct/service/,4-5-6-6 Express,451,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.95558899985132 40.77949199820952),R179,R249,86 ST,456,IRT
+519,York St,http://web.mta.info/nyct/service/,F,452,F-all times,POINT (-73.98688499993673 40.69974266769157),R301,N530,YORK ST,F,IND
+520,High St,http://web.mta.info/nyct/service/,A-C,453,"A-all times, C-all times exc nights",POINT (-73.99053100065458 40.69933699977884),R252,N100,HIGH ST,AC,IND
+521,High St,http://web.mta.info/nyct/service/,A-C,453,"A-all times, C-all times exc nights",POINT (-73.99053100065458 40.69933699977884),R252,N101,HIGH ST,AC,IND
+522,Lafayette Ave,http://web.mta.info/nyct/service/,A-C,454,"A-nights, C-all other times",POINT (-73.97394599849406 40.68611300020567),R283,N110,LAFAYETTE AVE,C,IND
+523,President St,http://web.mta.info/nyct/service/,2-5,455,"2-all times, 5 weekdays",POINT (-73.95058920022207 40.66788360353681),R277,R635,PRESIDENT ST,25,IRT
+524,Woodlawn,http://web.mta.info/nyct/service/,4,456,4-all times,POINT (-73.87875099990931 40.88603700025332),R052,R294,WOODLAWN ROAD,4,IRT
+525,Bleecker St,http://web.mta.info/nyct/service/,4-6-6 Express,457,"4 nights, 6-all times, 6 Express-weekdays PM",POINT (-73.99465900006331 40.72591466682659),R194,R217A,BLEECKER ST,6DF,IRT
+526,103rd St,http://web.mta.info/nyct/service/,4-6-6 Express,458,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.94747800152219 40.79060000008452),R180,R252,103 ST,6,IRT
+527,Euclid Ave,http://web.mta.info/nyct/service/,A-C-S,459,"S to Ozone Park-Lefferts Blvd-nights, C-all other times, A-all times",POINT (-73.87210600099675 40.67537699823936),R200,N128,EUCLID AVE,AC,IND
+528,88th St,http://web.mta.info/nyct/service/,A-S,460,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",POINT (-73.85147000026086 40.67984300135503),R384,N133,BOYD-88 ST,A,IND
+529,Cortelyou Rd,http://web.mta.info/nyct/service/,Q,461,Q-all times,POINT (-73.96379005505493 40.6409401651401),R184,B018,CORTELYOU ROAD,BQ,BMT
+530,116th St,http://web.mta.info/nyct/service/,4-6-6 Express,462,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.9416169983714 40.7986290002001),R182,R256,116 ST,6,IRT
+531,Parkchester,http://web.mta.info/nyct/service/,6-6 Express,463,"6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.86081600108396 40.83322599927859),,,,,
+532,Franklin St,http://web.mta.info/nyct/service/,1-2,464,"1-all times, 2-nights",POINT (-74.00688600277107 40.71931800130213),R343,R117,FRANKLIN ST,1,IRT
+533,80th St,http://web.mta.info/nyct/service/,A-S,465,"A-all times, S Euclid Av to Ozone Park-Lefferts Blvd-nights",POINT (-73.85899200206335 40.67937100115432),,,,,
+534,5th Ave - Bryant Pk,http://web.mta.info/nyct/service/,7-7 Express,466,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-73.98196299856706 40.75382100064824),R054,R501,5 AVE-BRYANT PK,7BDFM,IRT
+535,Spring St,http://web.mta.info/nyct/service/,4-6-6 Express,467,"4 nights, 6-all times, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.99714100006673 40.72230099999366),R282,N086,SPRING ST,CE,IND
+536,125th St,http://web.mta.info/nyct/service/,4-5-6-6 Express,468,"4,6-all times, 5-all times exc nights, 6 Express-weekdays AM southbound, PM northbound",POINT (-73.93759400055725 40.80413800058724),R132,R258,125 ST,456,IRT
+537,Coney Island - Stillwell Av,http://web.mta.info/nyct/service/,D-F-N-Q,469,"D,F,N,Q-all times",POINT (-73.9812359981396 40.57728100006751),,,,,
+538,34th St - Hudson Yards,http://web.mta.info/nyct/service/,7-7 Express,470,"7-all times, 7 Express-rush hours AM westbound, PM eastbound",POINT (-74.00219709442206 40.75544635961596),,,,,
+539,72nd St,http://web.mta.info/nyct/service/,Q,641,Q-all times,POINT (-73.95836178682246 40.76880251014895),R281,N046,72 ST,BC,IND
+540,86th St,http://web.mta.info/nyct/service/,Q,642,Q-all times,POINT (-73.95177090964917 40.77786104333163),R167,R164,86 ST,1,IRT
+541,96th St,http://web.mta.info/nyct/service/,Q,643,Q-all times,POINT (-73.9470660219183 40.78423665017765),R144,R251,96 ST,6,IRT
