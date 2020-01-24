@@ -95,8 +95,7 @@ target/
 .ipynb_checkpoints/
 
 # exclude data from source control by default
-/data/processed/hourly_turnstile_with_outage.csv.gz
-/data/processed/2019_turnstile_data.pkl.gz
+/data/
 
 # Mac OS-specific storage files
 .DS_Store
