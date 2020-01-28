@@ -6,6 +6,8 @@ import pandas as pd
 
 from ast import literal_eval
 
+from process_turnstile import clean_turnstile_data
+
 
 def generate_hourly_outage(outages: pd.DataFrame) -> pd.DataFrame:
     '''
@@ -114,7 +116,9 @@ def main():
 
     outage = generate_hourly_outage(pd.read_csv(get_data_path(opts.data_root, opts.outage_data)))
     subway_turnstile = process_subway_turnstile(pd.read_csv(get_data_path(opts.data_root, opts.equipment_data)))
-    turnstile_data = load_turnstile_data(opts.data_root, opts.turnstile_data)
+
+    print("Loading turnstile data...")
+    turnstile_data = clean_turnstile_data(load_turnstile_data(opts.data_root, opts.turnstile_data))
 
     interpolated_turnstile_data = interpolate_turnstile_usage(turnstile_data, subway_turnstile)
     joined_data = join_outage_with_turnstile(outage, subway_turnstile, interpolated_turnstile_data)

@@ -4,16 +4,12 @@ import os
 
 TURNSTILE_DATA_DIR = '../../data/processed/'
 
-def clean_turnstile_data(recache=False):
+def clean_turnstile_data(turnstile):
     '''
-    Pulls in raw 2019 turnstile data files and cleans them to get rid of negatives and large outliers. 
-    
+    Pulls in raw 2019 turnstile data files and cleans them to get rid of negatives and large outliers.
+
     TODO: check if already available and don't run is recache is False
     '''
-    t_jan_nov = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_2019.pkl.gz'))
-    t_nov_dec = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_data_2019_nov_dec.pkl.gz'))
-    turnstile = pd.concat([t_jan_nov,t_nov_dec])
-
     turnstile = turnstile.set_index('datetime').sort_index()
     entry_diffs = turnstile.groupby(['UNIT','SCP'],as_index=False)['ENTRIES'].transform(pd.Series.diff)['ENTRIES']
     exit_diffs = turnstile.groupby(['UNIT','SCP'],as_index=False)['EXITS'].transform(pd.Series.diff)['EXITS']
@@ -30,8 +26,18 @@ def clean_turnstile_data(recache=False):
 
     turnstile.entry_diff_abs = [x if x <= 10000 else np.NaN for x in turnstile.entry_diff_abs]
     turnstile.exit_diff_abs = [x if x <= 10000 else np.NaN for x in turnstile.exit_diff_abs]
-    
+
     turnstile.reset_index(inplace=True)
     turnstile = turnstile[(turnstile.datetime >= '2019-01-01') & (turnstile.datetime < '2020-01-01')]
-    
+    return turnstile
+
+def main():
+    t_jan_nov = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_2019.pkl.gz'))
+    t_nov_dec = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_data_2019_nov_dec.pkl.gz'))
+    turnstile = pd.concat([t_jan_nov,t_nov_dec])
+    turnstile = clean_turnstile_data(turnstile)
     turnstile.to_pickle(os.path.join(TURNSTILE_DATA_DIR,'cleaned_turnstile_data_2019.pkl.gz'),compression='gzip')
+
+
+if __name__ == "__main__":
+    main()
