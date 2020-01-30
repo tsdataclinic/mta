@@ -123,7 +123,7 @@ def main():
     interpolated_turnstile_data = interpolate_turnstile_usage(turnstile_data, subway_turnstile)
     joined_data = join_outage_with_turnstile(outage, subway_turnstile, interpolated_turnstile_data)
     print("Saving results...")
-    joined_data.to_pickle(get_data_path(opts.data_root, opts.output))
+    joined_data.to_pickle(get_data_path(opts.data_root, opts.output), compression="zip")
 
 
 if __name__ == "__main__":
