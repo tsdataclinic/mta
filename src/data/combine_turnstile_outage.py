@@ -123,8 +123,14 @@ def main():
     interpolated_turnstile_data = interpolate_turnstile_usage(turnstile_data, subway_turnstile)
     joined_data = join_outage_with_turnstile(outage, subway_turnstile, interpolated_turnstile_data)
     print("Saving results...")
-    joined_data.to_pickle(get_data_path(opts.data_root, opts.output))
+    joined_data.to_pickle(get_data_path(opts.data_root, opts.output),compression='gzip')
 
 
 if __name__ == "__main__":
     main()
+    
+### sample command
+
+# python data/combine_turnstile_outage.py --data_root "/content/jupyter/mta-accessibility/data" --outage_data "processed/2019_outages.csv.gz" --equipment_data "interim/crosswalks/ee_turnstile.csv" --turnstile_data #"processed/turnstile_2019.pkl.gz" --turnstile_data "processed/turnstile_data_2019_nov_dec.pkl.gz" --output "processed/turnstile_with_outage.pkl.gz"
+
+####
