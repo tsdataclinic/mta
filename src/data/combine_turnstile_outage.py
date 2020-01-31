@@ -82,14 +82,13 @@ def join_outage_with_turnstile(outage: pd.DataFrame, subway_turnstile:
     Join houlry ourtage data with hourly turnstile
     '''
     print("Joining turnstile with outage...")
-    indexed_subway_turnstile = subway_turnstile.set_index(['station_name', 'equipment_id'])
-    outage_with_remote = outage.join(indexed_subway_turnstile, on=['Station Name', 'Equipment Number'])
-    outage_with_remote.rename(columns={"Time":"datetime", "remote": "UNIT"}, inplace=True)
-    outage_with_remote.datetime = pd.to_datetime(outage_with_remote.datetime)
-    outage_with_remote.set_index(['datetime', 'UNIT'], inplace=True)
-
-    joined = turnstile_usage.join(outage_with_remote, on=['datetime', 'UNIT'])
-    return joined[joined['Equipment Type'].notna()]
+    interpolated_grps = turnstile_usage.reset_index().groupby(['UNIT','datetime']).sum()[['entry_diff_abs','exit_diff_abs']]
+    interpolated_grps.reset_index(inplace=True)
+    joined = interpolated_grps.merge(subway_turnstile,how="outer",left_on=['UNIT'],right_on=['remote'])
+    joined = joined.merge(outage,how='left',left_on=["equipment_id","datetime"],right_on=["Equipment Number","Time"])
+    joined[['Percentage']] = joined[['Percentage']].fillna(value=0) 
+    
+    return joined[['datetime','UNIT','equipment_id','station_name','Percentage','entry_diff_abs','exit_diff_abs','Planned Outage','subway_lines']]
 
 
 def get_data_path(data_root, data_path):
@@ -115,14 +114,17 @@ def main():
     opts = parser.parse_args()
 
     outage = generate_hourly_outage(pd.read_csv(get_data_path(opts.data_root, opts.outage_data)))
+#     outage.to_pickle(get_data_path(opts.data_root, 'processed/hourly_outages.pkl.gz'),compression='gzip')
     subway_turnstile = process_subway_turnstile(pd.read_csv(get_data_path(opts.data_root, opts.equipment_data)))
 
     print("Loading turnstile data...")
     turnstile_data = clean_turnstile_data(load_turnstile_data(opts.data_root, opts.turnstile_data))
 
     interpolated_turnstile_data = interpolate_turnstile_usage(turnstile_data, subway_turnstile)
+#     interpolated_turnstile_data.to_pickle(get_data_path(opts.data_root, 'processed/interpolated_data.pkl.gz'),compression='gzip')
     joined_data = join_outage_with_turnstile(outage, subway_turnstile, interpolated_turnstile_data)
     print("Saving results...")
+    print(joined_data.shape)
     joined_data.to_pickle(get_data_path(opts.data_root, opts.output),compression='gzip')
 
 
@@ -131,6 +133,6 @@ if __name__ == "__main__":
     
 ### sample command
 
-# python data/combine_turnstile_outage.py --data_root "/content/jupyter/mta-accessibility/data" --outage_data "processed/2019_outages.csv.gz" --equipment_data "interim/crosswalks/ee_turnstile.csv" --turnstile_data #"processed/turnstile_2019.pkl.gz" --turnstile_data "processed/turnstile_data_2019_nov_dec.pkl.gz" --output "processed/turnstile_with_outage.pkl.gz"
+# python data/combine_turnstile_outage.py --data_root "/content/jupyter/mta-accessibility/data" --outage_data "processed/2019_outages.csv.gz" --equipment_data "interim/crosswalks/ee_turnstile.csv" --turnstile_data #"processed/turnstile_2019.pkl.gz" "processed/turnstile_data_2019_nov_dec.pkl.gz" --output "processed/turnstile_with_outage.pkl.gz"
 
 ####
