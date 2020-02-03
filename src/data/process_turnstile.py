@@ -13,7 +13,8 @@ def clean_turnstile_data(turnstile,recache=False,output_path=False):
 #     t_jan_nov = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_2019.pkl.gz'))
 #     t_nov_dec = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_data_2019_nov_dec.pkl.gz'))
 #     turnstile = pd.concat([t_jan_nov,t_nov_dec])
-
+    
+    print("Cleaning turnstile data")
     turnstile = turnstile.set_index('datetime').sort_index()
     entry_diffs = turnstile.groupby(['UNIT','SCP'],as_index=False)['ENTRIES'].transform(pd.Series.diff)['ENTRIES']
     exit_diffs = turnstile.groupby(['UNIT','SCP'],as_index=False)['EXITS'].transform(pd.Series.diff)['EXITS']

@@ -7,10 +7,8 @@ import pandas as pd
 from ast import literal_eval
 
 from process_turnstile import clean_turnstile_data
-from load_data_util import cache
 
 
-@cache("../data/cache/hourly_outage.pkl.gz")
 def generate_hourly_outage(outages: pd.DataFrame) -> pd.DataFrame:
     '''
     Create hourly outage percentage data for each outage in the input
@@ -54,26 +52,26 @@ def process_subway_turnstile(equipments: pd.DataFrame) -> pd.DataFrame:
 
 def _interpolate(data):
     augmented = data.resample('1H').asfreq()
-    augmented.ENTRIES.interpolate(method='linear', inplace=True)
-    augmented.EXITS.interpolate(method='linear', inplace=True)
+    augmented.entry_diff_abs.interpolate(method='linear', inplace=True)
+    augmented.exit_diff_abs.interpolate(method='linear', inplace=True)
     augmented.fillna(method='ffill', inplace=True)
     return augmented
 
 
-@cache("../data/cache/interpolated_turnstile.pkl.gz")
 def interpolate_turnstile_usage(turnstile_usage: pd.DataFrame, subway_turnstile: pd.DataFrame) -> pd.DataFrame:
     '''
     Interploate turnstile entries/exists into hourly data
     '''
     print("Interpolate turnstile data...")
-    filtered_turnstile = turnstile_usage.loc[(turnstile_usage.ENTRIES > 0)
-                                    & (turnstile_usage.EXITS > 0)]
-                                    #& (turnstile_usage.UNIT.isin(subway_turnstile.remote.unique()))]
-    filtered_turnstile.reset_index(inplace=True)
-    filtered_turnstile = filtered_turnstile.groupby(['LINENAME', 'STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
+#     filtered_turnstile = turnstile_usage.loc[(turnstile_usage.ENTRIES > 0)
+#                                     & (turnstile_usage.EXITS > 0)
+#                                     & (turnstile_usage.UNIT.isin(subway_turnstile.remote.unique()))]
+#     filtered_turnstile = turnstile_usage
+#     filtered_turnstile.reset_index(inplace=True)
+    filtered_turnstile = turnstile_usage.groupby(['LINENAME', 'STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
     filtered_turnstile.set_index(pd.DatetimeIndex(filtered_turnstile.datetime), inplace=True)
     results = []
-    filtered_turnstile.groupby(['LINENAME', 'STATION', 'UNIT', 'SCP']).apply(lambda g: results.append(_interpolate(g)))
+    filtered_turnstile.groupby(['LINENAME', 'STATION', 'UNIT']).apply(lambda g: results.append(_interpolate(g)))
     result = pd.concat(results)
     result.drop(columns=['datetime'], inplace=True)
     return result
@@ -89,8 +87,8 @@ def join_outage_with_turnstile(outage: pd.DataFrame, subway_turnstile:
     interpolated_grps.reset_index(inplace=True)
     joined = interpolated_grps.merge(subway_turnstile,how="outer",left_on=['UNIT'],right_on=['remote'])
     joined = joined.merge(outage,how='left',left_on=["equipment_id","datetime"],right_on=["Equipment Number","Time"])
-    joined[['Percentage']] = joined[['Percentage']].fillna(value=0)
-
+    joined[['Percentage']] = joined[['Percentage']].fillna(value=0) 
+    
     return joined[['datetime','UNIT','equipment_id','station_name','Percentage','entry_diff_abs','exit_diff_abs','Planned Outage','subway_lines']]
 
 
@@ -133,7 +131,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+    
 ### sample command
 
 # python data/combine_turnstile_outage.py --data_root "/content/jupyter/mta-accessibility/data" --outage_data "processed/2019_outages.csv.gz" --equipment_data "interim/crosswalks/ee_turnstile.csv" --turnstile_data #"processed/turnstile_2019.pkl.gz" "processed/turnstile_data_2019_nov_dec.pkl.gz" --output "processed/turnstile_with_outage.pkl.gz"
