@@ -7,8 +7,10 @@ import pandas as pd
 from ast import literal_eval
 
 from process_turnstile import clean_turnstile_data
+from load_data_util import cache
 
 
+@cache("../data/cache/hourly_outage.pkl.gz")
 def generate_hourly_outage(outages: pd.DataFrame) -> pd.DataFrame:
     '''
     Create hourly outage percentage data for each outage in the input
@@ -58,6 +60,7 @@ def _interpolate(data):
     return augmented
 
 
+@cache("../data/cache/interpolated_turnstile.pkl.gz")
 def interpolate_turnstile_usage(turnstile_usage: pd.DataFrame, subway_turnstile: pd.DataFrame) -> pd.DataFrame:
     '''
     Interploate turnstile entries/exists into hourly data
@@ -86,8 +89,8 @@ def join_outage_with_turnstile(outage: pd.DataFrame, subway_turnstile:
     interpolated_grps.reset_index(inplace=True)
     joined = interpolated_grps.merge(subway_turnstile,how="outer",left_on=['UNIT'],right_on=['remote'])
     joined = joined.merge(outage,how='left',left_on=["equipment_id","datetime"],right_on=["Equipment Number","Time"])
-    joined[['Percentage']] = joined[['Percentage']].fillna(value=0) 
-    
+    joined[['Percentage']] = joined[['Percentage']].fillna(value=0)
+
     return joined[['datetime','UNIT','equipment_id','station_name','Percentage','entry_diff_abs','exit_diff_abs','Planned Outage','subway_lines']]
 
 
@@ -130,7 +133,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-    
+
 ### sample command
 
 # python data/combine_turnstile_outage.py --data_root "/content/jupyter/mta-accessibility/data" --outage_data "processed/2019_outages.csv.gz" --equipment_data "interim/crosswalks/ee_turnstile.csv" --turnstile_data #"processed/turnstile_2019.pkl.gz" "processed/turnstile_data_2019_nov_dec.pkl.gz" --output "processed/turnstile_with_outage.pkl.gz"
