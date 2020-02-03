@@ -64,8 +64,8 @@ def interpolate_turnstile_usage(turnstile_usage: pd.DataFrame, subway_turnstile:
     '''
     print("Interpolate turnstile data...")
     filtered_turnstile = turnstile_usage.loc[(turnstile_usage.ENTRIES > 0)
-                                    & (turnstile_usage.EXITS > 0)
-                                    & (turnstile_usage.UNIT.isin(subway_turnstile.remote.unique()))]
+                                    & (turnstile_usage.EXITS > 0)]
+                                    #& (turnstile_usage.UNIT.isin(subway_turnstile.remote.unique()))]
     filtered_turnstile.reset_index(inplace=True)
     filtered_turnstile = filtered_turnstile.groupby(['LINENAME', 'STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
     filtered_turnstile.set_index(pd.DatetimeIndex(filtered_turnstile.datetime), inplace=True)
