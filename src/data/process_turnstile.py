@@ -1,14 +1,14 @@
 import pandas as pd
 import numpy as np
 import os
+from load_data_util import cache
 
 TURNSTILE_DATA_DIR = '../../data/processed/'
 
-def clean_turnstile_data(turnstile,recache=False,output_path=False):
+@cache("../data/cache/cleaned_turnstile.pkl.gz")
+def clean_turnstile_data(turnstile,output_path=False):
     '''
     Pulls in raw 2019 turnstile data files and cleans them to get rid of negatives and large outliers. 
-    
-    TODO: check if already available and don't run is recache is False
     '''
 #     t_jan_nov = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_2019.pkl.gz'))
 #     t_nov_dec = pd.read_pickle(os.path.join(TURNSTILE_DATA_DIR,'turnstile_data_2019_nov_dec.pkl.gz'))

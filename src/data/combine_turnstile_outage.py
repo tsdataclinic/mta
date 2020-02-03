@@ -7,8 +7,10 @@ import pandas as pd
 from ast import literal_eval
 
 from process_turnstile import clean_turnstile_data
+from load_data_util import cache
 
 
+@cache("../data/cache/hourly_outage.pkl.gz")
 def generate_hourly_outage(outages: pd.DataFrame) -> pd.DataFrame:
     '''
     Create hourly outage percentage data for each outage in the input
@@ -51,29 +53,32 @@ def process_subway_turnstile(equipments: pd.DataFrame) -> pd.DataFrame:
 
 
 def _interpolate(data):
-    augmented = data.resample('1H').asfreq()
+    hourly_sampled = data.resample('1H').asfreq()
+    augmented = pd.concat([hourly_sampled,data])
+    augmented = augmented.sort_index(ascending=True)
     augmented.entry_diff_abs.interpolate(method='linear', inplace=True)
     augmented.exit_diff_abs.interpolate(method='linear', inplace=True)
     augmented.fillna(method='ffill', inplace=True)
+    augmented = augmented.loc[hourly_sampled.index]
     return augmented
 
 
+@cache("../data/cache/interpolated_turnstile.pkl.gz")
 def interpolate_turnstile_usage(turnstile_usage: pd.DataFrame, subway_turnstile: pd.DataFrame) -> pd.DataFrame:
     '''
     Interploate turnstile entries/exists into hourly data
     '''
     print("Interpolate turnstile data...")
 #     filtered_turnstile = turnstile_usage.loc[(turnstile_usage.ENTRIES > 0)
-#                                     & (turnstile_usage.EXITS > 0)
+#                                     & (turnstile_usage.EXITS > 0)]
 #                                     & (turnstile_usage.UNIT.isin(subway_turnstile.remote.unique()))]
-#     filtered_turnstile = turnstile_usage
 #     filtered_turnstile.reset_index(inplace=True)
-    filtered_turnstile = turnstile_usage.groupby(['LINENAME', 'STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
+    filtered_turnstile = turnstile_usage.groupby(['LINENAME', 'STATION', 'UNIT', 'datetime']).sum().reset_index()
     filtered_turnstile.set_index(pd.DatetimeIndex(filtered_turnstile.datetime), inplace=True)
     results = []
     filtered_turnstile.groupby(['LINENAME', 'STATION', 'UNIT']).apply(lambda g: results.append(_interpolate(g)))
     result = pd.concat(results)
-    result.drop(columns=['datetime'], inplace=True)
+    result.drop(columns=['datetime','ENTRIES','EXITS','entry_diff','exit_diff','time_diffs'], inplace=True)
     return result
 
 
@@ -83,13 +88,13 @@ def join_outage_with_turnstile(outage: pd.DataFrame, subway_turnstile:
     Join houlry ourtage data with hourly turnstile
     '''
     print("Joining turnstile with outage...")
-    interpolated_grps = turnstile_usage.reset_index().groupby(['UNIT','datetime']).sum()[['entry_diff_abs','exit_diff_abs']]
-    interpolated_grps.reset_index(inplace=True)
-    joined = interpolated_grps.merge(subway_turnstile,how="outer",left_on=['UNIT'],right_on=['remote'])
+#     interpolated_grps = turnstile_usage.reset_index().groupby(['UNIT','datetime']).sum()[['entry_diff_abs','exit_diff_abs']]
+    turnstile_usage.reset_index(inplace=True)
+    joined = turnstile_usage.merge(subway_turnstile,how="outer",left_on=['UNIT'],right_on=['remote'])
     joined = joined.merge(outage,how='left',left_on=["equipment_id","datetime"],right_on=["Equipment Number","Time"])
-    joined[['Percentage']] = joined[['Percentage']].fillna(value=0) 
-    
-    return joined[['datetime','UNIT','equipment_id','station_name','Percentage','entry_diff_abs','exit_diff_abs','Planned Outage','subway_lines']]
+    joined[['Percentage']] = joined[['Percentage']].fillna(value=0)
+
+    return joined[['datetime','STATION','UNIT','equipment_id','station_name','Percentage','entry_diff_abs','exit_diff_abs','Planned Outage','subway_lines']]
 
 
 def get_data_path(data_root, data_path):
@@ -125,13 +130,13 @@ def main():
 #     interpolated_turnstile_data.to_pickle(get_data_path(opts.data_root, 'processed/interpolated_data.pkl.gz'),compression='gzip')
     joined_data = join_outage_with_turnstile(outage, subway_turnstile, interpolated_turnstile_data)
     print("Saving results...")
-    print(joined_data.shape)
+#     print(joined_data.shape)
     joined_data.to_pickle(get_data_path(opts.data_root, opts.output),compression='gzip')
 
 
 if __name__ == "__main__":
     main()
-    
+
 ### sample command
 
 # python data/combine_turnstile_outage.py --data_root "/content/jupyter/mta-accessibility/data" --outage_data "processed/2019_outages.csv.gz" --equipment_data "interim/crosswalks/ee_turnstile.csv" --turnstile_data #"processed/turnstile_2019.pkl.gz" "processed/turnstile_data_2019_nov_dec.pkl.gz" --output "processed/turnstile_with_outage.pkl.gz"

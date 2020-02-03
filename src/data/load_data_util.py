@@ -12,6 +12,7 @@ def cache(cache_path: str):
                 return pd.read_pickle(cache_path)
             else:
                 output = func(*args, **kwargs)
+                print("Caching data to " + os.path.realpath(cache_path))
                 output.to_pickle(cache_path, compression='gzip')
                 return output
 
