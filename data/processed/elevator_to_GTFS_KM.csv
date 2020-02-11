@@ -1,558 +1,558 @@
-,Unnamed: 0,equipment_id,line,direction,station,stop_ids
-0,230,EL103,1,south,191 St,"110N, 110S"
-1,21,EL103,1,north,191 St,"110N, 110S"
-2,185,EL122,6,manhattan,Pelham Bay Park,"601N, 601S"
-3,18,EL124,A,north,175 St,"A07N, A07S"
-4,628,EL126,5,south,125 St,"621N, 621S"
-5,1,EL126,4,north,125 St,"621N, 621S"
-6,419,EL126,5,north,125 St,"621N, 621S"
-7,1464,EL126,METRO-NORTH,south,125 St,
-8,1255,EL126,METRO-NORTH,north,125 St,
-9,1046,EL126,6,south,125 St,"621N, 621S"
-10,210,EL126,4,south,125 St,"621N, 621S"
-11,837,EL126,6,north,125 St,"621N, 621S"
-12,404,EL127,5,wakefield 241 st,Simpson St,"217N, 217S"
-13,195,EL127,2,wakefield 241 st,Simpson St,"217N, 217S"
-14,403,EL128,5,manhattan,Simpson St,"217N, 217S"
-15,194,EL128,2,manhattan,Simpson St,"217N, 217S"
-16,219,EL129,5,north,149 St - 3 Av,"221N, 221S"
-17,10,EL129,2,north,149 St - 3 Av,"221N, 221S"
-18,220,EL130,5,manhattan,149 St - 3 Av,"221N, 221S"
-19,11,EL130,2,manhattan,149 St - 3 Av,"221N, 221S"
-20,15,EL132,4,woodlawn,161 St - Yankee Stadium,"414N, 414S"
-21,12,EL133,4,manhattan,161 St - Yankee Stadium,"414N, 414S"
-22,13,EL134,B,manhattan,161 St - Yankee Stadium,"D11N, D11S"
-23,222,EL134,D,manhattan,161 St - Yankee Stadium,"D11N, D11S"
-24,223,EL135,D,norwood 205 st,161 St - Yankee Stadium,"D11N, D11S"
-25,14,EL135,B,norwood 205 st,161 St - Yankee Stadium,"D11N, D11S"
-26,395,EL137,5,manhattan,Pelham Pkwy,"211N, 211S, 504N, 504S"
-27,186,EL137,2,manhattan,Pelham Pkwy,"211N, 211S"
-28,396,EL138,5,wakefield 241 st,Pelham Pkwy,"211N, 211S, 504N, 504S"
-29,187,EL138,2,wakefield 241 st,Pelham Pkwy,"211N, 211S"
-30,226,EL140,C,north,168 St,"A09N, A09S"
-31,17,EL140,A,north,168 St,"A09N, A09S"
-32,16,EL141,A,south,168 St,"A09N, A09S"
-33,225,EL141,C,south,168 St,"A09N, A09S"
-34,0,EL143,A,south,125 St,"A15N, A15S"
-35,627,EL143,D,south,125 St,"A15N, A15S"
-36,209,EL143,B,south,125 St,"A15N, A15S"
-37,418,EL143,C,south,125 St,"A15N, A15S"
-38,420,EL144,C,north,125 St,"A15N, A15S"
-39,211,EL144,B,north,125 St,"A15N, A15S"
-40,2,EL144,A,north,125 St,"A15N, A15S"
-41,629,EL144,D,north,125 St,"A15N, A15S"
-42,495,EL145,3,south,96 St,"120N, 120S"
-43,286,EL145,2,south,96 St,"120N, 120S"
-44,77,EL145,1,south,96 St,"120N, 120S"
-45,285,EL146,2,north,96 St,"120N, 120S"
-46,494,EL146,3,north,96 St,"120N, 120S"
-47,76,EL146,1,north,96 St,"120N, 120S"
-48,22,EL149,A,north,207 St - Inwood,"A02N, A02S"
-49,231,EL149,A,south,207 St - Inwood,"A02N, A02S"
-50,332,EL159,5,north,East 180 St,"213N, 213S"
-51,123,EL159,2,north,East 180 St,"213N, 213S"
-52,122,EL160,2,south,East 180 St,"213N, 213S"
-53,331,EL160,5,south,East 180 St,"213N, 213S"
-54,113,EL16X,R,south,Cortlandt St,"R25N, R25S"
-55,322,EL16X,W,south,Cortlandt St,"R25N, R25S"
-56,121,EL178,1,south,Dyckman St,"109N, 109S"
-57,212,EL180,3,north,135 St,"224N, 224S"
-58,3,EL180,2,north,135 St,"224N, 224S"
-59,213,EL181,3,south,135 St,"224N, 224S"
-60,4,EL181,2,south,135 St,"224N, 224S"
-61,147,EL182,2,north,Gun Hill Rd,"208N, 208S"
-62,356,EL182,5,north,Gun Hill Rd,"208N, 208S, 503N, 503S"
-63,355,EL183,5,south,Gun Hill Rd,"208N, 208S, 503N, 503S"
-64,146,EL183,2,south,Gun Hill Rd,"208N, 208S"
-65,28,EL184,1,south,231 St,"104N, 104S"
-66,27,EL185,1,north,231 St,"104N, 104S"
-67,133,EL187,4,north,Fordham Rd,"407N, 407S"
-68,132,EL188,4,south,Fordham Rd,"407N, 407S"
-69,169,EL190,D,north,Kingsbridge Road,"D04N, D04S"
-70,378,EL190,B,north,Kingsbridge Road,"D04N, D04S"
-71,377,EL191,B,south,Kingsbridge Road,"D04N, D04S"
-72,168,EL191,D,south,Kingsbridge Road,"D04N, D04S"
-73,30,EL193,2,north,233 St,"205N, 205S"
-74,239,EL193,5,north,233 St,"205N, 205S"
-75,29,EL194,2,south,233 St,"205N, 205S"
-76,238,EL194,5,south,233 St,"205N, 205S"
-77,153,EL196,6,north,Hunts Point,"613N, 613S"
-78,152,EL197,6,south,Hunts Point,"613N, 613S"
-79,53,EL201,6,north,51 St,"630N, 630S"
-80,52,EL202,6,south,51 St,"630N, 630S"
-81,45,EL205,4,south,42 St - Grand Central,"631N, 631S"
-82,463,EL205,6,south,42 St - Grand Central,"631N, 631S"
-83,254,EL205,5,south,42 St - Grand Central,"631N, 631S"
-84,255,EL206,5,north,42 St - Grand Central,"631N, 631S"
-85,464,EL206,6,north,42 St - Grand Central,"631N, 631S"
-86,46,EL206,4,north,42 St - Grand Central,"631N, 631S"
-87,260,EL208X,E,south,50 St,"A25N, A25S"
-88,51,EL208X,C,south,50 St,"A25N, A25S"
-89,450,EL209,D,south,34 St - Herald Sq,"D17N, D17S"
-90,32,EL209,M,south,34 St - Herald Sq,"D17N, D17S"
-91,659,EL209,F,south,34 St - Herald Sq,"D17N, D17S"
-92,241,EL209,B,south,34 St - Herald Sq,"D17N, D17S"
-93,243,EL210,B,north,34 St - Herald Sq,"D17N, D17S"
-94,452,EL210,D,north,34 St - Herald Sq,"D17N, D17S"
-95,661,EL210,F,north,34 St - Herald Sq,"D17N, D17S"
-96,34,EL210,M,north,34 St - Herald Sq,"D17N, D17S"
-97,242,EL211,N,south,34 St - Herald Sq,"R17N, R17S"
-98,33,EL211,R,south,34 St - Herald Sq,"R17N, R17S"
-99,660,EL211,Q,south,34 St - Herald Sq,"R17N, R17S"
-100,451,EL211,W,south,34 St - Herald Sq,"R17N, R17S"
-101,35,EL212,R,north,34 St - Herald Sq,"R17N, R17S"
-102,244,EL212,N,north,34 St - Herald Sq,"R17N, R17S"
-103,662,EL212,Q,north,34 St - Herald Sq,"R17N, R17S"
-104,453,EL212,W,north,34 St - Herald Sq,"R17N, R17S"
-105,40,EL214,1,north,34 St - Penn,"128N, 128S"
-106,247,EL215,3,south,34 St - Penn,"128N, 128S"
-107,665,EL215,2,south,34 St - Penn,"128N, 128S"
-108,456,EL215,2,north,34 St - Penn,"128N, 128S"
-109,38,EL215,3,north,34 St - Penn,"128N, 128S"
-110,39,EL216,1,south,34 St - Penn,"128N, 128S"
-111,8,EL218,L,north,14 St - Union Sq,"L03N, L03S"
-112,217,EL218,L,south,14 St - Union Sq,"L03N, L03S"
-113,218,EL219,N,north,14 St - Union Sq,"R20N, R20S"
-114,9,EL219,R,north,14 St - Union Sq,"R20N, R20S"
-115,636,EL219,Q,north,14 St - Union Sq,"R20N, R20S"
-116,427,EL219,W,north,14 St - Union Sq,"R20N, R20S"
-117,425,EL220,W,south,14 St - Union Sq,"R20N, R20S"
-118,7,EL220,R,south,14 St - Union Sq,"R20N, R20S"
-119,634,EL220,Q,south,14 St - Union Sq,"R20N, R20S"
-120,216,EL220,N,south,14 St - Union Sq,"R20N, R20S"
-121,423,EL222,E,south,14 St - 8 Av,"A31N, A31S"
-122,5,EL222,A,south,14 St - 8 Av,"A31N, A31S"
-123,214,EL222,C,south,14 St - 8 Av,"A31N, A31S"
-124,424,EL223,E,north,14 St - 8 Av,"A31N, A31S"
-125,6,EL223,A,north,14 St - 8 Av,"A31N, A31S"
-126,215,EL223,C,north,14 St - 8 Av,"A31N, A31S"
-127,73,EL224,L,north,8 Av - 14 St,"L01N, L01S"
-128,282,EL224,L,south,8 Av - 14 St,"L01N, L01S"
-129,37,EL225,E,north,34 St - Penn,"A28N, A28S"
-130,246,EL225,C,north,34 St - Penn,"A28N, A28S"
-131,252,EL226,C,north,34 St - Penn,"A28N, A28S"
-132,43,EL226,E,north,34 St - Penn,"A28N, A28S"
-133,41,EL227,A,north,34 St - Penn,"A28N, A28S"
-134,250,EL227,A,south,34 St - Penn,"A28N, A28S"
-135,460,EL228,C,north,34 St - Penn,"A28N, A28S"
-136,669,EL228,C,south,34 St - Penn,"A28N, A28S"
-137,878,EL228,E,north,34 St - Penn,"A28N, A28S"
-138,1087,EL228,E,south,34 St - Penn,"A28N, A28S"
-139,251,EL228,A,south,34 St - Penn,"A28N, A28S"
-140,42,EL228,A,north,34 St - Penn,"A28N, A28S"
-141,407,EL229,N,south,Times Sq - 42 St,"R16N, R16S"
-142,616,EL229,W,south,Times Sq - 42 St,"R16N, R16S"
-143,198,EL229,R,south,Times Sq - 42 St,"R16N, R16S"
-144,825,EL229,Q,south,Times Sq - 42 St,"R16N, R16S"
-145,619,EL230,W,north,Times Sq - 42 St,"R16N, R16S"
-146,201,EL230,R,north,Times Sq - 42 St,"R16N, R16S"
-147,410,EL230,N,north,Times Sq - 42 St,"R16N, R16S"
-148,828,EL230,Q,north,Times Sq - 42 St,"R16N, R16S"
-149,408,EL232,N,south,Times Sq - 42 St,"R16N, R16S"
-150,1453,EL232,S,north,Times Sq - 42 St,
-151,617,EL232,Q,north,Times Sq - 42 St,"R16N, R16S"
-152,1035,EL232,R,north,Times Sq - 42 St,"R16N, R16S"
-153,3543,EL232,7,north,Times Sq - 42 St,"725N, 725S"
-154,1871,EL232,W,north,Times Sq - 42 St,"R16N, R16S"
-155,199,EL232,N,north,Times Sq - 42 St,"R16N, R16S"
-156,826,EL232,Q,south,Times Sq - 42 St,"R16N, R16S"
-157,3334,EL232,3,south,Times Sq - 42 St,"127N, 127S"
-158,3125,EL232,3,north,Times Sq - 42 St,"127N, 127S"
-159,1662,EL232,S,south,Times Sq - 42 St,
-160,1244,EL232,R,south,Times Sq - 42 St,"R16N, R16S"
-161,2916,EL232,2,south,Times Sq - 42 St,"127N, 127S"
-162,2707,EL232,2,north,Times Sq - 42 St,"127N, 127S"
-163,2498,EL232,1,south,Times Sq - 42 St,"127N, 127S"
-164,2289,EL232,1,north,Times Sq - 42 St,"127N, 127S"
-165,2080,EL232,W,south,Times Sq - 42 St,"R16N, R16S"
-166,3752,EL232,7,south,Times Sq - 42 St,"725N, 725S"
-167,200,EL233,1,north,Times Sq - 42 St,"127N, 127S"
-168,409,EL233,3,north,Times Sq - 42 St,"127N, 127S"
-169,618,EL233,2,north,Times Sq - 42 St,"127N, 127S"
-170,259,EL235,D,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S"
-171,677,EL235,M,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S"
-172,468,EL235,F,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S"
-173,50,EL235,B,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S"
-174,467,EL236,F,south,47-50 St - Rockefeller Ctr,"D15N, D15S"
-175,258,EL236,D,south,47-50 St - Rockefeller Ctr,"D15N, D15S"
-176,676,EL236,M,south,47-50 St - Rockefeller Ctr,"D15N, D15S"
-177,49,EL236,B,south,47-50 St - Rockefeller Ctr,"D15N, D15S"
-178,64,EL237,1,north,66 St - Lincoln Center,"124N, 124S"
-179,65,EL238,1,south,66 St - Lincoln Center,"124N, 124S"
-180,278,EL239,2,north,72 St,"123N, 123S"
-181,69,EL239,1,north,72 St,"123N, 123S"
-182,487,EL239,3,north,72 St,"123N, 123S"
-183,68,EL240,1,south,72 St,"123N, 123S"
-184,277,EL240,2,south,72 St,"123N, 123S"
-185,486,EL240,3,south,72 St,"123N, 123S"
-186,44,EL244,7,north,42 St - Grand Central,"723N, 723S"
-187,253,EL244,7,south,42 St - Grand Central,"723N, 723S"
-188,170,EL245,E,north,Lexington Av / 53 St,"F11N, F11S"
-189,797,EL245,M,south,Lexington Av / 53 St,"F11N, F11S"
-190,379,EL245,E,south,Lexington Av / 53 St,"F11N, F11S"
-191,588,EL245,M,north,Lexington Av / 53 St,"F11N, F11S"
-192,78,EL247,Q,south,96 St / 2 Av,"Q05N, Q05S"
-193,284,EL249,Q,south,86 St / 2 Av,"N10N, Q04N, Q04S"
-194,75,EL249,Q,north,86 St / 2 Av,"N10N, Q04N, Q04S"
-195,279,EL259,Q,south,72 St / 2 Av,"Q03N, Q03S"
-196,70,EL259,Q,north,72 St / 2 Av,"Q03N, Q03S"
-197,492,EL273,6,north,86 St,"626N, 626S"
-198,74,EL273,4,north,86 St,"626N, 626S"
-199,283,EL273,5,north,86 St,"626N, 626S"
-200,684,EL277,C,south,59 St - Columbus Cir,"A24N, A24S"
-201,57,EL277,1,south,59 St - Columbus Cir,"125N, 125S"
-202,475,EL277,B,south,59 St - Columbus Cir,"A24N, A24S"
-203,266,EL277,A,south,59 St - Columbus Cir,"A24N, A24S"
-204,893,EL277,D,south,59 St - Columbus Cir,"A24N, A24S"
-205,685,EL278,D,north,59 St - Columbus Cir,"A24N, A24S"
-206,476,EL278,C,north,59 St - Columbus Cir,"A24N, A24S"
-207,58,EL278,A,north,59 St - Columbus Cir,"A24N, A24S"
-208,267,EL278,B,north,59 St - Columbus Cir,"A24N, A24S"
-209,686,EL279,C,north,59 St - Columbus Cir,"A24N, A24S"
-210,59,EL279,1,north,59 St - Columbus Cir,"125N, 125S"
-211,477,EL279,B,north,59 St - Columbus Cir,"A24N, A24S"
-212,268,EL279,A,north,59 St - Columbus Cir,"A24N, A24S"
-213,895,EL279,D,north,59 St - Columbus Cir,"A24N, A24S"
-214,31,EL279X,6,south,28 St,"633N, 633S"
-215,56,EL280,1,north,59 St - Columbus Cir,"125N, 125S"
-216,473,EL282,R,south,57 St - 7 Av,"R14N, R14S"
-217,55,EL282,N,south,57 St - 7 Av,"R14N, R14S"
-218,264,EL282,Q,south,57 St - 7 Av,"R14N, R14S"
-219,682,EL282,W,south,57 St - 7 Av,"R14N, R14S"
-220,472,EL283,R,north,57 St - 7 Av,"R14N, R14S"
-221,681,EL283,W,north,57 St - 7 Av,"R14N, R14S"
-222,263,EL283,Q,north,57 St - 7 Av,"R14N, R14S"
-223,54,EL283,N,north,57 St - 7 Av,"R14N, R14S"
-224,66,EL285,6,north,68 St / Hunter College,"628N, 628S"
-225,67,EL286,6,south,68 St / Hunter College,"628N, 628S"
-226,466,EL289X,C,north,42 St - Port Authority Bus Terminal,"A27N, A27S"
-227,257,EL289X,A,south,42 St - Port Authority Bus Terminal,"A27N, A27S"
-228,48,EL289X,A,north,42 St - Port Authority Bus Terminal,"A27N, A27S"
-229,675,EL289X,C,south,42 St - Port Authority Bus Terminal,"A27N, A27S"
-230,1093,EL289X,E,south,42 St - Port Authority Bus Terminal,"A27N, A27S"
-231,884,EL289X,E,north,42 St - Port Authority Bus Terminal,"A27N, A27S"
-232,256,EL290X,A,south,42 St - Port Authority Bus Terminal,"A27N, A27S"
-233,47,EL290X,A,north,42 St - Port Authority Bus Terminal,"A27N, A27S"
-234,674,EL290X,C,south,42 St - Port Authority Bus Terminal,"A27N, A27S"
-235,883,EL290X,E,north,42 St - Port Authority Bus Terminal,"A27N, A27S"
-236,465,EL290X,C,north,42 St - Port Authority Bus Terminal,"A27N, A27S"
-237,1092,EL290X,E,south,42 St - Port Authority Bus Terminal,"A27N, A27S"
-238,25,EL298,6,north,23 St,"634N, 634S"
-239,26,EL299,6,south,23 St,"634N, 634S"
-240,81,EL300X,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-241,290,EL300X,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-242,504,EL302,R,bay ridge,Atlantic Av-Barclays Ctr,"R31N, R31S"
-243,295,EL302,N,bay ridge,Atlantic Av-Barclays Ctr,"R31N, R31S"
-244,86,EL302,D,bay ridge,Atlantic Av-Barclays Ctr,"R31N, R31S"
-245,501,EL303,D,manhattan,Atlantic Av-Barclays Ctr,"R31N, R31S"
-246,292,EL303,N,manhattan,Atlantic Av-Barclays Ctr,"R31N, R31S"
-247,83,EL303,R,manhattan,Atlantic Av-Barclays Ctr,"R31N, R31S"
-248,84,EL305,4,north,Atlantic Av-Barclays Ctr,"235N, 235S"
-249,502,EL305,5,north,Atlantic Av-Barclays Ctr,"235N, 235S"
-250,293,EL305,4,south,Atlantic Av-Barclays Ctr,"235N, 235S"
-251,711,EL305,5,south,Atlantic Av-Barclays Ctr,"235N, 235S"
-252,82,EL306,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-253,291,EL306,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-254,294,EL307,Q,south,Atlantic Av-Barclays Ctr,"D24N, D24S, R31N"
-255,85,EL307,Q,north,Atlantic Av-Barclays Ctr,"D24N, D24S, R31N"
-256,712,EL307,B,south,Atlantic Av-Barclays Ctr,"D24N, D24S"
-257,503,EL307,B,north,Atlantic Av-Barclays Ctr,"D24N, D24S"
-258,517,EL315,6,south,Brooklyn Bridge - City Hall,"640N, 640S"
-259,99,EL315,4,south,Brooklyn Bridge - City Hall,"640N, 640S"
-260,308,EL315,5,south,Brooklyn Bridge - City Hall,"640N, 640S"
-261,100,EL316,4,north,Brooklyn Bridge - City Hall,"640N, 640S"
-262,309,EL316,5,north,Brooklyn Bridge - City Hall,"640N, 640S"
-263,518,EL316,6,north,Brooklyn Bridge - City Hall,"640N, 640S"
-264,510,EL318,2,north,Borough Hall,"232N, 232S"
-265,92,EL318,3,north,Borough Hall,"232N, 232S"
-266,301,EL318,3,south,Borough Hall,"232N, 232S"
-267,719,EL318,2,south,Borough Hall,"232N, 232S"
-268,128,EL319,2,north,Flatbush Av Brooklyn College,"247N, 247S"
-269,337,EL319,2,south,Flatbush Av Brooklyn College,"247N, 247S"
-270,755,EL319,5,south,Flatbush Av Brooklyn College,"247N, 247S"
-271,546,EL319,5,north,Flatbush Av Brooklyn College,"247N, 247S"
-272,109,EL320,2,manhattan,Church Av,"244N, 244S"
-273,318,EL320,5,manhattan,Church Av,"244N, 244S"
-274,110,EL321,2,flatbush av brooklyn college,Church Av,"244N, 244S"
-275,319,EL321,5,flatbush av brooklyn college,Church Av,"244N, 244S"
-276,118,EL323,3,north,Crown Hts - Utica Av,"250N, 250S"
-277,745,EL323,4,south,Crown Hts - Utica Av,"250N, 250S"
-278,536,EL323,4,north,Crown Hts - Utica Av,"250N, 250S"
-279,327,EL323,3,south,Crown Hts - Utica Av,"250N, 250S"
-280,101,EL324,6,north,Canal St,"639N, 639S"
-281,102,EL325,6,south,Canal St,"639N, 639S"
-282,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S"
-283,931,EL329,F,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-284,513,EL329,B,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-285,722,EL329,D,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-286,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S"
-287,304,EL329,M,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-288,512,EL330,B,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-289,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S"
-290,721,EL330,D,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-291,930,EL330,F,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-292,303,EL330,M,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-293,515,EL331,B,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-294,306,EL331,M,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-295,724,EL331,D,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-296,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S"
-297,933,EL331,F,north,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-298,307,EL332,M,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-299,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S"
-300,934,EL332,F,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-301,516,EL332,B,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-302,725,EL332,D,south,Broadway-Lafayette/Bleecker St,"D21N, D21S"
-303,1458,EL334,F,south,West 4 St - Washington Sq,"D20N, D20S"
-304,1040,EL334,B,south,West 4 St - Washington Sq,"D20N, D20S"
-305,413,EL334,C,south,West 4 St - Washington Sq,"A32N, A32S"
-306,204,EL334,A,south,West 4 St - Washington Sq,"A32N, A32S"
-307,622,EL334,E,south,West 4 St - Washington Sq,"A32N, A32S"
-308,831,EL334,M,south,West 4 St - Washington Sq,"D20N, D20S"
-309,1249,EL334,D,south,West 4 St - Washington Sq,"D20N, D20S"
-310,1459,EL335,F,north,West 4 St - Washington Sq,"D20N, D20S"
-311,1041,EL335,B,north,West 4 St - Washington Sq,"D20N, D20S"
-312,1250,EL335,D,north,West 4 St - Washington Sq,"D20N, D20S"
-313,832,EL335,M,north,West 4 St - Washington Sq,"D20N, D20S"
-314,623,EL335,E,north,West 4 St - Washington Sq,"A32N, A32S"
-315,414,EL335,C,north,West 4 St - Washington Sq,"A32N, A32S"
-316,205,EL335,A,north,West 4 St - Washington Sq,"A32N, A32S"
-317,103,EL337,1,north,Chambers St,"137N, 137S"
-318,521,EL337,3,north,Chambers St,"137N, 137S"
-319,312,EL337,2,north,Chambers St,"137N, 137S"
-320,106,EL338,1,south,Chambers St,"137N, 137S"
-321,315,EL338,2,south,Chambers St,"137N, 137S"
-322,524,EL338,3,south,Chambers St,"137N, 137S"
-323,136,EL340,C,south,Franklin Av,"A45N, A45S"
-324,125,EL342,A,north,Euclid Av,"A55N, A55S"
-325,334,EL342,C,north,Euclid Av,"A55N, A55S"
-326,333,EL343,C,south,Euclid Av,"A55N, A55S"
-327,124,EL343,A,south,Euclid Av,"A55N, A55S"
-328,412,EL345,C,north,Utica Av,"A48N, A48S"
-329,203,EL345,A,north,Utica Av,"A48N, A48S"
-330,202,EL346,A,south,Utica Av,"A48N, A48S"
-331,411,EL346,C,south,Utica Av,"A48N, A48S"
-332,120,EL371,B,manhattan,Dekalb Av,"R30N, R30S"
-333,538,EL371,R,manhattan,Dekalb Av,"R30N, R30S"
-334,329,EL371,Q,manhattan,Dekalb Av,"R30N, R30S"
-335,119,EL372,B,"brighton beach, coney island, bay ridge",Dekalb Av,"R30N, R30S"
-336,537,EL372,R,"brighton beach, coney island, bay ridge",Dekalb Av,"R30N, R30S"
-337,328,EL372,Q,"brighton beach, coney island, bay ridge",Dekalb Av,"R30N, R30S"
-338,108,EL374,F,manhattan,Church Av,"F27N, F27S"
-339,317,EL374,G,manhattan,Church Av,"F27N, F27S"
-340,316,EL375,G,coney island,Church Av,"F27N, F27S"
-341,107,EL375,F,coney island,Church Av,"F27N, F27S"
-342,89,EL377,D,manhattan,Bay Parkway,"B21N, B21S"
-343,88,EL378,D,coney island,Bay Parkway,"B21N, B21S"
-344,189,EL382,Q,manhattan,Prospect Park,"D26N, D26S"
-345,398,EL382,B,manhattan,Prospect Park,"D26N, D26S"
-346,188,EL383,Q,"coney island, brighton beach",Prospect Park,"D26N, D26S"
-347,397,EL383,B,"coney island, brighton beach",Prospect Park,"D26N, D26S"
-348,594,EL391,Z,jamaica center,Marcy Av,"M16N, M16S"
-349,385,EL391,M,jamaica center,Marcy Av,"M16N, M16S"
-350,176,EL391,J,jamaica center,Marcy Av,"M16N, M16S"
-351,595,EL392,Z,manhattan,Marcy Av,"M16N, M16S"
-352,177,EL392,J,manhattan,Marcy Av,"M16N, M16S"
-353,386,EL392,M,manhattan,Marcy Av,"M16N, M16S"
-354,130,EL394,J,manhattan,Flushing Av,"M12N, M12S"
-355,339,EL394,M,manhattan,Flushing Av,"M12N, M12S"
-356,129,EL395,J,jamaica center,Flushing Av,"M12N, M12S"
-357,338,EL395,M,jamaica center,Flushing Av,"M12N, M12S"
-358,387,EL397,L,south,Myrtle Av / Wyckoff Av,"L17N, L17S"
-359,596,EL397,M,north,Myrtle Av / Wyckoff Av,"M08N, M08S"
-360,178,EL397,L,north,Myrtle Av / Wyckoff Av,"L17N, L17S"
-361,805,EL397,M,south,Myrtle Av / Wyckoff Av,"M08N, M08S"
-362,388,EL398,L,south,Myrtle Av / Wyckoff Av,"L17N, L17S"
-363,597,EL398,M,north,Myrtle Av / Wyckoff Av,"M08N, M08S"
-364,179,EL398,L,north,Myrtle Av / Wyckoff Av,"L17N, L17S"
-365,806,EL398,M,south,Myrtle Av / Wyckoff Av,"M08N, M08S"
-366,798,EL402,F,south,Lexington Av / 63 St,"B08N, B08S"
-367,589,EL402,F,north,Lexington Av / 63 St,"B08N, B08S"
-368,380,EL402,Q,south,Lexington Av / 63 St,"B08N, B08S"
-369,171,EL402,Q,north,Lexington Av / 63 St,"B08N, B08S"
-370,193,EL403,F,south,Roosevelt Island,"B06N, B06S"
-371,192,EL404,F,jamaica,Roosevelt Island,"B06N, B06S"
-372,24,EL406,F,manhattan,21 St - Queensbridge,"B04N, B04S"
-373,23,EL407,F,jamaica,21 St - Queensbridge,"B04N, B04S"
-374,366,EL408,E,south,Jamaica - Van Wyck,"G07N, G07S"
-375,157,EL408,E,north,Jamaica - Van Wyck,"G07N, G07S"
-376,615,EL411,J,north,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S"
-377,197,EL411,E,north,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S"
-378,1660,EL411,LIRR,south,Sutphin Blvd - Archer Av - JFK Airport,
-379,1451,EL411,LIRR,north,Sutphin Blvd - Archer Av - JFK Airport,
-380,406,EL411,E,south,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S"
-381,1033,EL411,Z,north,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S"
-382,1242,EL411,Z,south,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S"
-383,824,EL411,J,south,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S"
-384,994,EL413,Z,north,Jamaica Center Parsons/Archer,"G05N, G05S"
-385,785,EL413,J,south,Jamaica Center Parsons/Archer,"G05N, G05S"
-386,1203,EL413,Z,south,Jamaica Center Parsons/Archer,"G05N, G05S"
-387,158,EL413,E,north,Jamaica Center Parsons/Archer,"G05N, G05S"
-388,576,EL413,J,north,Jamaica Center Parsons/Archer,"G05N, G05S"
-389,367,EL413,E,south,Jamaica Center Parsons/Archer,"G05N, G05S"
-390,340,EL414,7,south,Flushing Main St,"701N, 701S"
-391,131,EL414,7,north,Flushing Main St,"701N, 701S"
-392,63,EL416X,7,manhattan,61 St - Woodside,"712N, 712S"
-393,62,EL417X,7,flushing main st,61 St - Woodside,"712N, 712S"
-394,61,EL418X,7,north,61 St - Woodside,"712N, 712S"
-395,270,EL418X,7,south,61 St - Woodside,"712N, 712S"
-396,60,EL419X,7,north,61 St - Woodside,"712N, 712S"
-397,269,EL419X,7,south,61 St - Woodside,"712N, 712S"
-398,573,EL421,M,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S"
-399,155,EL421,R,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S"
-400,364,EL421,E,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S"
-401,782,EL421,F,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S"
-402,781,EL422,F,south,Jackson Hts - Roosevelt Av,"G14N, G14S"
-403,1408,EL422,R,north,Jackson Hts - Roosevelt Av,"G14N, G14S"
-404,363,EL422,E,south,Jackson Hts - Roosevelt Av,"G14N, G14S"
-405,990,EL422,M,north,Jackson Hts - Roosevelt Av,"G14N, G14S"
-406,154,EL422,E,north,Jackson Hts - Roosevelt Av,"G14N, G14S"
-407,1199,EL422,M,south,Jackson Hts - Roosevelt Av,"G14N, G14S"
-408,1826,EL422,7,north,Jackson Hts - Roosevelt Av,
-409,2035,EL422,7,south,Jackson Hts - Roosevelt Av,
-410,1617,EL422,R,south,Jackson Hts - Roosevelt Av,"G14N, G14S"
-411,572,EL422,F,north,Jackson Hts - Roosevelt Av,"G14N, G14S"
-412,71,EL423,7,manhattan,74 St - Broadway / Roosevelt Av,"710N, 710S"
-413,163,EL426,7,manhattan,Junction Blvd,"707N, 707S"
-414,162,EL427,7,flushing,Junction Blvd,"707N, 707S"
-415,400,EL429,R,manhattan,Queens Plaza,"G21N, G21S"
-416,609,EL429,M,manhattan,Queens Plaza,"G21N, G21S"
-417,191,EL429,E,manhattan,Queens Plaza,"G21N, G21S"
-418,190,EL430,E,"jamaica, forest hills",Queens Plaza,"G21N, G21S"
-419,399,EL430,R,"jamaica, forest hills",Queens Plaza,"G21N, G21S"
-420,608,EL430,M,"jamaica, forest hills",Queens Plaza,"G21N, G21S"
-421,20,EL432,F,manhattan,179 St - Jamaica,"F01N, F01S"
-422,19,EL433,F,manhattan,179 St - Jamaica,"F01N, F01S"
-423,164,EL435,E,jamaica,Kew Gardens / Union Tpk,"F06N, F06S"
-424,373,EL435,F,jamaica,Kew Gardens / Union Tpk,"F06N, F06S"
-425,374,EL436,F,manhattan,Kew Gardens / Union Tpk,"F06N, F06S"
-426,165,EL436,E,manhattan,Kew Gardens / Union Tpk,"F06N, F06S"
-427,343,EL438,F,jamaica,Forest Hills - 71 Av,"G08N, G08S"
-428,134,EL438,E,jamaica,Forest Hills - 71 Av,"G08N, G08S"
-429,970,EL438,LIRR,jamaica,Forest Hills - 71 Av,
-430,552,EL438,R,jamaica,Forest Hills - 71 Av,"G08N, G08S"
-431,761,EL438,M,jamaica,Forest Hills - 71 Av,"G08N, G08S"
-432,344,EL439,F,manhattan,Forest Hills - 71 Av,"G08N, G08S"
-433,762,EL439,M,manhattan,Forest Hills - 71 Av,"G08N, G08S"
-434,553,EL439,R,manhattan,Forest Hills - 71 Av,"G08N, G08S"
-435,135,EL439,E,manhattan,Forest Hills - 71 Av,"G08N, G08S"
-436,971,EL439,LIRR,manhattan,Forest Hills - 71 Av,
-437,175,EL440,Q,north,Lexington Av / 63 St,"B08N, B08S"
-438,802,EL440,F,south,Lexington Av / 63 St,"B08N, B08S"
-439,384,EL440,Q,south,Lexington Av / 63 St,"B08N, B08S"
-440,593,EL440,F,north,Lexington Av / 63 St,"B08N, B08S"
-441,592,EL441,F,north,Lexington Av / 63 St,"B08N, B08S"
-442,801,EL441,F,south,Lexington Av / 63 St,"B08N, B08S"
-443,383,EL441,Q,south,Lexington Av / 63 St,"B08N, B08S"
-444,174,EL441,Q,north,Lexington Av / 63 St,"B08N, B08S"
-445,591,EL442,F,north,Lexington Av / 63 St,"B08N, B08S"
-446,800,EL442,F,south,Lexington Av / 63 St,"B08N, B08S"
-447,382,EL442,Q,south,Lexington Av / 63 St,"B08N, B08S"
-448,173,EL442,Q,north,Lexington Av / 63 St,"B08N, B08S"
-449,799,EL443,F,south,Lexington Av / 63 St,"B08N, B08S"
-450,590,EL443,F,north,Lexington Av / 63 St,"B08N, B08S"
-451,172,EL443,Q,north,Lexington Av / 63 St,"B08N, B08S"
-452,381,EL443,Q,south,Lexington Av / 63 St,"B08N, B08S"
-453,117,EL445X,7,north,Court Square,"719N, 719S"
-454,326,EL445X,7,south,Court Square,"719N, 719S"
-455,116,EL447,7,manhattan-bound,Court Square,"719N, 719S"
-456,393,EL463,A,south,Ozone Park / Lefferts Blvd,"A65N, A65S"
-457,184,EL463,A,north,Ozone Park / Lefferts Blvd,"A65N, A65S"
-458,79,EL489X,A,manhattan,Aqueduct Racetrack,H01N
-459,151,EL492X,A,far rockaway,Howard Beach,"H03N, H03S"
-460,150,EL493X,A,south,Howard Beach,"H03N, H03S"
-461,149,EL494X,A,north,Howard Beach,"H03N, H03S"
-462,148,EL495X,A,north,Howard Beach,"H03N, H03S"
-463,336,EL497,A,south,Far Rockaway - Mott Av,"H11N, H11S"
-464,127,EL497,A,north,Far Rockaway - Mott Av,"H11N, H11S"
-465,126,EL498,A,north,Far Rockaway - Mott Av,"H11N, H11S"
-466,335,EL498,A,south,Far Rockaway - Mott Av,"H11N, H11S"
-467,90,EL501,D,north,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S"
-468,299,EL501,B,north,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S"
-469,300,EL502,B,south,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S"
-470,91,EL502,D,south,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S"
-471,36,EL600,7,north,34 St - Hudson Yards,"726N, 726S"
-472,245,EL600,7,south,34 St - Hudson Yards,"726N, 726S"
-473,296,EL700X,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-474,87,EL700X,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-475,112,EL701,N,north,Coney Island Stillwell Av,"D43N, D43S"
-476,321,EL701,N,south,Coney Island Stillwell Av,"D43N, D43S"
-477,320,EL702,N,south,Coney Island Stillwell Av,"D43N, D43S"
-478,111,EL702,N,north,Coney Island Stillwell Av,"D43N, D43S"
-479,787,EL707,C,south,Jay St - MetroTech,"A41N, A41S"
-480,996,EL707,F,north,Jay St - MetroTech,"A41N, A41S"
-481,369,EL707,A,south,Jay St - MetroTech,"A41N, A41S"
-482,160,EL707,A,north,Jay St - MetroTech,"A41N, A41S"
-483,578,EL707,C,north,Jay St - MetroTech,"A41N, A41S"
-484,1205,EL707,F,south,Jay St - MetroTech,"A41N, A41S"
-485,786,EL708,C,south,Jay St - MetroTech,"A41N, A41S"
-486,577,EL708,C,north,Jay St - MetroTech,"A41N, A41S"
-487,995,EL708,F,north,Jay St - MetroTech,"A41N, A41S"
-488,1204,EL708,F,south,Jay St - MetroTech,"A41N, A41S"
-489,1413,EL708,R,north,Jay St - MetroTech,"R29N, R29S"
-490,159,EL708,A,north,Jay St - MetroTech,"A41N, A41S"
-491,368,EL708,A,south,Jay St - MetroTech,"A41N, A41S"
-492,1622,EL708,R,south,Jay St - MetroTech,"R29N, R29S"
-493,1415,EL709,R,north,Jay St - MetroTech,"R29N, R29S"
-494,370,EL709,A,south,Jay St - MetroTech,"A41N, A41S"
-495,1624,EL709,R,south,Jay St - MetroTech,"R29N, R29S"
-496,1206,EL709,F,south,Jay St - MetroTech,"A41N, A41S"
-497,579,EL709,C,north,Jay St - MetroTech,"A41N, A41S"
-498,997,EL709,F,north,Jay St - MetroTech,"A41N, A41S"
-499,161,EL709,A,north,Jay St - MetroTech,"A41N, A41S"
-500,788,EL709,C,south,Jay St - MetroTech,"A41N, A41S"
-501,93,EL711,4,south,Bowling Green,"420N, 420S"
-502,302,EL711,5,south,Bowling Green,"420N, 420S"
-503,206,EL712,1,north,WTC Cortlandt St,"138N, 138S"
-504,207,EL713,1,south,WTC Cortlandt St,"138N, 138S"
-505,144,EL716,4,north,Fulton St,"418N, 418S"
-506,353,EL716,5,north,Fulton St,"418N, 418S"
-507,348,EL717X,5,north,Fulton St,"418N, 418S"
-508,139,EL717X,4,north,Fulton St,"418N, 418S"
-509,347,EL718X,5,north,Fulton St,"418N, 418S"
-510,138,EL718X,4,north,Fulton St,"418N, 418S"
-511,349,EL719,A,south,Fulton St,"A38N, A38S"
-512,767,EL719,C,south,Fulton St,"A38N, A38S"
-513,140,EL719,A,north,Fulton St,"A38N, A38S"
-514,558,EL719,C,north,Fulton St,"A38N, A38S"
-515,981,EL720,C,north,Fulton St,"A38N, A38S"
-516,772,EL720,A,south,Fulton St,"A38N, A38S"
-517,354,EL720,J,north,Fulton St,"M22N, M22S"
-518,563,EL720,A,north,Fulton St,"A38N, A38S"
-519,145,EL720,Z,north,Fulton St,"M22N, M22S"
-520,1190,EL720,C,south,Fulton St,"A38N, A38S"
-521,768,EL721,C,south,Fulton St,"A38N, A38S"
-522,350,EL721,A,south,Fulton St,"A38N, A38S"
-523,559,EL721,C,north,Fulton St,"A38N, A38S"
-524,141,EL721,A,north,Fulton St,"A38N, A38S"
-525,114,EL726X,R,south,Cortlandt St,"R25N, R25S"
-526,323,EL726X,W,south,Cortlandt St,"R25N, R25S"
-527,115,EL727X,R,north,Cortlandt St,"R25N, R25S"
-528,324,EL727X,W,north,Cortlandt St,"R25N, R25S"
-529,137,EL728X,4,south,Fulton St,"418N, 418S"
-530,346,EL728X,5,south,Fulton St,"418N, 418S"
-531,770,EL729X,5,south,Fulton St,"418N, 418S"
-532,352,EL729X,4,south,Fulton St,"418N, 418S"
-533,561,EL729X,5,north,Fulton St,"418N, 418S"
-534,143,EL729X,4,north,Fulton St,"418N, 418S"
-535,405,EL731,1,south,South Ferry,"142N, 142S"
-536,196,EL731,1,north,South Ferry,"142N, 142S"
-537,769,EL732,2,south,Fulton St,"229N, 229S"
-538,142,EL732,3,north,Fulton St,"229N, 229S"
-539,560,EL732,2,north,Fulton St,"229N, 229S"
-540,351,EL732,3,south,Fulton St,"229N, 229S"
-541,208,EL736,1,south,WTC Cortlandt St,"138N, 138S"
-542,289,EL737X,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-543,80,EL737X,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S"
-544,182,EL738,N,north,New Utrecht,"N04N, N04S"
-545,183,EL739,N,south,New Utrecht,"N04N, N04S"
-546,180,EL740,D,north,New Utrecht,
-547,181,EL741,D,south,New Utrecht,
-548,104,EL742,J,north,Chambers St,"M21N, M21S"
-549,313,EL742,Z,north,Chambers St,"M21N, M21S"
-550,314,EL743,Z,south,Chambers St,"M21N, M21S"
-551,105,EL743,J,south,Chambers St,"M21N, M21S"
-552,72,EL753,N,north,8 Av,"N02N, N02S"
-553,376,EL760,Q,manhattan,Kings Highway,"D35N, D35S, N08N"
-554,167,EL760,B,manhattan,Kings Highway,"D35N, D35S"
-555,375,EL761,H,brighton beach/coney island,Kings Highway,
-556,166,EL761,C,brighton beach/coney island,Kings Highway,
+,Unnamed: 0,equipment_id,line,direction,station,possible_stops,stop_id
+0,230,EL103,1,south,191 St,"110N, 110S",110S
+1,21,EL103,1,north,191 St,"110N, 110S",110N
+2,185,EL122,6,manhattan,Pelham Bay Park,"601N, 601S",NULL
+3,18,EL124,A,north,175 St,"A07N, A07S",A07N
+4,628,EL126,5,south,125 St,"621N, 621S",621S
+5,1,EL126,4,north,125 St,"621N, 621S",621N
+6,419,EL126,5,north,125 St,"621N, 621S",621N
+7,1464,EL126,METRO-NORTH,south,125 St,,NULL
+8,1255,EL126,METRO-NORTH,north,125 St,,NULL
+9,1046,EL126,6,south,125 St,"621N, 621S",621S
+10,210,EL126,4,south,125 St,"621N, 621S",621S
+11,837,EL126,6,north,125 St,"621N, 621S",621N
+12,404,EL127,5,wakefield 241 st,Simpson St,"217N, 217S",NULL
+13,195,EL127,2,wakefield 241 st,Simpson St,"217N, 217S",NULL
+14,403,EL128,5,manhattan,Simpson St,"217N, 217S",NULL
+15,194,EL128,2,manhattan,Simpson St,"217N, 217S",NULL
+16,219,EL129,5,north,149 St - 3 Av,"221N, 221S",221N
+17,10,EL129,2,north,149 St - 3 Av,"221N, 221S",221N
+18,220,EL130,5,manhattan,149 St - 3 Av,"221N, 221S",NULL
+19,11,EL130,2,manhattan,149 St - 3 Av,"221N, 221S",NULL
+20,15,EL132,4,woodlawn,161 St - Yankee Stadium,"414N, 414S",NULL
+21,12,EL133,4,manhattan,161 St - Yankee Stadium,"414N, 414S",NULL
+22,13,EL134,B,manhattan,161 St - Yankee Stadium,"D11N, D11S",NULL
+23,222,EL134,D,manhattan,161 St - Yankee Stadium,"D11N, D11S",NULL
+24,223,EL135,D,norwood 205 st,161 St - Yankee Stadium,"D11N, D11S",D11N
+25,14,EL135,B,norwood 205 st,161 St - Yankee Stadium,"D11N, D11S",D11N
+26,395,EL137,5,manhattan,Pelham Pkwy,"211N, 211S, 504N, 504S",NULL
+27,186,EL137,2,manhattan,Pelham Pkwy,"211N, 211S",NULL
+28,396,EL138,5,wakefield 241 st,Pelham Pkwy,"211N, 211S, 504N, 504S",NULL
+29,187,EL138,2,wakefield 241 st,Pelham Pkwy,"211N, 211S",NULL
+30,226,EL140,C,north,168 St,"A09N, A09S",A09N
+31,17,EL140,A,north,168 St,"A09N, A09S",A09N
+32,16,EL141,A,south,168 St,"A09N, A09S",A09S
+33,225,EL141,C,south,168 St,"A09N, A09S",A09S
+34,0,EL143,A,south,125 St,"A15N, A15S",A15S
+35,627,EL143,D,south,125 St,"A15N, A15S",A15S
+36,209,EL143,B,south,125 St,"A15N, A15S",A15S
+37,418,EL143,C,south,125 St,"A15N, A15S",A15S
+38,420,EL144,C,north,125 St,"A15N, A15S",A15N
+39,211,EL144,B,north,125 St,"A15N, A15S",A15N
+40,2,EL144,A,north,125 St,"A15N, A15S",A15N
+41,629,EL144,D,north,125 St,"A15N, A15S",A15N
+42,495,EL145,3,south,96 St,"120N, 120S",120S
+43,286,EL145,2,south,96 St,"120N, 120S",120S
+44,77,EL145,1,south,96 St,"120N, 120S",120S
+45,285,EL146,2,north,96 St,"120N, 120S",120N
+46,494,EL146,3,north,96 St,"120N, 120S",120N
+47,76,EL146,1,north,96 St,"120N, 120S",120N
+48,22,EL149,A,north,207 St - Inwood,"A02N, A02S",A02N
+49,231,EL149,A,south,207 St - Inwood,"A02N, A02S",A02S
+50,332,EL159,5,north,East 180 St,"213N, 213S",213N
+51,123,EL159,2,north,East 180 St,"213N, 213S",213N
+52,122,EL160,2,south,East 180 St,"213N, 213S",213S
+53,331,EL160,5,south,East 180 St,"213N, 213S",213S
+54,113,EL16X,R,south,Cortlandt St,"R25N, R25S",R25S
+55,322,EL16X,W,south,Cortlandt St,"R25N, R25S",R25S
+56,121,EL178,1,south,Dyckman St,"109N, 109S",109S
+57,212,EL180,3,north,135 St,"224N, 224S",224N
+58,3,EL180,2,north,135 St,"224N, 224S",224N
+59,213,EL181,3,south,135 St,"224N, 224S",224S
+60,4,EL181,2,south,135 St,"224N, 224S",224S
+61,147,EL182,2,north,Gun Hill Rd,"208N, 208S",208N
+62,356,EL182,5,north,Gun Hill Rd,"208N, 208S, 503N, 503S",208N
+63,355,EL183,5,south,Gun Hill Rd,"208N, 208S, 503N, 503S",208S
+64,146,EL183,2,south,Gun Hill Rd,"208N, 208S",208S
+65,28,EL184,1,south,231 St,"104N, 104S",104S
+66,27,EL185,1,north,231 St,"104N, 104S",104N
+67,133,EL187,4,north,Fordham Rd,"407N, 407S",407N
+68,132,EL188,4,south,Fordham Rd,"407N, 407S",407S
+69,169,EL190,D,north,Kingsbridge Road,"D04N, D04S",D04N
+70,378,EL190,B,north,Kingsbridge Road,"D04N, D04S",D04N
+71,377,EL191,B,south,Kingsbridge Road,"D04N, D04S",D04S
+72,168,EL191,D,south,Kingsbridge Road,"D04N, D04S",D04S
+73,30,EL193,2,north,233 St,"205N, 205S",205N
+74,239,EL193,5,north,233 St,"205N, 205S",205N
+75,29,EL194,2,south,233 St,"205N, 205S",205S
+76,238,EL194,5,south,233 St,"205N, 205S",205S
+77,153,EL196,6,north,Hunts Point,"613N, 613S",613N
+78,152,EL197,6,south,Hunts Point,"613N, 613S",613S
+79,53,EL201,6,north,51 St,"630N, 630S",630N
+80,52,EL202,6,south,51 St,"630N, 630S",630S
+81,45,EL205,4,south,42 St - Grand Central,"631N, 631S",631S
+82,463,EL205,6,south,42 St - Grand Central,"631N, 631S",631S
+83,254,EL205,5,south,42 St - Grand Central,"631N, 631S",631S
+84,255,EL206,5,north,42 St - Grand Central,"631N, 631S",631N
+85,464,EL206,6,north,42 St - Grand Central,"631N, 631S",631N
+86,46,EL206,4,north,42 St - Grand Central,"631N, 631S",631N
+87,260,EL208X,E,south,50 St,"A25N, A25S",A25S
+88,51,EL208X,C,south,50 St,"A25N, A25S",A25S
+89,450,EL209,D,south,34 St - Herald Sq,"D17N, D17S",D17S
+90,32,EL209,M,south,34 St - Herald Sq,"D17N, D17S",D17S
+91,659,EL209,F,south,34 St - Herald Sq,"D17N, D17S",D17S
+92,241,EL209,B,south,34 St - Herald Sq,"D17N, D17S",D17S
+93,243,EL210,B,north,34 St - Herald Sq,"D17N, D17S",D17N
+94,452,EL210,D,north,34 St - Herald Sq,"D17N, D17S",D17N
+95,661,EL210,F,north,34 St - Herald Sq,"D17N, D17S",D17N
+96,34,EL210,M,north,34 St - Herald Sq,"D17N, D17S",D17N
+97,242,EL211,N,south,34 St - Herald Sq,"R17N, R17S",R17S
+98,33,EL211,R,south,34 St - Herald Sq,"R17N, R17S",R17S
+99,660,EL211,Q,south,34 St - Herald Sq,"R17N, R17S",R17S
+100,451,EL211,W,south,34 St - Herald Sq,"R17N, R17S",R17S
+101,35,EL212,R,north,34 St - Herald Sq,"R17N, R17S",R17N
+102,244,EL212,N,north,34 St - Herald Sq,"R17N, R17S",R17N
+103,662,EL212,Q,north,34 St - Herald Sq,"R17N, R17S",R17N
+104,453,EL212,W,north,34 St - Herald Sq,"R17N, R17S",R17N
+105,40,EL214,1,north,34 St - Penn,"128N, 128S",128N
+106,247,EL215,3,south,34 St - Penn,"128N, 128S",128S
+107,665,EL215,2,south,34 St - Penn,"128N, 128S",128S
+108,456,EL215,2,north,34 St - Penn,"128N, 128S",128N
+109,38,EL215,3,north,34 St - Penn,"128N, 128S",128N
+110,39,EL216,1,south,34 St - Penn,"128N, 128S",128S
+111,8,EL218,L,north,14 St - Union Sq,"L03N, L03S",L03N
+112,217,EL218,L,south,14 St - Union Sq,"L03N, L03S",L03S
+113,218,EL219,N,north,14 St - Union Sq,"R20N, R20S",R20N
+114,9,EL219,R,north,14 St - Union Sq,"R20N, R20S",R20N
+115,636,EL219,Q,north,14 St - Union Sq,"R20N, R20S",R20N
+116,427,EL219,W,north,14 St - Union Sq,"R20N, R20S",R20N
+117,425,EL220,W,south,14 St - Union Sq,"R20N, R20S",R20S
+118,7,EL220,R,south,14 St - Union Sq,"R20N, R20S",R20S
+119,634,EL220,Q,south,14 St - Union Sq,"R20N, R20S",R20S
+120,216,EL220,N,south,14 St - Union Sq,"R20N, R20S",R20S
+121,423,EL222,E,south,14 St - 8 Av,"A31N, A31S",A31S
+122,5,EL222,A,south,14 St - 8 Av,"A31N, A31S",A31S
+123,214,EL222,C,south,14 St - 8 Av,"A31N, A31S",A31S
+124,424,EL223,E,north,14 St - 8 Av,"A31N, A31S",A31N
+125,6,EL223,A,north,14 St - 8 Av,"A31N, A31S",A31N
+126,215,EL223,C,north,14 St - 8 Av,"A31N, A31S",A31N
+127,73,EL224,L,north,8 Av - 14 St,"L01N, L01S",L01N
+128,282,EL224,L,south,8 Av - 14 St,"L01N, L01S",L01S
+129,37,EL225,E,north,34 St - Penn,"A28N, A28S",A28N
+130,246,EL225,C,north,34 St - Penn,"A28N, A28S",A28N
+131,252,EL226,C,north,34 St - Penn,"A28N, A28S",A28N
+132,43,EL226,E,north,34 St - Penn,"A28N, A28S",A28N
+133,41,EL227,A,north,34 St - Penn,"A28N, A28S",A28N
+134,250,EL227,A,south,34 St - Penn,"A28N, A28S",A28S
+135,460,EL228,C,north,34 St - Penn,"A28N, A28S",A28N
+136,669,EL228,C,south,34 St - Penn,"A28N, A28S",A28S
+137,878,EL228,E,north,34 St - Penn,"A28N, A28S",A28N
+138,1087,EL228,E,south,34 St - Penn,"A28N, A28S",A28S
+139,251,EL228,A,south,34 St - Penn,"A28N, A28S",A28S
+140,42,EL228,A,north,34 St - Penn,"A28N, A28S",A28N
+141,407,EL229,N,south,Times Sq - 42 St,"R16N, R16S",R16S
+142,616,EL229,W,south,Times Sq - 42 St,"R16N, R16S",R16S
+143,198,EL229,R,south,Times Sq - 42 St,"R16N, R16S",R16S
+144,825,EL229,Q,south,Times Sq - 42 St,"R16N, R16S",R16S
+145,619,EL230,W,north,Times Sq - 42 St,"R16N, R16S",R16N
+146,201,EL230,R,north,Times Sq - 42 St,"R16N, R16S",R16N
+147,410,EL230,N,north,Times Sq - 42 St,"R16N, R16S",R16N
+148,828,EL230,Q,north,Times Sq - 42 St,"R16N, R16S",R16N
+149,408,EL232,N,south,Times Sq - 42 St,"R16N, R16S",R16S
+150,1453,EL232,S,north,Times Sq - 42 St,,NULL
+151,617,EL232,Q,north,Times Sq - 42 St,"R16N, R16S",R16N
+152,1035,EL232,R,north,Times Sq - 42 St,"R16N, R16S",R16N
+153,3543,EL232,7,north,Times Sq - 42 St,"725N, 725S",725N
+154,1871,EL232,W,north,Times Sq - 42 St,"R16N, R16S",R16N
+155,199,EL232,N,north,Times Sq - 42 St,"R16N, R16S",R16N
+156,826,EL232,Q,south,Times Sq - 42 St,"R16N, R16S",R16S
+157,3334,EL232,3,south,Times Sq - 42 St,"127N, 127S",127S
+158,3125,EL232,3,north,Times Sq - 42 St,"127N, 127S",127N
+159,1662,EL232,S,south,Times Sq - 42 St,,NULL
+160,1244,EL232,R,south,Times Sq - 42 St,"R16N, R16S",R16S
+161,2916,EL232,2,south,Times Sq - 42 St,"127N, 127S",127S
+162,2707,EL232,2,north,Times Sq - 42 St,"127N, 127S",127N
+163,2498,EL232,1,south,Times Sq - 42 St,"127N, 127S",127S
+164,2289,EL232,1,north,Times Sq - 42 St,"127N, 127S",127N
+165,2080,EL232,W,south,Times Sq - 42 St,"R16N, R16S",R16S
+166,3752,EL232,7,south,Times Sq - 42 St,"725N, 725S",725S
+167,200,EL233,1,north,Times Sq - 42 St,"127N, 127S",127N
+168,409,EL233,3,north,Times Sq - 42 St,"127N, 127S",127N
+169,618,EL233,2,north,Times Sq - 42 St,"127N, 127S",127N
+170,259,EL235,D,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S",NULL
+171,677,EL235,M,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S",NULL
+172,468,EL235,F,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S",NULL
+173,50,EL235,B,jamaica,47-50 St - Rockefeller Ctr,"D15N, D15S",NULL
+174,467,EL236,F,south,47-50 St - Rockefeller Ctr,"D15N, D15S",D15S
+175,258,EL236,D,south,47-50 St - Rockefeller Ctr,"D15N, D15S",D15S
+176,676,EL236,M,south,47-50 St - Rockefeller Ctr,"D15N, D15S",D15S
+177,49,EL236,B,south,47-50 St - Rockefeller Ctr,"D15N, D15S",D15S
+178,64,EL237,1,north,66 St - Lincoln Center,"124N, 124S",124N
+179,65,EL238,1,south,66 St - Lincoln Center,"124N, 124S",124S
+180,278,EL239,2,north,72 St,"123N, 123S",123N
+181,69,EL239,1,north,72 St,"123N, 123S",123N
+182,487,EL239,3,north,72 St,"123N, 123S",123N
+183,68,EL240,1,south,72 St,"123N, 123S",123S
+184,277,EL240,2,south,72 St,"123N, 123S",123S
+185,486,EL240,3,south,72 St,"123N, 123S",123S
+186,44,EL244,7,north,42 St - Grand Central,"723N, 723S",723N
+187,253,EL244,7,south,42 St - Grand Central,"723N, 723S",723S
+188,170,EL245,E,north,Lexington Av / 53 St,"F11N, F11S",F11N
+189,797,EL245,M,south,Lexington Av / 53 St,"F11N, F11S",F11S
+190,379,EL245,E,south,Lexington Av / 53 St,"F11N, F11S",F11S
+191,588,EL245,M,north,Lexington Av / 53 St,"F11N, F11S",F11N
+192,78,EL247,Q,south,96 St / 2 Av,"Q05N, Q05S",Q05S
+193,284,EL249,Q,south,86 St / 2 Av,"N10N, Q04N, Q04S",Q04S
+194,75,EL249,Q,north,86 St / 2 Av,"N10N, Q04N, Q04S",N10N
+195,279,EL259,Q,south,72 St / 2 Av,"Q03N, Q03S",Q03S
+196,70,EL259,Q,north,72 St / 2 Av,"Q03N, Q03S",Q03N
+197,492,EL273,6,north,86 St,"626N, 626S",626N
+198,74,EL273,4,north,86 St,"626N, 626S",626N
+199,283,EL273,5,north,86 St,"626N, 626S",626N
+200,684,EL277,C,south,59 St - Columbus Cir,"A24N, A24S",A24S
+201,57,EL277,1,south,59 St - Columbus Cir,"125N, 125S",125S
+202,475,EL277,B,south,59 St - Columbus Cir,"A24N, A24S",A24S
+203,266,EL277,A,south,59 St - Columbus Cir,"A24N, A24S",A24S
+204,893,EL277,D,south,59 St - Columbus Cir,"A24N, A24S",A24S
+205,685,EL278,D,north,59 St - Columbus Cir,"A24N, A24S",A24N
+206,476,EL278,C,north,59 St - Columbus Cir,"A24N, A24S",A24N
+207,58,EL278,A,north,59 St - Columbus Cir,"A24N, A24S",A24N
+208,267,EL278,B,north,59 St - Columbus Cir,"A24N, A24S",A24N
+209,686,EL279,C,north,59 St - Columbus Cir,"A24N, A24S",A24N
+210,59,EL279,1,north,59 St - Columbus Cir,"125N, 125S",125N
+211,477,EL279,B,north,59 St - Columbus Cir,"A24N, A24S",A24N
+212,268,EL279,A,north,59 St - Columbus Cir,"A24N, A24S",A24N
+213,895,EL279,D,north,59 St - Columbus Cir,"A24N, A24S",A24N
+214,31,EL279X,6,south,28 St,"633N, 633S",633S
+215,56,EL280,1,north,59 St - Columbus Cir,"125N, 125S",125N
+216,473,EL282,R,south,57 St - 7 Av,"R14N, R14S",R14S
+217,55,EL282,N,south,57 St - 7 Av,"R14N, R14S",R14S
+218,264,EL282,Q,south,57 St - 7 Av,"R14N, R14S",R14S
+219,682,EL282,W,south,57 St - 7 Av,"R14N, R14S",R14S
+220,472,EL283,R,north,57 St - 7 Av,"R14N, R14S",R14N
+221,681,EL283,W,north,57 St - 7 Av,"R14N, R14S",R14N
+222,263,EL283,Q,north,57 St - 7 Av,"R14N, R14S",R14N
+223,54,EL283,N,north,57 St - 7 Av,"R14N, R14S",R14N
+224,66,EL285,6,north,68 St / Hunter College,"628N, 628S",628N
+225,67,EL286,6,south,68 St / Hunter College,"628N, 628S",628S
+226,466,EL289X,C,north,42 St - Port Authority Bus Terminal,"A27N, A27S",A27N
+227,257,EL289X,A,south,42 St - Port Authority Bus Terminal,"A27N, A27S",A27S
+228,48,EL289X,A,north,42 St - Port Authority Bus Terminal,"A27N, A27S",A27N
+229,675,EL289X,C,south,42 St - Port Authority Bus Terminal,"A27N, A27S",A27S
+230,1093,EL289X,E,south,42 St - Port Authority Bus Terminal,"A27N, A27S",A27S
+231,884,EL289X,E,north,42 St - Port Authority Bus Terminal,"A27N, A27S",A27N
+232,256,EL290X,A,south,42 St - Port Authority Bus Terminal,"A27N, A27S",A27S
+233,47,EL290X,A,north,42 St - Port Authority Bus Terminal,"A27N, A27S",A27N
+234,674,EL290X,C,south,42 St - Port Authority Bus Terminal,"A27N, A27S",A27S
+235,883,EL290X,E,north,42 St - Port Authority Bus Terminal,"A27N, A27S",A27N
+236,465,EL290X,C,north,42 St - Port Authority Bus Terminal,"A27N, A27S",A27N
+237,1092,EL290X,E,south,42 St - Port Authority Bus Terminal,"A27N, A27S",A27S
+238,25,EL298,6,north,23 St,"634N, 634S",634N
+239,26,EL299,6,south,23 St,"634N, 634S",634S
+240,81,EL300X,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+241,290,EL300X,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+242,504,EL302,R,bay ridge,Atlantic Av-Barclays Ctr,"R31N, R31S",NULL
+243,295,EL302,N,bay ridge,Atlantic Av-Barclays Ctr,"R31N, R31S",NULL
+244,86,EL302,D,bay ridge,Atlantic Av-Barclays Ctr,"R31N, R31S",NULL
+245,501,EL303,D,manhattan,Atlantic Av-Barclays Ctr,"R31N, R31S",NULL
+246,292,EL303,N,manhattan,Atlantic Av-Barclays Ctr,"R31N, R31S",NULL
+247,83,EL303,R,manhattan,Atlantic Av-Barclays Ctr,"R31N, R31S",NULL
+248,84,EL305,4,north,Atlantic Av-Barclays Ctr,"235N, 235S",235N
+249,502,EL305,5,north,Atlantic Av-Barclays Ctr,"235N, 235S",235N
+250,293,EL305,4,south,Atlantic Av-Barclays Ctr,"235N, 235S",235S
+251,711,EL305,5,south,Atlantic Av-Barclays Ctr,"235N, 235S",235S
+252,82,EL306,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+253,291,EL306,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+254,294,EL307,Q,south,Atlantic Av-Barclays Ctr,"D24N, D24S, R31N",D24S
+255,85,EL307,Q,north,Atlantic Av-Barclays Ctr,"D24N, D24S, R31N",D24N
+256,712,EL307,B,south,Atlantic Av-Barclays Ctr,"D24N, D24S",D24S
+257,503,EL307,B,north,Atlantic Av-Barclays Ctr,"D24N, D24S",D24N
+258,517,EL315,6,south,Brooklyn Bridge - City Hall,"640N, 640S",640S
+259,99,EL315,4,south,Brooklyn Bridge - City Hall,"640N, 640S",640S
+260,308,EL315,5,south,Brooklyn Bridge - City Hall,"640N, 640S",640S
+261,100,EL316,4,north,Brooklyn Bridge - City Hall,"640N, 640S",640N
+262,309,EL316,5,north,Brooklyn Bridge - City Hall,"640N, 640S",640N
+263,518,EL316,6,north,Brooklyn Bridge - City Hall,"640N, 640S",640N
+264,510,EL318,2,north,Borough Hall,"232N, 232S",232N
+265,92,EL318,3,north,Borough Hall,"232N, 232S",232N
+266,301,EL318,3,south,Borough Hall,"232N, 232S",232S
+267,719,EL318,2,south,Borough Hall,"232N, 232S",232S
+268,128,EL319,2,north,Flatbush Av Brooklyn College,"247N, 247S",247N
+269,337,EL319,2,south,Flatbush Av Brooklyn College,"247N, 247S",247S
+270,755,EL319,5,south,Flatbush Av Brooklyn College,"247N, 247S",247S
+271,546,EL319,5,north,Flatbush Av Brooklyn College,"247N, 247S",247N
+272,109,EL320,2,manhattan,Church Av,"244N, 244S",NULL
+273,318,EL320,5,manhattan,Church Av,"244N, 244S",NULL
+274,110,EL321,2,flatbush av brooklyn college,Church Av,"244N, 244S",NULL
+275,319,EL321,5,flatbush av brooklyn college,Church Av,"244N, 244S",NULL
+276,118,EL323,3,north,Crown Hts - Utica Av,"250N, 250S",250N
+277,745,EL323,4,south,Crown Hts - Utica Av,"250N, 250S",250S
+278,536,EL323,4,north,Crown Hts - Utica Av,"250N, 250S",250N
+279,327,EL323,3,south,Crown Hts - Utica Av,"250N, 250S",250S
+280,101,EL324,6,north,Canal St,"639N, 639S",639N
+281,102,EL325,6,south,Canal St,"639N, 639S",639S
+282,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S",NULL
+283,931,EL329,F,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+284,513,EL329,B,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+285,722,EL329,D,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+286,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S",NULL
+287,304,EL329,M,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+288,512,EL330,B,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+289,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S",NULL
+290,721,EL330,D,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+291,930,EL330,F,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+292,303,EL330,M,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+293,515,EL331,B,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+294,306,EL331,M,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+295,724,EL331,D,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+296,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S",NULL
+297,933,EL331,F,north,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21N
+298,307,EL332,M,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+299,"637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S","637N, 637S",NULL
+300,934,EL332,F,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+301,516,EL332,B,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+302,725,EL332,D,south,Broadway-Lafayette/Bleecker St,"D21N, D21S",D21S
+303,1458,EL334,F,south,West 4 St - Washington Sq,"D20N, D20S",D20S
+304,1040,EL334,B,south,West 4 St - Washington Sq,"D20N, D20S",D20S
+305,413,EL334,C,south,West 4 St - Washington Sq,"A32N, A32S",A32S
+306,204,EL334,A,south,West 4 St - Washington Sq,"A32N, A32S",A32S
+307,622,EL334,E,south,West 4 St - Washington Sq,"A32N, A32S",A32S
+308,831,EL334,M,south,West 4 St - Washington Sq,"D20N, D20S",D20S
+309,1249,EL334,D,south,West 4 St - Washington Sq,"D20N, D20S",D20S
+310,1459,EL335,F,north,West 4 St - Washington Sq,"D20N, D20S",D20N
+311,1041,EL335,B,north,West 4 St - Washington Sq,"D20N, D20S",D20N
+312,1250,EL335,D,north,West 4 St - Washington Sq,"D20N, D20S",D20N
+313,832,EL335,M,north,West 4 St - Washington Sq,"D20N, D20S",D20N
+314,623,EL335,E,north,West 4 St - Washington Sq,"A32N, A32S",A32N
+315,414,EL335,C,north,West 4 St - Washington Sq,"A32N, A32S",A32N
+316,205,EL335,A,north,West 4 St - Washington Sq,"A32N, A32S",A32N
+317,103,EL337,1,north,Chambers St,"137N, 137S",137N
+318,521,EL337,3,north,Chambers St,"137N, 137S",137N
+319,312,EL337,2,north,Chambers St,"137N, 137S",137N
+320,106,EL338,1,south,Chambers St,"137N, 137S",137S
+321,315,EL338,2,south,Chambers St,"137N, 137S",137S
+322,524,EL338,3,south,Chambers St,"137N, 137S",137S
+323,136,EL340,C,south,Franklin Av,"A45N, A45S",A45S
+324,125,EL342,A,north,Euclid Av,"A55N, A55S",A55N
+325,334,EL342,C,north,Euclid Av,"A55N, A55S",A55N
+326,333,EL343,C,south,Euclid Av,"A55N, A55S",A55S
+327,124,EL343,A,south,Euclid Av,"A55N, A55S",A55S
+328,412,EL345,C,north,Utica Av,"A48N, A48S",A48N
+329,203,EL345,A,north,Utica Av,"A48N, A48S",A48N
+330,202,EL346,A,south,Utica Av,"A48N, A48S",A48S
+331,411,EL346,C,south,Utica Av,"A48N, A48S",A48S
+332,120,EL371,B,manhattan,Dekalb Av,"R30N, R30S",NULL
+333,538,EL371,R,manhattan,Dekalb Av,"R30N, R30S",NULL
+334,329,EL371,Q,manhattan,Dekalb Av,"R30N, R30S",NULL
+335,119,EL372,B,"brighton beach, coney island, bay ridge",Dekalb Av,"R30N, R30S",NULL
+336,537,EL372,R,"brighton beach, coney island, bay ridge",Dekalb Av,"R30N, R30S",NULL
+337,328,EL372,Q,"brighton beach, coney island, bay ridge",Dekalb Av,"R30N, R30S",NULL
+338,108,EL374,F,manhattan,Church Av,"F27N, F27S",NULL
+339,317,EL374,G,manhattan,Church Av,"F27N, F27S",NULL
+340,316,EL375,G,coney island,Church Av,"F27N, F27S",NULL
+341,107,EL375,F,coney island,Church Av,"F27N, F27S",NULL
+342,89,EL377,D,manhattan,Bay Parkway,"B21N, B21S",NULL
+343,88,EL378,D,coney island,Bay Parkway,"B21N, B21S",NULL
+344,189,EL382,Q,manhattan,Prospect Park,"D26N, D26S",NULL
+345,398,EL382,B,manhattan,Prospect Park,"D26N, D26S",NULL
+346,188,EL383,Q,"coney island, brighton beach",Prospect Park,"D26N, D26S",NULL
+347,397,EL383,B,"coney island, brighton beach",Prospect Park,"D26N, D26S",NULL
+348,594,EL391,Z,jamaica center,Marcy Av,"M16N, M16S",NULL
+349,385,EL391,M,jamaica center,Marcy Av,"M16N, M16S",NULL
+350,176,EL391,J,jamaica center,Marcy Av,"M16N, M16S",NULL
+351,595,EL392,Z,manhattan,Marcy Av,"M16N, M16S",NULL
+352,177,EL392,J,manhattan,Marcy Av,"M16N, M16S",NULL
+353,386,EL392,M,manhattan,Marcy Av,"M16N, M16S",NULL
+354,130,EL394,J,manhattan,Flushing Av,"M12N, M12S",NULL
+355,339,EL394,M,manhattan,Flushing Av,"M12N, M12S",NULL
+356,129,EL395,J,jamaica center,Flushing Av,"M12N, M12S",NULL
+357,338,EL395,M,jamaica center,Flushing Av,"M12N, M12S",NULL
+358,387,EL397,L,south,Myrtle Av / Wyckoff Av,"L17N, L17S",L17S
+359,596,EL397,M,north,Myrtle Av / Wyckoff Av,"M08N, M08S",M08N
+360,178,EL397,L,north,Myrtle Av / Wyckoff Av,"L17N, L17S",L17N
+361,805,EL397,M,south,Myrtle Av / Wyckoff Av,"M08N, M08S",M08S
+362,388,EL398,L,south,Myrtle Av / Wyckoff Av,"L17N, L17S",L17S
+363,597,EL398,M,north,Myrtle Av / Wyckoff Av,"M08N, M08S",M08N
+364,179,EL398,L,north,Myrtle Av / Wyckoff Av,"L17N, L17S",L17N
+365,806,EL398,M,south,Myrtle Av / Wyckoff Av,"M08N, M08S",M08S
+366,798,EL402,F,south,Lexington Av / 63 St,"B08N, B08S",B08S
+367,589,EL402,F,north,Lexington Av / 63 St,"B08N, B08S",B08N
+368,380,EL402,Q,south,Lexington Av / 63 St,"B08N, B08S",B08S
+369,171,EL402,Q,north,Lexington Av / 63 St,"B08N, B08S",B08N
+370,193,EL403,F,south,Roosevelt Island,"B06N, B06S",B06S
+371,192,EL404,F,jamaica,Roosevelt Island,"B06N, B06S",NULL
+372,24,EL406,F,manhattan,21 St - Queensbridge,"B04N, B04S",NULL
+373,23,EL407,F,jamaica,21 St - Queensbridge,"B04N, B04S",NULL
+374,366,EL408,E,south,Jamaica - Van Wyck,"G07N, G07S",G07S
+375,157,EL408,E,north,Jamaica - Van Wyck,"G07N, G07S",G07N
+376,615,EL411,J,north,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S",G06N
+377,197,EL411,E,north,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S",G06N
+378,1660,EL411,LIRR,south,Sutphin Blvd - Archer Av - JFK Airport,,NULL
+379,1451,EL411,LIRR,north,Sutphin Blvd - Archer Av - JFK Airport,,NULL
+380,406,EL411,E,south,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S",G06S
+381,1033,EL411,Z,north,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S",G06N
+382,1242,EL411,Z,south,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S",G06S
+383,824,EL411,J,south,Sutphin Blvd - Archer Av - JFK Airport,"G06N, G06S",G06S
+384,994,EL413,Z,north,Jamaica Center Parsons/Archer,"G05N, G05S",G05N
+385,785,EL413,J,south,Jamaica Center Parsons/Archer,"G05N, G05S",G05S
+386,1203,EL413,Z,south,Jamaica Center Parsons/Archer,"G05N, G05S",G05S
+387,158,EL413,E,north,Jamaica Center Parsons/Archer,"G05N, G05S",G05N
+388,576,EL413,J,north,Jamaica Center Parsons/Archer,"G05N, G05S",G05N
+389,367,EL413,E,south,Jamaica Center Parsons/Archer,"G05N, G05S",G05S
+390,340,EL414,7,south,Flushing Main St,"701N, 701S",701S
+391,131,EL414,7,north,Flushing Main St,"701N, 701S",701N
+392,63,EL416X,7,manhattan,61 St - Woodside,"712N, 712S",NULL
+393,62,EL417X,7,flushing main st,61 St - Woodside,"712N, 712S",NULL
+394,61,EL418X,7,north,61 St - Woodside,"712N, 712S",712N
+395,270,EL418X,7,south,61 St - Woodside,"712N, 712S",712S
+396,60,EL419X,7,north,61 St - Woodside,"712N, 712S",712N
+397,269,EL419X,7,south,61 St - Woodside,"712N, 712S",712S
+398,573,EL421,M,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S",NULL
+399,155,EL421,R,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S",NULL
+400,364,EL421,E,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S",NULL
+401,782,EL421,F,manhattan,Jackson Hts - Roosevelt Av,"G14N, G14S",NULL
+402,781,EL422,F,south,Jackson Hts - Roosevelt Av,"G14N, G14S",G14S
+403,1408,EL422,R,north,Jackson Hts - Roosevelt Av,"G14N, G14S",G14N
+404,363,EL422,E,south,Jackson Hts - Roosevelt Av,"G14N, G14S",G14S
+405,990,EL422,M,north,Jackson Hts - Roosevelt Av,"G14N, G14S",G14N
+406,154,EL422,E,north,Jackson Hts - Roosevelt Av,"G14N, G14S",G14N
+407,1199,EL422,M,south,Jackson Hts - Roosevelt Av,"G14N, G14S",G14S
+408,1826,EL422,7,north,Jackson Hts - Roosevelt Av,,NULL
+409,2035,EL422,7,south,Jackson Hts - Roosevelt Av,,NULL
+410,1617,EL422,R,south,Jackson Hts - Roosevelt Av,"G14N, G14S",G14S
+411,572,EL422,F,north,Jackson Hts - Roosevelt Av,"G14N, G14S",G14N
+412,71,EL423,7,manhattan,74 St - Broadway / Roosevelt Av,"710N, 710S",NULL
+413,163,EL426,7,manhattan,Junction Blvd,"707N, 707S",NULL
+414,162,EL427,7,flushing,Junction Blvd,"707N, 707S",NULL
+415,400,EL429,R,manhattan,Queens Plaza,"G21N, G21S",NULL
+416,609,EL429,M,manhattan,Queens Plaza,"G21N, G21S",NULL
+417,191,EL429,E,manhattan,Queens Plaza,"G21N, G21S",NULL
+418,190,EL430,E,"jamaica, forest hills",Queens Plaza,"G21N, G21S",NULL
+419,399,EL430,R,"jamaica, forest hills",Queens Plaza,"G21N, G21S",NULL
+420,608,EL430,M,"jamaica, forest hills",Queens Plaza,"G21N, G21S",NULL
+421,20,EL432,F,manhattan,179 St - Jamaica,"F01N, F01S",NULL
+422,19,EL433,F,manhattan,179 St - Jamaica,"F01N, F01S",NULL
+423,164,EL435,E,jamaica,Kew Gardens / Union Tpk,"F06N, F06S",NULL
+424,373,EL435,F,jamaica,Kew Gardens / Union Tpk,"F06N, F06S",NULL
+425,374,EL436,F,manhattan,Kew Gardens / Union Tpk,"F06N, F06S",NULL
+426,165,EL436,E,manhattan,Kew Gardens / Union Tpk,"F06N, F06S",NULL
+427,343,EL438,F,jamaica,Forest Hills - 71 Av,"G08N, G08S",NULL
+428,134,EL438,E,jamaica,Forest Hills - 71 Av,"G08N, G08S",NULL
+429,970,EL438,LIRR,jamaica,Forest Hills - 71 Av,,NULL
+430,552,EL438,R,jamaica,Forest Hills - 71 Av,"G08N, G08S",NULL
+431,761,EL438,M,jamaica,Forest Hills - 71 Av,"G08N, G08S",NULL
+432,344,EL439,F,manhattan,Forest Hills - 71 Av,"G08N, G08S",NULL
+433,762,EL439,M,manhattan,Forest Hills - 71 Av,"G08N, G08S",NULL
+434,553,EL439,R,manhattan,Forest Hills - 71 Av,"G08N, G08S",NULL
+435,135,EL439,E,manhattan,Forest Hills - 71 Av,"G08N, G08S",NULL
+436,971,EL439,LIRR,manhattan,Forest Hills - 71 Av,,NULL
+437,175,EL440,Q,north,Lexington Av / 63 St,"B08N, B08S",B08N
+438,802,EL440,F,south,Lexington Av / 63 St,"B08N, B08S",B08S
+439,384,EL440,Q,south,Lexington Av / 63 St,"B08N, B08S",B08S
+440,593,EL440,F,north,Lexington Av / 63 St,"B08N, B08S",B08N
+441,592,EL441,F,north,Lexington Av / 63 St,"B08N, B08S",B08N
+442,801,EL441,F,south,Lexington Av / 63 St,"B08N, B08S",B08S
+443,383,EL441,Q,south,Lexington Av / 63 St,"B08N, B08S",B08S
+444,174,EL441,Q,north,Lexington Av / 63 St,"B08N, B08S",B08N
+445,591,EL442,F,north,Lexington Av / 63 St,"B08N, B08S",B08N
+446,800,EL442,F,south,Lexington Av / 63 St,"B08N, B08S",B08S
+447,382,EL442,Q,south,Lexington Av / 63 St,"B08N, B08S",B08S
+448,173,EL442,Q,north,Lexington Av / 63 St,"B08N, B08S",B08N
+449,799,EL443,F,south,Lexington Av / 63 St,"B08N, B08S",B08S
+450,590,EL443,F,north,Lexington Av / 63 St,"B08N, B08S",B08N
+451,172,EL443,Q,north,Lexington Av / 63 St,"B08N, B08S",B08N
+452,381,EL443,Q,south,Lexington Av / 63 St,"B08N, B08S",B08S
+453,117,EL445X,7,north,Court Square,"719N, 719S",719N
+454,326,EL445X,7,south,Court Square,"719N, 719S",719S
+455,116,EL447,7,manhattan-bound,Court Square,"719N, 719S",NULL
+456,393,EL463,A,south,Ozone Park / Lefferts Blvd,"A65N, A65S",A65S
+457,184,EL463,A,north,Ozone Park / Lefferts Blvd,"A65N, A65S",A65N
+458,79,EL489X,A,manhattan,Aqueduct Racetrack,H01N,NULL
+459,151,EL492X,A,far rockaway,Howard Beach,"H03N, H03S",NULL
+460,150,EL493X,A,south,Howard Beach,"H03N, H03S",H03S
+461,149,EL494X,A,north,Howard Beach,"H03N, H03S",H03N
+462,148,EL495X,A,north,Howard Beach,"H03N, H03S",H03N
+463,336,EL497,A,south,Far Rockaway - Mott Av,"H11N, H11S",H11S
+464,127,EL497,A,north,Far Rockaway - Mott Av,"H11N, H11S",H11N
+465,126,EL498,A,north,Far Rockaway - Mott Av,"H11N, H11S",H11N
+466,335,EL498,A,south,Far Rockaway - Mott Av,"H11N, H11S",H11S
+467,90,EL501,D,north,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S",D03N
+468,299,EL501,B,north,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S",D03N
+469,300,EL502,B,south,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S",D03S
+470,91,EL502,D,south,Bedford Park Blvd/Grand Concourse Line,"D03N, D03S",D03S
+471,36,EL600,7,north,34 St - Hudson Yards,"726N, 726S",726N
+472,245,EL600,7,south,34 St - Hudson Yards,"726N, 726S",726S
+473,296,EL700X,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+474,87,EL700X,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+475,112,EL701,N,north,Coney Island Stillwell Av,"D43N, D43S",D43N
+476,321,EL701,N,south,Coney Island Stillwell Av,"D43N, D43S",D43S
+477,320,EL702,N,south,Coney Island Stillwell Av,"D43N, D43S",D43S
+478,111,EL702,N,north,Coney Island Stillwell Av,"D43N, D43S",D43N
+479,787,EL707,C,south,Jay St - MetroTech,"A41N, A41S",A41S
+480,996,EL707,F,north,Jay St - MetroTech,"A41N, A41S",A41N
+481,369,EL707,A,south,Jay St - MetroTech,"A41N, A41S",A41S
+482,160,EL707,A,north,Jay St - MetroTech,"A41N, A41S",A41N
+483,578,EL707,C,north,Jay St - MetroTech,"A41N, A41S",A41N
+484,1205,EL707,F,south,Jay St - MetroTech,"A41N, A41S",A41S
+485,786,EL708,C,south,Jay St - MetroTech,"A41N, A41S",A41S
+486,577,EL708,C,north,Jay St - MetroTech,"A41N, A41S",A41N
+487,995,EL708,F,north,Jay St - MetroTech,"A41N, A41S",A41N
+488,1204,EL708,F,south,Jay St - MetroTech,"A41N, A41S",A41S
+489,1413,EL708,R,north,Jay St - MetroTech,"R29N, R29S",R29N
+490,159,EL708,A,north,Jay St - MetroTech,"A41N, A41S",A41N
+491,368,EL708,A,south,Jay St - MetroTech,"A41N, A41S",A41S
+492,1622,EL708,R,south,Jay St - MetroTech,"R29N, R29S",R29S
+493,1415,EL709,R,north,Jay St - MetroTech,"R29N, R29S",R29N
+494,370,EL709,A,south,Jay St - MetroTech,"A41N, A41S",A41S
+495,1624,EL709,R,south,Jay St - MetroTech,"R29N, R29S",R29S
+496,1206,EL709,F,south,Jay St - MetroTech,"A41N, A41S",A41S
+497,579,EL709,C,north,Jay St - MetroTech,"A41N, A41S",A41N
+498,997,EL709,F,north,Jay St - MetroTech,"A41N, A41S",A41N
+499,161,EL709,A,north,Jay St - MetroTech,"A41N, A41S",A41N
+500,788,EL709,C,south,Jay St - MetroTech,"A41N, A41S",A41S
+501,93,EL711,4,south,Bowling Green,"420N, 420S",420S
+502,302,EL711,5,south,Bowling Green,"420N, 420S",420S
+503,206,EL712,1,north,WTC Cortlandt St,"138N, 138S",138N
+504,207,EL713,1,south,WTC Cortlandt St,"138N, 138S",138S
+505,144,EL716,4,north,Fulton St,"418N, 418S",418N
+506,353,EL716,5,north,Fulton St,"418N, 418S",418N
+507,348,EL717X,5,north,Fulton St,"418N, 418S",418N
+508,139,EL717X,4,north,Fulton St,"418N, 418S",418N
+509,347,EL718X,5,north,Fulton St,"418N, 418S",418N
+510,138,EL718X,4,north,Fulton St,"418N, 418S",418N
+511,349,EL719,A,south,Fulton St,"A38N, A38S",A38S
+512,767,EL719,C,south,Fulton St,"A38N, A38S",A38S
+513,140,EL719,A,north,Fulton St,"A38N, A38S",A38N
+514,558,EL719,C,north,Fulton St,"A38N, A38S",A38N
+515,981,EL720,C,north,Fulton St,"A38N, A38S",A38N
+516,772,EL720,A,south,Fulton St,"A38N, A38S",A38S
+517,354,EL720,J,north,Fulton St,"M22N, M22S",M22N
+518,563,EL720,A,north,Fulton St,"A38N, A38S",A38N
+519,145,EL720,Z,north,Fulton St,"M22N, M22S",M22N
+520,1190,EL720,C,south,Fulton St,"A38N, A38S",A38S
+521,768,EL721,C,south,Fulton St,"A38N, A38S",A38S
+522,350,EL721,A,south,Fulton St,"A38N, A38S",A38S
+523,559,EL721,C,north,Fulton St,"A38N, A38S",A38N
+524,141,EL721,A,north,Fulton St,"A38N, A38S",A38N
+525,114,EL726X,R,south,Cortlandt St,"R25N, R25S",R25S
+526,323,EL726X,W,south,Cortlandt St,"R25N, R25S",R25S
+527,115,EL727X,R,north,Cortlandt St,"R25N, R25S",R25N
+528,324,EL727X,W,north,Cortlandt St,"R25N, R25S",R25N
+529,137,EL728X,4,south,Fulton St,"418N, 418S",418S
+530,346,EL728X,5,south,Fulton St,"418N, 418S",418S
+531,770,EL729X,5,south,Fulton St,"418N, 418S",418S
+532,352,EL729X,4,south,Fulton St,"418N, 418S",418S
+533,561,EL729X,5,north,Fulton St,"418N, 418S",418N
+534,143,EL729X,4,north,Fulton St,"418N, 418S",418N
+535,405,EL731,1,south,South Ferry,"142N, 142S",142S
+536,196,EL731,1,north,South Ferry,"142N, 142S",142N
+537,769,EL732,2,south,Fulton St,"229N, 229S",229S
+538,142,EL732,3,north,Fulton St,"229N, 229S",229N
+539,560,EL732,2,north,Fulton St,"229N, 229S",229N
+540,351,EL732,3,south,Fulton St,"229N, 229S",229S
+541,208,EL736,1,south,WTC Cortlandt St,"138N, 138S",138S
+542,289,EL737X,2,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+543,80,EL737X,3,manhattan,Atlantic Av-Barclays Ctr,"235N, 235S",NULL
+544,182,EL738,N,north,New Utrecht,"N04N, N04S",N04N
+545,183,EL739,N,south,New Utrecht,"N04N, N04S",N04S
+546,180,EL740,D,north,New Utrecht,,NULL
+547,181,EL741,D,south,New Utrecht,,NULL
+548,104,EL742,J,north,Chambers St,"M21N, M21S",M21N
+549,313,EL742,Z,north,Chambers St,"M21N, M21S",M21N
+550,314,EL743,Z,south,Chambers St,"M21N, M21S",M21S
+551,105,EL743,J,south,Chambers St,"M21N, M21S",M21S
+552,72,EL753,N,north,8 Av,"N02N, N02S",N02N
+553,376,EL760,Q,manhattan,Kings Highway,"D35N, D35S, N08N",NULL
+554,167,EL760,B,manhattan,Kings Highway,"D35N, D35S",NULL
+555,375,EL761,H,brighton beach/coney island,Kings Highway,,NULL
+556,166,EL761,C,brighton beach/coney island,Kings Highway,,NULL
