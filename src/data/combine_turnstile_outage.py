@@ -16,7 +16,8 @@ def generate_hourly_outage(outages: pd.DataFrame) -> pd.DataFrame:
     Create hourly outage percentage data for each outage in the input
     '''
     print("Generate hourly outgage...")
-    outages['Outage start'] = pd.to_datetime(outages['Date'], format='%Y-%m-%d %H:%M:%S')
+    outages['Outage start'] = pd.to_datetime(np.where(outages.planned_outage == True, outages['planned_start_time'], \
+        outages['Date']), format='%Y-%m-%d %H:%M:%S')
     outages['Outage end'] = pd.to_datetime(outages['next_alert_time'], format='%Y-%m-%d %H:%M:%S')
     results = []
     for i, row in outages.iterrows():
