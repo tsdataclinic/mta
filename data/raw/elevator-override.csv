@@ -1,0 +1,9 @@
+station_name,equipment_id,from,to,platform_id
+Howard Beach,EL491X,Street,Mezzanine,
+Howard Beach,EL490X,Street,Mezzanine,
+Howard Beach,EL495X,Mezzanine,Platform,A-north
+Howard Beach,EL494X,Mezzanine,Platform,A-north
+Howard Beach,EL493X,Mezzanine,Platform,A-south
+Howard Beach,EL492X,Mezzanine,Platform,A-far rockaway
+World Trade Center,EL326,Street,Platform,E-north
+World Trade Center,EL23X,Street,Platform,E-north

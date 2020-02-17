@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key attr.name="label" attr.type="string" for="node" id="d1"/>
-<key attr.name="node_type" attr.type="string" for="node" id="d0"/>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="node" attr.name="label" attr.type="string"/>
+<key id="d0" for="node" attr.name="node_type" attr.type="string"/>
 <graph edgedefault="undirected"><node id="EL125">
   <data key="d0">Elevator</data>
   <data key="d1">EL125</data>
@@ -77,7 +77,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL222</data>
 </node>
-<node id="Platform-14 St - 8 Av-A-south/C-south/E-south">
+<node id="Platform-14 St - 8 Av-E-south/A-south/C-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -85,7 +85,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL223</data>
 </node>
-<node id="Platform-14 St - 8 Av-A-north/C-north/E-north">
+<node id="Platform-14 St - 8 Av-E-north/A-north/C-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -105,7 +105,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL220</data>
 </node>
-<node id="Platform-14 St - Union Sq-N-south/Q-south/R-south/W-south">
+<node id="Platform-14 St - Union Sq-W-south/R-south/Q-south/N-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -121,7 +121,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL219</data>
 </node>
-<node id="Platform-14 St - Union Sq-W-north/Q-north/R-north/N-north">
+<node id="Platform-14 St - Union Sq-N-north/R-north/Q-north/W-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -201,35 +201,11 @@
   <data key="d0">Mezzanine</data>
   <data key="d1">Mezzanine</data>
 </node>
-<node id="EL112">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL112</data>
-</node>
-<node id="Lower Mezzanine-168 St">
-  <data key="d0">Lower Mezzanine</data>
-  <data key="d1">Lower Mezzanine</data>
-</node>
-<node id="Upper Mezzanine-168 St">
-  <data key="d0">Upper Mezzanine</data>
-  <data key="d1">Upper Mezzanine</data>
-</node>
-<node id="EL111">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL111</data>
-</node>
-<node id="EL113">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL113</data>
-</node>
-<node id="EL114">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL114</data>
-</node>
 <node id="EL141">
   <data key="d0">Elevator</data>
   <data key="d1">EL141</data>
 </node>
-<node id="Platform-168 St-C-south/A-south">
+<node id="Platform-168 St-A-south/C-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -237,7 +213,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL140</data>
 </node>
-<node id="Platform-168 St-A-north/C-north">
+<node id="Platform-168 St-C-north/A-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -308,22 +284,6 @@
 <node id="EL108">
   <data key="d0">Elevator</data>
   <data key="d1">EL108</data>
-</node>
-<node id="EL118">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL118</data>
-</node>
-<node id="Street-181 St">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
-</node>
-<node id="EL117">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL117</data>
-</node>
-<node id="EL119">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL119</data>
 </node>
 <node id="EL120">
   <data key="d0">Elevator</data>
@@ -525,7 +485,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL209</data>
 </node>
-<node id="Platform-34 St - Herald Sq-M-south/B-south/F-south/D-south">
+<node id="Platform-34 St - Herald Sq-D-south/M-south/F-south/B-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -533,7 +493,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL211</data>
 </node>
-<node id="Platform-34 St - Herald Sq-W-south/Q-south/R-south/N-south">
+<node id="Platform-34 St - Herald Sq-N-south/R-south/Q-south/W-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -541,7 +501,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL210</data>
 </node>
-<node id="Platform-34 St - Herald Sq-D-north/M-north/F-north/B-north">
+<node id="Platform-34 St - Herald Sq-B-north/D-north/F-north/M-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -549,7 +509,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL212</data>
 </node>
-<node id="Platform-34 St - Herald Sq-Q-north/W-north/R-north/N-north">
+<node id="Platform-34 St - Herald Sq-R-north/N-north/Q-north/W-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -597,7 +557,7 @@
   <data key="d0">Street</data>
   <data key="d1">Street</data>
 </node>
-<node id="Platform-34 St - Penn-C-north/E-north">
+<node id="Platform-34 St - Penn-E-north/C-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -649,7 +609,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL226</data>
 </node>
-<node id="Platform-34 St - Penn-E-north/C-north">
+<node id="Platform-34 St - Penn-C-north/E-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -673,31 +633,15 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL294X</data>
 </node>
-<node id="EL204">
+<node id="EL205">
   <data key="d0">Elevator</data>
-  <data key="d1">EL204</data>
-</node>
-<node id="Street-42 St - Grand Central">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
+  <data key="d1">EL205</data>
 </node>
 <node id="Mezzanine-42 St - Grand Central">
   <data key="d0">Mezzanine</data>
   <data key="d1">Mezzanine</data>
 </node>
-<node id="EL244">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL244</data>
-</node>
-<node id="Platform-42 St - Grand Central-7-north/7-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL205">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL205</data>
-</node>
-<node id="Platform-42 St - Grand Central-6-south/5-south/4-south">
+<node id="Platform-42 St - Grand Central-4-south/6-south/5-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -705,13 +649,17 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL206</data>
 </node>
-<node id="Platform-42 St - Grand Central-4-north/5-north/6-north">
+<node id="Platform-42 St - Grand Central-5-north/6-north/4-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
 <node id="EL296">
   <data key="d0">Elevator</data>
   <data key="d1">EL296</data>
+</node>
+<node id="Street-42 St - Grand Central">
+  <data key="d0">Street</data>
+  <data key="d1">Street</data>
 </node>
 <node id="EL291X">
   <data key="d0">Elevator</data>
@@ -829,37 +777,17 @@
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
-<node id="EL283">
+<node id="EL281">
   <data key="d0">Elevator</data>
-  <data key="d1">EL283</data>
+  <data key="d1">EL281</data>
 </node>
 <node id="Mezzanine-57 St - 7 Av">
   <data key="d0">Mezzanine</data>
   <data key="d1">Mezzanine</data>
 </node>
-<node id="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL282">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL282</data>
-</node>
-<node id="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL281">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL281</data>
-</node>
 <node id="Street-57 St - 7 Av">
   <data key="d0">Street</data>
   <data key="d1">Street</data>
-</node>
-<node id="EL604">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL604</data>
 </node>
 <node id="EL276X">
   <data key="d0">Elevator</data>
@@ -885,7 +813,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL277</data>
 </node>
-<node id="Platform-59 St - Columbus Cir-A-south/1-south/C-south/B-south/D-south">
+<node id="Platform-59 St - Columbus Cir-C-south/1-south/B-south/A-south/D-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -893,7 +821,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL278</data>
 </node>
-<node id="Platform-59 St - Columbus Cir-D-north/A-north/B-north/C-north">
+<node id="Platform-59 St - Columbus Cir-D-north/C-north/A-north/B-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -901,7 +829,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL279</data>
 </node>
-<node id="Platform-59 St - Columbus Cir-A-north/1-north/C-north/B-north/D-north">
+<node id="Platform-59 St - Columbus Cir-C-north/1-north/B-north/A-north/D-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -964,34 +892,6 @@
 <node id="Platform-66 St - Lincoln Center-1-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
-</node>
-<node id="EL285">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL285</data>
-</node>
-<node id="Mezzanine-68 St / Hunter College">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-</node>
-<node id="Platform-68 St / Hunter College-6-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL286">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL286</data>
-</node>
-<node id="Platform-68 St / Hunter College-6-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL284">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL284</data>
-</node>
-<node id="Street-68 St / Hunter College">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
 </node>
 <node id="EL240">
   <data key="d0">Elevator</data>
@@ -1096,18 +996,6 @@
 <node id="Platform-86 St-6-north/4-north/5-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
-</node>
-<node id="EL275">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL275</data>
-</node>
-<node id="Unknown-86 St">
-  <data key="d0">Unknown</data>
-  <data key="d1">Unknown</data>
-</node>
-<node id="EL274">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL274</data>
 </node>
 <node id="EL250">
   <data key="d0">Elevator</data>
@@ -1221,7 +1109,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL303</data>
 </node>
-<node id="Platform-Atlantic Av-Barclays Ctr-R-manhattan/N-manhattan/D-manhattan">
+<node id="Platform-Atlantic Av-Barclays Ctr-D-manhattan/N-manhattan/R-manhattan">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1289,34 +1177,6 @@
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
-<node id="EL501">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL501</data>
-</node>
-<node id="Mezzanine-Bedford Park Blvd/Grand Concourse Line">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-</node>
-<node id="Platform-Bedford Park Blvd/Grand Concourse Line-D-north/B-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL502">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL502</data>
-</node>
-<node id="Platform-Bedford Park Blvd/Grand Concourse Line-B-south/D-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL500">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL500</data>
-</node>
-<node id="Street-Bedford Park Blvd/Grand Concourse Line">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
-</node>
 <node id="EL317">
   <data key="d0">Elevator</data>
   <data key="d1">EL317</data>
@@ -1377,7 +1237,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL330</data>
 </node>
-<node id="Platform-Broadway-Lafayette/Bleecker St-D-south/6-south/M-south/F-south/B-south">
+<node id="Platform-Broadway-Lafayette/Bleecker St-B-south/6-south/D-south/F-south/M-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1385,7 +1245,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL329</data>
 </node>
-<node id="Platform-Broadway-Lafayette/Bleecker St-F-north/D-north/M-north/6-south/B-north">
+<node id="Platform-Broadway-Lafayette/Bleecker St-F-north/B-north/D-north/6-south/M-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1405,7 +1265,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL331</data>
 </node>
-<node id="Platform-Broadway-Lafayette/Bleecker St-D-north/B-north/M-north/6-north/F-north">
+<node id="Platform-Broadway-Lafayette/Bleecker St-B-north/M-north/D-north/6-north/F-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1413,7 +1273,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL332</data>
 </node>
-<node id="Platform-Broadway-Lafayette/Bleecker St-B-south/6-north/F-south/D-south/M-south">
+<node id="Platform-Broadway-Lafayette/Bleecker St-M-south/6-north/F-south/B-south/D-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1474,22 +1334,6 @@
   <data key="d1">Mezzanine</data>
 </node>
 <node id="Platform-Chambers St-1-north/3-north/2-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL742">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL742</data>
-</node>
-<node id="Platform-Chambers St-J-north/Z-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL743">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL743</data>
-</node>
-<node id="Platform-Chambers St-Z-south/J-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1617,7 +1461,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL16X</data>
 </node>
-<node id="Platform-Cortlandt St-W-south/R-south">
+<node id="Platform-Cortlandt St-R-south/W-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1629,7 +1473,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL727X</data>
 </node>
-<node id="Platform-Cortlandt St-W-north/R-north">
+<node id="Platform-Cortlandt St-R-north/W-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1977,7 +1821,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL719</data>
 </node>
-<node id="Platform-Fulton St-C-south/A-south/C-north/A-north">
+<node id="Platform-Fulton St-A-south/C-south/A-north/C-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -1985,7 +1829,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL721</data>
 </node>
-<node id="Platform-Fulton St-A-south/C-south/A-north/C-north">
+<node id="Platform-Fulton St-C-south/A-south/C-north/A-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2021,7 +1865,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL720</data>
 </node>
-<node id="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south">
+<node id="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2054,54 +1898,6 @@
   <data key="d1">EL182</data>
 </node>
 <node id="Platform-Gun Hill Rd-2-north/5-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL491X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL491X</data>
-</node>
-<node id="Street-Howard Beach">
-  <data key="d0">Street</data>
-  <data key="d1">Howard Beach</data>
-</node>
-<node id="Mezzanine-Howard Beach">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-</node>
-<node id="EL490X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL490X</data>
-</node>
-<node id="EL495X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL495X</data>
-</node>
-<node id="Platform-Howard Beach-A-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="Unknown-Howard Beach">
-  <data key="d0">Unknown</data>
-  <data key="d1">Unknown</data>
-</node>
-<node id="EL494X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL494X</data>
-</node>
-<node id="EL493X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL493X</data>
-</node>
-<node id="Platform-Howard Beach-A-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-</node>
-<node id="EL492X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL492X</data>
-</node>
-<node id="Platform-Howard Beach-A-far rockaway">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2161,7 +1957,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL421</data>
 </node>
-<node id="Platform-Jackson Hts - Roosevelt Av-E-manhattan/R-manhattan/M-manhattan/F-manhattan">
+<node id="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2245,7 +2041,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL707</data>
 </node>
-<node id="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south">
+<node id="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2321,7 +2117,7 @@
   <data key="d0">Street</data>
   <data key="d1">Kings Highway</data>
 </node>
-<node id="Platform-Kings Highway-C-brighton beach/coney island/H-brighton beach/coney island">
+<node id="Platform-Kings Highway-H-brighton beach/coney island/C-brighton beach/coney island">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2377,7 +2173,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL245</data>
 </node>
-<node id="Platform-Lexington Av / 53 St-M-north/E-south/M-south/E-north">
+<node id="Platform-Lexington Av / 53 St-E-north/M-south/E-south/M-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2741,7 +2537,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL229</data>
 </node>
-<node id="Platform-Times Sq - 42 St-W-south/N-south/Q-south/R-south">
+<node id="Platform-Times Sq - 42 St-N-south/W-south/R-south/Q-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2757,7 +2553,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL233</data>
 </node>
-<node id="Platform-Times Sq - 42 St-3-north/1-north/2-north">
+<node id="Platform-Times Sq - 42 St-1-north/3-north/2-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2765,7 +2561,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL230</data>
 </node>
-<node id="Platform-Times Sq - 42 St-N-north/Q-north/W-north/R-north">
+<node id="Platform-Times Sq - 42 St-W-north/R-north/N-north/Q-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2801,7 +2597,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL334</data>
 </node>
-<node id="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2809,7 +2605,7 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL335</data>
 </node>
-<node id="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
+<node id="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
   <data key="d0">Platform</data>
   <data key="d1">Platform</data>
 </node>
@@ -2824,22 +2620,6 @@
 <node id="Unknown-West 4 St - Washington Sq">
   <data key="d0">Unknown</data>
   <data key="d1">Unknown</data>
-</node>
-<node id="EL326">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL326</data>
-</node>
-<node id="Street-World Trade Center">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
-</node>
-<node id="Unknown-World Trade Center">
-  <data key="d0">Unknown</data>
-  <data key="d1">Unknown</data>
-</node>
-<node id="EL23X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL23X</data>
 </node>
 <node id="EL712">
   <data key="d0">Elevator</data>
@@ -2873,10 +2653,6 @@
   <data key="d0">Street</data>
   <data key="d1">Street</data>
 </node>
-<node id="EL736">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL736</data>
-</node>
 <node id="EL12X">
   <data key="d0">Elevator</data>
   <data key="d1">EL12X</data>
@@ -2884,6 +2660,66 @@
 <node id="EL11X">
   <data key="d0">Elevator</data>
   <data key="d1">EL11X</data>
+</node>
+<node id="EL491X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL491X</data>
+</node>
+<node id="Street-Howard Beach">
+  <data key="d0">Street</data>
+  <data key="d1">Howard Beach</data>
+</node>
+<node id="Mezzanine-Howard Beach">
+  <data key="d0">Mezzanine</data>
+  <data key="d1">Mezzanine</data>
+</node>
+<node id="EL490X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL490X</data>
+</node>
+<node id="EL495X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL495X</data>
+</node>
+<node id="Platform-Howard Beach-A-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+</node>
+<node id="EL494X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL494X</data>
+</node>
+<node id="EL493X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL493X</data>
+</node>
+<node id="Platform-Howard Beach-A-south">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+</node>
+<node id="EL492X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL492X</data>
+</node>
+<node id="Platform-Howard Beach-A-far rockaway">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+</node>
+<node id="EL326">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL326</data>
+</node>
+<node id="Street-World Trade Center">
+  <data key="d0">Street</data>
+  <data key="d1">World Trade Center</data>
+</node>
+<node id="Platform-World Trade Center-E-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+</node>
+<node id="EL23X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL23X</data>
 </node>
 <node id="Train-191 St-1-south-1-south/1-north">
   <data key="d0">Train</data>
@@ -3005,21 +2841,21 @@
   <data key="d0">Train</data>
   <data key="d1">2-wakefield 241 st</data>
 </node>
-<node id="Train-168 St-A-north-A-north/C-north">
-  <data key="d0">Train</data>
-  <data key="d1">A-north</data>
-</node>
-<node id="Train-168 St-C-north-A-north/C-north">
+<node id="Train-168 St-C-north-C-north/A-north">
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
 </node>
-<node id="Train-168 St-C-south-C-south/A-south">
+<node id="Train-168 St-A-north-C-north/A-north">
   <data key="d0">Train</data>
-  <data key="d1">C-south</data>
+  <data key="d1">A-north</data>
 </node>
-<node id="Train-168 St-A-south-C-south/A-south">
+<node id="Train-168 St-A-south-A-south/C-south">
   <data key="d0">Train</data>
   <data key="d1">A-south</data>
+</node>
+<node id="Train-168 St-C-south-A-south/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">C-south</data>
 </node>
 <node id="Train-125 St-A-south-A-south/D-south/B-south/C-south">
   <data key="d0">Train</data>
@@ -3101,13 +2937,13 @@
   <data key="d0">Train</data>
   <data key="d1">5-south</data>
 </node>
-<node id="Train-Cortlandt St-W-south-W-south/R-south">
-  <data key="d0">Train</data>
-  <data key="d1">W-south</data>
-</node>
-<node id="Train-Cortlandt St-R-south-W-south/R-south">
+<node id="Train-Cortlandt St-R-south-R-south/W-south">
   <data key="d0">Train</data>
   <data key="d1">R-south</data>
+</node>
+<node id="Train-Cortlandt St-W-south-R-south/W-south">
+  <data key="d0">Train</data>
+  <data key="d1">W-south</data>
 </node>
 <node id="Train-Dyckman St-1-south-1-south">
   <data key="d0">Train</data>
@@ -3209,29 +3045,29 @@
   <data key="d0">Train</data>
   <data key="d1">6-south</data>
 </node>
-<node id="Train-42 St - Grand Central-6-south-6-south/5-south/4-south">
-  <data key="d0">Train</data>
-  <data key="d1">6-south</data>
-</node>
-<node id="Train-42 St - Grand Central-5-south-6-south/5-south/4-south">
-  <data key="d0">Train</data>
-  <data key="d1">5-south</data>
-</node>
-<node id="Train-42 St - Grand Central-4-south-6-south/5-south/4-south">
+<node id="Train-42 St - Grand Central-4-south-4-south/6-south/5-south">
   <data key="d0">Train</data>
   <data key="d1">4-south</data>
 </node>
-<node id="Train-42 St - Grand Central-4-north-4-north/5-north/6-north">
+<node id="Train-42 St - Grand Central-6-south-4-south/6-south/5-south">
   <data key="d0">Train</data>
-  <data key="d1">4-north</data>
+  <data key="d1">6-south</data>
 </node>
-<node id="Train-42 St - Grand Central-5-north-4-north/5-north/6-north">
+<node id="Train-42 St - Grand Central-5-south-4-south/6-south/5-south">
+  <data key="d0">Train</data>
+  <data key="d1">5-south</data>
+</node>
+<node id="Train-42 St - Grand Central-5-north-5-north/6-north/4-north">
   <data key="d0">Train</data>
   <data key="d1">5-north</data>
 </node>
-<node id="Train-42 St - Grand Central-6-north-4-north/5-north/6-north">
+<node id="Train-42 St - Grand Central-6-north-5-north/6-north/4-north">
   <data key="d0">Train</data>
   <data key="d1">6-north</data>
+</node>
+<node id="Train-42 St - Grand Central-4-north-5-north/6-north/4-north">
+  <data key="d0">Train</data>
+  <data key="d1">4-north</data>
 </node>
 <node id="Train-50 St-E-south-E-south/C-south">
   <data key="d0">Train</data>
@@ -3241,69 +3077,69 @@
   <data key="d0">Train</data>
   <data key="d1">C-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-M-south-M-south/B-south/F-south/D-south">
-  <data key="d0">Train</data>
-  <data key="d1">M-south</data>
-</node>
-<node id="Train-34 St - Herald Sq-B-south-M-south/B-south/F-south/D-south">
-  <data key="d0">Train</data>
-  <data key="d1">B-south</data>
-</node>
-<node id="Train-34 St - Herald Sq-F-south-M-south/B-south/F-south/D-south">
-  <data key="d0">Train</data>
-  <data key="d1">F-south</data>
-</node>
-<node id="Train-34 St - Herald Sq-D-south-M-south/B-south/F-south/D-south">
+<node id="Train-34 St - Herald Sq-D-south-D-south/M-south/F-south/B-south">
   <data key="d0">Train</data>
   <data key="d1">D-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-D-north-D-north/M-north/F-north/B-north">
+<node id="Train-34 St - Herald Sq-M-south-D-south/M-south/F-south/B-south">
   <data key="d0">Train</data>
-  <data key="d1">D-north</data>
+  <data key="d1">M-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-M-north-D-north/M-north/F-north/B-north">
+<node id="Train-34 St - Herald Sq-F-south-D-south/M-south/F-south/B-south">
   <data key="d0">Train</data>
-  <data key="d1">M-north</data>
+  <data key="d1">F-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-F-north-D-north/M-north/F-north/B-north">
+<node id="Train-34 St - Herald Sq-B-south-D-south/M-south/F-south/B-south">
   <data key="d0">Train</data>
-  <data key="d1">F-north</data>
+  <data key="d1">B-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-B-north-D-north/M-north/F-north/B-north">
+<node id="Train-34 St - Herald Sq-B-north-B-north/D-north/F-north/M-north">
   <data key="d0">Train</data>
   <data key="d1">B-north</data>
 </node>
-<node id="Train-34 St - Herald Sq-W-south-W-south/Q-south/R-south/N-south">
+<node id="Train-34 St - Herald Sq-D-north-B-north/D-north/F-north/M-north">
   <data key="d0">Train</data>
-  <data key="d1">W-south</data>
+  <data key="d1">D-north</data>
 </node>
-<node id="Train-34 St - Herald Sq-Q-south-W-south/Q-south/R-south/N-south">
+<node id="Train-34 St - Herald Sq-F-north-B-north/D-north/F-north/M-north">
   <data key="d0">Train</data>
-  <data key="d1">Q-south</data>
+  <data key="d1">F-north</data>
 </node>
-<node id="Train-34 St - Herald Sq-R-south-W-south/Q-south/R-south/N-south">
+<node id="Train-34 St - Herald Sq-M-north-B-north/D-north/F-north/M-north">
   <data key="d0">Train</data>
-  <data key="d1">R-south</data>
+  <data key="d1">M-north</data>
 </node>
-<node id="Train-34 St - Herald Sq-N-south-W-south/Q-south/R-south/N-south">
+<node id="Train-34 St - Herald Sq-N-south-N-south/R-south/Q-south/W-south">
   <data key="d0">Train</data>
   <data key="d1">N-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-Q-north-Q-north/W-north/R-north/N-north">
+<node id="Train-34 St - Herald Sq-R-south-N-south/R-south/Q-south/W-south">
   <data key="d0">Train</data>
-  <data key="d1">Q-north</data>
+  <data key="d1">R-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-W-north-Q-north/W-north/R-north/N-north">
+<node id="Train-34 St - Herald Sq-Q-south-N-south/R-south/Q-south/W-south">
   <data key="d0">Train</data>
-  <data key="d1">W-north</data>
+  <data key="d1">Q-south</data>
 </node>
-<node id="Train-34 St - Herald Sq-R-north-Q-north/W-north/R-north/N-north">
+<node id="Train-34 St - Herald Sq-W-south-N-south/R-south/Q-south/W-south">
+  <data key="d0">Train</data>
+  <data key="d1">W-south</data>
+</node>
+<node id="Train-34 St - Herald Sq-R-north-R-north/N-north/Q-north/W-north">
   <data key="d0">Train</data>
   <data key="d1">R-north</data>
 </node>
-<node id="Train-34 St - Herald Sq-N-north-Q-north/W-north/R-north/N-north">
+<node id="Train-34 St - Herald Sq-N-north-R-north/N-north/Q-north/W-north">
   <data key="d0">Train</data>
   <data key="d1">N-north</data>
+</node>
+<node id="Train-34 St - Herald Sq-Q-north-R-north/N-north/Q-north/W-north">
+  <data key="d0">Train</data>
+  <data key="d1">Q-north</data>
+</node>
+<node id="Train-34 St - Herald Sq-W-north-R-north/N-north/Q-north/W-north">
+  <data key="d0">Train</data>
+  <data key="d1">W-north</data>
 </node>
 <node id="Train-34 St - Penn-1-north-1-north">
   <data key="d0">Train</data>
@@ -3337,61 +3173,61 @@
   <data key="d0">Train</data>
   <data key="d1">L-south</data>
 </node>
-<node id="Train-14 St - Union Sq-W-north-W-north/Q-north/R-north/N-north">
-  <data key="d0">Train</data>
-  <data key="d1">W-north</data>
-</node>
-<node id="Train-14 St - Union Sq-Q-north-W-north/Q-north/R-north/N-north">
-  <data key="d0">Train</data>
-  <data key="d1">Q-north</data>
-</node>
-<node id="Train-14 St - Union Sq-R-north-W-north/Q-north/R-north/N-north">
-  <data key="d0">Train</data>
-  <data key="d1">R-north</data>
-</node>
-<node id="Train-14 St - Union Sq-N-north-W-north/Q-north/R-north/N-north">
+<node id="Train-14 St - Union Sq-N-north-N-north/R-north/Q-north/W-north">
   <data key="d0">Train</data>
   <data key="d1">N-north</data>
 </node>
-<node id="Train-14 St - Union Sq-N-south-N-south/Q-south/R-south/W-south">
+<node id="Train-14 St - Union Sq-R-north-N-north/R-north/Q-north/W-north">
   <data key="d0">Train</data>
-  <data key="d1">N-south</data>
+  <data key="d1">R-north</data>
 </node>
-<node id="Train-14 St - Union Sq-Q-south-N-south/Q-south/R-south/W-south">
+<node id="Train-14 St - Union Sq-Q-north-N-north/R-north/Q-north/W-north">
   <data key="d0">Train</data>
-  <data key="d1">Q-south</data>
+  <data key="d1">Q-north</data>
 </node>
-<node id="Train-14 St - Union Sq-R-south-N-south/Q-south/R-south/W-south">
+<node id="Train-14 St - Union Sq-W-north-N-north/R-north/Q-north/W-north">
   <data key="d0">Train</data>
-  <data key="d1">R-south</data>
+  <data key="d1">W-north</data>
 </node>
-<node id="Train-14 St - Union Sq-W-south-N-south/Q-south/R-south/W-south">
+<node id="Train-14 St - Union Sq-W-south-W-south/R-south/Q-south/N-south">
   <data key="d0">Train</data>
   <data key="d1">W-south</data>
 </node>
-<node id="Train-14 St - 8 Av-A-south-A-south/C-south/E-south">
+<node id="Train-14 St - Union Sq-R-south-W-south/R-south/Q-south/N-south">
   <data key="d0">Train</data>
-  <data key="d1">A-south</data>
+  <data key="d1">R-south</data>
 </node>
-<node id="Train-14 St - 8 Av-C-south-A-south/C-south/E-south">
+<node id="Train-14 St - Union Sq-Q-south-W-south/R-south/Q-south/N-south">
   <data key="d0">Train</data>
-  <data key="d1">C-south</data>
+  <data key="d1">Q-south</data>
 </node>
-<node id="Train-14 St - 8 Av-E-south-A-south/C-south/E-south">
+<node id="Train-14 St - Union Sq-N-south-W-south/R-south/Q-south/N-south">
+  <data key="d0">Train</data>
+  <data key="d1">N-south</data>
+</node>
+<node id="Train-14 St - 8 Av-E-south-E-south/A-south/C-south">
   <data key="d0">Train</data>
   <data key="d1">E-south</data>
 </node>
-<node id="Train-14 St - 8 Av-A-north-A-north/C-north/E-north">
+<node id="Train-14 St - 8 Av-A-south-E-south/A-south/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">A-south</data>
+</node>
+<node id="Train-14 St - 8 Av-C-south-E-south/A-south/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">C-south</data>
+</node>
+<node id="Train-14 St - 8 Av-E-north-E-north/A-north/C-north">
+  <data key="d0">Train</data>
+  <data key="d1">E-north</data>
+</node>
+<node id="Train-14 St - 8 Av-A-north-E-north/A-north/C-north">
   <data key="d0">Train</data>
   <data key="d1">A-north</data>
 </node>
-<node id="Train-14 St - 8 Av-C-north-A-north/C-north/E-north">
+<node id="Train-14 St - 8 Av-C-north-E-north/A-north/C-north">
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
-</node>
-<node id="Train-14 St - 8 Av-E-north-A-north/C-north/E-north">
-  <data key="d0">Train</data>
-  <data key="d1">E-north</data>
 </node>
 <node id="Train-8 Av - 14 St-L-north-L-north/L-south">
   <data key="d0">Train</data>
@@ -3401,14 +3237,6 @@
   <data key="d0">Train</data>
   <data key="d1">L-south</data>
 </node>
-<node id="Train-34 St - Penn-C-north-C-north/E-north">
-  <data key="d0">Train</data>
-  <data key="d1">C-north</data>
-</node>
-<node id="Train-34 St - Penn-E-north-C-north/E-north">
-  <data key="d0">Train</data>
-  <data key="d1">E-north</data>
-</node>
 <node id="Train-34 St - Penn-E-north-E-north/C-north">
   <data key="d0">Train</data>
   <data key="d1">E-north</data>
@@ -3416,6 +3244,14 @@
 <node id="Train-34 St - Penn-C-north-E-north/C-north">
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
+</node>
+<node id="Train-34 St - Penn-C-north-C-north/E-north">
+  <data key="d0">Train</data>
+  <data key="d1">C-north</data>
+</node>
+<node id="Train-34 St - Penn-E-north-C-north/E-north">
+  <data key="d0">Train</data>
+  <data key="d1">E-north</data>
 </node>
 <node id="Train-34 St - Penn-A-north-A-north/A-south">
   <data key="d0">Train</data>
@@ -3449,37 +3285,37 @@
   <data key="d0">Train</data>
   <data key="d1">A-north</data>
 </node>
-<node id="Train-Times Sq - 42 St-W-south-W-south/N-south/Q-south/R-south">
-  <data key="d0">Train</data>
-  <data key="d1">W-south</data>
-</node>
-<node id="Train-Times Sq - 42 St-N-south-W-south/N-south/Q-south/R-south">
+<node id="Train-Times Sq - 42 St-N-south-N-south/W-south/R-south/Q-south">
   <data key="d0">Train</data>
   <data key="d1">N-south</data>
 </node>
-<node id="Train-Times Sq - 42 St-Q-south-W-south/N-south/Q-south/R-south">
+<node id="Train-Times Sq - 42 St-W-south-N-south/W-south/R-south/Q-south">
   <data key="d0">Train</data>
-  <data key="d1">Q-south</data>
+  <data key="d1">W-south</data>
 </node>
-<node id="Train-Times Sq - 42 St-R-south-W-south/N-south/Q-south/R-south">
+<node id="Train-Times Sq - 42 St-R-south-N-south/W-south/R-south/Q-south">
   <data key="d0">Train</data>
   <data key="d1">R-south</data>
 </node>
-<node id="Train-Times Sq - 42 St-N-north-N-north/Q-north/W-north/R-north">
+<node id="Train-Times Sq - 42 St-Q-south-N-south/W-south/R-south/Q-south">
   <data key="d0">Train</data>
-  <data key="d1">N-north</data>
+  <data key="d1">Q-south</data>
 </node>
-<node id="Train-Times Sq - 42 St-Q-north-N-north/Q-north/W-north/R-north">
-  <data key="d0">Train</data>
-  <data key="d1">Q-north</data>
-</node>
-<node id="Train-Times Sq - 42 St-W-north-N-north/Q-north/W-north/R-north">
+<node id="Train-Times Sq - 42 St-W-north-W-north/R-north/N-north/Q-north">
   <data key="d0">Train</data>
   <data key="d1">W-north</data>
 </node>
-<node id="Train-Times Sq - 42 St-R-north-N-north/Q-north/W-north/R-north">
+<node id="Train-Times Sq - 42 St-R-north-W-north/R-north/N-north/Q-north">
   <data key="d0">Train</data>
   <data key="d1">R-north</data>
+</node>
+<node id="Train-Times Sq - 42 St-N-north-W-north/R-north/N-north/Q-north">
+  <data key="d0">Train</data>
+  <data key="d1">N-north</data>
+</node>
+<node id="Train-Times Sq - 42 St-Q-north-W-north/R-north/N-north/Q-north">
+  <data key="d0">Train</data>
+  <data key="d1">Q-north</data>
 </node>
 <node id="Train-Times Sq - 42 St-N-south-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south">
   <data key="d0">Train</data>
@@ -3553,15 +3389,15 @@
   <data key="d0">Train</data>
   <data key="d1">7-south</data>
 </node>
-<node id="Train-Times Sq - 42 St-3-north-3-north/1-north/2-north">
-  <data key="d0">Train</data>
-  <data key="d1">3-north</data>
-</node>
-<node id="Train-Times Sq - 42 St-1-north-3-north/1-north/2-north">
+<node id="Train-Times Sq - 42 St-1-north-1-north/3-north/2-north">
   <data key="d0">Train</data>
   <data key="d1">1-north</data>
 </node>
-<node id="Train-Times Sq - 42 St-2-north-3-north/1-north/2-north">
+<node id="Train-Times Sq - 42 St-3-north-1-north/3-north/2-north">
+  <data key="d0">Train</data>
+  <data key="d1">3-north</data>
+</node>
+<node id="Train-Times Sq - 42 St-2-north-1-north/3-north/2-north">
   <data key="d0">Train</data>
   <data key="d1">2-north</data>
 </node>
@@ -3633,25 +3469,26 @@
   <data key="d0">Train</data>
   <data key="d1">7-north</data>
 </node>
+<node id="Platform-42 St - Grand Central-7-north/7-south"/>
 <node id="Train-42 St - Grand Central-7-south-7-north/7-south">
   <data key="d0">Train</data>
   <data key="d1">7-south</data>
 </node>
-<node id="Train-Lexington Av / 53 St-M-north-M-north/E-south/M-south/E-north">
+<node id="Train-Lexington Av / 53 St-E-north-E-north/M-south/E-south/M-north">
   <data key="d0">Train</data>
-  <data key="d1">M-north</data>
+  <data key="d1">E-north</data>
 </node>
-<node id="Train-Lexington Av / 53 St-E-south-M-north/E-south/M-south/E-north">
-  <data key="d0">Train</data>
-  <data key="d1">E-south</data>
-</node>
-<node id="Train-Lexington Av / 53 St-M-south-M-north/E-south/M-south/E-north">
+<node id="Train-Lexington Av / 53 St-M-south-E-north/M-south/E-south/M-north">
   <data key="d0">Train</data>
   <data key="d1">M-south</data>
 </node>
-<node id="Train-Lexington Av / 53 St-E-north-M-north/E-south/M-south/E-north">
+<node id="Train-Lexington Av / 53 St-E-south-E-north/M-south/E-south/M-north">
   <data key="d0">Train</data>
-  <data key="d1">E-north</data>
+  <data key="d1">E-south</data>
+</node>
+<node id="Train-Lexington Av / 53 St-M-north-E-north/M-south/E-south/M-north">
+  <data key="d0">Train</data>
+  <data key="d1">M-north</data>
 </node>
 <node id="Train-96 St / 2 Av-Q-south-Q-south">
   <data key="d0">Train</data>
@@ -3685,59 +3522,59 @@
   <data key="d0">Train</data>
   <data key="d1">5-north</data>
 </node>
-<node id="Train-59 St - Columbus Cir-A-south-A-south/1-south/C-south/B-south/D-south">
-  <data key="d0">Train</data>
-  <data key="d1">A-south</data>
-</node>
-<node id="Train-59 St - Columbus Cir-1-south-A-south/1-south/C-south/B-south/D-south">
-  <data key="d0">Train</data>
-  <data key="d1">1-south</data>
-</node>
-<node id="Train-59 St - Columbus Cir-C-south-A-south/1-south/C-south/B-south/D-south">
+<node id="Train-59 St - Columbus Cir-C-south-C-south/1-south/B-south/A-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">C-south</data>
 </node>
-<node id="Train-59 St - Columbus Cir-B-south-A-south/1-south/C-south/B-south/D-south">
+<node id="Train-59 St - Columbus Cir-1-south-C-south/1-south/B-south/A-south/D-south">
+  <data key="d0">Train</data>
+  <data key="d1">1-south</data>
+</node>
+<node id="Train-59 St - Columbus Cir-B-south-C-south/1-south/B-south/A-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">B-south</data>
 </node>
-<node id="Train-59 St - Columbus Cir-D-south-A-south/1-south/C-south/B-south/D-south">
+<node id="Train-59 St - Columbus Cir-A-south-C-south/1-south/B-south/A-south/D-south">
+  <data key="d0">Train</data>
+  <data key="d1">A-south</data>
+</node>
+<node id="Train-59 St - Columbus Cir-D-south-C-south/1-south/B-south/A-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">D-south</data>
 </node>
-<node id="Train-59 St - Columbus Cir-D-north-D-north/A-north/B-north/C-north">
+<node id="Train-59 St - Columbus Cir-D-north-D-north/C-north/A-north/B-north">
   <data key="d0">Train</data>
   <data key="d1">D-north</data>
 </node>
-<node id="Train-59 St - Columbus Cir-A-north-D-north/A-north/B-north/C-north">
-  <data key="d0">Train</data>
-  <data key="d1">A-north</data>
-</node>
-<node id="Train-59 St - Columbus Cir-B-north-D-north/A-north/B-north/C-north">
-  <data key="d0">Train</data>
-  <data key="d1">B-north</data>
-</node>
-<node id="Train-59 St - Columbus Cir-C-north-D-north/A-north/B-north/C-north">
+<node id="Train-59 St - Columbus Cir-C-north-D-north/C-north/A-north/B-north">
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
 </node>
-<node id="Train-59 St - Columbus Cir-A-north-A-north/1-north/C-north/B-north/D-north">
+<node id="Train-59 St - Columbus Cir-A-north-D-north/C-north/A-north/B-north">
   <data key="d0">Train</data>
   <data key="d1">A-north</data>
 </node>
-<node id="Train-59 St - Columbus Cir-1-north-A-north/1-north/C-north/B-north/D-north">
+<node id="Train-59 St - Columbus Cir-B-north-D-north/C-north/A-north/B-north">
+  <data key="d0">Train</data>
+  <data key="d1">B-north</data>
+</node>
+<node id="Train-59 St - Columbus Cir-C-north-C-north/1-north/B-north/A-north/D-north">
+  <data key="d0">Train</data>
+  <data key="d1">C-north</data>
+</node>
+<node id="Train-59 St - Columbus Cir-1-north-C-north/1-north/B-north/A-north/D-north">
   <data key="d0">Train</data>
   <data key="d1">1-north</data>
 </node>
-<node id="Train-59 St - Columbus Cir-C-north-A-north/1-north/C-north/B-north/D-north">
-  <data key="d0">Train</data>
-  <data key="d1">C-north</data>
-</node>
-<node id="Train-59 St - Columbus Cir-B-north-A-north/1-north/C-north/B-north/D-north">
+<node id="Train-59 St - Columbus Cir-B-north-C-north/1-north/B-north/A-north/D-north">
   <data key="d0">Train</data>
   <data key="d1">B-north</data>
 </node>
-<node id="Train-59 St - Columbus Cir-D-north-A-north/1-north/C-north/B-north/D-north">
+<node id="Train-59 St - Columbus Cir-A-north-C-north/1-north/B-north/A-north/D-north">
+  <data key="d0">Train</data>
+  <data key="d1">A-north</data>
+</node>
+<node id="Train-59 St - Columbus Cir-D-north-C-north/1-north/B-north/A-north/D-north">
   <data key="d0">Train</data>
   <data key="d1">D-north</data>
 </node>
@@ -3753,6 +3590,7 @@
   <data key="d0">Train</data>
   <data key="d1">R-south</data>
 </node>
+<node id="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south"/>
 <node id="Train-57 St - 7 Av-N-south-R-south/N-south/Q-south/W-south">
   <data key="d0">Train</data>
   <data key="d1">N-south</data>
@@ -3769,6 +3607,7 @@
   <data key="d0">Train</data>
   <data key="d1">R-north</data>
 </node>
+<node id="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north"/>
 <node id="Train-57 St - 7 Av-W-north-R-north/W-north/Q-north/N-north">
   <data key="d0">Train</data>
   <data key="d1">W-north</data>
@@ -3785,10 +3624,12 @@
   <data key="d0">Train</data>
   <data key="d1">6-north</data>
 </node>
+<node id="Platform-68 St / Hunter College-6-north"/>
 <node id="Train-68 St / Hunter College-6-south-6-south">
   <data key="d0">Train</data>
   <data key="d1">6-south</data>
 </node>
+<node id="Platform-68 St / Hunter College-6-south"/>
 <node id="Train-42 St - Port Authority Bus Terminal-C-north-C-north/A-south/A-north/C-south/E-south/E-north">
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
@@ -3865,17 +3706,17 @@
   <data key="d0">Train</data>
   <data key="d1">D-bay ridge</data>
 </node>
-<node id="Train-Atlantic Av-Barclays Ctr-R-manhattan-R-manhattan/N-manhattan/D-manhattan">
+<node id="Train-Atlantic Av-Barclays Ctr-D-manhattan-D-manhattan/N-manhattan/R-manhattan">
   <data key="d0">Train</data>
-  <data key="d1">R-manhattan</data>
+  <data key="d1">D-manhattan</data>
 </node>
-<node id="Train-Atlantic Av-Barclays Ctr-N-manhattan-R-manhattan/N-manhattan/D-manhattan">
+<node id="Train-Atlantic Av-Barclays Ctr-N-manhattan-D-manhattan/N-manhattan/R-manhattan">
   <data key="d0">Train</data>
   <data key="d1">N-manhattan</data>
 </node>
-<node id="Train-Atlantic Av-Barclays Ctr-D-manhattan-R-manhattan/N-manhattan/D-manhattan">
+<node id="Train-Atlantic Av-Barclays Ctr-R-manhattan-D-manhattan/N-manhattan/R-manhattan">
   <data key="d0">Train</data>
-  <data key="d1">D-manhattan</data>
+  <data key="d1">R-manhattan</data>
 </node>
 <node id="Train-Atlantic Av-Barclays Ctr-4-north-4-north/5-north/4-south/5-south">
   <data key="d0">Train</data>
@@ -4009,141 +3850,141 @@
   <data key="d0">Train</data>
   <data key="d1">6-south</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-F-north-F-north/D-north/M-north/6-south/B-north">
+<node id="Train-Broadway-Lafayette/Bleecker St-F-north-F-north/B-north/D-north/6-south/M-north">
   <data key="d0">Train</data>
   <data key="d1">F-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-D-north-F-north/D-north/M-north/6-south/B-north">
-  <data key="d0">Train</data>
-  <data key="d1">D-north</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-M-north-F-north/D-north/M-north/6-south/B-north">
-  <data key="d0">Train</data>
-  <data key="d1">M-north</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-6-south-F-north/D-north/M-north/6-south/B-north">
-  <data key="d0">Train</data>
-  <data key="d1">6-south</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-B-north-F-north/D-north/M-north/6-south/B-north">
+<node id="Train-Broadway-Lafayette/Bleecker St-B-north-F-north/B-north/D-north/6-south/M-north">
   <data key="d0">Train</data>
   <data key="d1">B-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-D-south-D-south/6-south/M-south/F-south/B-south">
+<node id="Train-Broadway-Lafayette/Bleecker St-D-north-F-north/B-north/D-north/6-south/M-north">
   <data key="d0">Train</data>
-  <data key="d1">D-south</data>
+  <data key="d1">D-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-6-south-D-south/6-south/M-south/F-south/B-south">
+<node id="Train-Broadway-Lafayette/Bleecker St-6-south-F-north/B-north/D-north/6-south/M-north">
   <data key="d0">Train</data>
   <data key="d1">6-south</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-M-south-D-south/6-south/M-south/F-south/B-south">
+<node id="Train-Broadway-Lafayette/Bleecker St-M-north-F-north/B-north/D-north/6-south/M-north">
   <data key="d0">Train</data>
-  <data key="d1">M-south</data>
+  <data key="d1">M-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-F-south-D-south/6-south/M-south/F-south/B-south">
-  <data key="d0">Train</data>
-  <data key="d1">F-south</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-B-south-D-south/6-south/M-south/F-south/B-south">
+<node id="Train-Broadway-Lafayette/Bleecker St-B-south-B-south/6-south/D-south/F-south/M-south">
   <data key="d0">Train</data>
   <data key="d1">B-south</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-D-north-D-north/B-north/M-north/6-north/F-north">
+<node id="Train-Broadway-Lafayette/Bleecker St-6-south-B-south/6-south/D-south/F-south/M-south">
   <data key="d0">Train</data>
-  <data key="d1">D-north</data>
+  <data key="d1">6-south</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-B-north-D-north/B-north/M-north/6-north/F-north">
+<node id="Train-Broadway-Lafayette/Bleecker St-D-south-B-south/6-south/D-south/F-south/M-south">
+  <data key="d0">Train</data>
+  <data key="d1">D-south</data>
+</node>
+<node id="Train-Broadway-Lafayette/Bleecker St-F-south-B-south/6-south/D-south/F-south/M-south">
+  <data key="d0">Train</data>
+  <data key="d1">F-south</data>
+</node>
+<node id="Train-Broadway-Lafayette/Bleecker St-M-south-B-south/6-south/D-south/F-south/M-south">
+  <data key="d0">Train</data>
+  <data key="d1">M-south</data>
+</node>
+<node id="Train-Broadway-Lafayette/Bleecker St-B-north-B-north/M-north/D-north/6-north/F-north">
   <data key="d0">Train</data>
   <data key="d1">B-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-M-north-D-north/B-north/M-north/6-north/F-north">
+<node id="Train-Broadway-Lafayette/Bleecker St-M-north-B-north/M-north/D-north/6-north/F-north">
   <data key="d0">Train</data>
   <data key="d1">M-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-6-north-D-north/B-north/M-north/6-north/F-north">
+<node id="Train-Broadway-Lafayette/Bleecker St-D-north-B-north/M-north/D-north/6-north/F-north">
+  <data key="d0">Train</data>
+  <data key="d1">D-north</data>
+</node>
+<node id="Train-Broadway-Lafayette/Bleecker St-6-north-B-north/M-north/D-north/6-north/F-north">
   <data key="d0">Train</data>
   <data key="d1">6-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-F-north-D-north/B-north/M-north/6-north/F-north">
+<node id="Train-Broadway-Lafayette/Bleecker St-F-north-B-north/M-north/D-north/6-north/F-north">
   <data key="d0">Train</data>
   <data key="d1">F-north</data>
 </node>
-<node id="Train-Broadway-Lafayette/Bleecker St-B-south-B-south/6-north/F-south/D-south/M-south">
-  <data key="d0">Train</data>
-  <data key="d1">B-south</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-6-north-B-south/6-north/F-south/D-south/M-south">
-  <data key="d0">Train</data>
-  <data key="d1">6-north</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-F-south-B-south/6-north/F-south/D-south/M-south">
-  <data key="d0">Train</data>
-  <data key="d1">F-south</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-D-south-B-south/6-north/F-south/D-south/M-south">
-  <data key="d0">Train</data>
-  <data key="d1">D-south</data>
-</node>
-<node id="Train-Broadway-Lafayette/Bleecker St-M-south-B-south/6-north/F-south/D-south/M-south">
+<node id="Train-Broadway-Lafayette/Bleecker St-M-south-M-south/6-north/F-south/B-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">M-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-F-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Train-Broadway-Lafayette/Bleecker St-6-north-M-south/6-north/F-south/B-south/D-south">
+  <data key="d0">Train</data>
+  <data key="d1">6-north</data>
+</node>
+<node id="Train-Broadway-Lafayette/Bleecker St-F-south-M-south/6-north/F-south/B-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">F-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-D-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Train-Broadway-Lafayette/Bleecker St-B-south-M-south/6-north/F-south/B-south/D-south">
+  <data key="d0">Train</data>
+  <data key="d1">B-south</data>
+</node>
+<node id="Train-Broadway-Lafayette/Bleecker St-D-south-M-south/6-north/F-south/B-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">D-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-E-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Train-West 4 St - Washington Sq-F-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
   <data key="d0">Train</data>
-  <data key="d1">E-south</data>
+  <data key="d1">F-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-C-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Train-West 4 St - Washington Sq-B-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
+  <data key="d0">Train</data>
+  <data key="d1">B-south</data>
+</node>
+<node id="Train-West 4 St - Washington Sq-C-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">C-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-A-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Train-West 4 St - Washington Sq-A-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">A-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-B-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Train-West 4 St - Washington Sq-E-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
   <data key="d0">Train</data>
-  <data key="d1">B-south</data>
+  <data key="d1">E-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-M-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south">
+<node id="Train-West 4 St - Washington Sq-M-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">M-south</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-F-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
+<node id="Train-West 4 St - Washington Sq-D-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south">
+  <data key="d0">Train</data>
+  <data key="d1">D-south</data>
+</node>
+<node id="Train-West 4 St - Washington Sq-F-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
   <data key="d0">Train</data>
   <data key="d1">F-north</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-D-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
-  <data key="d0">Train</data>
-  <data key="d1">D-north</data>
-</node>
-<node id="Train-West 4 St - Washington Sq-M-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
-  <data key="d0">Train</data>
-  <data key="d1">M-north</data>
-</node>
-<node id="Train-West 4 St - Washington Sq-B-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
+<node id="Train-West 4 St - Washington Sq-B-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
   <data key="d0">Train</data>
   <data key="d1">B-north</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-A-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
+<node id="Train-West 4 St - Washington Sq-D-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
   <data key="d0">Train</data>
-  <data key="d1">A-north</data>
+  <data key="d1">D-north</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-E-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
+<node id="Train-West 4 St - Washington Sq-M-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
+  <data key="d0">Train</data>
+  <data key="d1">M-north</data>
+</node>
+<node id="Train-West 4 St - Washington Sq-E-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
   <data key="d0">Train</data>
   <data key="d1">E-north</data>
 </node>
-<node id="Train-West 4 St - Washington Sq-C-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north">
+<node id="Train-West 4 St - Washington Sq-C-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
+</node>
+<node id="Train-West 4 St - Washington Sq-A-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north">
+  <data key="d0">Train</data>
+  <data key="d1">A-north</data>
 </node>
 <node id="Train-Chambers St-1-north-1-north/3-north/2-north">
   <data key="d0">Train</data>
@@ -4445,19 +4286,19 @@
   <data key="d0">Train</data>
   <data key="d1">7-south</data>
 </node>
-<node id="Train-Jackson Hts - Roosevelt Av-E-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">E-manhattan</data>
-</node>
-<node id="Train-Jackson Hts - Roosevelt Av-R-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">R-manhattan</data>
-</node>
-<node id="Train-Jackson Hts - Roosevelt Av-M-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan">
+<node id="Train-Jackson Hts - Roosevelt Av-M-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan">
   <data key="d0">Train</data>
   <data key="d1">M-manhattan</data>
 </node>
-<node id="Train-Jackson Hts - Roosevelt Av-F-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan">
+<node id="Train-Jackson Hts - Roosevelt Av-R-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan">
+  <data key="d0">Train</data>
+  <data key="d1">R-manhattan</data>
+</node>
+<node id="Train-Jackson Hts - Roosevelt Av-E-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan">
+  <data key="d0">Train</data>
+  <data key="d1">E-manhattan</data>
+</node>
+<node id="Train-Jackson Hts - Roosevelt Av-F-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan">
   <data key="d0">Train</data>
   <data key="d1">F-manhattan</data>
 </node>
@@ -4701,6 +4542,7 @@
   <data key="d0">Train</data>
   <data key="d1">D-north</data>
 </node>
+<node id="Platform-Bedford Park Blvd/Grand Concourse Line-D-north/B-north"/>
 <node id="Train-Bedford Park Blvd/Grand Concourse Line-B-north-D-north/B-north">
   <data key="d0">Train</data>
   <data key="d1">B-north</data>
@@ -4709,6 +4551,7 @@
   <data key="d0">Train</data>
   <data key="d1">B-south</data>
 </node>
+<node id="Platform-Bedford Park Blvd/Grand Concourse Line-B-south/D-south"/>
 <node id="Train-Bedford Park Blvd/Grand Concourse Line-D-south-B-south/D-south">
   <data key="d0">Train</data>
   <data key="d1">D-south</data>
@@ -4745,29 +4588,29 @@
   <data key="d0">Train</data>
   <data key="d1">N-north</data>
 </node>
-<node id="Train-Jay St - MetroTech-C-south-C-south/A-north/F-south/F-north/C-north/A-south">
+<node id="Train-Jay St - MetroTech-C-south-C-south/F-north/A-south/A-north/C-north/F-south">
   <data key="d0">Train</data>
   <data key="d1">C-south</data>
 </node>
-<node id="Train-Jay St - MetroTech-A-north-C-south/A-north/F-south/F-north/C-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">A-north</data>
-</node>
-<node id="Train-Jay St - MetroTech-F-south-C-south/A-north/F-south/F-north/C-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">F-south</data>
-</node>
-<node id="Train-Jay St - MetroTech-F-north-C-south/A-north/F-south/F-north/C-north/A-south">
+<node id="Train-Jay St - MetroTech-F-north-C-south/F-north/A-south/A-north/C-north/F-south">
   <data key="d0">Train</data>
   <data key="d1">F-north</data>
 </node>
-<node id="Train-Jay St - MetroTech-C-north-C-south/A-north/F-south/F-north/C-north/A-south">
+<node id="Train-Jay St - MetroTech-A-south-C-south/F-north/A-south/A-north/C-north/F-south">
+  <data key="d0">Train</data>
+  <data key="d1">A-south</data>
+</node>
+<node id="Train-Jay St - MetroTech-A-north-C-south/F-north/A-south/A-north/C-north/F-south">
+  <data key="d0">Train</data>
+  <data key="d1">A-north</data>
+</node>
+<node id="Train-Jay St - MetroTech-C-north-C-south/F-north/A-south/A-north/C-north/F-south">
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
 </node>
-<node id="Train-Jay St - MetroTech-A-south-C-south/A-north/F-south/F-north/C-north/A-south">
+<node id="Train-Jay St - MetroTech-F-south-C-south/F-north/A-south/A-north/C-north/F-south">
   <data key="d0">Train</data>
-  <data key="d1">A-south</data>
+  <data key="d1">F-south</data>
 </node>
 <node id="Train-Jay St - MetroTech-C-south-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south">
   <data key="d0">Train</data>
@@ -4865,46 +4708,6 @@
   <data key="d0">Train</data>
   <data key="d1">4-north</data>
 </node>
-<node id="Train-Fulton St-C-south-C-south/A-south/C-north/A-north">
-  <data key="d0">Train</data>
-  <data key="d1">C-south</data>
-</node>
-<node id="Train-Fulton St-A-south-C-south/A-south/C-north/A-north">
-  <data key="d0">Train</data>
-  <data key="d1">A-south</data>
-</node>
-<node id="Train-Fulton St-C-north-C-south/A-south/C-north/A-north">
-  <data key="d0">Train</data>
-  <data key="d1">C-north</data>
-</node>
-<node id="Train-Fulton St-A-north-C-south/A-south/C-north/A-north">
-  <data key="d0">Train</data>
-  <data key="d1">A-north</data>
-</node>
-<node id="Train-Fulton St-A-north-A-north/C-south/Z-north/C-north/J-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">A-north</data>
-</node>
-<node id="Train-Fulton St-C-south-A-north/C-south/Z-north/C-north/J-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">C-south</data>
-</node>
-<node id="Train-Fulton St-Z-north-A-north/C-south/Z-north/C-north/J-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">Z-north</data>
-</node>
-<node id="Train-Fulton St-C-north-A-north/C-south/Z-north/C-north/J-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">C-north</data>
-</node>
-<node id="Train-Fulton St-J-north-A-north/C-south/Z-north/C-north/J-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">J-north</data>
-</node>
-<node id="Train-Fulton St-A-south-A-north/C-south/Z-north/C-north/J-north/A-south">
-  <data key="d0">Train</data>
-  <data key="d1">A-south</data>
-</node>
 <node id="Train-Fulton St-A-south-A-south/C-south/A-north/C-north">
   <data key="d0">Train</data>
   <data key="d1">A-south</data>
@@ -4921,13 +4724,53 @@
   <data key="d0">Train</data>
   <data key="d1">C-north</data>
 </node>
-<node id="Train-Cortlandt St-W-north-W-north/R-north">
+<node id="Train-Fulton St-C-north-C-north/A-south/J-north/A-north/Z-north/C-south">
   <data key="d0">Train</data>
-  <data key="d1">W-north</data>
+  <data key="d1">C-north</data>
 </node>
-<node id="Train-Cortlandt St-R-north-W-north/R-north">
+<node id="Train-Fulton St-A-south-C-north/A-south/J-north/A-north/Z-north/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">A-south</data>
+</node>
+<node id="Train-Fulton St-J-north-C-north/A-south/J-north/A-north/Z-north/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">J-north</data>
+</node>
+<node id="Train-Fulton St-A-north-C-north/A-south/J-north/A-north/Z-north/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">A-north</data>
+</node>
+<node id="Train-Fulton St-Z-north-C-north/A-south/J-north/A-north/Z-north/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">Z-north</data>
+</node>
+<node id="Train-Fulton St-C-south-C-north/A-south/J-north/A-north/Z-north/C-south">
+  <data key="d0">Train</data>
+  <data key="d1">C-south</data>
+</node>
+<node id="Train-Fulton St-C-south-C-south/A-south/C-north/A-north">
+  <data key="d0">Train</data>
+  <data key="d1">C-south</data>
+</node>
+<node id="Train-Fulton St-A-south-C-south/A-south/C-north/A-north">
+  <data key="d0">Train</data>
+  <data key="d1">A-south</data>
+</node>
+<node id="Train-Fulton St-C-north-C-south/A-south/C-north/A-north">
+  <data key="d0">Train</data>
+  <data key="d1">C-north</data>
+</node>
+<node id="Train-Fulton St-A-north-C-south/A-south/C-north/A-north">
+  <data key="d0">Train</data>
+  <data key="d1">A-north</data>
+</node>
+<node id="Train-Cortlandt St-R-north-R-north/W-north">
   <data key="d0">Train</data>
   <data key="d1">R-north</data>
+</node>
+<node id="Train-Cortlandt St-W-north-R-north/W-north">
+  <data key="d0">Train</data>
+  <data key="d1">W-north</data>
 </node>
 <node id="Train-Fulton St-4-south-4-south/5-south">
   <data key="d0">Train</data>
@@ -4997,6 +4840,7 @@
   <data key="d0">Train</data>
   <data key="d1">J-north</data>
 </node>
+<node id="Platform-Chambers St-J-north/Z-north"/>
 <node id="Train-Chambers St-Z-north-J-north/Z-north">
   <data key="d0">Train</data>
   <data key="d1">Z-north</data>
@@ -5005,6 +4849,7 @@
   <data key="d0">Train</data>
   <data key="d1">Z-south</data>
 </node>
+<node id="Platform-Chambers St-Z-south/J-south"/>
 <node id="Train-Chambers St-J-south-Z-south/J-south">
   <data key="d0">Train</data>
   <data key="d1">J-south</data>
@@ -5021,13 +4866,13 @@
   <data key="d0">Train</data>
   <data key="d1">B-manhattan</data>
 </node>
-<node id="Train-Kings Highway-C-brighton beach/coney island-C-brighton beach/coney island/H-brighton beach/coney island">
-  <data key="d0">Train</data>
-  <data key="d1">C-brighton beach/coney island</data>
-</node>
-<node id="Train-Kings Highway-H-brighton beach/coney island-C-brighton beach/coney island/H-brighton beach/coney island">
+<node id="Train-Kings Highway-H-brighton beach/coney island-H-brighton beach/coney island/C-brighton beach/coney island">
   <data key="d0">Train</data>
   <data key="d1">H-brighton beach/coney island</data>
+</node>
+<node id="Train-Kings Highway-C-brighton beach/coney island-H-brighton beach/coney island/C-brighton beach/coney island">
+  <data key="d0">Train</data>
+  <data key="d1">C-brighton beach/coney island</data>
 </node>
 <edge source="EL125" target="Street-125 St"/>
 <edge source="EL125" target="Mezzanine-125 St"/>
@@ -5067,32 +4912,32 @@
 <edge source="EL221" target="Mezzanine-14 St - 8 Av"/>
 <edge source="Mezzanine-14 St - 8 Av" target="EL222"/>
 <edge source="Mezzanine-14 St - 8 Av" target="EL223"/>
-<edge source="EL222" target="Platform-14 St - 8 Av-A-south/C-south/E-south"/>
-<edge source="Platform-14 St - 8 Av-A-south/C-south/E-south" target="Train-14 St - 8 Av-A-south-A-south/C-south/E-south"/>
-<edge source="Platform-14 St - 8 Av-A-south/C-south/E-south" target="Train-14 St - 8 Av-C-south-A-south/C-south/E-south"/>
-<edge source="Platform-14 St - 8 Av-A-south/C-south/E-south" target="Train-14 St - 8 Av-E-south-A-south/C-south/E-south"/>
-<edge source="EL223" target="Platform-14 St - 8 Av-A-north/C-north/E-north"/>
-<edge source="Platform-14 St - 8 Av-A-north/C-north/E-north" target="Train-14 St - 8 Av-A-north-A-north/C-north/E-north"/>
-<edge source="Platform-14 St - 8 Av-A-north/C-north/E-north" target="Train-14 St - 8 Av-C-north-A-north/C-north/E-north"/>
-<edge source="Platform-14 St - 8 Av-A-north/C-north/E-north" target="Train-14 St - 8 Av-E-north-A-north/C-north/E-north"/>
+<edge source="EL222" target="Platform-14 St - 8 Av-E-south/A-south/C-south"/>
+<edge source="Platform-14 St - 8 Av-E-south/A-south/C-south" target="Train-14 St - 8 Av-E-south-E-south/A-south/C-south"/>
+<edge source="Platform-14 St - 8 Av-E-south/A-south/C-south" target="Train-14 St - 8 Av-A-south-E-south/A-south/C-south"/>
+<edge source="Platform-14 St - 8 Av-E-south/A-south/C-south" target="Train-14 St - 8 Av-C-south-E-south/A-south/C-south"/>
+<edge source="EL223" target="Platform-14 St - 8 Av-E-north/A-north/C-north"/>
+<edge source="Platform-14 St - 8 Av-E-north/A-north/C-north" target="Train-14 St - 8 Av-E-north-E-north/A-north/C-north"/>
+<edge source="Platform-14 St - 8 Av-E-north/A-north/C-north" target="Train-14 St - 8 Av-A-north-E-north/A-north/C-north"/>
+<edge source="Platform-14 St - 8 Av-E-north/A-north/C-north" target="Train-14 St - 8 Av-C-north-E-north/A-north/C-north"/>
 <edge source="EL217" target="Street-14 St - Union Sq"/>
 <edge source="EL217" target="Mezzanine-14 St - Union Sq"/>
 <edge source="Mezzanine-14 St - Union Sq" target="EL220"/>
 <edge source="Mezzanine-14 St - Union Sq" target="EL218"/>
 <edge source="Mezzanine-14 St - Union Sq" target="EL219"/>
-<edge source="EL220" target="Platform-14 St - Union Sq-N-south/Q-south/R-south/W-south"/>
-<edge source="Platform-14 St - Union Sq-N-south/Q-south/R-south/W-south" target="Train-14 St - Union Sq-N-south-N-south/Q-south/R-south/W-south"/>
-<edge source="Platform-14 St - Union Sq-N-south/Q-south/R-south/W-south" target="Train-14 St - Union Sq-Q-south-N-south/Q-south/R-south/W-south"/>
-<edge source="Platform-14 St - Union Sq-N-south/Q-south/R-south/W-south" target="Train-14 St - Union Sq-R-south-N-south/Q-south/R-south/W-south"/>
-<edge source="Platform-14 St - Union Sq-N-south/Q-south/R-south/W-south" target="Train-14 St - Union Sq-W-south-N-south/Q-south/R-south/W-south"/>
+<edge source="EL220" target="Platform-14 St - Union Sq-W-south/R-south/Q-south/N-south"/>
+<edge source="Platform-14 St - Union Sq-W-south/R-south/Q-south/N-south" target="Train-14 St - Union Sq-W-south-W-south/R-south/Q-south/N-south"/>
+<edge source="Platform-14 St - Union Sq-W-south/R-south/Q-south/N-south" target="Train-14 St - Union Sq-R-south-W-south/R-south/Q-south/N-south"/>
+<edge source="Platform-14 St - Union Sq-W-south/R-south/Q-south/N-south" target="Train-14 St - Union Sq-Q-south-W-south/R-south/Q-south/N-south"/>
+<edge source="Platform-14 St - Union Sq-W-south/R-south/Q-south/N-south" target="Train-14 St - Union Sq-N-south-W-south/R-south/Q-south/N-south"/>
 <edge source="EL218" target="Platform-14 St - Union Sq-L-north/L-south"/>
 <edge source="Platform-14 St - Union Sq-L-north/L-south" target="Train-14 St - Union Sq-L-north-L-north/L-south"/>
 <edge source="Platform-14 St - Union Sq-L-north/L-south" target="Train-14 St - Union Sq-L-south-L-north/L-south"/>
-<edge source="EL219" target="Platform-14 St - Union Sq-W-north/Q-north/R-north/N-north"/>
-<edge source="Platform-14 St - Union Sq-W-north/Q-north/R-north/N-north" target="Train-14 St - Union Sq-W-north-W-north/Q-north/R-north/N-north"/>
-<edge source="Platform-14 St - Union Sq-W-north/Q-north/R-north/N-north" target="Train-14 St - Union Sq-Q-north-W-north/Q-north/R-north/N-north"/>
-<edge source="Platform-14 St - Union Sq-W-north/Q-north/R-north/N-north" target="Train-14 St - Union Sq-R-north-W-north/Q-north/R-north/N-north"/>
-<edge source="Platform-14 St - Union Sq-W-north/Q-north/R-north/N-north" target="Train-14 St - Union Sq-N-north-W-north/Q-north/R-north/N-north"/>
+<edge source="EL219" target="Platform-14 St - Union Sq-N-north/R-north/Q-north/W-north"/>
+<edge source="Platform-14 St - Union Sq-N-north/R-north/Q-north/W-north" target="Train-14 St - Union Sq-N-north-N-north/R-north/Q-north/W-north"/>
+<edge source="Platform-14 St - Union Sq-N-north/R-north/Q-north/W-north" target="Train-14 St - Union Sq-R-north-N-north/R-north/Q-north/W-north"/>
+<edge source="Platform-14 St - Union Sq-N-north/R-north/Q-north/W-north" target="Train-14 St - Union Sq-Q-north-N-north/R-north/Q-north/W-north"/>
+<edge source="Platform-14 St - Union Sq-N-north/R-north/Q-north/W-north" target="Train-14 St - Union Sq-W-north-N-north/R-north/Q-north/W-north"/>
 <edge source="EL129" target="Street-149 St - 3 Av"/>
 <edge source="EL129" target="Platform-149 St - 3 Av-5-north/2-north"/>
 <edge source="Street-149 St - 3 Av" target="EL130"/>
@@ -5121,20 +4966,12 @@
 <edge source="EL139" target="Mezzanine-168 St"/>
 <edge source="Mezzanine-168 St" target="EL141"/>
 <edge source="Mezzanine-168 St" target="EL140"/>
-<edge source="EL112" target="Lower Mezzanine-168 St"/>
-<edge source="EL112" target="Upper Mezzanine-168 St"/>
-<edge source="Lower Mezzanine-168 St" target="EL111"/>
-<edge source="Lower Mezzanine-168 St" target="EL113"/>
-<edge source="Lower Mezzanine-168 St" target="EL114"/>
-<edge source="Upper Mezzanine-168 St" target="EL111"/>
-<edge source="Upper Mezzanine-168 St" target="EL113"/>
-<edge source="Upper Mezzanine-168 St" target="EL114"/>
-<edge source="EL141" target="Platform-168 St-C-south/A-south"/>
-<edge source="Platform-168 St-C-south/A-south" target="Train-168 St-C-south-C-south/A-south"/>
-<edge source="Platform-168 St-C-south/A-south" target="Train-168 St-A-south-C-south/A-south"/>
-<edge source="EL140" target="Platform-168 St-A-north/C-north"/>
-<edge source="Platform-168 St-A-north/C-north" target="Train-168 St-A-north-A-north/C-north"/>
-<edge source="Platform-168 St-A-north/C-north" target="Train-168 St-C-north-A-north/C-north"/>
+<edge source="EL141" target="Platform-168 St-A-south/C-south"/>
+<edge source="Platform-168 St-A-south/C-south" target="Train-168 St-A-south-A-south/C-south"/>
+<edge source="Platform-168 St-A-south/C-south" target="Train-168 St-C-south-A-south/C-south"/>
+<edge source="EL140" target="Platform-168 St-C-north/A-north"/>
+<edge source="Platform-168 St-C-north/A-north" target="Train-168 St-C-north-C-north/A-north"/>
+<edge source="Platform-168 St-C-north/A-north" target="Train-168 St-A-north-C-north/A-north"/>
 <edge source="EL123" target="Street-175 St"/>
 <edge source="EL123" target="Mezzanine-175 St"/>
 <edge source="Mezzanine-175 St" target="EL124"/>
@@ -5152,15 +4989,9 @@
 <edge source="Lower Mezzanine-181 St" target="EL109"/>
 <edge source="Lower Mezzanine-181 St" target="EL110"/>
 <edge source="Lower Mezzanine-181 St" target="EL108"/>
-<edge source="Lower Mezzanine-181 St" target="EL118"/>
-<edge source="Lower Mezzanine-181 St" target="EL117"/>
-<edge source="Lower Mezzanine-181 St" target="EL119"/>
 <edge source="Upper Mezzanine-181 St" target="EL109"/>
 <edge source="Upper Mezzanine-181 St" target="EL110"/>
 <edge source="Upper Mezzanine-181 St" target="EL108"/>
-<edge source="EL118" target="Street-181 St"/>
-<edge source="Street-181 St" target="EL117"/>
-<edge source="Street-181 St" target="EL119"/>
 <edge source="EL120" target="Lower Mezzanine-190 St"/>
 <edge source="EL120" target="Upper Mezzanine-190 St"/>
 <edge source="Lower Mezzanine-190 St" target="EL115"/>
@@ -5224,26 +5055,26 @@
 <edge source="Mezzanine-34 St - Herald Sq" target="EL211"/>
 <edge source="Mezzanine-34 St - Herald Sq" target="EL210"/>
 <edge source="Mezzanine-34 St - Herald Sq" target="EL212"/>
-<edge source="EL209" target="Platform-34 St - Herald Sq-M-south/B-south/F-south/D-south"/>
-<edge source="Platform-34 St - Herald Sq-M-south/B-south/F-south/D-south" target="Train-34 St - Herald Sq-M-south-M-south/B-south/F-south/D-south"/>
-<edge source="Platform-34 St - Herald Sq-M-south/B-south/F-south/D-south" target="Train-34 St - Herald Sq-B-south-M-south/B-south/F-south/D-south"/>
-<edge source="Platform-34 St - Herald Sq-M-south/B-south/F-south/D-south" target="Train-34 St - Herald Sq-F-south-M-south/B-south/F-south/D-south"/>
-<edge source="Platform-34 St - Herald Sq-M-south/B-south/F-south/D-south" target="Train-34 St - Herald Sq-D-south-M-south/B-south/F-south/D-south"/>
-<edge source="EL211" target="Platform-34 St - Herald Sq-W-south/Q-south/R-south/N-south"/>
-<edge source="Platform-34 St - Herald Sq-W-south/Q-south/R-south/N-south" target="Train-34 St - Herald Sq-W-south-W-south/Q-south/R-south/N-south"/>
-<edge source="Platform-34 St - Herald Sq-W-south/Q-south/R-south/N-south" target="Train-34 St - Herald Sq-Q-south-W-south/Q-south/R-south/N-south"/>
-<edge source="Platform-34 St - Herald Sq-W-south/Q-south/R-south/N-south" target="Train-34 St - Herald Sq-R-south-W-south/Q-south/R-south/N-south"/>
-<edge source="Platform-34 St - Herald Sq-W-south/Q-south/R-south/N-south" target="Train-34 St - Herald Sq-N-south-W-south/Q-south/R-south/N-south"/>
-<edge source="EL210" target="Platform-34 St - Herald Sq-D-north/M-north/F-north/B-north"/>
-<edge source="Platform-34 St - Herald Sq-D-north/M-north/F-north/B-north" target="Train-34 St - Herald Sq-D-north-D-north/M-north/F-north/B-north"/>
-<edge source="Platform-34 St - Herald Sq-D-north/M-north/F-north/B-north" target="Train-34 St - Herald Sq-M-north-D-north/M-north/F-north/B-north"/>
-<edge source="Platform-34 St - Herald Sq-D-north/M-north/F-north/B-north" target="Train-34 St - Herald Sq-F-north-D-north/M-north/F-north/B-north"/>
-<edge source="Platform-34 St - Herald Sq-D-north/M-north/F-north/B-north" target="Train-34 St - Herald Sq-B-north-D-north/M-north/F-north/B-north"/>
-<edge source="EL212" target="Platform-34 St - Herald Sq-Q-north/W-north/R-north/N-north"/>
-<edge source="Platform-34 St - Herald Sq-Q-north/W-north/R-north/N-north" target="Train-34 St - Herald Sq-Q-north-Q-north/W-north/R-north/N-north"/>
-<edge source="Platform-34 St - Herald Sq-Q-north/W-north/R-north/N-north" target="Train-34 St - Herald Sq-W-north-Q-north/W-north/R-north/N-north"/>
-<edge source="Platform-34 St - Herald Sq-Q-north/W-north/R-north/N-north" target="Train-34 St - Herald Sq-R-north-Q-north/W-north/R-north/N-north"/>
-<edge source="Platform-34 St - Herald Sq-Q-north/W-north/R-north/N-north" target="Train-34 St - Herald Sq-N-north-Q-north/W-north/R-north/N-north"/>
+<edge source="EL209" target="Platform-34 St - Herald Sq-D-south/M-south/F-south/B-south"/>
+<edge source="Platform-34 St - Herald Sq-D-south/M-south/F-south/B-south" target="Train-34 St - Herald Sq-D-south-D-south/M-south/F-south/B-south"/>
+<edge source="Platform-34 St - Herald Sq-D-south/M-south/F-south/B-south" target="Train-34 St - Herald Sq-M-south-D-south/M-south/F-south/B-south"/>
+<edge source="Platform-34 St - Herald Sq-D-south/M-south/F-south/B-south" target="Train-34 St - Herald Sq-F-south-D-south/M-south/F-south/B-south"/>
+<edge source="Platform-34 St - Herald Sq-D-south/M-south/F-south/B-south" target="Train-34 St - Herald Sq-B-south-D-south/M-south/F-south/B-south"/>
+<edge source="EL211" target="Platform-34 St - Herald Sq-N-south/R-south/Q-south/W-south"/>
+<edge source="Platform-34 St - Herald Sq-N-south/R-south/Q-south/W-south" target="Train-34 St - Herald Sq-N-south-N-south/R-south/Q-south/W-south"/>
+<edge source="Platform-34 St - Herald Sq-N-south/R-south/Q-south/W-south" target="Train-34 St - Herald Sq-R-south-N-south/R-south/Q-south/W-south"/>
+<edge source="Platform-34 St - Herald Sq-N-south/R-south/Q-south/W-south" target="Train-34 St - Herald Sq-Q-south-N-south/R-south/Q-south/W-south"/>
+<edge source="Platform-34 St - Herald Sq-N-south/R-south/Q-south/W-south" target="Train-34 St - Herald Sq-W-south-N-south/R-south/Q-south/W-south"/>
+<edge source="EL210" target="Platform-34 St - Herald Sq-B-north/D-north/F-north/M-north"/>
+<edge source="Platform-34 St - Herald Sq-B-north/D-north/F-north/M-north" target="Train-34 St - Herald Sq-B-north-B-north/D-north/F-north/M-north"/>
+<edge source="Platform-34 St - Herald Sq-B-north/D-north/F-north/M-north" target="Train-34 St - Herald Sq-D-north-B-north/D-north/F-north/M-north"/>
+<edge source="Platform-34 St - Herald Sq-B-north/D-north/F-north/M-north" target="Train-34 St - Herald Sq-F-north-B-north/D-north/F-north/M-north"/>
+<edge source="Platform-34 St - Herald Sq-B-north/D-north/F-north/M-north" target="Train-34 St - Herald Sq-M-north-B-north/D-north/F-north/M-north"/>
+<edge source="EL212" target="Platform-34 St - Herald Sq-R-north/N-north/Q-north/W-north"/>
+<edge source="Platform-34 St - Herald Sq-R-north/N-north/Q-north/W-north" target="Train-34 St - Herald Sq-R-north-R-north/N-north/Q-north/W-north"/>
+<edge source="Platform-34 St - Herald Sq-R-north/N-north/Q-north/W-north" target="Train-34 St - Herald Sq-N-north-R-north/N-north/Q-north/W-north"/>
+<edge source="Platform-34 St - Herald Sq-R-north/N-north/Q-north/W-north" target="Train-34 St - Herald Sq-Q-north-R-north/N-north/Q-north/W-north"/>
+<edge source="Platform-34 St - Herald Sq-R-north/N-north/Q-north/W-north" target="Train-34 St - Herald Sq-W-north-R-north/N-north/Q-north/W-north"/>
 <edge source="EL603" target="Street-34 St - Hudson Yards"/>
 <edge source="EL603" target="Mezzanine-34 St - Hudson Yards"/>
 <edge source="Mezzanine-34 St - Hudson Yards" target="EL600"/>
@@ -5255,7 +5086,7 @@
 <edge source="Upper Mezzanine-34 St - Hudson Yards" target="EL601"/>
 <edge source="Lower Mezzanine-34 St - Hudson Yards" target="EL601"/>
 <edge source="EL225" target="Street-34 St - Penn"/>
-<edge source="EL225" target="Platform-34 St - Penn-C-north/E-north"/>
+<edge source="EL225" target="Platform-34 St - Penn-E-north/C-north"/>
 <edge source="Street-34 St - Penn" target="EL215"/>
 <edge source="Street-34 St - Penn" target="EL216"/>
 <edge source="Street-34 St - Penn" target="EL214"/>
@@ -5263,8 +5094,8 @@
 <edge source="Street-34 St - Penn" target="EL227"/>
 <edge source="Street-34 St - Penn" target="EL228"/>
 <edge source="Street-34 St - Penn" target="EL226"/>
-<edge source="Platform-34 St - Penn-C-north/E-north" target="Train-34 St - Penn-C-north-C-north/E-north"/>
-<edge source="Platform-34 St - Penn-C-north/E-north" target="Train-34 St - Penn-E-north-C-north/E-north"/>
+<edge source="Platform-34 St - Penn-E-north/C-north" target="Train-34 St - Penn-E-north-E-north/C-north"/>
+<edge source="Platform-34 St - Penn-E-north/C-north" target="Train-34 St - Penn-C-north-E-north/C-north"/>
 <edge source="EL215" target="Platform-34 St - Penn-3-south/2-south/2-north/3-north"/>
 <edge source="Platform-34 St - Penn-3-south/2-south/2-north/3-north" target="Train-34 St - Penn-3-south-3-south/2-south/2-north/3-north"/>
 <edge source="Platform-34 St - Penn-3-south/2-south/2-north/3-north" target="Train-34 St - Penn-2-south-3-south/2-south/2-north/3-north"/>
@@ -5284,33 +5115,27 @@
 <edge source="Platform-34 St - Penn-C-north/C-south/E-north/E-south/A-south/A-north" target="Train-34 St - Penn-E-south-C-north/C-south/E-north/E-south/A-south/A-north"/>
 <edge source="Platform-34 St - Penn-C-north/C-south/E-north/E-south/A-south/A-north" target="Train-34 St - Penn-A-south-C-north/C-south/E-north/E-south/A-south/A-north"/>
 <edge source="Platform-34 St - Penn-C-north/C-south/E-north/E-south/A-south/A-north" target="Train-34 St - Penn-A-north-C-north/C-south/E-north/E-south/A-south/A-north"/>
-<edge source="EL226" target="Platform-34 St - Penn-E-north/C-north"/>
-<edge source="Platform-34 St - Penn-E-north/C-north" target="Train-34 St - Penn-E-north-E-north/C-north"/>
-<edge source="Platform-34 St - Penn-E-north/C-north" target="Train-34 St - Penn-C-north-E-north/C-north"/>
+<edge source="EL226" target="Platform-34 St - Penn-C-north/E-north"/>
+<edge source="Platform-34 St - Penn-C-north/E-north" target="Train-34 St - Penn-C-north-C-north/E-north"/>
+<edge source="Platform-34 St - Penn-C-north/E-north" target="Train-34 St - Penn-E-north-C-north/E-north"/>
 <edge source="EL295X" target="Street-42 St - Bryant Park"/>
 <edge source="EL295X" target="Mezzanine-42 St - Bryant Park"/>
 <edge source="Street-42 St - Bryant Park" target="EL287X"/>
 <edge source="Street-42 St - Bryant Park" target="EL294X"/>
 <edge source="Mezzanine-42 St - Bryant Park" target="EL287X"/>
 <edge source="Mezzanine-42 St - Bryant Park" target="EL294X"/>
-<edge source="EL204" target="Street-42 St - Grand Central"/>
-<edge source="EL204" target="Mezzanine-42 St - Grand Central"/>
-<edge source="Street-42 St - Grand Central" target="EL296"/>
-<edge source="Mezzanine-42 St - Grand Central" target="EL244"/>
-<edge source="Mezzanine-42 St - Grand Central" target="EL205"/>
+<edge source="EL205" target="Mezzanine-42 St - Grand Central"/>
+<edge source="EL205" target="Platform-42 St - Grand Central-4-south/6-south/5-south"/>
 <edge source="Mezzanine-42 St - Grand Central" target="EL206"/>
 <edge source="Mezzanine-42 St - Grand Central" target="EL296"/>
-<edge source="EL244" target="Platform-42 St - Grand Central-7-north/7-south"/>
-<edge source="Platform-42 St - Grand Central-7-north/7-south" target="Train-42 St - Grand Central-7-north-7-north/7-south"/>
-<edge source="Platform-42 St - Grand Central-7-north/7-south" target="Train-42 St - Grand Central-7-south-7-north/7-south"/>
-<edge source="EL205" target="Platform-42 St - Grand Central-6-south/5-south/4-south"/>
-<edge source="Platform-42 St - Grand Central-6-south/5-south/4-south" target="Train-42 St - Grand Central-6-south-6-south/5-south/4-south"/>
-<edge source="Platform-42 St - Grand Central-6-south/5-south/4-south" target="Train-42 St - Grand Central-5-south-6-south/5-south/4-south"/>
-<edge source="Platform-42 St - Grand Central-6-south/5-south/4-south" target="Train-42 St - Grand Central-4-south-6-south/5-south/4-south"/>
-<edge source="EL206" target="Platform-42 St - Grand Central-4-north/5-north/6-north"/>
-<edge source="Platform-42 St - Grand Central-4-north/5-north/6-north" target="Train-42 St - Grand Central-4-north-4-north/5-north/6-north"/>
-<edge source="Platform-42 St - Grand Central-4-north/5-north/6-north" target="Train-42 St - Grand Central-5-north-4-north/5-north/6-north"/>
-<edge source="Platform-42 St - Grand Central-4-north/5-north/6-north" target="Train-42 St - Grand Central-6-north-4-north/5-north/6-north"/>
+<edge source="Platform-42 St - Grand Central-4-south/6-south/5-south" target="Train-42 St - Grand Central-4-south-4-south/6-south/5-south"/>
+<edge source="Platform-42 St - Grand Central-4-south/6-south/5-south" target="Train-42 St - Grand Central-6-south-4-south/6-south/5-south"/>
+<edge source="Platform-42 St - Grand Central-4-south/6-south/5-south" target="Train-42 St - Grand Central-5-south-4-south/6-south/5-south"/>
+<edge source="EL206" target="Platform-42 St - Grand Central-5-north/6-north/4-north"/>
+<edge source="Platform-42 St - Grand Central-5-north/6-north/4-north" target="Train-42 St - Grand Central-5-north-5-north/6-north/4-north"/>
+<edge source="Platform-42 St - Grand Central-5-north/6-north/4-north" target="Train-42 St - Grand Central-6-north-5-north/6-north/4-north"/>
+<edge source="Platform-42 St - Grand Central-5-north/6-north/4-north" target="Train-42 St - Grand Central-4-north-5-north/6-north/4-north"/>
+<edge source="EL296" target="Street-42 St - Grand Central"/>
 <edge source="EL291X" target="Street-42 St - Port Authority Bus Terminal"/>
 <edge source="EL291X" target="Mezzanine-42 St - Port Authority Bus Terminal"/>
 <edge source="Street-42 St - Port Authority Bus Terminal" target="EL288X"/>
@@ -5359,45 +5184,31 @@
 <edge source="Platform-51 St-6-south" target="Train-51 St-6-south-6-south"/>
 <edge source="EL201" target="Platform-51 St-6-north"/>
 <edge source="Platform-51 St-6-north" target="Train-51 St-6-north-6-north"/>
-<edge source="EL283" target="Mezzanine-57 St - 7 Av"/>
-<edge source="EL283" target="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north"/>
-<edge source="Mezzanine-57 St - 7 Av" target="EL282"/>
-<edge source="Mezzanine-57 St - 7 Av" target="EL281"/>
-<edge source="Mezzanine-57 St - 7 Av" target="EL604"/>
-<edge source="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north" target="Train-57 St - 7 Av-R-north-R-north/W-north/Q-north/N-north"/>
-<edge source="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north" target="Train-57 St - 7 Av-W-north-R-north/W-north/Q-north/N-north"/>
-<edge source="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north" target="Train-57 St - 7 Av-Q-north-R-north/W-north/Q-north/N-north"/>
-<edge source="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north" target="Train-57 St - 7 Av-N-north-R-north/W-north/Q-north/N-north"/>
-<edge source="EL282" target="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south"/>
-<edge source="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south" target="Train-57 St - 7 Av-R-south-R-south/N-south/Q-south/W-south"/>
-<edge source="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south" target="Train-57 St - 7 Av-N-south-R-south/N-south/Q-south/W-south"/>
-<edge source="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south" target="Train-57 St - 7 Av-Q-south-R-south/N-south/Q-south/W-south"/>
-<edge source="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south" target="Train-57 St - 7 Av-W-south-R-south/N-south/Q-south/W-south"/>
+<edge source="EL281" target="Mezzanine-57 St - 7 Av"/>
 <edge source="EL281" target="Street-57 St - 7 Av"/>
-<edge source="Street-57 St - 7 Av" target="EL604"/>
 <edge source="EL276X" target="Street-59 St - Columbus Cir"/>
 <edge source="EL276X" target="Mezzanine-59 St - Columbus Cir"/>
 <edge source="Street-59 St - Columbus Cir" target="EL280"/>
 <edge source="Mezzanine-59 St - Columbus Cir" target="EL278"/>
 <edge source="EL280" target="Platform-59 St - Columbus Cir-1-north"/>
 <edge source="Platform-59 St - Columbus Cir-1-north" target="Train-59 St - Columbus Cir-1-north-1-north"/>
-<edge source="EL277" target="Platform-59 St - Columbus Cir-A-south/1-south/C-south/B-south/D-south"/>
-<edge source="Platform-59 St - Columbus Cir-A-south/1-south/C-south/B-south/D-south" target="Train-59 St - Columbus Cir-A-south-A-south/1-south/C-south/B-south/D-south"/>
-<edge source="Platform-59 St - Columbus Cir-A-south/1-south/C-south/B-south/D-south" target="Train-59 St - Columbus Cir-1-south-A-south/1-south/C-south/B-south/D-south"/>
-<edge source="Platform-59 St - Columbus Cir-A-south/1-south/C-south/B-south/D-south" target="Train-59 St - Columbus Cir-C-south-A-south/1-south/C-south/B-south/D-south"/>
-<edge source="Platform-59 St - Columbus Cir-A-south/1-south/C-south/B-south/D-south" target="Train-59 St - Columbus Cir-B-south-A-south/1-south/C-south/B-south/D-south"/>
-<edge source="Platform-59 St - Columbus Cir-A-south/1-south/C-south/B-south/D-south" target="Train-59 St - Columbus Cir-D-south-A-south/1-south/C-south/B-south/D-south"/>
-<edge source="EL278" target="Platform-59 St - Columbus Cir-D-north/A-north/B-north/C-north"/>
-<edge source="Platform-59 St - Columbus Cir-D-north/A-north/B-north/C-north" target="Train-59 St - Columbus Cir-D-north-D-north/A-north/B-north/C-north"/>
-<edge source="Platform-59 St - Columbus Cir-D-north/A-north/B-north/C-north" target="Train-59 St - Columbus Cir-A-north-D-north/A-north/B-north/C-north"/>
-<edge source="Platform-59 St - Columbus Cir-D-north/A-north/B-north/C-north" target="Train-59 St - Columbus Cir-B-north-D-north/A-north/B-north/C-north"/>
-<edge source="Platform-59 St - Columbus Cir-D-north/A-north/B-north/C-north" target="Train-59 St - Columbus Cir-C-north-D-north/A-north/B-north/C-north"/>
-<edge source="EL279" target="Platform-59 St - Columbus Cir-A-north/1-north/C-north/B-north/D-north"/>
-<edge source="Platform-59 St - Columbus Cir-A-north/1-north/C-north/B-north/D-north" target="Train-59 St - Columbus Cir-A-north-A-north/1-north/C-north/B-north/D-north"/>
-<edge source="Platform-59 St - Columbus Cir-A-north/1-north/C-north/B-north/D-north" target="Train-59 St - Columbus Cir-1-north-A-north/1-north/C-north/B-north/D-north"/>
-<edge source="Platform-59 St - Columbus Cir-A-north/1-north/C-north/B-north/D-north" target="Train-59 St - Columbus Cir-C-north-A-north/1-north/C-north/B-north/D-north"/>
-<edge source="Platform-59 St - Columbus Cir-A-north/1-north/C-north/B-north/D-north" target="Train-59 St - Columbus Cir-B-north-A-north/1-north/C-north/B-north/D-north"/>
-<edge source="Platform-59 St - Columbus Cir-A-north/1-north/C-north/B-north/D-north" target="Train-59 St - Columbus Cir-D-north-A-north/1-north/C-north/B-north/D-north"/>
+<edge source="EL277" target="Platform-59 St - Columbus Cir-C-south/1-south/B-south/A-south/D-south"/>
+<edge source="Platform-59 St - Columbus Cir-C-south/1-south/B-south/A-south/D-south" target="Train-59 St - Columbus Cir-C-south-C-south/1-south/B-south/A-south/D-south"/>
+<edge source="Platform-59 St - Columbus Cir-C-south/1-south/B-south/A-south/D-south" target="Train-59 St - Columbus Cir-1-south-C-south/1-south/B-south/A-south/D-south"/>
+<edge source="Platform-59 St - Columbus Cir-C-south/1-south/B-south/A-south/D-south" target="Train-59 St - Columbus Cir-B-south-C-south/1-south/B-south/A-south/D-south"/>
+<edge source="Platform-59 St - Columbus Cir-C-south/1-south/B-south/A-south/D-south" target="Train-59 St - Columbus Cir-A-south-C-south/1-south/B-south/A-south/D-south"/>
+<edge source="Platform-59 St - Columbus Cir-C-south/1-south/B-south/A-south/D-south" target="Train-59 St - Columbus Cir-D-south-C-south/1-south/B-south/A-south/D-south"/>
+<edge source="EL278" target="Platform-59 St - Columbus Cir-D-north/C-north/A-north/B-north"/>
+<edge source="Platform-59 St - Columbus Cir-D-north/C-north/A-north/B-north" target="Train-59 St - Columbus Cir-D-north-D-north/C-north/A-north/B-north"/>
+<edge source="Platform-59 St - Columbus Cir-D-north/C-north/A-north/B-north" target="Train-59 St - Columbus Cir-C-north-D-north/C-north/A-north/B-north"/>
+<edge source="Platform-59 St - Columbus Cir-D-north/C-north/A-north/B-north" target="Train-59 St - Columbus Cir-A-north-D-north/C-north/A-north/B-north"/>
+<edge source="Platform-59 St - Columbus Cir-D-north/C-north/A-north/B-north" target="Train-59 St - Columbus Cir-B-north-D-north/C-north/A-north/B-north"/>
+<edge source="EL279" target="Platform-59 St - Columbus Cir-C-north/1-north/B-north/A-north/D-north"/>
+<edge source="Platform-59 St - Columbus Cir-C-north/1-north/B-north/A-north/D-north" target="Train-59 St - Columbus Cir-C-north-C-north/1-north/B-north/A-north/D-north"/>
+<edge source="Platform-59 St - Columbus Cir-C-north/1-north/B-north/A-north/D-north" target="Train-59 St - Columbus Cir-1-north-C-north/1-north/B-north/A-north/D-north"/>
+<edge source="Platform-59 St - Columbus Cir-C-north/1-north/B-north/A-north/D-north" target="Train-59 St - Columbus Cir-B-north-C-north/1-north/B-north/A-north/D-north"/>
+<edge source="Platform-59 St - Columbus Cir-C-north/1-north/B-north/A-north/D-north" target="Train-59 St - Columbus Cir-A-north-C-north/1-north/B-north/A-north/D-north"/>
+<edge source="Platform-59 St - Columbus Cir-C-north/1-north/B-north/A-north/D-north" target="Train-59 St - Columbus Cir-D-north-C-north/1-north/B-north/A-north/D-north"/>
 <edge source="EL419X" target="Platform-61 St - Woodside-7-north/7-south"/>
 <edge source="EL419X" target="Mezzanine-61 St - Woodside"/>
 <edge source="Platform-61 St - Woodside-7-north/7-south" target="EL418X"/>
@@ -5418,14 +5229,6 @@
 <edge source="Platform-66 St - Lincoln Center-1-north" target="Train-66 St - Lincoln Center-1-north-1-north"/>
 <edge source="EL238" target="Platform-66 St - Lincoln Center-1-south"/>
 <edge source="Platform-66 St - Lincoln Center-1-south" target="Train-66 St - Lincoln Center-1-south-1-south"/>
-<edge source="EL285" target="Mezzanine-68 St / Hunter College"/>
-<edge source="EL285" target="Platform-68 St / Hunter College-6-north"/>
-<edge source="Mezzanine-68 St / Hunter College" target="EL286"/>
-<edge source="Mezzanine-68 St / Hunter College" target="EL284"/>
-<edge source="Platform-68 St / Hunter College-6-north" target="Train-68 St / Hunter College-6-north-6-north"/>
-<edge source="EL286" target="Platform-68 St / Hunter College-6-south"/>
-<edge source="Platform-68 St / Hunter College-6-south" target="Train-68 St / Hunter College-6-south-6-south"/>
-<edge source="EL284" target="Street-68 St / Hunter College"/>
 <edge source="EL240" target="Street-72 St"/>
 <edge source="EL240" target="Platform-72 St-1-south/2-south/3-south"/>
 <edge source="Street-72 St" target="EL239"/>
@@ -5465,8 +5268,6 @@
 <edge source="Platform-86 St-6-north/4-north/5-north" target="Train-86 St-6-north-6-north/4-north/5-north"/>
 <edge source="Platform-86 St-6-north/4-north/5-north" target="Train-86 St-4-north-6-north/4-north/5-north"/>
 <edge source="Platform-86 St-6-north/4-north/5-north" target="Train-86 St-5-north-6-north/4-north/5-north"/>
-<edge source="EL275" target="Unknown-86 St"/>
-<edge source="Unknown-86 St" target="EL274"/>
 <edge source="EL250" target="Street-86 St / 2 Av"/>
 <edge source="EL250" target="Mezzanine-86 St / 2 Av"/>
 <edge source="Mezzanine-86 St / 2 Av" target="EL249"/>
@@ -5510,10 +5311,10 @@
 <edge source="Platform-Atlantic Av-Barclays Ctr-3-manhattan/2-manhattan" target="Train-Atlantic Av-Barclays Ctr-3-manhattan-3-manhattan/2-manhattan"/>
 <edge source="Platform-Atlantic Av-Barclays Ctr-3-manhattan/2-manhattan" target="Train-Atlantic Av-Barclays Ctr-2-manhattan-3-manhattan/2-manhattan"/>
 <edge source="EL306" target="Lower Mezzanine-Atlantic Av-Barclays Ctr"/>
-<edge source="EL303" target="Platform-Atlantic Av-Barclays Ctr-R-manhattan/N-manhattan/D-manhattan"/>
-<edge source="Platform-Atlantic Av-Barclays Ctr-R-manhattan/N-manhattan/D-manhattan" target="Train-Atlantic Av-Barclays Ctr-R-manhattan-R-manhattan/N-manhattan/D-manhattan"/>
-<edge source="Platform-Atlantic Av-Barclays Ctr-R-manhattan/N-manhattan/D-manhattan" target="Train-Atlantic Av-Barclays Ctr-N-manhattan-R-manhattan/N-manhattan/D-manhattan"/>
-<edge source="Platform-Atlantic Av-Barclays Ctr-R-manhattan/N-manhattan/D-manhattan" target="Train-Atlantic Av-Barclays Ctr-D-manhattan-R-manhattan/N-manhattan/D-manhattan"/>
+<edge source="EL303" target="Platform-Atlantic Av-Barclays Ctr-D-manhattan/N-manhattan/R-manhattan"/>
+<edge source="Platform-Atlantic Av-Barclays Ctr-D-manhattan/N-manhattan/R-manhattan" target="Train-Atlantic Av-Barclays Ctr-D-manhattan-D-manhattan/N-manhattan/R-manhattan"/>
+<edge source="Platform-Atlantic Av-Barclays Ctr-D-manhattan/N-manhattan/R-manhattan" target="Train-Atlantic Av-Barclays Ctr-N-manhattan-D-manhattan/N-manhattan/R-manhattan"/>
+<edge source="Platform-Atlantic Av-Barclays Ctr-D-manhattan/N-manhattan/R-manhattan" target="Train-Atlantic Av-Barclays Ctr-R-manhattan-D-manhattan/N-manhattan/R-manhattan"/>
 <edge source="EL304" target="Unknown-Atlantic Av-Barclays Ctr"/>
 <edge source="EL305" target="Platform-Atlantic Av-Barclays Ctr-4-north/5-north/4-south/5-south"/>
 <edge source="Platform-Atlantic Av-Barclays Ctr-4-north/5-north/4-south/5-south" target="Train-Atlantic Av-Barclays Ctr-4-north-4-north/5-north/4-south/5-south"/>
@@ -5537,16 +5338,6 @@
 <edge source="Platform-Bay Parkway-D-coney island" target="Train-Bay Parkway-D-coney island-D-coney island"/>
 <edge source="EL377" target="Platform-Bay Parkway-D-manhattan"/>
 <edge source="Platform-Bay Parkway-D-manhattan" target="Train-Bay Parkway-D-manhattan-D-manhattan"/>
-<edge source="EL501" target="Mezzanine-Bedford Park Blvd/Grand Concourse Line"/>
-<edge source="EL501" target="Platform-Bedford Park Blvd/Grand Concourse Line-D-north/B-north"/>
-<edge source="Mezzanine-Bedford Park Blvd/Grand Concourse Line" target="EL502"/>
-<edge source="Mezzanine-Bedford Park Blvd/Grand Concourse Line" target="EL500"/>
-<edge source="Platform-Bedford Park Blvd/Grand Concourse Line-D-north/B-north" target="Train-Bedford Park Blvd/Grand Concourse Line-D-north-D-north/B-north"/>
-<edge source="Platform-Bedford Park Blvd/Grand Concourse Line-D-north/B-north" target="Train-Bedford Park Blvd/Grand Concourse Line-B-north-D-north/B-north"/>
-<edge source="EL502" target="Platform-Bedford Park Blvd/Grand Concourse Line-B-south/D-south"/>
-<edge source="Platform-Bedford Park Blvd/Grand Concourse Line-B-south/D-south" target="Train-Bedford Park Blvd/Grand Concourse Line-B-south-B-south/D-south"/>
-<edge source="Platform-Bedford Park Blvd/Grand Concourse Line-B-south/D-south" target="Train-Bedford Park Blvd/Grand Concourse Line-D-south-B-south/D-south"/>
-<edge source="EL500" target="Street-Bedford Park Blvd/Grand Concourse Line"/>
 <edge source="EL317" target="Street-Borough Hall"/>
 <edge source="EL317" target="Mezzanine-Borough Hall"/>
 <edge source="Mezzanine-Borough Hall" target="EL318"/>
@@ -5563,33 +5354,33 @@
 <edge source="EL710" target="Unknown-Bowling Green"/>
 <edge source="EL424" target="Street-Briarwood/Van Wyck Blvd"/>
 <edge source="EL424" target="Mezzanine-Briarwood/Van Wyck Blvd"/>
-<edge source="EL330" target="Platform-Broadway-Lafayette/Bleecker St-D-south/6-south/M-south/F-south/B-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-south/6-south/M-south/F-south/B-south" target="Train-Broadway-Lafayette/Bleecker St-D-south-D-south/6-south/M-south/F-south/B-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-south/6-south/M-south/F-south/B-south" target="Train-Broadway-Lafayette/Bleecker St-6-south-D-south/6-south/M-south/F-south/B-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-south/6-south/M-south/F-south/B-south" target="Train-Broadway-Lafayette/Bleecker St-M-south-D-south/6-south/M-south/F-south/B-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-south/6-south/M-south/F-south/B-south" target="Train-Broadway-Lafayette/Bleecker St-F-south-D-south/6-south/M-south/F-south/B-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-south/6-south/M-south/F-south/B-south" target="Train-Broadway-Lafayette/Bleecker St-B-south-D-south/6-south/M-south/F-south/B-south"/>
-<edge source="EL329" target="Platform-Broadway-Lafayette/Bleecker St-F-north/D-north/M-north/6-south/B-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/D-north/M-north/6-south/B-north" target="Train-Broadway-Lafayette/Bleecker St-F-north-F-north/D-north/M-north/6-south/B-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/D-north/M-north/6-south/B-north" target="Train-Broadway-Lafayette/Bleecker St-D-north-F-north/D-north/M-north/6-south/B-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/D-north/M-north/6-south/B-north" target="Train-Broadway-Lafayette/Bleecker St-M-north-F-north/D-north/M-north/6-south/B-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/D-north/M-north/6-south/B-north" target="Train-Broadway-Lafayette/Bleecker St-6-south-F-north/D-north/M-north/6-south/B-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/D-north/M-north/6-south/B-north" target="Train-Broadway-Lafayette/Bleecker St-B-north-F-north/D-north/M-north/6-south/B-north"/>
+<edge source="EL330" target="Platform-Broadway-Lafayette/Bleecker St-B-south/6-south/D-south/F-south/M-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-south/D-south/F-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-B-south-B-south/6-south/D-south/F-south/M-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-south/D-south/F-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-6-south-B-south/6-south/D-south/F-south/M-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-south/D-south/F-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-D-south-B-south/6-south/D-south/F-south/M-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-south/D-south/F-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-F-south-B-south/6-south/D-south/F-south/M-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-south/D-south/F-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-M-south-B-south/6-south/D-south/F-south/M-south"/>
+<edge source="EL329" target="Platform-Broadway-Lafayette/Bleecker St-F-north/B-north/D-north/6-south/M-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/B-north/D-north/6-south/M-north" target="Train-Broadway-Lafayette/Bleecker St-F-north-F-north/B-north/D-north/6-south/M-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/B-north/D-north/6-south/M-north" target="Train-Broadway-Lafayette/Bleecker St-B-north-F-north/B-north/D-north/6-south/M-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/B-north/D-north/6-south/M-north" target="Train-Broadway-Lafayette/Bleecker St-D-north-F-north/B-north/D-north/6-south/M-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/B-north/D-north/6-south/M-north" target="Train-Broadway-Lafayette/Bleecker St-6-south-F-north/B-north/D-north/6-south/M-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-F-north/B-north/D-north/6-south/M-north" target="Train-Broadway-Lafayette/Bleecker St-M-north-F-north/B-north/D-north/6-south/M-north"/>
 <edge source="EL328" target="Street-Broadway-Lafayette/Bleecker St"/>
 <edge source="EL328" target="Platform-Broadway-Lafayette/Bleecker St-6-south"/>
 <edge source="Platform-Broadway-Lafayette/Bleecker St-6-south" target="Train-Broadway-Lafayette/Bleecker St-6-south-6-south"/>
-<edge source="EL331" target="Platform-Broadway-Lafayette/Bleecker St-D-north/B-north/M-north/6-north/F-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-north/B-north/M-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-D-north-D-north/B-north/M-north/6-north/F-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-north/B-north/M-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-B-north-D-north/B-north/M-north/6-north/F-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-north/B-north/M-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-M-north-D-north/B-north/M-north/6-north/F-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-north/B-north/M-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-6-north-D-north/B-north/M-north/6-north/F-north"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-D-north/B-north/M-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-F-north-D-north/B-north/M-north/6-north/F-north"/>
-<edge source="EL332" target="Platform-Broadway-Lafayette/Bleecker St-B-south/6-north/F-south/D-south/M-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-north/F-south/D-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-B-south-B-south/6-north/F-south/D-south/M-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-north/F-south/D-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-6-north-B-south/6-north/F-south/D-south/M-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-north/F-south/D-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-F-south-B-south/6-north/F-south/D-south/M-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-north/F-south/D-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-D-south-B-south/6-north/F-south/D-south/M-south"/>
-<edge source="Platform-Broadway-Lafayette/Bleecker St-B-south/6-north/F-south/D-south/M-south" target="Train-Broadway-Lafayette/Bleecker St-M-south-B-south/6-north/F-south/D-south/M-south"/>
+<edge source="EL331" target="Platform-Broadway-Lafayette/Bleecker St-B-north/M-north/D-north/6-north/F-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-north/M-north/D-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-B-north-B-north/M-north/D-north/6-north/F-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-north/M-north/D-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-M-north-B-north/M-north/D-north/6-north/F-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-north/M-north/D-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-D-north-B-north/M-north/D-north/6-north/F-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-north/M-north/D-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-6-north-B-north/M-north/D-north/6-north/F-north"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-B-north/M-north/D-north/6-north/F-north" target="Train-Broadway-Lafayette/Bleecker St-F-north-B-north/M-north/D-north/6-north/F-north"/>
+<edge source="EL332" target="Platform-Broadway-Lafayette/Bleecker St-M-south/6-north/F-south/B-south/D-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-M-south/6-north/F-south/B-south/D-south" target="Train-Broadway-Lafayette/Bleecker St-M-south-M-south/6-north/F-south/B-south/D-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-M-south/6-north/F-south/B-south/D-south" target="Train-Broadway-Lafayette/Bleecker St-6-north-M-south/6-north/F-south/B-south/D-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-M-south/6-north/F-south/B-south/D-south" target="Train-Broadway-Lafayette/Bleecker St-F-south-M-south/6-north/F-south/B-south/D-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-M-south/6-north/F-south/B-south/D-south" target="Train-Broadway-Lafayette/Bleecker St-B-south-M-south/6-north/F-south/B-south/D-south"/>
+<edge source="Platform-Broadway-Lafayette/Bleecker St-M-south/6-north/F-south/B-south/D-south" target="Train-Broadway-Lafayette/Bleecker St-D-south-M-south/6-north/F-south/B-south/D-south"/>
 <edge source="EL315" target="Mezzanine-Brooklyn Bridge - City Hall"/>
 <edge source="EL315" target="Platform-Brooklyn Bridge - City Hall-6-south/4-south/5-south"/>
 <edge source="Mezzanine-Brooklyn Bridge - City Hall" target="EL316"/>
@@ -5610,19 +5401,11 @@
 <edge source="Platform-Canal St-6-south" target="Train-Canal St-6-south-6-south"/>
 <edge source="EL337" target="Mezzanine-Chambers St"/>
 <edge source="EL337" target="Platform-Chambers St-1-north/3-north/2-north"/>
-<edge source="Mezzanine-Chambers St" target="EL742"/>
-<edge source="Mezzanine-Chambers St" target="EL743"/>
 <edge source="Mezzanine-Chambers St" target="EL338"/>
 <edge source="Mezzanine-Chambers St" target="EL336"/>
 <edge source="Platform-Chambers St-1-north/3-north/2-north" target="Train-Chambers St-1-north-1-north/3-north/2-north"/>
 <edge source="Platform-Chambers St-1-north/3-north/2-north" target="Train-Chambers St-3-north-1-north/3-north/2-north"/>
 <edge source="Platform-Chambers St-1-north/3-north/2-north" target="Train-Chambers St-2-north-1-north/3-north/2-north"/>
-<edge source="EL742" target="Platform-Chambers St-J-north/Z-north"/>
-<edge source="Platform-Chambers St-J-north/Z-north" target="Train-Chambers St-J-north-J-north/Z-north"/>
-<edge source="Platform-Chambers St-J-north/Z-north" target="Train-Chambers St-Z-north-J-north/Z-north"/>
-<edge source="EL743" target="Platform-Chambers St-Z-south/J-south"/>
-<edge source="Platform-Chambers St-Z-south/J-south" target="Train-Chambers St-Z-south-Z-south/J-south"/>
-<edge source="Platform-Chambers St-Z-south/J-south" target="Train-Chambers St-J-south-Z-south/J-south"/>
 <edge source="EL338" target="Platform-Chambers St-1-south/2-south/3-south"/>
 <edge source="Platform-Chambers St-1-south/2-south/3-south" target="Train-Chambers St-1-south-1-south/2-south/3-south"/>
 <edge source="Platform-Chambers St-1-south/2-south/3-south" target="Train-Chambers St-2-south-1-south/2-south/3-south"/>
@@ -5670,13 +5453,13 @@
 <edge source="Mezzanine-Cortlandt St" target="EL726X"/>
 <edge source="Mezzanine-Cortlandt St" target="EL727X"/>
 <edge source="Mezzanine-Cortlandt St" target="EL17X"/>
-<edge source="EL16X" target="Platform-Cortlandt St-W-south/R-south"/>
-<edge source="Platform-Cortlandt St-W-south/R-south" target="EL726X"/>
-<edge source="Platform-Cortlandt St-W-south/R-south" target="Train-Cortlandt St-W-south-W-south/R-south"/>
-<edge source="Platform-Cortlandt St-W-south/R-south" target="Train-Cortlandt St-R-south-W-south/R-south"/>
-<edge source="EL727X" target="Platform-Cortlandt St-W-north/R-north"/>
-<edge source="Platform-Cortlandt St-W-north/R-north" target="Train-Cortlandt St-W-north-W-north/R-north"/>
-<edge source="Platform-Cortlandt St-W-north/R-north" target="Train-Cortlandt St-R-north-W-north/R-north"/>
+<edge source="EL16X" target="Platform-Cortlandt St-R-south/W-south"/>
+<edge source="Platform-Cortlandt St-R-south/W-south" target="EL726X"/>
+<edge source="Platform-Cortlandt St-R-south/W-south" target="Train-Cortlandt St-R-south-R-south/W-south"/>
+<edge source="Platform-Cortlandt St-R-south/W-south" target="Train-Cortlandt St-W-south-R-south/W-south"/>
+<edge source="EL727X" target="Platform-Cortlandt St-R-north/W-north"/>
+<edge source="Platform-Cortlandt St-R-north/W-north" target="Train-Cortlandt St-R-north-R-north/W-north"/>
+<edge source="Platform-Cortlandt St-R-north/W-north" target="Train-Cortlandt St-W-north-R-north/W-north"/>
 <edge source="EL447" target="Mezzanine-Court Square"/>
 <edge source="EL447" target="Platform-Court Square-7-manhattan-bound"/>
 <edge source="Mezzanine-Court Square" target="EL445X"/>
@@ -5807,17 +5590,17 @@
 <edge source="Mezzanine-Fulton St" target="EL729X"/>
 <edge source="Mezzanine-Fulton St" target="EL716"/>
 <edge source="Mezzanine-Fulton St" target="EL720"/>
-<edge source="EL719" target="Platform-Fulton St-C-south/A-south/C-north/A-north"/>
-<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-C-south-C-south/A-south/C-north/A-north"/>
-<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-A-south-C-south/A-south/C-north/A-north"/>
-<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-C-north-C-south/A-south/C-north/A-north"/>
-<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-A-north-C-south/A-south/C-north/A-north"/>
-<edge source="EL721" target="Platform-Fulton St-A-south/C-south/A-north/C-north"/>
-<edge source="EL721" target="Unknown-Fulton St"/>
+<edge source="EL719" target="Platform-Fulton St-A-south/C-south/A-north/C-north"/>
 <edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Train-Fulton St-A-south-A-south/C-south/A-north/C-north"/>
 <edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Train-Fulton St-C-south-A-south/C-south/A-north/C-north"/>
 <edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Train-Fulton St-A-north-A-south/C-south/A-north/C-north"/>
 <edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Train-Fulton St-C-north-A-south/C-south/A-north/C-north"/>
+<edge source="EL721" target="Platform-Fulton St-C-south/A-south/C-north/A-north"/>
+<edge source="EL721" target="Unknown-Fulton St"/>
+<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-C-south-C-south/A-south/C-north/A-north"/>
+<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-A-south-C-south/A-south/C-north/A-north"/>
+<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-C-north-C-south/A-south/C-north/A-north"/>
+<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="Train-Fulton St-A-north-C-south/A-south/C-north/A-north"/>
 <edge source="Unknown-Fulton St" target="EL733X"/>
 <edge source="EL732" target="Platform-Fulton St-2-south/3-north/2-north/3-south"/>
 <edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Train-Fulton St-2-south-2-south/3-north/2-north/3-south"/>
@@ -5832,13 +5615,13 @@
 <edge source="EL716" target="Platform-Fulton St-4-north/5-north"/>
 <edge source="Platform-Fulton St-4-north/5-north" target="Train-Fulton St-4-north-4-north/5-north"/>
 <edge source="Platform-Fulton St-4-north/5-north" target="Train-Fulton St-5-north-4-north/5-north"/>
-<edge source="EL720" target="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south"/>
-<edge source="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south" target="Train-Fulton St-A-north-A-north/C-south/Z-north/C-north/J-north/A-south"/>
-<edge source="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south" target="Train-Fulton St-C-south-A-north/C-south/Z-north/C-north/J-north/A-south"/>
-<edge source="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south" target="Train-Fulton St-Z-north-A-north/C-south/Z-north/C-north/J-north/A-south"/>
-<edge source="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south" target="Train-Fulton St-C-north-A-north/C-south/Z-north/C-north/J-north/A-south"/>
-<edge source="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south" target="Train-Fulton St-J-north-A-north/C-south/Z-north/C-north/J-north/A-south"/>
-<edge source="Platform-Fulton St-A-north/C-south/Z-north/C-north/J-north/A-south" target="Train-Fulton St-A-south-A-north/C-south/Z-north/C-north/J-north/A-south"/>
+<edge source="EL720" target="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south"/>
+<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Train-Fulton St-C-north-C-north/A-south/J-north/A-north/Z-north/C-south"/>
+<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Train-Fulton St-A-south-C-north/A-south/J-north/A-north/Z-north/C-south"/>
+<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Train-Fulton St-J-north-C-north/A-south/J-north/A-north/Z-north/C-south"/>
+<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Train-Fulton St-A-north-C-north/A-south/J-north/A-north/Z-north/C-south"/>
+<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Train-Fulton St-Z-north-C-north/A-south/J-north/A-north/Z-north/C-south"/>
+<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Train-Fulton St-C-south-C-north/A-south/J-north/A-north/Z-north/C-south"/>
 <edge source="EL722" target="Upper Mezzanine-Fulton St"/>
 <edge source="EL183" target="Street-Gun Hill Rd"/>
 <edge source="EL183" target="Platform-Gun Hill Rd-5-south/2-south"/>
@@ -5848,21 +5631,6 @@
 <edge source="EL182" target="Platform-Gun Hill Rd-2-north/5-north"/>
 <edge source="Platform-Gun Hill Rd-2-north/5-north" target="Train-Gun Hill Rd-2-north-2-north/5-north"/>
 <edge source="Platform-Gun Hill Rd-2-north/5-north" target="Train-Gun Hill Rd-5-north-2-north/5-north"/>
-<edge source="EL491X" target="Street-Howard Beach"/>
-<edge source="EL491X" target="Mezzanine-Howard Beach"/>
-<edge source="Street-Howard Beach" target="EL490X"/>
-<edge source="Mezzanine-Howard Beach" target="EL490X"/>
-<edge source="Mezzanine-Howard Beach" target="EL492X"/>
-<edge source="EL495X" target="Platform-Howard Beach-A-north"/>
-<edge source="EL495X" target="Unknown-Howard Beach"/>
-<edge source="Platform-Howard Beach-A-north" target="EL494X"/>
-<edge source="Platform-Howard Beach-A-north" target="Train-Howard Beach-A-north-A-north"/>
-<edge source="Unknown-Howard Beach" target="EL494X"/>
-<edge source="Unknown-Howard Beach" target="EL493X"/>
-<edge source="EL493X" target="Platform-Howard Beach-A-south"/>
-<edge source="Platform-Howard Beach-A-south" target="Train-Howard Beach-A-south-A-south"/>
-<edge source="EL492X" target="Platform-Howard Beach-A-far rockaway"/>
-<edge source="Platform-Howard Beach-A-far rockaway" target="Train-Howard Beach-A-far rockaway-A-far rockaway"/>
 <edge source="EL747X" target="Street-Hoyt Schermerhorn"/>
 <edge source="EL747X" target="Mezzanine-Hoyt Schermerhorn"/>
 <edge source="EL197" target="Mezzanine-Hunts Point"/>
@@ -5886,11 +5654,11 @@
 <edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Train-Jackson Hts - Roosevelt Av-7-south-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north"/>
 <edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Train-Jackson Hts - Roosevelt Av-R-south-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north"/>
 <edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Train-Jackson Hts - Roosevelt Av-F-north-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north"/>
-<edge source="EL421" target="Platform-Jackson Hts - Roosevelt Av-E-manhattan/R-manhattan/M-manhattan/F-manhattan"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-E-manhattan/R-manhattan/M-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-E-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-E-manhattan/R-manhattan/M-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-R-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-E-manhattan/R-manhattan/M-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-M-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-E-manhattan/R-manhattan/M-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-F-manhattan-E-manhattan/R-manhattan/M-manhattan/F-manhattan"/>
+<edge source="EL421" target="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-M-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-R-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-E-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Train-Jackson Hts - Roosevelt Av-F-manhattan-M-manhattan/R-manhattan/E-manhattan/F-manhattan"/>
 <edge source="EL420" target="Street-Jackson Hts - Roosevelt Av"/>
 <edge source="EL420" target="Platform-Jackson Hts - Roosevelt Av-nan"/>
 <edge source="EL409" target="Street-Jamaica - Van Wyck"/>
@@ -5925,13 +5693,13 @@
 <edge source="Platform-Jay St - MetroTech-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south" target="Train-Jay St - MetroTech-A-north-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south"/>
 <edge source="Platform-Jay St - MetroTech-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south" target="Train-Jay St - MetroTech-A-south-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south"/>
 <edge source="Platform-Jay St - MetroTech-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south" target="Train-Jay St - MetroTech-R-south-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south"/>
-<edge source="EL707" target="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south"/>
-<edge source="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south" target="Train-Jay St - MetroTech-C-south-C-south/A-north/F-south/F-north/C-north/A-south"/>
-<edge source="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south" target="Train-Jay St - MetroTech-A-north-C-south/A-north/F-south/F-north/C-north/A-south"/>
-<edge source="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south" target="Train-Jay St - MetroTech-F-south-C-south/A-north/F-south/F-north/C-north/A-south"/>
-<edge source="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south" target="Train-Jay St - MetroTech-F-north-C-south/A-north/F-south/F-north/C-north/A-south"/>
-<edge source="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south" target="Train-Jay St - MetroTech-C-north-C-south/A-north/F-south/F-north/C-north/A-south"/>
-<edge source="Platform-Jay St - MetroTech-C-south/A-north/F-south/F-north/C-north/A-south" target="Train-Jay St - MetroTech-A-south-C-south/A-north/F-south/F-north/C-north/A-south"/>
+<edge source="EL707" target="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south"/>
+<edge source="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south" target="Train-Jay St - MetroTech-C-south-C-south/F-north/A-south/A-north/C-north/F-south"/>
+<edge source="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south" target="Train-Jay St - MetroTech-F-north-C-south/F-north/A-south/A-north/C-north/F-south"/>
+<edge source="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south" target="Train-Jay St - MetroTech-A-south-C-south/F-north/A-south/A-north/C-north/F-south"/>
+<edge source="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south" target="Train-Jay St - MetroTech-A-north-C-south/F-north/A-south/A-north/C-north/F-south"/>
+<edge source="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south" target="Train-Jay St - MetroTech-C-north-C-south/F-north/A-south/A-north/C-north/F-south"/>
+<edge source="Platform-Jay St - MetroTech-C-south/F-north/A-south/A-north/C-north/F-south" target="Train-Jay St - MetroTech-F-south-C-south/F-north/A-south/A-north/C-north/F-south"/>
 <edge source="EL709" target="Platform-Jay St - MetroTech-R-north/A-south/R-south/F-south/C-north/F-north/A-north/C-south"/>
 <edge source="Platform-Jay St - MetroTech-R-north/A-south/R-south/F-south/C-north/F-north/A-north/C-south" target="Train-Jay St - MetroTech-R-north-R-north/A-south/R-south/F-south/C-north/F-north/A-north/C-south"/>
 <edge source="Platform-Jay St - MetroTech-R-north/A-south/R-south/F-south/C-north/F-north/A-north/C-south" target="Train-Jay St - MetroTech-A-south-R-north/A-south/R-south/F-south/C-north/F-north/A-north/C-south"/>
@@ -5960,10 +5728,10 @@
 <edge source="Platform-Kew Gardens / Union Tpk-F-manhattan/E-manhattan" target="Train-Kew Gardens / Union Tpk-F-manhattan-F-manhattan/E-manhattan"/>
 <edge source="Platform-Kew Gardens / Union Tpk-F-manhattan/E-manhattan" target="Train-Kew Gardens / Union Tpk-E-manhattan-F-manhattan/E-manhattan"/>
 <edge source="EL761" target="Street-Kings Highway"/>
-<edge source="EL761" target="Platform-Kings Highway-C-brighton beach/coney island/H-brighton beach/coney island"/>
+<edge source="EL761" target="Platform-Kings Highway-H-brighton beach/coney island/C-brighton beach/coney island"/>
 <edge source="Street-Kings Highway" target="EL760"/>
-<edge source="Platform-Kings Highway-C-brighton beach/coney island/H-brighton beach/coney island" target="Train-Kings Highway-C-brighton beach/coney island-C-brighton beach/coney island/H-brighton beach/coney island"/>
-<edge source="Platform-Kings Highway-C-brighton beach/coney island/H-brighton beach/coney island" target="Train-Kings Highway-H-brighton beach/coney island-C-brighton beach/coney island/H-brighton beach/coney island"/>
+<edge source="Platform-Kings Highway-H-brighton beach/coney island/C-brighton beach/coney island" target="Train-Kings Highway-H-brighton beach/coney island-H-brighton beach/coney island/C-brighton beach/coney island"/>
+<edge source="Platform-Kings Highway-H-brighton beach/coney island/C-brighton beach/coney island" target="Train-Kings Highway-C-brighton beach/coney island-H-brighton beach/coney island/C-brighton beach/coney island"/>
 <edge source="EL760" target="Platform-Kings Highway-Q-manhattan/B-manhattan"/>
 <edge source="Platform-Kings Highway-Q-manhattan/B-manhattan" target="Train-Kings Highway-Q-manhattan-Q-manhattan/B-manhattan"/>
 <edge source="Platform-Kings Highway-Q-manhattan/B-manhattan" target="Train-Kings Highway-B-manhattan-Q-manhattan/B-manhattan"/>
@@ -5980,11 +5748,11 @@
 <edge source="EL203X" target="Street-Lexington Av / 53 St"/>
 <edge source="EL203X" target="Mezzanine-Lexington Av / 53 St"/>
 <edge source="Mezzanine-Lexington Av / 53 St" target="EL245"/>
-<edge source="EL245" target="Platform-Lexington Av / 53 St-M-north/E-south/M-south/E-north"/>
-<edge source="Platform-Lexington Av / 53 St-M-north/E-south/M-south/E-north" target="Train-Lexington Av / 53 St-M-north-M-north/E-south/M-south/E-north"/>
-<edge source="Platform-Lexington Av / 53 St-M-north/E-south/M-south/E-north" target="Train-Lexington Av / 53 St-E-south-M-north/E-south/M-south/E-north"/>
-<edge source="Platform-Lexington Av / 53 St-M-north/E-south/M-south/E-north" target="Train-Lexington Av / 53 St-M-south-M-north/E-south/M-south/E-north"/>
-<edge source="Platform-Lexington Av / 53 St-M-north/E-south/M-south/E-north" target="Train-Lexington Av / 53 St-E-north-M-north/E-south/M-south/E-north"/>
+<edge source="EL245" target="Platform-Lexington Av / 53 St-E-north/M-south/E-south/M-north"/>
+<edge source="Platform-Lexington Av / 53 St-E-north/M-south/E-south/M-north" target="Train-Lexington Av / 53 St-E-north-E-north/M-south/E-south/M-north"/>
+<edge source="Platform-Lexington Av / 53 St-E-north/M-south/E-south/M-north" target="Train-Lexington Av / 53 St-M-south-E-north/M-south/E-south/M-north"/>
+<edge source="Platform-Lexington Av / 53 St-E-north/M-south/E-south/M-north" target="Train-Lexington Av / 53 St-E-south-E-north/M-south/E-south/M-north"/>
+<edge source="Platform-Lexington Av / 53 St-E-north/M-south/E-south/M-north" target="Train-Lexington Av / 53 St-M-north-E-north/M-south/E-south/M-north"/>
 <edge source="EL444" target="Street-Lexington Av / 63 St"/>
 <edge source="EL444" target="Mezzanine-Lexington Av / 63 St"/>
 <edge source="Street-Lexington Av / 63 St" target="EL401"/>
@@ -6130,11 +5898,11 @@
 <edge source="Mezzanine-Times Sq - 42 St" target="EL232"/>
 <edge source="Mezzanine-Times Sq - 42 St" target="EL233"/>
 <edge source="Mezzanine-Times Sq - 42 St" target="EL230"/>
-<edge source="EL229" target="Platform-Times Sq - 42 St-W-south/N-south/Q-south/R-south"/>
-<edge source="Platform-Times Sq - 42 St-W-south/N-south/Q-south/R-south" target="Train-Times Sq - 42 St-W-south-W-south/N-south/Q-south/R-south"/>
-<edge source="Platform-Times Sq - 42 St-W-south/N-south/Q-south/R-south" target="Train-Times Sq - 42 St-N-south-W-south/N-south/Q-south/R-south"/>
-<edge source="Platform-Times Sq - 42 St-W-south/N-south/Q-south/R-south" target="Train-Times Sq - 42 St-Q-south-W-south/N-south/Q-south/R-south"/>
-<edge source="Platform-Times Sq - 42 St-W-south/N-south/Q-south/R-south" target="Train-Times Sq - 42 St-R-south-W-south/N-south/Q-south/R-south"/>
+<edge source="EL229" target="Platform-Times Sq - 42 St-N-south/W-south/R-south/Q-south"/>
+<edge source="Platform-Times Sq - 42 St-N-south/W-south/R-south/Q-south" target="Train-Times Sq - 42 St-N-south-N-south/W-south/R-south/Q-south"/>
+<edge source="Platform-Times Sq - 42 St-N-south/W-south/R-south/Q-south" target="Train-Times Sq - 42 St-W-south-N-south/W-south/R-south/Q-south"/>
+<edge source="Platform-Times Sq - 42 St-N-south/W-south/R-south/Q-south" target="Train-Times Sq - 42 St-R-south-N-south/W-south/R-south/Q-south"/>
+<edge source="Platform-Times Sq - 42 St-N-south/W-south/R-south/Q-south" target="Train-Times Sq - 42 St-Q-south-N-south/W-south/R-south/Q-south"/>
 <edge source="EL232" target="Platform-Times Sq - 42 St-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south"/>
 <edge source="Platform-Times Sq - 42 St-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south" target="Train-Times Sq - 42 St-N-south-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south"/>
 <edge source="Platform-Times Sq - 42 St-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south" target="Train-Times Sq - 42 St-S-north-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south"/>
@@ -6154,15 +5922,15 @@
 <edge source="Platform-Times Sq - 42 St-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south" target="Train-Times Sq - 42 St-1-north-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south"/>
 <edge source="Platform-Times Sq - 42 St-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south" target="Train-Times Sq - 42 St-W-south-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south"/>
 <edge source="Platform-Times Sq - 42 St-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south" target="Train-Times Sq - 42 St-7-south-N-south/S-north/Q-north/R-north/7-north/W-north/N-north/Q-south/3-south/3-north/S-south/R-south/2-south/2-north/1-south/1-north/W-south/7-south"/>
-<edge source="EL233" target="Platform-Times Sq - 42 St-3-north/1-north/2-north"/>
-<edge source="Platform-Times Sq - 42 St-3-north/1-north/2-north" target="Train-Times Sq - 42 St-3-north-3-north/1-north/2-north"/>
-<edge source="Platform-Times Sq - 42 St-3-north/1-north/2-north" target="Train-Times Sq - 42 St-1-north-3-north/1-north/2-north"/>
-<edge source="Platform-Times Sq - 42 St-3-north/1-north/2-north" target="Train-Times Sq - 42 St-2-north-3-north/1-north/2-north"/>
-<edge source="EL230" target="Platform-Times Sq - 42 St-N-north/Q-north/W-north/R-north"/>
-<edge source="Platform-Times Sq - 42 St-N-north/Q-north/W-north/R-north" target="Train-Times Sq - 42 St-N-north-N-north/Q-north/W-north/R-north"/>
-<edge source="Platform-Times Sq - 42 St-N-north/Q-north/W-north/R-north" target="Train-Times Sq - 42 St-Q-north-N-north/Q-north/W-north/R-north"/>
-<edge source="Platform-Times Sq - 42 St-N-north/Q-north/W-north/R-north" target="Train-Times Sq - 42 St-W-north-N-north/Q-north/W-north/R-north"/>
-<edge source="Platform-Times Sq - 42 St-N-north/Q-north/W-north/R-north" target="Train-Times Sq - 42 St-R-north-N-north/Q-north/W-north/R-north"/>
+<edge source="EL233" target="Platform-Times Sq - 42 St-1-north/3-north/2-north"/>
+<edge source="Platform-Times Sq - 42 St-1-north/3-north/2-north" target="Train-Times Sq - 42 St-1-north-1-north/3-north/2-north"/>
+<edge source="Platform-Times Sq - 42 St-1-north/3-north/2-north" target="Train-Times Sq - 42 St-3-north-1-north/3-north/2-north"/>
+<edge source="Platform-Times Sq - 42 St-1-north/3-north/2-north" target="Train-Times Sq - 42 St-2-north-1-north/3-north/2-north"/>
+<edge source="EL230" target="Platform-Times Sq - 42 St-W-north/R-north/N-north/Q-north"/>
+<edge source="Platform-Times Sq - 42 St-W-north/R-north/N-north/Q-north" target="Train-Times Sq - 42 St-W-north-W-north/R-north/N-north/Q-north"/>
+<edge source="Platform-Times Sq - 42 St-W-north/R-north/N-north/Q-north" target="Train-Times Sq - 42 St-R-north-W-north/R-north/N-north/Q-north"/>
+<edge source="Platform-Times Sq - 42 St-W-north/R-north/N-north/Q-north" target="Train-Times Sq - 42 St-N-north-W-north/R-north/N-north/Q-north"/>
+<edge source="Platform-Times Sq - 42 St-W-north/R-north/N-north/Q-north" target="Train-Times Sq - 42 St-Q-north-W-north/R-north/N-north/Q-north"/>
 <edge source="EL346" target="Mezzanine-Utica Av"/>
 <edge source="EL346" target="Platform-Utica Av-A-south/C-south"/>
 <edge source="Mezzanine-Utica Av" target="EL345"/>
@@ -6173,27 +5941,24 @@
 <edge source="Platform-Utica Av-C-north/A-north" target="Train-Utica Av-C-north-C-north/A-north"/>
 <edge source="Platform-Utica Av-C-north/A-north" target="Train-Utica Av-A-north-C-north/A-north"/>
 <edge source="EL344" target="Street-Utica Av"/>
-<edge source="EL334" target="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south" target="Train-West 4 St - Washington Sq-F-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south" target="Train-West 4 St - Washington Sq-D-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south" target="Train-West 4 St - Washington Sq-E-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south" target="Train-West 4 St - Washington Sq-C-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south" target="Train-West 4 St - Washington Sq-A-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south" target="Train-West 4 St - Washington Sq-B-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="Platform-West 4 St - Washington Sq-F-south/D-south/E-south/C-south/A-south/B-south/M-south" target="Train-West 4 St - Washington Sq-M-south-F-south/D-south/E-south/C-south/A-south/B-south/M-south"/>
-<edge source="EL335" target="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
-<edge source="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north" target="Train-West 4 St - Washington Sq-F-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
-<edge source="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north" target="Train-West 4 St - Washington Sq-D-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
-<edge source="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north" target="Train-West 4 St - Washington Sq-M-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
-<edge source="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north" target="Train-West 4 St - Washington Sq-B-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
-<edge source="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north" target="Train-West 4 St - Washington Sq-A-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
-<edge source="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north" target="Train-West 4 St - Washington Sq-E-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
-<edge source="Platform-West 4 St - Washington Sq-F-north/D-north/M-north/B-north/A-north/E-north/C-north" target="Train-West 4 St - Washington Sq-C-north-F-north/D-north/M-north/B-north/A-north/E-north/C-north"/>
+<edge source="EL334" target="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south" target="Train-West 4 St - Washington Sq-F-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south" target="Train-West 4 St - Washington Sq-B-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south" target="Train-West 4 St - Washington Sq-C-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south" target="Train-West 4 St - Washington Sq-A-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south" target="Train-West 4 St - Washington Sq-E-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south" target="Train-West 4 St - Washington Sq-M-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="Platform-West 4 St - Washington Sq-F-south/B-south/C-south/A-south/E-south/M-south/D-south" target="Train-West 4 St - Washington Sq-D-south-F-south/B-south/C-south/A-south/E-south/M-south/D-south"/>
+<edge source="EL335" target="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
+<edge source="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north" target="Train-West 4 St - Washington Sq-F-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
+<edge source="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north" target="Train-West 4 St - Washington Sq-B-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
+<edge source="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north" target="Train-West 4 St - Washington Sq-D-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
+<edge source="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north" target="Train-West 4 St - Washington Sq-M-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
+<edge source="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north" target="Train-West 4 St - Washington Sq-E-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
+<edge source="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north" target="Train-West 4 St - Washington Sq-C-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
+<edge source="Platform-West 4 St - Washington Sq-F-north/B-north/D-north/M-north/E-north/C-north/A-north" target="Train-West 4 St - Washington Sq-A-north-F-north/B-north/D-north/M-north/E-north/C-north/A-north"/>
 <edge source="EL333" target="Street-West 4 St - Washington Sq"/>
 <edge source="EL333" target="Unknown-West 4 St - Washington Sq"/>
-<edge source="EL326" target="Street-World Trade Center"/>
-<edge source="EL326" target="Unknown-World Trade Center"/>
-<edge source="Street-World Trade Center" target="EL23X"/>
 <edge source="EL712" target="Mezzanine-WTC Cortlandt St"/>
 <edge source="EL712" target="Platform-WTC Cortlandt St-1-north"/>
 <edge source="Mezzanine-WTC Cortlandt St" target="EL713"/>
@@ -6201,11 +5966,48 @@
 <edge source="Mezzanine-WTC Cortlandt St" target="EL11X"/>
 <edge source="Platform-WTC Cortlandt St-1-north" target="Train-WTC Cortlandt St-1-north-1-north"/>
 <edge source="EL713" target="Platform-WTC Cortlandt St-1-south"/>
-<edge source="Platform-WTC Cortlandt St-1-south" target="EL736"/>
 <edge source="Platform-WTC Cortlandt St-1-south" target="Train-WTC Cortlandt St-1-south-1-south"/>
 <edge source="EL13X" target="Unknown-WTC Cortlandt St"/>
 <edge source="EL13X" target="Street-WTC Cortlandt St"/>
-<edge source="Street-WTC Cortlandt St" target="EL736"/>
 <edge source="Street-WTC Cortlandt St" target="EL12X"/>
 <edge source="Street-WTC Cortlandt St" target="EL11X"/>
+<edge source="EL491X" target="Street-Howard Beach"/>
+<edge source="EL491X" target="Mezzanine-Howard Beach"/>
+<edge source="Street-Howard Beach" target="EL490X"/>
+<edge source="Mezzanine-Howard Beach" target="EL490X"/>
+<edge source="Mezzanine-Howard Beach" target="EL495X"/>
+<edge source="Mezzanine-Howard Beach" target="EL494X"/>
+<edge source="Mezzanine-Howard Beach" target="EL493X"/>
+<edge source="Mezzanine-Howard Beach" target="EL492X"/>
+<edge source="EL495X" target="Platform-Howard Beach-A-north"/>
+<edge source="Platform-Howard Beach-A-north" target="EL494X"/>
+<edge source="Platform-Howard Beach-A-north" target="Train-Howard Beach-A-north-A-north"/>
+<edge source="EL493X" target="Platform-Howard Beach-A-south"/>
+<edge source="Platform-Howard Beach-A-south" target="Train-Howard Beach-A-south-A-south"/>
+<edge source="EL492X" target="Platform-Howard Beach-A-far rockaway"/>
+<edge source="Platform-Howard Beach-A-far rockaway" target="Train-Howard Beach-A-far rockaway-A-far rockaway"/>
+<edge source="EL326" target="Street-World Trade Center"/>
+<edge source="EL326" target="Platform-World Trade Center-E-north"/>
+<edge source="Street-World Trade Center" target="EL23X"/>
+<edge source="Platform-World Trade Center-E-north" target="EL23X"/>
+<edge source="Train-42 St - Grand Central-7-north-7-north/7-south" target="Platform-42 St - Grand Central-7-north/7-south"/>
+<edge source="Platform-42 St - Grand Central-7-north/7-south" target="Train-42 St - Grand Central-7-south-7-north/7-south"/>
+<edge source="Train-57 St - 7 Av-R-south-R-south/N-south/Q-south/W-south" target="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south"/>
+<edge source="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south" target="Train-57 St - 7 Av-N-south-R-south/N-south/Q-south/W-south"/>
+<edge source="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south" target="Train-57 St - 7 Av-Q-south-R-south/N-south/Q-south/W-south"/>
+<edge source="Platform-57 St - 7 Av-R-south/N-south/Q-south/W-south" target="Train-57 St - 7 Av-W-south-R-south/N-south/Q-south/W-south"/>
+<edge source="Train-57 St - 7 Av-R-north-R-north/W-north/Q-north/N-north" target="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north"/>
+<edge source="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north" target="Train-57 St - 7 Av-W-north-R-north/W-north/Q-north/N-north"/>
+<edge source="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north" target="Train-57 St - 7 Av-Q-north-R-north/W-north/Q-north/N-north"/>
+<edge source="Platform-57 St - 7 Av-R-north/W-north/Q-north/N-north" target="Train-57 St - 7 Av-N-north-R-north/W-north/Q-north/N-north"/>
+<edge source="Train-68 St / Hunter College-6-north-6-north" target="Platform-68 St / Hunter College-6-north"/>
+<edge source="Train-68 St / Hunter College-6-south-6-south" target="Platform-68 St / Hunter College-6-south"/>
+<edge source="Train-Bedford Park Blvd/Grand Concourse Line-D-north-D-north/B-north" target="Platform-Bedford Park Blvd/Grand Concourse Line-D-north/B-north"/>
+<edge source="Platform-Bedford Park Blvd/Grand Concourse Line-D-north/B-north" target="Train-Bedford Park Blvd/Grand Concourse Line-B-north-D-north/B-north"/>
+<edge source="Train-Bedford Park Blvd/Grand Concourse Line-B-south-B-south/D-south" target="Platform-Bedford Park Blvd/Grand Concourse Line-B-south/D-south"/>
+<edge source="Platform-Bedford Park Blvd/Grand Concourse Line-B-south/D-south" target="Train-Bedford Park Blvd/Grand Concourse Line-D-south-B-south/D-south"/>
+<edge source="Train-Chambers St-J-north-J-north/Z-north" target="Platform-Chambers St-J-north/Z-north"/>
+<edge source="Platform-Chambers St-J-north/Z-north" target="Train-Chambers St-Z-north-J-north/Z-north"/>
+<edge source="Train-Chambers St-Z-south-Z-south/J-south" target="Platform-Chambers St-Z-south/J-south"/>
+<edge source="Platform-Chambers St-Z-south/J-south" target="Train-Chambers St-J-south-Z-south/J-south"/>
 </graph></graphml>
