@@ -1,43 +1,48 @@
-,station_name,equipment_id,from,to,platform_id
-0,Howard Beach,EL491X,Street,Mezzanine,
-1,Howard Beach,EL490X,Street,Mezzanine,
-2,Howard Beach,EL495X,Mezzanine,Platform,A-north
-3,Howard Beach,EL494X,Mezzanine,Platform,A-north
-4,Howard Beach,EL493X,Mezzanine,Platform,A-south
-5,Howard Beach,EL492X,Mezzanine,Platform,A-far rockaway
-6,World Trade Center,EL326,Street,Platform,E-north
-7,World Trade Center,EL23X,Street,Platform,E-north
-8,34 St - Penn,EL225,Street,Platform,C-north/E-north
-9,34 St - Penn,EL226,Mezzanine,Platform,C-north/E-north
-10,34 St - Penn,EL227,Mezzanine,Platform,A-north/A-south
-11,34 St - Penn,EL228,Mezzanine,Platform,C-south/E-south
-12,34 St - Penn,EL34X,Street,Mezzanine,
-13,34 St - Penn,EL216,Mezzanine,Platform,1-south
-14,34 St - Penn,EL215,Mezzanine,Platform,2-north/2-south/3-north/3-south
-15,34 St - Penn,EL214,Mezzanine,Platform,1-north
-16,Lexington Av / 63 St,EL401,Street,Mezzanine 401,
-17,Lexington Av / 63 St,EL444,Street,Mezzanine 444,
-18,Lexington Av / 63 St,EL402,Mezzanine 401,Platform,F-north/Q-north/F-south/Q-south
-19,Lexington Av / 63 St,EL440,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
-20,Lexington Av / 63 St,EL441,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
-21,Lexington Av / 63 St,EL442,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
-22,Lexington Av / 63 St,EL443,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
-23,Kings Highway,EL761,Street,Platform,H-brigton beach/Q-coney island/B-brighton beach
-24,Broadway-Lafayette/Bleecker St,EL328,Street,Mezzanine A,6-south
-25,Broadway-Lafayette/Bleecker St,EL329,Platform,Mezzanine A,B-north/D-north/F-north/M-north
-26,Broadway-Lafayette/Bleecker St,EL331,Platform,Platform,6-north
-27,Broadway-Lafayette/Bleecker St,EL332,Platform,Platform,6-north
-28,Broadway-Lafayette/Bleecker St,EL330,Platform,Mezzanine A,B-south/D-south/F-south/M-south
-29,42 St - Port Authority Bus Terminal,EL288X,Street,Platform,A-south/C-south/E-south/A-north/C-north/E-north
-30,42 St - Port Authority Bus Terminal,EL289X,Street,Platform,A-south/C-south/E-south/A-north/C-north/E-north
-31,42 St - Port Authority Bus Terminal,EL291X,Street,Mezz,
-32,42 St - Port Authority Bus Terminal,EL290X,Mezz,Platform,A-south/C-south/E-south/A-north/C-north/E-north
-33,Times Sq - 42 St,EL231X,Street,Mezzanine,S-grandcentral
-34,Times Sq - 42 St,EL232X,Mezzanine,Platform,7-east/7-west/1-south/2-south/3-south
-35,Times Sq - 42 St,EL233,Mezzanine,Platform,1-north/2-north/3-north
-36,Times Sq - 42 St,EL229,Mezzanine,Platform,N-south/Q-south/R-south/W-south
-37,Times Sq - 42 St,EL230,Mezzanine,Platform,N-north/Q-north/R-north/W-north
-38,West 4 St - Washington Sq,EL333,Street,Mezzanine,A-south/C-south/E-south/A-north/C-north/E-north
-39,West 4 St - Washington Sq,EL336,Mezzanine,Lower Mezzanine,
-40,West 4 St - Washington Sq,EL335,Lower Mezzanine,Platform,B-north/D-north/F-north/M-north
-41,West 4 St - Washington Sq,EL336,Lower Mezzanine,Platform,B-south/D-south/F-south/M-south
+station_name,equipment_id,from,to,platform_id
+Howard Beach,EL491X,Street,Mezzanine,
+Howard Beach,EL490X,Street,Mezzanine,
+Howard Beach,EL495X,Mezzanine,Platform,A-north
+Howard Beach,EL494X,Mezzanine,Platform,A-north
+Howard Beach,EL493X,Mezzanine,Platform,A-south
+Howard Beach,EL492X,Mezzanine,Platform,A-far rockaway
+World Trade Center,EL326,Street,Platform,E-north
+World Trade Center,EL23X,Street,Platform,E-north
+34 St - Penn,EL225,Street,Platform,C-north/E-north
+34 St - Penn,EL226,Mezzanine,Platform,C-north/E-north
+34 St - Penn,EL227,Mezzanine,Platform,A-north/A-south
+34 St - Penn,EL228,Mezzanine,Platform,C-south/E-south
+34 St - Penn,EL34X,Street,Mezzanine,
+34 St - Penn,EL216,Mezzanine,Platform,1-south
+34 St - Penn,EL215,Mezzanine,Platform,2-north/2-south/3-north/3-south
+34 St - Penn,EL214,Mezzanine,Platform,1-north
+Lexington Av / 63 St,EL401,Street,Mezzanine 401,
+Lexington Av / 63 St,EL444,Street,Mezzanine 444,
+Lexington Av / 63 St,EL402,Mezzanine 401,Platform,F-north/Q-north/F-south/Q-south
+Lexington Av / 63 St,EL440,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
+Lexington Av / 63 St,EL441,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
+Lexington Av / 63 St,EL442,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
+Lexington Av / 63 St,EL443,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
+Kings Highway,EL761,Street,Platform,H-brigton beach/Q-coney island/B-brighton beach
+Broadway-Lafayette/Bleecker St,EL328,Street,Mezzanine A,6-south
+Broadway-Lafayette/Bleecker St,EL329,Platform,Mezzanine A,B-north/D-north/F-north/M-north
+Broadway-Lafayette/Bleecker St,EL331,Platform,Platform,6-north
+Broadway-Lafayette/Bleecker St,EL332,Platform,Platform,6-north
+Broadway-Lafayette/Bleecker St,EL330,Platform,Mezzanine A,B-south/D-south/F-south/M-south
+42 St - Port Authority Bus Terminal,EL288X,Street,Platform,A-south/C-south/E-south/A-north/C-north/E-north
+42 St - Port Authority Bus Terminal,EL289X,Street,Platform,A-south/C-south/E-south/A-north/C-north/E-north
+42 St - Port Authority Bus Terminal,EL291X,Street,Mezz,
+42 St - Port Authority Bus Terminal,EL290X,Mezz,Platform,A-south/C-south/E-south/A-north/C-north/E-north
+Times Sq - 42 St,EL231X,Street,Mezzanine,S-grandcentral
+Times Sq - 42 St,EL232X,Mezzanine,Platform,7-east/7-west/1-south/2-south/3-south
+Times Sq - 42 St,EL233,Mezzanine,Platform,1-north/2-north/3-north
+Times Sq - 42 St,EL229,Mezzanine,Platform,N-south/Q-south/R-south/W-south
+Times Sq - 42 St,EL230,Mezzanine,Platform,N-north/Q-north/R-north/W-north
+West 4 St - Washington Sq,EL333,Street,Mezzanine,A-south/C-south/E-south/A-north/C-north/E-north
+West 4 St - Washington Sq,EL336,Mezzanine,Lower Mezzanine,
+West 4 St - Washington Sq,EL335,Lower Mezzanine,Platform,B-north/D-north/F-north/M-north
+West 4 St - Washington Sq,EL336,Lower Mezzanine,Platform,B-south/D-south/F-south/M-south
+59 St - Columbus Cir,EL276X,Street,Lower Mezzanine,1-south
+59 St - Columbus Cir,EL277,Lower Mezzanine,Platform,A-south/B-south/C-south/D-south
+59 St - Columbus Cir,EL280,Street,Mezzanine,1-north
+59 St - Columbus Cir,EL279,Mezzanine,Platform,A-north/B-north/C-north/D-north
+59 St - Columbus Cir,EL278,Lower Mezzanine,Platform,A-north/B-north/C-north/D-north
