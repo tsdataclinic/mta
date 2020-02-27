@@ -167,9 +167,6 @@ Court St,EL308,Lower Mezzanine,Street,
 Court St,EL309,Lower Mezzanine,Street,
 Crown Hts - Utica Av,EL323,Street,Platform,3-north/4-south/4-north/3-south
 Crown Hts - Utica Av,EL322,Street,Mezzanine,
-Dekalb Av,EL370,Street,Unknown,
-Dekalb Av,EL372,Mezzanine,Platform,"B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge"
-Dekalb Av,EL371,Mezzanine,Platform,B-manhattan/R-manhattan/Q-manhattan
 Dyckman St,EL178,Street,Platform,1-south
 East 180 St,EL160,Street,Platform,2-south/5-south
 East 180 St,EL159,Street,Platform,5-north/2-north
@@ -304,3 +301,6 @@ Lexington Av / 63 St,EL440,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-sout
 Lexington Av / 63 St,EL441,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
 Lexington Av / 63 St,EL442,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
 Lexington Av / 63 St,EL443,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
+Dekalb Av,EL370,Street,Mezzanine,
+Dekalb Av,EL372,Mezzanine,Platform,"B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge"
+Dekalb Av,EL371,Mezzanine,Platform,B-manhattan/R-manhattan/Q-manhattan

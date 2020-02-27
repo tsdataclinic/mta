@@ -2937,76 +2937,6 @@
   <data key="d1">EL322</data>
   <data key="d2">Crown Hts - Utica Av</data>
 </node>
-<node id="Street-Dekalb Av">
-  <data key="d0">Street</data>
-  <data key="d1">Dekalb Av</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Unknown-Dekalb Av">
-  <data key="d0">Unknown</data>
-  <data key="d1">Unknown</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="EL370">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL370</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Mezzanine-Dekalb Av">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="EL372">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL372</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Dekalb Av-B-brighton beach, coney island, bay ridge">
-  <data key="d0">Train</data>
-  <data key="d1">B-brighton beach, coney island, bay ridge</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Dekalb Av-R-brighton beach, coney island, bay ridge">
-  <data key="d0">Train</data>
-  <data key="d1">R-brighton beach, coney island, bay ridge</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Dekalb Av-Q-brighton beach, coney island, bay ridge">
-  <data key="d0">Train</data>
-  <data key="d1">Q-brighton beach, coney island, bay ridge</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="EL371">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL371</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Dekalb Av-B-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">B-manhattan</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Dekalb Av-R-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">R-manhattan</data>
-  <data key="d2">Dekalb Av</data>
-</node>
-<node id="Dekalb Av-Q-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">Q-manhattan</data>
-  <data key="d2">Dekalb Av</data>
-</node>
 <node id="Street-Dyckman St">
   <data key="d0">Street</data>
   <data key="d1">Dyckman St</data>
@@ -5542,6 +5472,71 @@
   <data key="d1">EL443</data>
   <data key="d2">Lexington Av / 63 St</data>
 </node>
+<node id="Street-Dekalb Av">
+  <data key="d0">Street</data>
+  <data key="d1">Dekalb Av</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Mezzanine-Dekalb Av">
+  <data key="d0">Mezzanine</data>
+  <data key="d1">Mezzanine</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="EL370">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL370</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="EL372">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL372</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Dekalb Av-B-brighton beach, coney island, bay ridge">
+  <data key="d0">Train</data>
+  <data key="d1">B-brighton beach, coney island, bay ridge</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Dekalb Av-R-brighton beach, coney island, bay ridge">
+  <data key="d0">Train</data>
+  <data key="d1">R-brighton beach, coney island, bay ridge</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Dekalb Av-Q-brighton beach, coney island, bay ridge">
+  <data key="d0">Train</data>
+  <data key="d1">Q-brighton beach, coney island, bay ridge</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="EL371">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL371</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Dekalb Av-B-manhattan">
+  <data key="d0">Train</data>
+  <data key="d1">B-manhattan</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Dekalb Av-R-manhattan">
+  <data key="d0">Train</data>
+  <data key="d1">R-manhattan</data>
+  <data key="d2">Dekalb Av</data>
+</node>
+<node id="Dekalb Av-Q-manhattan">
+  <data key="d0">Train</data>
+  <data key="d1">Q-manhattan</data>
+  <data key="d2">Dekalb Av</data>
+</node>
 <edge source="Street-125 St" target="EL125"/>
 <edge source="Street-125 St" target="EL142"/>
 <edge source="Mezzanine-125 St" target="EL125"/>
@@ -6114,18 +6109,6 @@
 <edge source="Platform-Crown Hts - Utica Av-3-north/4-south/4-north/3-south" target="Crown Hts - Utica Av-4-north"/>
 <edge source="Platform-Crown Hts - Utica Av-3-north/4-south/4-north/3-south" target="Crown Hts - Utica Av-3-south"/>
 <edge source="Mezzanine-Crown Hts - Utica Av" target="EL322"/>
-<edge source="Street-Dekalb Av" target="EL370"/>
-<edge source="Unknown-Dekalb Av" target="EL370"/>
-<edge source="Mezzanine-Dekalb Av" target="EL372"/>
-<edge source="Mezzanine-Dekalb Av" target="EL371"/>
-<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="EL372"/>
-<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="Dekalb Av-B-brighton beach, coney island, bay ridge"/>
-<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="Dekalb Av-R-brighton beach, coney island, bay ridge"/>
-<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="Dekalb Av-Q-brighton beach, coney island, bay ridge"/>
-<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="EL371"/>
-<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-B-manhattan"/>
-<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-R-manhattan"/>
-<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-Q-manhattan"/>
 <edge source="Street-Dyckman St" target="EL178"/>
 <edge source="Platform-Dyckman St-1-south" target="EL178"/>
 <edge source="Platform-Dyckman St-1-south" target="Dyckman St-1-south"/>
@@ -6637,4 +6620,16 @@
 <edge source="Platform-Lexington Av / 63 St-F-north/Q-north/F-south/Q-south" target="EL441"/>
 <edge source="Platform-Lexington Av / 63 St-F-north/Q-north/F-south/Q-south" target="EL442"/>
 <edge source="Platform-Lexington Av / 63 St-F-north/Q-north/F-south/Q-south" target="EL443"/>
+<edge source="Street-Dekalb Av" target="EL370"/>
+<edge source="Mezzanine-Dekalb Av" target="EL370"/>
+<edge source="Mezzanine-Dekalb Av" target="EL372"/>
+<edge source="Mezzanine-Dekalb Av" target="EL371"/>
+<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="EL372"/>
+<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="Dekalb Av-B-brighton beach, coney island, bay ridge"/>
+<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="Dekalb Av-R-brighton beach, coney island, bay ridge"/>
+<edge source="Platform-Dekalb Av-B-brighton beach, coney island, bay ridge/R-brighton beach, coney island, bay ridge/Q-brighton beach, coney island, bay ridge" target="Dekalb Av-Q-brighton beach, coney island, bay ridge"/>
+<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="EL371"/>
+<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-B-manhattan"/>
+<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-R-manhattan"/>
+<edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-Q-manhattan"/>
 </graph></graphml>
