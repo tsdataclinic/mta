@@ -78,3 +78,9 @@ Dekalb Av,EL372,Mezzanine,Platform,"B-brighton beach, coney island, bay ridge/R-
 Dekalb Av,EL371,Mezzanine,Platform,B-manhattan/R-manhattan/Q-manhattan
 Bowling Green,EL710,Street,Upper Mezzanine,4-north/5-north
 Bowling Green,EL711,Street,Lower Mezzanine,4-south/5-south
+74 St - Broadway / Roosevelt Av,EL423,Mezzanine,Platform,7-south
+74 St - Broadway / Roosevelt Av,EL420,Mezzanine,Platform,7-north
+74 St - Broadway / Roosevelt Av,EL420,Mezzanine,Street,
+Jackson Hts - Roosevelt Av,EL422,Lower Mezzanine,Platform,E-north/F-north/M-north/R-north
+Jackson Hts - Roosevelt Av,EL421,Lower Mezzanine,Platform,E-south/F-south/M-south/R-south
+Jackson Hts - Roosevelt Av,EL420,Street,Lower Mezzanine,
