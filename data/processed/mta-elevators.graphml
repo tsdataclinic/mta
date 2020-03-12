@@ -2842,196 +2842,6 @@
   <data key="d1">EL339</data>
   <data key="d2">Franklin Av</data>
 </node>
-<node id="Street-Fulton St">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-4-south/5-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL728X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL728X</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-4-south">
-  <data key="d0">Train</data>
-  <data key="d1">4-south</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-5-south">
-  <data key="d0">Train</data>
-  <data key="d1">5-south</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-5-north/4-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL718X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL718X</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-5-north">
-  <data key="d0">Train</data>
-  <data key="d1">5-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-4-north">
-  <data key="d0">Train</data>
-  <data key="d1">4-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL717X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL717X</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Mezzanine-Fulton St">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL723">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL723</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-A-south/C-south/A-north/C-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL719">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL719</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-A-south">
-  <data key="d0">Train</data>
-  <data key="d1">A-south</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-C-south">
-  <data key="d0">Train</data>
-  <data key="d1">C-south</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-A-north">
-  <data key="d0">Train</data>
-  <data key="d1">A-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-C-north">
-  <data key="d0">Train</data>
-  <data key="d1">C-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-C-south/A-south/C-north/A-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Unknown-Fulton St">
-  <data key="d0">Unknown</data>
-  <data key="d1">Unknown</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL721">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL721</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-2-south/3-north/2-north/3-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL732">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL732</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-2-south">
-  <data key="d0">Train</data>
-  <data key="d1">2-south</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-3-north">
-  <data key="d0">Train</data>
-  <data key="d1">3-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-2-north">
-  <data key="d0">Train</data>
-  <data key="d1">2-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-3-south">
-  <data key="d0">Train</data>
-  <data key="d1">3-south</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-5-south/4-south/5-north/4-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL729X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL729X</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-4-north/5-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL716">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL716</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL720">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL720</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-J-north">
-  <data key="d0">Train</data>
-  <data key="d1">J-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Fulton St-Z-north">
-  <data key="d0">Train</data>
-  <data key="d1">Z-north</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL733X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL733X</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="Upper Mezzanine-Fulton St">
-  <data key="d0">Upper Mezzanine</data>
-  <data key="d1">Upper Mezzanine</data>
-  <data key="d2">Fulton St</data>
-</node>
-<node id="EL722">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL722</data>
-  <data key="d2">Fulton St</data>
-</node>
 <node id="Street-Gun Hill Rd">
   <data key="d0">Street</data>
   <data key="d1">Gun Hill Rd</data>
@@ -3792,41 +3602,6 @@
   <data key="d1">D-south</data>
   <data key="d2">New Utrecht</data>
 </node>
-<node id="Street-New Utrecht">
-  <data key="d0">Street</data>
-  <data key="d1">New Utrecht</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="Platform-New Utrecht-N-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="EL738">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL738</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="New Utrecht-N-north">
-  <data key="d0">Train</data>
-  <data key="d1">N-north</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="Platform-New Utrecht-N-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="EL739">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL739</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="New Utrecht-N-south">
-  <data key="d0">Train</data>
-  <data key="d1">N-south</data>
-  <data key="d2">New Utrecht</data>
-</node>
 <node id="Street-Ozone Park / Lefferts Blvd">
   <data key="d0">Street</data>
   <data key="d1">Ozone Park / Lefferts Blvd</data>
@@ -4572,9 +4347,9 @@
   <data key="d1">E-north</data>
   <data key="d2">34 St - Penn</data>
 </node>
-<node id="Mezzanine-34 St - Penn">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
+<node id="IND Mezzanine-34 St - Penn">
+  <data key="d0">IND Mezzanine</data>
+  <data key="d1">IND Mezzanine</data>
   <data key="d2">34 St - Penn</data>
 </node>
 <node id="EL226">
@@ -4620,6 +4395,11 @@
 <node id="34 St - Penn-E-south">
   <data key="d0">Train</data>
   <data key="d1">E-south</data>
+  <data key="d2">34 St - Penn</data>
+</node>
+<node id="IRT Mezzanine-34 St - Penn">
+  <data key="d0">IRT Mezzanine</data>
+  <data key="d1">IRT Mezzanine</data>
   <data key="d2">34 St - Penn</data>
 </node>
 <node id="EL34X">
@@ -5502,6 +5282,241 @@
   <data key="d1">Q-manhattan</data>
   <data key="d2">Dekalb Av</data>
 </node>
+<node id="Concourse-Fulton St">
+  <data key="d0">Concourse</data>
+  <data key="d1">Concourse</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Platform-Fulton St-4-south/5-south">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL716">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL716</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-4-south">
+  <data key="d0">Train</data>
+  <data key="d1">4-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-5-south">
+  <data key="d0">Train</data>
+  <data key="d1">5-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Street-Fulton St">
+  <data key="d0">Street</data>
+  <data key="d1">Fulton St</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Platform-Fulton St-5-north/4-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL717X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL717X</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-5-north">
+  <data key="d0">Train</data>
+  <data key="d1">5-north</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-4-north">
+  <data key="d0">Train</data>
+  <data key="d1">4-north</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL718X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL718X</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Nassau St Mezzanine-Fulton St">
+  <data key="d0">Nassau St Mezzanine</data>
+  <data key="d1">Nassau St Mezzanine</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Platform-Fulton St-A-south/C-south/A-north/C-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL719">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL719</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-A-south">
+  <data key="d0">Train</data>
+  <data key="d1">A-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-C-south">
+  <data key="d0">Train</data>
+  <data key="d1">C-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-A-north">
+  <data key="d0">Train</data>
+  <data key="d1">A-north</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-C-north">
+  <data key="d0">Train</data>
+  <data key="d1">C-north</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Unknown1-Fulton St">
+  <data key="d0">Unknown1</data>
+  <data key="d1">Unknown1</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Unknown2-Fulton St">
+  <data key="d0">Unknown2</data>
+  <data key="d1">Unknown2</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL720">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL720</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Unknown3-Fulton St">
+  <data key="d0">Unknown3</data>
+  <data key="d1">Unknown3</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Unknown4-Fulton St">
+  <data key="d0">Unknown4</data>
+  <data key="d1">Unknown4</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL721">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL721</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Platform-Fulton St-J-south/Z-south">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-J-south">
+  <data key="d0">Train</data>
+  <data key="d1">J-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-Z-south">
+  <data key="d0">Train</data>
+  <data key="d1">Z-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL722">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL722</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="William St Mezzanine-Fulton St">
+  <data key="d0">William St Mezzanine</data>
+  <data key="d1">William St Mezzanine</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL723">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL723</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL728X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL728X</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL729X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL729X</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Platform-Fulton St-2-south/3-north/2-north/3-south">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL732">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL732</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-2-south">
+  <data key="d0">Train</data>
+  <data key="d1">2-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-3-north">
+  <data key="d0">Train</data>
+  <data key="d1">3-north</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-2-north">
+  <data key="d0">Train</data>
+  <data key="d1">2-north</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Fulton St-3-south">
+  <data key="d0">Train</data>
+  <data key="d1">3-south</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Upper retail-Fulton St">
+  <data key="d0">Upper retail</data>
+  <data key="d1">Upper retail</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="EL733X">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL733X</data>
+  <data key="d2">Fulton St</data>
+</node>
+<node id="Street-New Utrecht">
+  <data key="d0">Street</data>
+  <data key="d1">New Utrecht</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="Platform-New Utrecht-N-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="EL738">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL738</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="New Utrecht-N-north">
+  <data key="d0">Train</data>
+  <data key="d1">N-north</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="EL739">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL739</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="Platform-New Utrecht-N-south">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="New Utrecht-N-south">
+  <data key="d0">Train</data>
+  <data key="d1">N-south</data>
+  <data key="d2">New Utrecht</data>
+</node>
 <edge source="Street-125 St" target="EL125"/>
 <edge source="Street-125 St" target="EL142"/>
 <edge source="Mezzanine-125 St" target="EL125"/>
@@ -6032,54 +6047,6 @@
 <edge source="Platform-Franklin Av-C-south" target="EL340"/>
 <edge source="Platform-Franklin Av-C-south" target="Franklin Av-C-south"/>
 <edge source="Unknown-Franklin Av" target="EL339"/>
-<edge source="Street-Fulton St" target="EL728X"/>
-<edge source="Street-Fulton St" target="EL718X"/>
-<edge source="Street-Fulton St" target="EL717X"/>
-<edge source="Street-Fulton St" target="EL723"/>
-<edge source="Street-Fulton St" target="EL719"/>
-<edge source="Street-Fulton St" target="EL733X"/>
-<edge source="Street-Fulton St" target="EL722"/>
-<edge source="Platform-Fulton St-4-south/5-south" target="EL728X"/>
-<edge source="Platform-Fulton St-4-south/5-south" target="Fulton St-4-south"/>
-<edge source="Platform-Fulton St-4-south/5-south" target="Fulton St-5-south"/>
-<edge source="Fulton St-4-south" target="Platform-Fulton St-5-south/4-south/5-north/4-north"/>
-<edge source="Fulton St-5-south" target="Platform-Fulton St-5-south/4-south/5-north/4-north"/>
-<edge source="Platform-Fulton St-5-north/4-north" target="EL718X"/>
-<edge source="Platform-Fulton St-5-north/4-north" target="Fulton St-5-north"/>
-<edge source="Platform-Fulton St-5-north/4-north" target="Fulton St-4-north"/>
-<edge source="Platform-Fulton St-5-north/4-north" target="EL717X"/>
-<edge source="Fulton St-5-north" target="Platform-Fulton St-5-south/4-south/5-north/4-north"/>
-<edge source="Fulton St-5-north" target="Platform-Fulton St-4-north/5-north"/>
-<edge source="Fulton St-4-north" target="Platform-Fulton St-5-south/4-south/5-north/4-north"/>
-<edge source="Fulton St-4-north" target="Platform-Fulton St-4-north/5-north"/>
-<edge source="Mezzanine-Fulton St" target="EL723"/>
-<edge source="Mezzanine-Fulton St" target="EL732"/>
-<edge source="Mezzanine-Fulton St" target="EL729X"/>
-<edge source="Mezzanine-Fulton St" target="EL716"/>
-<edge source="Mezzanine-Fulton St" target="EL720"/>
-<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="EL719"/>
-<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-A-south"/>
-<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-C-south"/>
-<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-A-north"/>
-<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-C-north"/>
-<edge source="Fulton St-A-south" target="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south"/>
-<edge source="Fulton St-C-south" target="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south"/>
-<edge source="Fulton St-A-north" target="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south"/>
-<edge source="Fulton St-C-north" target="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south"/>
-<edge source="Platform-Fulton St-C-south/A-south/C-north/A-north" target="EL721"/>
-<edge source="Unknown-Fulton St" target="EL721"/>
-<edge source="Unknown-Fulton St" target="EL733X"/>
-<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="EL732"/>
-<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-2-south"/>
-<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-3-north"/>
-<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-2-north"/>
-<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-3-south"/>
-<edge source="Platform-Fulton St-5-south/4-south/5-north/4-north" target="EL729X"/>
-<edge source="Platform-Fulton St-4-north/5-north" target="EL716"/>
-<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="EL720"/>
-<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Fulton St-J-north"/>
-<edge source="Platform-Fulton St-C-north/A-south/J-north/A-north/Z-north/C-south" target="Fulton St-Z-north"/>
-<edge source="Upper Mezzanine-Fulton St" target="EL722"/>
 <edge source="Street-Gun Hill Rd" target="EL183"/>
 <edge source="Street-Gun Hill Rd" target="EL182"/>
 <edge source="Platform-Gun Hill Rd-5-south/2-south" target="EL183"/>
@@ -6229,16 +6196,12 @@
 <edge source="Platform-Myrtle Av / Wyckoff Av-L-south/M-north/L-north/M-south" target="EL398"/>
 <edge source="Mezzanine-New Utrecht" target="EL740"/>
 <edge source="Mezzanine-New Utrecht" target="EL741"/>
+<edge source="Mezzanine-New Utrecht" target="EL739"/>
+<edge source="Mezzanine-New Utrecht" target="Platform-New Utrecht-N-south"/>
 <edge source="Platform-New Utrecht-D-north" target="EL740"/>
 <edge source="Platform-New Utrecht-D-north" target="New Utrecht-D-north"/>
 <edge source="Platform-New Utrecht-D-south" target="EL741"/>
 <edge source="Platform-New Utrecht-D-south" target="New Utrecht-D-south"/>
-<edge source="Street-New Utrecht" target="EL738"/>
-<edge source="Street-New Utrecht" target="EL739"/>
-<edge source="Platform-New Utrecht-N-north" target="EL738"/>
-<edge source="Platform-New Utrecht-N-north" target="New Utrecht-N-north"/>
-<edge source="Platform-New Utrecht-N-south" target="EL739"/>
-<edge source="Platform-New Utrecht-N-south" target="New Utrecht-N-south"/>
 <edge source="Street-Ozone Park / Lefferts Blvd" target="EL462"/>
 <edge source="Mezzanine-Ozone Park / Lefferts Blvd" target="EL462"/>
 <edge source="Mezzanine-Ozone Park / Lefferts Blvd" target="EL463"/>
@@ -6403,19 +6366,20 @@
 <edge source="Platform-34 St - Penn-C-north/E-north" target="34 St - Penn-C-north"/>
 <edge source="Platform-34 St - Penn-C-north/E-north" target="34 St - Penn-E-north"/>
 <edge source="Platform-34 St - Penn-C-north/E-north" target="EL226"/>
-<edge source="Mezzanine-34 St - Penn" target="EL226"/>
-<edge source="Mezzanine-34 St - Penn" target="EL227"/>
-<edge source="Mezzanine-34 St - Penn" target="EL228"/>
-<edge source="Mezzanine-34 St - Penn" target="EL34X"/>
-<edge source="Mezzanine-34 St - Penn" target="EL216"/>
-<edge source="Mezzanine-34 St - Penn" target="EL215"/>
-<edge source="Mezzanine-34 St - Penn" target="EL214"/>
+<edge source="IND Mezzanine-34 St - Penn" target="EL226"/>
+<edge source="IND Mezzanine-34 St - Penn" target="EL227"/>
+<edge source="IND Mezzanine-34 St - Penn" target="EL228"/>
+<edge source="IND Mezzanine-34 St - Penn" target="IRT Mezzanine-34 St - Penn"/>
 <edge source="Platform-34 St - Penn-A-north/A-south" target="EL227"/>
 <edge source="Platform-34 St - Penn-A-north/A-south" target="34 St - Penn-A-north"/>
 <edge source="Platform-34 St - Penn-A-north/A-south" target="34 St - Penn-A-south"/>
 <edge source="Platform-34 St - Penn-C-south/E-south" target="EL228"/>
 <edge source="Platform-34 St - Penn-C-south/E-south" target="34 St - Penn-C-south"/>
 <edge source="Platform-34 St - Penn-C-south/E-south" target="34 St - Penn-E-south"/>
+<edge source="IRT Mezzanine-34 St - Penn" target="EL34X"/>
+<edge source="IRT Mezzanine-34 St - Penn" target="EL216"/>
+<edge source="IRT Mezzanine-34 St - Penn" target="EL215"/>
+<edge source="IRT Mezzanine-34 St - Penn" target="EL214"/>
 <edge source="Platform-34 St - Penn-1-south" target="EL216"/>
 <edge source="Platform-34 St - Penn-1-south" target="34 St - Penn-1-south"/>
 <edge source="Platform-34 St - Penn-2-north/2-south/3-north/3-south" target="EL215"/>
@@ -6586,4 +6550,50 @@
 <edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-B-manhattan"/>
 <edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-R-manhattan"/>
 <edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-Q-manhattan"/>
+<edge source="Concourse-Fulton St" target="EL716"/>
+<edge source="Concourse-Fulton St" target="EL717X"/>
+<edge source="Concourse-Fulton St" target="EL728X"/>
+<edge source="Concourse-Fulton St" target="EL729X"/>
+<edge source="Platform-Fulton St-4-south/5-south" target="EL716"/>
+<edge source="Platform-Fulton St-4-south/5-south" target="Fulton St-4-south"/>
+<edge source="Platform-Fulton St-4-south/5-south" target="Fulton St-5-south"/>
+<edge source="Platform-Fulton St-4-south/5-south" target="EL729X"/>
+<edge source="Street-Fulton St" target="EL717X"/>
+<edge source="Street-Fulton St" target="EL718X"/>
+<edge source="Street-Fulton St" target="EL722"/>
+<edge source="Street-Fulton St" target="EL723"/>
+<edge source="Street-Fulton St" target="EL728X"/>
+<edge source="Street-Fulton St" target="EL733X"/>
+<edge source="Platform-Fulton St-5-north/4-north" target="EL717X"/>
+<edge source="Platform-Fulton St-5-north/4-north" target="Fulton St-5-north"/>
+<edge source="Platform-Fulton St-5-north/4-north" target="Fulton St-4-north"/>
+<edge source="Platform-Fulton St-5-north/4-north" target="EL718X"/>
+<edge source="Platform-Fulton St-5-north/4-north" target="EL728X"/>
+<edge source="Nassau St Mezzanine-Fulton St" target="EL719"/>
+<edge source="Nassau St Mezzanine-Fulton St" target="Platform-Fulton St-J-south/Z-south"/>
+<edge source="Nassau St Mezzanine-Fulton St" target="EL722"/>
+<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="EL719"/>
+<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-A-south"/>
+<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-C-south"/>
+<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-A-north"/>
+<edge source="Platform-Fulton St-A-south/C-south/A-north/C-north" target="Fulton St-C-north"/>
+<edge source="Unknown1-Fulton St" target="EL720"/>
+<edge source="Unknown2-Fulton St" target="EL720"/>
+<edge source="Unknown3-Fulton St" target="EL721"/>
+<edge source="Unknown4-Fulton St" target="EL721"/>
+<edge source="Platform-Fulton St-J-south/Z-south" target="Fulton St-J-south"/>
+<edge source="Platform-Fulton St-J-south/Z-south" target="Fulton St-Z-south"/>
+<edge source="William St Mezzanine-Fulton St" target="EL723"/>
+<edge source="William St Mezzanine-Fulton St" target="EL732"/>
+<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="EL732"/>
+<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-2-south"/>
+<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-3-north"/>
+<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-2-north"/>
+<edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-3-south"/>
+<edge source="Upper retail-Fulton St" target="EL733X"/>
+<edge source="Street-New Utrecht" target="EL738"/>
+<edge source="Street-New Utrecht" target="EL739"/>
+<edge source="Platform-New Utrecht-N-north" target="EL738"/>
+<edge source="Platform-New Utrecht-N-north" target="New Utrecht-N-north"/>
+<edge source="Platform-New Utrecht-N-south" target="New Utrecht-N-south"/>
 </graph></graphml>
