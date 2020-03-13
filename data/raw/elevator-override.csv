@@ -8,13 +8,14 @@ Howard Beach,EL492X,Mezzanine,Platform,A-far rockaway
 World Trade Center,EL326,Street,Platform,E-north
 World Trade Center,EL23X,Street,Platform,E-north
 34 St - Penn,EL225,Street,Platform,C-north/E-north
-34 St - Penn,EL226,Mezzanine,Platform,C-north/E-north
-34 St - Penn,EL227,Mezzanine,Platform,A-north/A-south
-34 St - Penn,EL228,Mezzanine,Platform,C-south/E-south
-34 St - Penn,EL34X,Street,Mezzanine,
-34 St - Penn,EL216,Mezzanine,Platform,1-south
-34 St - Penn,EL215,Mezzanine,Platform,2-north/2-south/3-north/3-south
-34 St - Penn,EL214,Mezzanine,Platform,1-north
+34 St - Penn,EL226,IND Mezzanine,Platform,C-north/E-north
+34 St - Penn,EL227,IND Mezzanine,Platform,A-north/A-south
+34 St - Penn,EL228,IND Mezzanine,Platform,C-south/E-south
+34 St - Penn,EL34X,Street,IRT Mezzanine,
+34 St - Penn,EL216,IRT Mezzanine,Platform,1-south
+34 St - Penn,EL215,IRT Mezzanine,Platform,2-north/2-south/3-north/3-south
+34 St - Penn,EL214,IRT Mezzanine,Platform,1-north
+34 St - Penn,,IRT Mezzanine,IND Mezzanine
 Lexington Av / 63 St,EL401,Street,Mezzanine 401,
 Lexington Av / 63 St,EL444,Street,Mezzanine 444,
 Lexington Av / 63 St,EL402,Mezzanine 401,Platform,F-north/Q-north/F-south/Q-south
@@ -84,3 +85,20 @@ Bowling Green,EL711,Street,Lower Mezzanine,4-south/5-south
 Jackson Hts - Roosevelt Av,EL422,Lower Mezzanine,Platform,E-north/F-north/M-north/R-north
 Jackson Hts - Roosevelt Av,EL421,Lower Mezzanine,Platform,E-south/F-south/M-south/R-south
 Jackson Hts - Roosevelt Av,EL420,Street,Lower Mezzanine,
+Fulton St,EL716,Concourse,Platform,4-south/5-south
+Fulton St,EL717X,Street,Platform,5-north/4-north
+Fulton St,EL717X,Street,Concourse
+Fulton St,EL718X,Street,Platform,5-north/4-north
+Fulton St,EL719,Nassau St Mezzanine,Platform,A-south/C-south/A-north/C-north
+Fulton St,EL720,Unknown1,Unknown2,
+Fulton St,EL721,Unknown3,Unknown4,
+Fulton St,,Nassau St Mezzanine,Platform,J-south/Z-south
+Fulton St,EL722,Street,Nassau St Mezzanine,
+Fulton St,EL723,Street,William St Mezzanine,
+Fulton St,EL728X,Street,Platform,5-north/4-north
+Fulton St,EL728X,Street,Concourse,
+Fulton St,EL729X,Concourse,Platform,4-south/5-south
+Fulton St,EL732,William St Mezzanine,Platform,2-south/3-north/2-north/3-south
+Fulton St,EL733X,Street,Upper retail,
+New Utrecht,EL739,Street,Mezzanine,
+New Utrecht,EL739,Street,Platform,N-south
