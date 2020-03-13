@@ -1,9 +1,12 @@
-import argparser
 import io
 import logging
+import numpy as np
+import os
 import pandas as pd
+import re
 import requests
 
+from ast import literal_eval
 from datetime import datetime
 from html.parser import HTMLParser
 
@@ -96,6 +99,19 @@ def process_turnstile_data(start_date: datetime, end_date=None, existed_data: pd
     raw = _download_turnstile_data(start_date, end_date)
     return _interpolate(_cleanup_raw_data(raw))
 
+
+def create_data_by_station(turnstile_data: pd.DataFrame, output_dir: str):
+    equipment = pd.read_csv('../../data/interim/crosswalks/ee_turnstile.csv')
+    equipment.remote = equipment.remote.apply(lambda x: literal_eval(str(x)))
+    lst_col = 'remote'
+    mapping = pd.DataFrame({col:np.repeat(equipment[col].values, equipment[lst_col].str.len())
+                    for col in equipment.columns.difference([lst_col])}).assign(
+                        **{lst_col:np.concatenate(equipment[lst_col].values)})[equipment.columns.tolist()]
+    mapping.drop(columns = ['Unnamed: 0'], inplace=True)
+    merged = turnstile_data.merge(mapping, how='left', left_on=['UNIT'], right_on=[lst_col])
+    for station, df in merged.groupby(['station_name']):
+        file_name = re.sub(r"\s+", '_', re.sub(r"[/|-]", " ", station)) + ".csv"
+        df.to_csv(os.path.join(output_dir, file_name))
 
 if __name__ == "__main__":
     pass
