@@ -1582,26 +1582,6 @@
   <data key="d1">Q-north</data>
   <data key="d2">72 St / 2 Av</data>
 </node>
-<node id="Mezzanine-74 St - Broadway / Roosevelt Av">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">74 St - Broadway / Roosevelt Av</data>
-</node>
-<node id="Platform-74 St - Broadway / Roosevelt Av-7-manhattan">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">74 St - Broadway / Roosevelt Av</data>
-</node>
-<node id="EL423">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL423</data>
-  <data key="d2">74 St - Broadway / Roosevelt Av</data>
-</node>
-<node id="74 St - Broadway / Roosevelt Av-7-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">7-manhattan</data>
-  <data key="d2">74 St - Broadway / Roosevelt Av</data>
-</node>
 <node id="Street-8 Av">
   <data key="d0">Street</data>
   <data key="d1">8 Av</data>
@@ -1931,46 +1911,6 @@
   <data key="d0">Train</data>
   <data key="d1">2-south</data>
   <data key="d2">Borough Hall</data>
-</node>
-<node id="Lower Mezzanine-Bowling Green">
-  <data key="d0">Lower Mezzanine</data>
-  <data key="d1">Lower Mezzanine</data>
-  <data key="d2">Bowling Green</data>
-</node>
-<node id="Platform-Bowling Green-4-south/5-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Bowling Green</data>
-</node>
-<node id="EL711">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL711</data>
-  <data key="d2">Bowling Green</data>
-</node>
-<node id="Bowling Green-4-south">
-  <data key="d0">Train</data>
-  <data key="d1">4-south</data>
-  <data key="d2">Bowling Green</data>
-</node>
-<node id="Bowling Green-5-south">
-  <data key="d0">Train</data>
-  <data key="d1">5-south</data>
-  <data key="d2">Bowling Green</data>
-</node>
-<node id="Street-Bowling Green">
-  <data key="d0">Street</data>
-  <data key="d1">Bowling Green</data>
-  <data key="d2">Bowling Green</data>
-</node>
-<node id="Unknown-Bowling Green">
-  <data key="d0">Unknown</data>
-  <data key="d1">Unknown</data>
-  <data key="d2">Bowling Green</data>
-</node>
-<node id="EL710">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL710</data>
-  <data key="d2">Bowling Green</data>
 </node>
 <node id="Street-Briarwood/Van Wyck Blvd">
   <data key="d0">Street</data>
@@ -2946,116 +2886,6 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL195</data>
   <data key="d2">Hunts Point</data>
-</node>
-<node id="Mezzanine-Jackson Hts - Roosevelt Av">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="EL422">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL422</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-F-south">
-  <data key="d0">Train</data>
-  <data key="d1">F-south</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-R-north">
-  <data key="d0">Train</data>
-  <data key="d1">R-north</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-E-south">
-  <data key="d0">Train</data>
-  <data key="d1">E-south</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-M-north">
-  <data key="d0">Train</data>
-  <data key="d1">M-north</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-E-north">
-  <data key="d0">Train</data>
-  <data key="d1">E-north</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-M-south">
-  <data key="d0">Train</data>
-  <data key="d1">M-south</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-7-north">
-  <data key="d0">Train</data>
-  <data key="d1">7-north</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-7-south">
-  <data key="d0">Train</data>
-  <data key="d1">7-south</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-R-south">
-  <data key="d0">Train</data>
-  <data key="d1">R-south</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-F-north">
-  <data key="d0">Train</data>
-  <data key="d1">F-north</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="EL421">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL421</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-M-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">M-manhattan</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-R-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">R-manhattan</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-E-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">E-manhattan</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Jackson Hts - Roosevelt Av-F-manhattan">
-  <data key="d0">Train</data>
-  <data key="d1">F-manhattan</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Street-Jackson Hts - Roosevelt Av">
-  <data key="d0">Street</data>
-  <data key="d1">Jackson Hts - Roosevelt Av</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="Platform-Jackson Hts - Roosevelt Av-nan">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
-</node>
-<node id="EL420">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL420</data>
-  <data key="d2">Jackson Hts - Roosevelt Av</data>
 </node>
 <node id="Street-Jamaica - Van Wyck">
   <data key="d0">Street</data>
@@ -5302,6 +5132,141 @@
   <data key="d1">Q-manhattan</data>
   <data key="d2">Dekalb Av</data>
 </node>
+<node id="Street-Bowling Green">
+  <data key="d0">Street</data>
+  <data key="d1">Bowling Green</data>
+  <data key="d2">Bowling Green</data>
+</node>
+<node id="Upper Mezzanine-Bowling Green">
+  <data key="d0">Upper Mezzanine</data>
+  <data key="d1">Upper Mezzanine</data>
+  <data key="d2">Bowling Green</data>
+</node>
+<node id="EL710">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL710</data>
+  <data key="d2">Bowling Green</data>
+</node>
+<node id="Lower Mezzanine-Bowling Green">
+  <data key="d0">Lower Mezzanine</data>
+  <data key="d1">Lower Mezzanine</data>
+  <data key="d2">Bowling Green</data>
+</node>
+<node id="EL711">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL711</data>
+  <data key="d2">Bowling Green</data>
+</node>
+<node id="Mezzanine-74 St - Broadway / Roosevelt Av">
+  <data key="d0">Mezzanine</data>
+  <data key="d1">Mezzanine</data>
+  <data key="d2">74 St - Broadway / Roosevelt Av</data>
+</node>
+<node id="Platform-74 St - Broadway / Roosevelt Av-7-south">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">74 St - Broadway / Roosevelt Av</data>
+</node>
+<node id="EL423">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL423</data>
+  <data key="d2">74 St - Broadway / Roosevelt Av</data>
+</node>
+<node id="74 St - Broadway / Roosevelt Av-7-south">
+  <data key="d0">Train</data>
+  <data key="d1">7-south</data>
+  <data key="d2">74 St - Broadway / Roosevelt Av</data>
+</node>
+<node id="Platform-74 St - Broadway / Roosevelt Av-7-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">74 St - Broadway / Roosevelt Av</data>
+</node>
+<node id="EL420">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL420</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="74 St - Broadway / Roosevelt Av-7-north">
+  <data key="d0">Train</data>
+  <data key="d1">7-north</data>
+  <data key="d2">74 St - Broadway / Roosevelt Av</data>
+</node>
+<node id="Street-74 St - Broadway / Roosevelt Av">
+  <data key="d0">Street</data>
+  <data key="d1">Street</data>
+  <data key="d2">74 St - Broadway / Roosevelt Av</data>
+</node>
+<node id="Lower Mezzanine-Jackson Hts - Roosevelt Av">
+  <data key="d0">Lower Mezzanine</data>
+  <data key="d1">Lower Mezzanine</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Platform-Jackson Hts - Roosevelt Av-E-north/F-north/M-north/R-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="EL422">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL422</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-E-north">
+  <data key="d0">Train</data>
+  <data key="d1">E-north</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-F-north">
+  <data key="d0">Train</data>
+  <data key="d1">F-north</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-M-north">
+  <data key="d0">Train</data>
+  <data key="d1">M-north</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-R-north">
+  <data key="d0">Train</data>
+  <data key="d1">R-north</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Platform-Jackson Hts - Roosevelt Av-E-south/F-south/M-south/R-south">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="EL421">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL421</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-E-south">
+  <data key="d0">Train</data>
+  <data key="d1">E-south</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-F-south">
+  <data key="d0">Train</data>
+  <data key="d1">F-south</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-M-south">
+  <data key="d0">Train</data>
+  <data key="d1">M-south</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Jackson Hts - Roosevelt Av-R-south">
+  <data key="d0">Train</data>
+  <data key="d1">R-south</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
+<node id="Street-Jackson Hts - Roosevelt Av">
+  <data key="d0">Street</data>
+  <data key="d1">Jackson Hts - Roosevelt Av</data>
+  <data key="d2">Jackson Hts - Roosevelt Av</data>
+</node>
 <node id="Concourse-Fulton St">
   <data key="d0">Concourse</data>
   <data key="d1">Concourse</data>
@@ -5818,9 +5783,6 @@
 <edge source="Platform-72 St / 2 Av-Q-south/Q-north" target="EL259"/>
 <edge source="Platform-72 St / 2 Av-Q-south/Q-north" target="72 St / 2 Av-Q-south"/>
 <edge source="Platform-72 St / 2 Av-Q-south/Q-north" target="72 St / 2 Av-Q-north"/>
-<edge source="Mezzanine-74 St - Broadway / Roosevelt Av" target="EL423"/>
-<edge source="Platform-74 St - Broadway / Roosevelt Av-7-manhattan" target="EL423"/>
-<edge source="Platform-74 St - Broadway / Roosevelt Av-7-manhattan" target="74 St - Broadway / Roosevelt Av-7-manhattan"/>
 <edge source="Street-8 Av" target="EL753"/>
 <edge source="Platform-8 Av-N-north" target="EL753"/>
 <edge source="Platform-8 Av-N-north" target="8 Av-N-north"/>
@@ -5880,12 +5842,6 @@
 <edge source="Platform-Borough Hall-2-north/3-north/3-south/2-south" target="Borough Hall-3-north"/>
 <edge source="Platform-Borough Hall-2-north/3-north/3-south/2-south" target="Borough Hall-3-south"/>
 <edge source="Platform-Borough Hall-2-north/3-north/3-south/2-south" target="Borough Hall-2-south"/>
-<edge source="Lower Mezzanine-Bowling Green" target="EL711"/>
-<edge source="Platform-Bowling Green-4-south/5-south" target="EL711"/>
-<edge source="Platform-Bowling Green-4-south/5-south" target="Bowling Green-4-south"/>
-<edge source="Platform-Bowling Green-4-south/5-south" target="Bowling Green-5-south"/>
-<edge source="Street-Bowling Green" target="EL710"/>
-<edge source="Unknown-Bowling Green" target="EL710"/>
 <edge source="Street-Briarwood/Van Wyck Blvd" target="EL424"/>
 <edge source="Mezzanine-Briarwood/Van Wyck Blvd" target="EL424"/>
 <edge source="Mezzanine-Brooklyn Bridge - City Hall" target="EL315"/>
@@ -6065,26 +6021,6 @@
 <edge source="Platform-Hunts Point-6-north" target="EL196"/>
 <edge source="Platform-Hunts Point-6-north" target="Hunts Point-6-north"/>
 <edge source="Street-Hunts Point" target="EL195"/>
-<edge source="Mezzanine-Jackson Hts - Roosevelt Av" target="EL422"/>
-<edge source="Mezzanine-Jackson Hts - Roosevelt Av" target="EL421"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="EL422"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-F-south"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-R-north"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-E-south"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-M-north"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-E-north"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-M-south"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-7-north"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-7-south"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-R-south"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-F-south/R-north/E-south/M-north/E-north/M-south/7-north/7-south/R-south/F-north" target="Jackson Hts - Roosevelt Av-F-north"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="EL421"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Jackson Hts - Roosevelt Av-M-manhattan"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Jackson Hts - Roosevelt Av-R-manhattan"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Jackson Hts - Roosevelt Av-E-manhattan"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-M-manhattan/R-manhattan/E-manhattan/F-manhattan" target="Jackson Hts - Roosevelt Av-F-manhattan"/>
-<edge source="Street-Jackson Hts - Roosevelt Av" target="EL420"/>
-<edge source="Platform-Jackson Hts - Roosevelt Av-nan" target="EL420"/>
 <edge source="Street-Jamaica - Van Wyck" target="EL409"/>
 <edge source="Mezzanine-Jamaica - Van Wyck" target="EL409"/>
 <edge source="Mezzanine-Jamaica - Van Wyck" target="EL408"/>
@@ -6553,6 +6489,31 @@
 <edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-B-manhattan"/>
 <edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-R-manhattan"/>
 <edge source="Platform-Dekalb Av-B-manhattan/R-manhattan/Q-manhattan" target="Dekalb Av-Q-manhattan"/>
+<edge source="Street-Bowling Green" target="EL710"/>
+<edge source="Street-Bowling Green" target="EL711"/>
+<edge source="Upper Mezzanine-Bowling Green" target="EL710"/>
+<edge source="Lower Mezzanine-Bowling Green" target="EL711"/>
+<edge source="Mezzanine-74 St - Broadway / Roosevelt Av" target="EL423"/>
+<edge source="Mezzanine-74 St - Broadway / Roosevelt Av" target="EL420"/>
+<edge source="Platform-74 St - Broadway / Roosevelt Av-7-south" target="EL423"/>
+<edge source="Platform-74 St - Broadway / Roosevelt Av-7-south" target="74 St - Broadway / Roosevelt Av-7-south"/>
+<edge source="Platform-74 St - Broadway / Roosevelt Av-7-north" target="EL420"/>
+<edge source="Platform-74 St - Broadway / Roosevelt Av-7-north" target="74 St - Broadway / Roosevelt Av-7-north"/>
+<edge source="EL420" target="Street-74 St - Broadway / Roosevelt Av"/>
+<edge source="EL420" target="Street-Jackson Hts - Roosevelt Av"/>
+<edge source="EL420" target="Lower Mezzanine-Jackson Hts - Roosevelt Av"/>
+<edge source="Lower Mezzanine-Jackson Hts - Roosevelt Av" target="EL422"/>
+<edge source="Lower Mezzanine-Jackson Hts - Roosevelt Av" target="EL421"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-north/F-north/M-north/R-north" target="EL422"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-north/F-north/M-north/R-north" target="Jackson Hts - Roosevelt Av-E-north"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-north/F-north/M-north/R-north" target="Jackson Hts - Roosevelt Av-F-north"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-north/F-north/M-north/R-north" target="Jackson Hts - Roosevelt Av-M-north"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-north/F-north/M-north/R-north" target="Jackson Hts - Roosevelt Av-R-north"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-south/F-south/M-south/R-south" target="EL421"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-south/F-south/M-south/R-south" target="Jackson Hts - Roosevelt Av-E-south"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-south/F-south/M-south/R-south" target="Jackson Hts - Roosevelt Av-F-south"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-south/F-south/M-south/R-south" target="Jackson Hts - Roosevelt Av-M-south"/>
+<edge source="Platform-Jackson Hts - Roosevelt Av-E-south/F-south/M-south/R-south" target="Jackson Hts - Roosevelt Av-R-south"/>
 <edge source="Concourse-Fulton St" target="EL716"/>
 <edge source="Concourse-Fulton St" target="EL717X"/>
 <edge source="Concourse-Fulton St" target="EL728X"/>
