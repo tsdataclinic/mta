@@ -194,6 +194,7 @@ Myrtle Av / Wyckoff Av,EL397,Mezzanine,Platform,L-south/M-north/L-north/M-south
 Myrtle Av / Wyckoff Av,EL398,Mezzanine,Platform,L-south/M-north/L-north/M-south
 New Utrecht,EL740,Mezzanine,Platform,D-north
 New Utrecht,EL741,Mezzanine,Platform,D-south
+New Utrecht,EL738,Street,Platform,N-north
 Ozone Park / Lefferts Blvd,EL462,Street,Mezzanine,
 Ozone Park / Lefferts Blvd,EL463,Mezzanine,Platform,A-south/A-north
 Pelham Bay Park,EL121,Street,Mezzanine,
@@ -314,6 +315,5 @@ Fulton St,EL728X,Street,Concourse,
 Fulton St,EL729X,Concourse,Platform,4-south/5-south
 Fulton St,EL732,William St Mezzanine,Platform,2-south/3-north/2-north/3-south
 Fulton St,EL733X,Street,Upper retail,
-New Utrecht,EL738,Street,Platform,N-north
 New Utrecht,EL739,Street,Mezzanine,
-New Utrecht,,Mezzanine,Platform,N-south
+New Utrecht,EL739,Street,Platform,N-south

@@ -3602,6 +3602,26 @@
   <data key="d1">D-south</data>
   <data key="d2">New Utrecht</data>
 </node>
+<node id="Street-New Utrecht">
+  <data key="d0">Street</data>
+  <data key="d1">New Utrecht</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="Platform-New Utrecht-N-north">
+  <data key="d0">Platform</data>
+  <data key="d1">Platform</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="EL738">
+  <data key="d0">Elevator</data>
+  <data key="d1">EL738</data>
+  <data key="d2">New Utrecht</data>
+</node>
+<node id="New Utrecht-N-north">
+  <data key="d0">Train</data>
+  <data key="d1">N-north</data>
+  <data key="d2">New Utrecht</data>
+</node>
 <node id="Street-Ozone Park / Lefferts Blvd">
   <data key="d0">Street</data>
   <data key="d1">Ozone Park / Lefferts Blvd</data>
@@ -5482,26 +5502,6 @@
   <data key="d1">EL733X</data>
   <data key="d2">Fulton St</data>
 </node>
-<node id="Street-New Utrecht">
-  <data key="d0">Street</data>
-  <data key="d1">New Utrecht</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="Platform-New Utrecht-N-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="EL738">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL738</data>
-  <data key="d2">New Utrecht</data>
-</node>
-<node id="New Utrecht-N-north">
-  <data key="d0">Train</data>
-  <data key="d1">N-north</data>
-  <data key="d2">New Utrecht</data>
-</node>
 <node id="EL739">
   <data key="d0">Elevator</data>
   <data key="d1">EL739</data>
@@ -6197,11 +6197,14 @@
 <edge source="Mezzanine-New Utrecht" target="EL740"/>
 <edge source="Mezzanine-New Utrecht" target="EL741"/>
 <edge source="Mezzanine-New Utrecht" target="EL739"/>
-<edge source="Mezzanine-New Utrecht" target="Platform-New Utrecht-N-south"/>
 <edge source="Platform-New Utrecht-D-north" target="EL740"/>
 <edge source="Platform-New Utrecht-D-north" target="New Utrecht-D-north"/>
 <edge source="Platform-New Utrecht-D-south" target="EL741"/>
 <edge source="Platform-New Utrecht-D-south" target="New Utrecht-D-south"/>
+<edge source="Street-New Utrecht" target="EL738"/>
+<edge source="Street-New Utrecht" target="EL739"/>
+<edge source="Platform-New Utrecht-N-north" target="EL738"/>
+<edge source="Platform-New Utrecht-N-north" target="New Utrecht-N-north"/>
 <edge source="Street-Ozone Park / Lefferts Blvd" target="EL462"/>
 <edge source="Mezzanine-Ozone Park / Lefferts Blvd" target="EL462"/>
 <edge source="Mezzanine-Ozone Park / Lefferts Blvd" target="EL463"/>
@@ -6591,9 +6594,6 @@
 <edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-2-north"/>
 <edge source="Platform-Fulton St-2-south/3-north/2-north/3-south" target="Fulton St-3-south"/>
 <edge source="Upper retail-Fulton St" target="EL733X"/>
-<edge source="Street-New Utrecht" target="EL738"/>
-<edge source="Street-New Utrecht" target="EL739"/>
-<edge source="Platform-New Utrecht-N-north" target="EL738"/>
-<edge source="Platform-New Utrecht-N-north" target="New Utrecht-N-north"/>
+<edge source="EL739" target="Platform-New Utrecht-N-south"/>
 <edge source="Platform-New Utrecht-N-south" target="New Utrecht-N-south"/>
 </graph></graphml>

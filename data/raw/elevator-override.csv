@@ -92,6 +92,5 @@ Fulton St,EL728X,Street,Concourse,
 Fulton St,EL729X,Concourse,Platform,4-south/5-south
 Fulton St,EL732,William St Mezzanine,Platform,2-south/3-north/2-north/3-south
 Fulton St,EL733X,Street,Upper retail,
-New Utrecht,EL738,Street,Platform,N-north
-New Utrecht,EL739,Street,Mezzanine
-New Utrecht,,Mezzanine,Platform,N-south
+New Utrecht,EL739,Street,Mezzanine,
+New Utrecht,EL739,Street,Platform,N-south
