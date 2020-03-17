@@ -1,3 +1,4 @@
+import bisect
 import io
 import logging
 import numpy as np
@@ -10,46 +11,72 @@ from ast import literal_eval
 from datetime import datetime
 from html.parser import HTMLParser
 
-def _cleanup_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
+def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
     logging.getLogger().info("Cleaning turnstile data")
 
     # create datetime from DATE and TIME columns
-    cleaned = raw_data.assign(datetime=pd.to_datetime(raw_data['DATE'] + " " + raw_data['TIME']))
-    cleaned = cleaned.set_index('datetime').sort_index()
+    processed = raw_data.assign(datetime=pd.to_datetime(raw_data['DATE'] + " " + raw_data['TIME']))
+
+    # remove mysterious duplicate index along STATION + UNIT
+    processed = processed.groupby(['STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
+
+    processed = processed.set_index(pd.DatetimeIndex(processed.datetime))
+    processed.drop(columns=['datetime'], inplace=True)
 
     # clean up whitespace in the columns
-    cleaned.rename(inplace=True, columns={c : c.strip() for c in cleaned.columns})
+    processed.rename(columns={c : c.strip() for c in processed.columns}, inplace=True)
 
-    # calculate the diff
-    entry_diffs = cleaned.groupby(['UNIT','SCP'],as_index=False)['ENTRIES'].transform(pd.Series.diff)['ENTRIES']
-    exit_diffs = cleaned.groupby(['UNIT','SCP'],as_index=False)['EXITS'].transform(pd.Series.diff)['EXITS']
+    return processed
+
+
+def _process_grouped_data(grouped: pd.DataFrame):
+    # calculate the diff and take the absolute value
+    entry_diffs =grouped.ENTRIES.diff()
+    exit_diffs = grouped.EXITS.diff()
+    entry_diffs_abs = entry_diffs.abs()
+    exit_diffs_abs = exit_diffs.abs()
 
     # more clean up
 
-    # Get absolute value
-    cleaned = cleaned.assign(cleaned_entries=entry_diffs.abs().cumsum(), cleaned_exits=exit_diffs.abs().cumsum())
+    # restore cumulative data
+    cleaned_entries = entry_diffs_abs.cumsum()
+    cleaned_exits = exit_diffs_abs.cumsum()
 
-    cleaned.reset_index(inplace=True)
-    return cleaned
+    # assign new columns
+    grouped = grouped.assign(
+        entry_diffs=entry_diffs,
+        exit_diffs=exit_diffs,
+        entry_diffs_abs=entry_diffs_abs,
+        exit_diffs_abs=exit_diffs_abs,
+        cleaned_entries=cleaned_entries,
+        cleaned_exits=cleaned_exits,
+    )
 
-def _interpolate(raw_data: pd.DataFrame) -> pd.DataFrame:
-    logging.getLogger().info("Interplating turnstile data")
+    # cleaned.reset_index(inplace=True)
+    hourly_sampled = grouped.resample('1H').asfreq()
+    interpolated_group = pd.concat([hourly_sampled, grouped])
+    interpolated_group = interpolated_group.loc[~interpolated_group.index.duplicated(keep='first')]
+    interpolated_group = interpolated_group.sort_index(ascending=True)
+    interpolated_group.cleaned_entries.interpolate(method='linear', inplace=True)
+    interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
+    interpolated_group = interpolated_group.assign(
+        cleaned_entries_diff=interpolated_group.cleaned_entries.diff().round(), \
+        cleaned_exists_diff=interpolated_group.cleaned_exits.diff().round())
+    interpolated_group.fillna(method='ffill', inplace=True)
+    interpolated_group = interpolated_group.loc[hourly_sampled.index]
+    return interpolated_group
 
-    grouped = raw_data.groupby(['UNIT', 'SCP', 'datetime']).sum().reset_index()
-    grouped.set_index(pd.DatetimeIndex(grouped.datetime), inplace=True)
+
+def _interpolate(intervalized_data: pd.DataFrame) -> pd.DataFrame:
+    logging.getLogger().info("Start creating hourly turnstile data")
+
     interpolated = []
-    for _, group in grouped.groupby(['UNIT', 'SCP']):
-        hourly_sampled = group.resample('1H').asfreq()
-        interpolated_group = pd.concat([hourly_sampled, group])
-        interpolated_group = interpolated_group.sort_index(ascending=True)
-        interpolated_group.cleaned_entries.interpolate(method='linear', inplace=True)
-        interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
-        interpolated_group = interpolated_group.assign(entries_diff=interpolated_group.cleaned_entries.diff().round(), \
-            exists_diff=interpolated_group.cleaned_exits.diff().round())
-        interpolated_group.fillna(method='ffill', inplace=True)
-        interpolated_group = interpolated_group.loc[hourly_sampled.index]
-        interpolated.append(interpolated_group)
-    return pd.concat(interpolated)
+    intervalized_data.groupby(['UNIT', 'SCP']).apply(lambda g: interpolated.append(_process_grouped_data(g)))
+    logging.getLogger().info("Finish interpolating")
+    result = pd.concat(interpolated)
+    logging.getLogger().info("Finish concatenating the result")
+
+    return result
 
 
 class TurnstilePageParser(HTMLParser):
@@ -78,15 +105,29 @@ class TurnstilePageParser(HTMLParser):
             except ValueError:
                 pass
             else:
-                if self.start_date <= d \
-                    and (not self.end_date or self.end_date >= d):
-                    self.links.append(self.link)
+                self.links.append((d, self.link))
 
     def get_all_links(self):
-        return self.links
+        self.links.sort(key=lambda r: r[0])
+        keys = [r[0] for r in self.links]
+        lower = bisect.bisect_left(keys, self.start_date)
+        if lower != len(keys):
+            lower = max(0, lower - 1) if keys[lower] == self.start_date else lower
+        else:
+            lower = 0
+
+        upper = len(keys) - 1
+        if self.end_date:
+            upper = bisect.bisect_right(keys, self.end_date)
+            if upper != len(keys):
+                upper = min(len(keys) - 1, upper + 1) if keys[upper] == self.end_date else upper
+            else:
+                upper = len(keys) - 1
+        return [r[1] for r in self.links[lower:upper]]
 
 
 def _download_turnstile_data(start_date, end_date=None):
+    logging.getLogger().info("Downloading turnstile data")
     mta_link_rook = 'http://web.mta.info/developers/'
     start_page = requests.get(mta_link_rook + 'turnstile.html')
     parser = TurnstilePageParser(start_date, end_date)
@@ -97,7 +138,9 @@ def _download_turnstile_data(start_date, end_date=None):
 
 def process_turnstile_data(start_date: datetime, end_date=None, existed_data: pd.DataFrame=None):
     raw = _download_turnstile_data(start_date, end_date)
-    return _interpolate(_cleanup_raw_data(raw))
+    interpolated = _interpolate(_process_raw_data(raw))
+    end_date = end_date or interpolated.index.max()
+    return interpolated[interpolated.index.to_series().between(start_date, end_date)]
 
 
 def create_data_by_station(turnstile_data: pd.DataFrame, output_dir: str):
