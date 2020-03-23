@@ -587,111 +587,6 @@
   <data key="d1">EL432</data>
   <data key="d2">179 St - Jamaica</data>
 </node>
-<node id="Lower Mezzanine-181 St">
-  <data key="d0">Lower Mezzanine</data>
-  <data key="d1">Lower Mezzanine</data>
-  <data key="d2">181 St</data>
-</node>
-<node id="Upper Mezzanine-181 St">
-  <data key="d0">Upper Mezzanine</data>
-  <data key="d1">Upper Mezzanine</data>
-  <data key="d2">181 St</data>
-</node>
-<node id="EL107">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL107</data>
-  <data key="d2">181 St</data>
-</node>
-<node id="EL109">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL109</data>
-  <data key="d2">181 St</data>
-</node>
-<node id="EL110">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL110</data>
-  <data key="d2">181 St</data>
-</node>
-<node id="EL108">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL108</data>
-  <data key="d2">181 St</data>
-</node>
-<node id="Lower Mezzanine-190 St">
-  <data key="d0">Lower Mezzanine</data>
-  <data key="d1">Lower Mezzanine</data>
-  <data key="d2">190 St</data>
-</node>
-<node id="Upper Mezzanine-190 St">
-  <data key="d0">Upper Mezzanine</data>
-  <data key="d1">Upper Mezzanine</data>
-  <data key="d2">190 St</data>
-</node>
-<node id="EL120">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL120</data>
-  <data key="d2">190 St</data>
-</node>
-<node id="EL115">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL115</data>
-  <data key="d2">190 St</data>
-</node>
-<node id="Mezzanine-190 St">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">190 St</data>
-</node>
-<node id="EL116">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL116</data>
-  <data key="d2">190 St</data>
-</node>
-<node id="Lower Mezzanine-191 St">
-  <data key="d0">Lower Mezzanine</data>
-  <data key="d1">Lower Mezzanine</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="Street-191 St">
-  <data key="d0">Street</data>
-  <data key="d1">191 St</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="EL106">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL106</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="EL105">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL105</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="EL104">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL104</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="Platform-191 St-1-south/1-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="EL103">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL103</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="191 St-1-south">
-  <data key="d0">Train</data>
-  <data key="d1">1-south</data>
-  <data key="d2">191 St</data>
-</node>
-<node id="191 St-1-north">
-  <data key="d0">Train</data>
-  <data key="d1">1-north</data>
-  <data key="d2">191 St</data>
-</node>
 <node id="Street-207 St - Inwood">
   <data key="d0">Street</data>
   <data key="d1">207 St - Inwood</data>
@@ -927,11 +822,6 @@
   <data key="d1">Mezzanine</data>
   <data key="d2">34 St - Herald Sq</data>
 </node>
-<node id="EL200X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL200X</data>
-  <data key="d2">34 St - Herald Sq</data>
-</node>
 <node id="EL213">
   <data key="d0">Elevator</data>
   <data key="d1">EL213</data>
@@ -1111,31 +1001,6 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL601</data>
   <data key="d2">34 St - Hudson Yards</data>
-</node>
-<node id="Street-42 St - Bryant Park">
-  <data key="d0">Street</data>
-  <data key="d1">42 St - Bryant Park</data>
-  <data key="d2">42 St - Bryant Park</data>
-</node>
-<node id="Mezzanine-42 St - Bryant Park">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">42 St - Bryant Park</data>
-</node>
-<node id="EL295X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL295X</data>
-  <data key="d2">42 St - Bryant Park</data>
-</node>
-<node id="EL287X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL287X</data>
-  <data key="d2">42 St - Bryant Park</data>
-</node>
-<node id="EL294X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL294X</data>
-  <data key="d2">42 St - Bryant Park</data>
 </node>
 <node id="Mezzanine-42 St - Grand Central">
   <data key="d0">Mezzanine</data>
@@ -1362,39 +1227,9 @@
   <data key="d1">6-north</data>
   <data key="d2">51 St</data>
 </node>
-<node id="Mezzanine-57 St - 7 Av">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">57 St - 7 Av</data>
-</node>
-<node id="Street-57 St - 7 Av">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
-  <data key="d2">57 St - 7 Av</data>
-</node>
-<node id="EL281">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL281</data>
-  <data key="d2">57 St - 7 Av</data>
-</node>
-<node id="Platform-61 St - Woodside-7-north/7-south">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">61 St - Woodside</data>
-</node>
 <node id="Mezzanine-61 St - Woodside">
   <data key="d0">Mezzanine</data>
   <data key="d1">Mezzanine</data>
-  <data key="d2">61 St - Woodside</data>
-</node>
-<node id="EL419X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL419X</data>
-  <data key="d2">61 St - Woodside</data>
-</node>
-<node id="EL418X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL418X</data>
   <data key="d2">61 St - Woodside</data>
 </node>
 <node id="Platform-61 St - Woodside-7-flushing main st">
@@ -1581,26 +1416,6 @@
   <data key="d0">Train</data>
   <data key="d1">Q-north</data>
   <data key="d2">72 St / 2 Av</data>
-</node>
-<node id="Street-8 Av">
-  <data key="d0">Street</data>
-  <data key="d1">8 Av</data>
-  <data key="d2">8 Av</data>
-</node>
-<node id="Platform-8 Av-N-north">
-  <data key="d0">Platform</data>
-  <data key="d1">Platform</data>
-  <data key="d2">8 Av</data>
-</node>
-<node id="EL753">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL753</data>
-  <data key="d2">8 Av</data>
-</node>
-<node id="8 Av-N-north">
-  <data key="d0">Train</data>
-  <data key="d1">N-north</data>
-  <data key="d2">8 Av</data>
 </node>
 <node id="Mezzanine-8 Av - 14 St">
   <data key="d0">Mezzanine</data>
@@ -1912,21 +1727,6 @@
   <data key="d1">2-south</data>
   <data key="d2">Borough Hall</data>
 </node>
-<node id="Street-Briarwood/Van Wyck Blvd">
-  <data key="d0">Street</data>
-  <data key="d1">Briarwood/Van Wyck Blvd</data>
-  <data key="d2">Briarwood/Van Wyck Blvd</data>
-</node>
-<node id="Mezzanine-Briarwood/Van Wyck Blvd">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">Briarwood/Van Wyck Blvd</data>
-</node>
-<node id="EL424">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL424</data>
-  <data key="d2">Briarwood/Van Wyck Blvd</data>
-</node>
 <node id="Mezzanine-Brooklyn Bridge - City Hall">
   <data key="d0">Mezzanine</data>
   <data key="d1">Mezzanine</data>
@@ -2177,31 +1977,6 @@
   <data key="d1">5-flatbush av brooklyn college</data>
   <data key="d2">Church Av</data>
 </node>
-<node id="Lower Mezzanine-Clark St">
-  <data key="d0">Lower Mezzanine</data>
-  <data key="d1">Lower Mezzanine</data>
-  <data key="d2">Clark St</data>
-</node>
-<node id="Street-Clark St">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
-  <data key="d2">Clark St</data>
-</node>
-<node id="EL310">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL310</data>
-  <data key="d2">Clark St</data>
-</node>
-<node id="EL311">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL311</data>
-  <data key="d2">Clark St</data>
-</node>
-<node id="EL312">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL312</data>
-  <data key="d2">Clark St</data>
-</node>
 <node id="Unknown-Coney Island Stillwell Av">
   <data key="d0">Unknown</data>
   <data key="d1">Unknown</data>
@@ -2286,26 +2061,6 @@
   <data key="d0">Elevator</data>
   <data key="d1">EL446</data>
   <data key="d2">Court Square</data>
-</node>
-<node id="Lower Mezzanine-Court St">
-  <data key="d0">Lower Mezzanine</data>
-  <data key="d1">Lower Mezzanine</data>
-  <data key="d2">Court St</data>
-</node>
-<node id="Street-Court St">
-  <data key="d0">Street</data>
-  <data key="d1">Street</data>
-  <data key="d2">Court St</data>
-</node>
-<node id="EL308">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL308</data>
-  <data key="d2">Court St</data>
-</node>
-<node id="EL309">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL309</data>
-  <data key="d2">Court St</data>
 </node>
 <node id="Street-Crown Hts - Utica Av">
   <data key="d0">Street</data>
@@ -2827,21 +2582,6 @@
   <data key="d1">5-north</data>
   <data key="d2">Gun Hill Rd</data>
 </node>
-<node id="Street-Hoyt Schermerhorn">
-  <data key="d0">Street</data>
-  <data key="d1">Hoyt Schermerhorn</data>
-  <data key="d2">Hoyt Schermerhorn</data>
-</node>
-<node id="Mezzanine-Hoyt Schermerhorn">
-  <data key="d0">Mezzanine</data>
-  <data key="d1">Mezzanine</data>
-  <data key="d2">Hoyt Schermerhorn</data>
-</node>
-<node id="EL747X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL747X</data>
-  <data key="d2">Hoyt Schermerhorn</data>
-</node>
 <node id="Mezzanine-Hunts Point">
   <data key="d0">Mezzanine</data>
   <data key="d1">Mezzanine</data>
@@ -2979,7 +2719,7 @@
 </node>
 <node id="Street-Jay St - MetroTech">
   <data key="d0">Street</data>
-  <data key="d1">Street</data>
+  <data key="d1">Jay St - MetroTech</data>
   <data key="d2">Jay St - MetroTech</data>
 </node>
 <node id="Mezzanine-Jay St - MetroTech">
@@ -2990,11 +2730,6 @@
 <node id="EL706">
   <data key="d0">Elevator</data>
   <data key="d1">EL706</data>
-  <data key="d2">Jay St - MetroTech</data>
-</node>
-<node id="EL327X">
-  <data key="d0">Elevator</data>
-  <data key="d1">EL327X</data>
   <data key="d2">Jay St - MetroTech</data>
 </node>
 <node id="Platform-Jay St - MetroTech-C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south">
@@ -5592,30 +5327,6 @@
 <edge source="Platform-179 St - Jamaica-F-manhattan" target="EL433"/>
 <edge source="Platform-179 St - Jamaica-F-manhattan" target="179 St - Jamaica-F-manhattan"/>
 <edge source="Platform-179 St - Jamaica-F-manhattan" target="EL432"/>
-<edge source="Lower Mezzanine-181 St" target="EL107"/>
-<edge source="Lower Mezzanine-181 St" target="EL109"/>
-<edge source="Lower Mezzanine-181 St" target="EL110"/>
-<edge source="Lower Mezzanine-181 St" target="EL108"/>
-<edge source="Upper Mezzanine-181 St" target="EL107"/>
-<edge source="Upper Mezzanine-181 St" target="EL109"/>
-<edge source="Upper Mezzanine-181 St" target="EL110"/>
-<edge source="Upper Mezzanine-181 St" target="EL108"/>
-<edge source="Lower Mezzanine-190 St" target="EL120"/>
-<edge source="Lower Mezzanine-190 St" target="EL115"/>
-<edge source="Upper Mezzanine-190 St" target="EL120"/>
-<edge source="Upper Mezzanine-190 St" target="EL115"/>
-<edge source="Upper Mezzanine-190 St" target="EL116"/>
-<edge source="Mezzanine-190 St" target="EL116"/>
-<edge source="Lower Mezzanine-191 St" target="EL106"/>
-<edge source="Lower Mezzanine-191 St" target="EL105"/>
-<edge source="Lower Mezzanine-191 St" target="EL104"/>
-<edge source="Street-191 St" target="EL106"/>
-<edge source="Street-191 St" target="EL105"/>
-<edge source="Street-191 St" target="EL104"/>
-<edge source="Street-191 St" target="EL103"/>
-<edge source="Platform-191 St-1-south/1-north" target="EL103"/>
-<edge source="Platform-191 St-1-south/1-north" target="191 St-1-south"/>
-<edge source="Platform-191 St-1-south/1-north" target="191 St-1-north"/>
 <edge source="Street-207 St - Inwood" target="EL148"/>
 <edge source="Mezzanine-207 St - Inwood" target="EL148"/>
 <edge source="Mezzanine-207 St - Inwood" target="EL149"/>
@@ -5655,9 +5366,7 @@
 <edge source="Street-28 St" target="EL279X"/>
 <edge source="Platform-28 St-6-south" target="EL279X"/>
 <edge source="Platform-28 St-6-south" target="28 St-6-south"/>
-<edge source="Street-34 St - Herald Sq" target="EL200X"/>
 <edge source="Street-34 St - Herald Sq" target="EL213"/>
-<edge source="Mezzanine-34 St - Herald Sq" target="EL200X"/>
 <edge source="Mezzanine-34 St - Herald Sq" target="EL213"/>
 <edge source="Mezzanine-34 St - Herald Sq" target="EL209"/>
 <edge source="Mezzanine-34 St - Herald Sq" target="EL211"/>
@@ -5693,12 +5402,6 @@
 <edge source="Upper Mezzanine-34 St - Hudson Yards" target="EL601"/>
 <edge source="Lower Mezzanine-34 St - Hudson Yards" target="EL602"/>
 <edge source="Lower Mezzanine-34 St - Hudson Yards" target="EL601"/>
-<edge source="Street-42 St - Bryant Park" target="EL295X"/>
-<edge source="Street-42 St - Bryant Park" target="EL287X"/>
-<edge source="Street-42 St - Bryant Park" target="EL294X"/>
-<edge source="Mezzanine-42 St - Bryant Park" target="EL295X"/>
-<edge source="Mezzanine-42 St - Bryant Park" target="EL287X"/>
-<edge source="Mezzanine-42 St - Bryant Park" target="EL294X"/>
 <edge source="Mezzanine-42 St - Grand Central" target="EL205"/>
 <edge source="Mezzanine-42 St - Grand Central" target="EL206"/>
 <edge source="Mezzanine-42 St - Grand Central" target="EL296"/>
@@ -5739,12 +5442,6 @@
 <edge source="Platform-51 St-6-south" target="51 St-6-south"/>
 <edge source="Platform-51 St-6-north" target="EL201"/>
 <edge source="Platform-51 St-6-north" target="51 St-6-north"/>
-<edge source="Mezzanine-57 St - 7 Av" target="EL281"/>
-<edge source="Street-57 St - 7 Av" target="EL281"/>
-<edge source="Platform-61 St - Woodside-7-north/7-south" target="EL419X"/>
-<edge source="Platform-61 St - Woodside-7-north/7-south" target="EL418X"/>
-<edge source="Mezzanine-61 St - Woodside" target="EL419X"/>
-<edge source="Mezzanine-61 St - Woodside" target="EL418X"/>
 <edge source="Mezzanine-61 St - Woodside" target="EL417X"/>
 <edge source="Mezzanine-61 St - Woodside" target="EL416X"/>
 <edge source="Mezzanine-61 St - Woodside" target="EL415X"/>
@@ -5783,9 +5480,6 @@
 <edge source="Platform-72 St / 2 Av-Q-south/Q-north" target="EL259"/>
 <edge source="Platform-72 St / 2 Av-Q-south/Q-north" target="72 St / 2 Av-Q-south"/>
 <edge source="Platform-72 St / 2 Av-Q-south/Q-north" target="72 St / 2 Av-Q-north"/>
-<edge source="Street-8 Av" target="EL753"/>
-<edge source="Platform-8 Av-N-north" target="EL753"/>
-<edge source="Platform-8 Av-N-north" target="8 Av-N-north"/>
 <edge source="Mezzanine-8 Av - 14 St" target="EL224"/>
 <edge source="Platform-8 Av - 14 St-L-north/L-south" target="EL224"/>
 <edge source="Platform-8 Av - 14 St-L-north/L-south" target="8 Av - 14 St-L-north"/>
@@ -5842,8 +5536,6 @@
 <edge source="Platform-Borough Hall-2-north/3-north/3-south/2-south" target="Borough Hall-3-north"/>
 <edge source="Platform-Borough Hall-2-north/3-north/3-south/2-south" target="Borough Hall-3-south"/>
 <edge source="Platform-Borough Hall-2-north/3-north/3-south/2-south" target="Borough Hall-2-south"/>
-<edge source="Street-Briarwood/Van Wyck Blvd" target="EL424"/>
-<edge source="Mezzanine-Briarwood/Van Wyck Blvd" target="EL424"/>
 <edge source="Mezzanine-Brooklyn Bridge - City Hall" target="EL315"/>
 <edge source="Mezzanine-Brooklyn Bridge - City Hall" target="EL316"/>
 <edge source="Mezzanine-Brooklyn Bridge - City Hall" target="EL314"/>
@@ -5890,12 +5582,6 @@
 <edge source="Platform-Church Av-2-flatbush av brooklyn college/5-flatbush av brooklyn college" target="EL321"/>
 <edge source="Platform-Church Av-2-flatbush av brooklyn college/5-flatbush av brooklyn college" target="Church Av-2-flatbush av brooklyn college"/>
 <edge source="Platform-Church Av-2-flatbush av brooklyn college/5-flatbush av brooklyn college" target="Church Av-5-flatbush av brooklyn college"/>
-<edge source="Lower Mezzanine-Clark St" target="EL310"/>
-<edge source="Lower Mezzanine-Clark St" target="EL311"/>
-<edge source="Lower Mezzanine-Clark St" target="EL312"/>
-<edge source="Street-Clark St" target="EL310"/>
-<edge source="Street-Clark St" target="EL311"/>
-<edge source="Street-Clark St" target="EL312"/>
 <edge source="Unknown-Coney Island Stillwell Av" target="EL702"/>
 <edge source="Unknown-Coney Island Stillwell Av" target="EL701"/>
 <edge source="Platform-Coney Island Stillwell Av-N-south/N-north" target="EL702"/>
@@ -5913,10 +5599,6 @@
 <edge source="Platform-Court Square-7-north/7-south" target="Court Square-7-north"/>
 <edge source="Platform-Court Square-7-north/7-south" target="Court Square-7-south"/>
 <edge source="Street-Court Square" target="EL446"/>
-<edge source="Lower Mezzanine-Court St" target="EL308"/>
-<edge source="Lower Mezzanine-Court St" target="EL309"/>
-<edge source="Street-Court St" target="EL308"/>
-<edge source="Street-Court St" target="EL309"/>
 <edge source="Street-Crown Hts - Utica Av" target="EL323"/>
 <edge source="Street-Crown Hts - Utica Av" target="EL322"/>
 <edge source="Platform-Crown Hts - Utica Av-3-north/4-south/4-north/3-south" target="EL323"/>
@@ -6011,8 +5693,6 @@
 <edge source="Platform-Gun Hill Rd-2-north/5-north" target="EL182"/>
 <edge source="Platform-Gun Hill Rd-2-north/5-north" target="Gun Hill Rd-2-north"/>
 <edge source="Platform-Gun Hill Rd-2-north/5-north" target="Gun Hill Rd-5-north"/>
-<edge source="Street-Hoyt Schermerhorn" target="EL747X"/>
-<edge source="Mezzanine-Hoyt Schermerhorn" target="EL747X"/>
 <edge source="Mezzanine-Hunts Point" target="EL197"/>
 <edge source="Mezzanine-Hunts Point" target="EL196"/>
 <edge source="Mezzanine-Hunts Point" target="EL195"/>
@@ -6038,9 +5718,7 @@
 <edge source="Platform-Jamaica Center Parsons/Archer-Z-north/J-south/Z-south/E-north/J-north/E-south" target="Jamaica Center Parsons/Archer-J-north"/>
 <edge source="Platform-Jamaica Center Parsons/Archer-Z-north/J-south/Z-south/E-north/J-north/E-south" target="Jamaica Center Parsons/Archer-E-south"/>
 <edge source="Street-Jay St - MetroTech" target="EL706"/>
-<edge source="Street-Jay St - MetroTech" target="EL327X"/>
 <edge source="Mezzanine-Jay St - MetroTech" target="EL706"/>
-<edge source="Mezzanine-Jay St - MetroTech" target="EL327X"/>
 <edge source="Mezzanine-Jay St - MetroTech" target="EL708"/>
 <edge source="Mezzanine-Jay St - MetroTech" target="EL707"/>
 <edge source="Mezzanine-Jay St - MetroTech" target="EL709"/>
