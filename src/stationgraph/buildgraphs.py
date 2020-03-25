@@ -6,9 +6,12 @@
 # stdout.
 #
 import argparse
-import pandas as pd 
+import pandas as pd
 import re
 import sys
+
+from utils import split_elevator_description
+
 
 def load_equipment(master_file, with_inactive=False, with_inaccessible=False, with_escalators=False, with_elevators=True):
     equipment = pd.read_csv(master_file)
@@ -37,10 +40,10 @@ def load_equipment(master_file, with_inactive=False, with_inaccessible=False, wi
 
 def load_platforms(platform_file):
     platforms = pd.read_csv(platform_file)
-    
+
     # ensure the expected columns are present
     platforms = platforms[["equipment_id", "line", "direction"]]
-    
+
     return platforms
 
 
@@ -70,10 +73,10 @@ def merge_platforms(equipment, platforms):
 
 def merge_overrides(equipment, overrides):
     # discard any old data for elevators described in the override file
-    equipment = equipment[~equipment.equipment_id.isin(overrides.equipment_id.unique())] 
+    equipment = equipment[~equipment.equipment_id.isin(overrides.equipment_id.unique())]
     # now append the overrides
     equipment = equipment.append(overrides, sort=True)
-    
+
     return equipment
 
 
@@ -96,14 +99,9 @@ def identify_edges(equipment):
                 return 'Street'
             return 'Unknown'
 
-        # try "to" and "for" first
-        m = re.search(r'^(.*?) (to|for) (.*)$', desc)
-        if m:
-            return simplify(m.group(1)), simplify(m.group(3))
-        # then try for "and"
-        m = re.search(r'^(.*?) (and) (.*)$', desc)
-        if m:
-            return simplify(m.group(1)), simplify(m.group(3))
+        levels = split_elevator_description(desc)
+        if len(levels) > 1:
+            return simplify(levels[0]), simplify(levels[1])
 
         if re.match('^Mezzanine .*bound Platform$', desc):
             return ('Mezzanine', 'Platform')
@@ -164,7 +162,7 @@ def main():
 
     log = (lambda hdr,df: print("==={}===\n{}".format(hdr, df.head()), file=sys.stderr)
           ) if opts.verbose else (lambda hdr,df: None)
-    
+
     equipment = load_equipment(opts.master_list,
                                with_inactive=opts.inactive, with_inaccessible=opts.inaccessible,
                                with_escalators=opts.escalators, with_elevators=opts.elevators)
@@ -175,7 +173,7 @@ def main():
 
     overrides = load_overrides(opts.override_list)
     log("Overrides", overrides)
-    
+
     equipment = merge_platforms(equipment, platforms)
     log("Merged 1", equipment)
 
@@ -190,13 +188,13 @@ def main():
 
     equipment.to_csv(sys.stdout if opts.output is None else opts.output,
                      index=False, columns=column_names)
-    
+
     #canonical_cols = canonical_names(equipment)
     #equipment = pd.concat([equipment, canonical_cols], axis=1, sort=False)
     #print("===Merged===")
     #print(equipment.head())
 
-    
+
 if __name__ == "__main__":
     main()
 
