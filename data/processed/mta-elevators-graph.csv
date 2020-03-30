@@ -28,17 +28,6 @@ station_name,equipment_id,from,to,platform_id
 179 St - Jamaica,EL431,Street,Mezzanine,
 179 St - Jamaica,EL433,Mezzanine,Platform,F-manhattan
 179 St - Jamaica,EL432,Mezzanine,Platform,F-manhattan
-181 St,EL107,Lower Mezzanine,Upper Mezzanine,
-181 St,EL109,Lower Mezzanine,Upper Mezzanine,
-181 St,EL110,Lower Mezzanine,Upper Mezzanine,
-181 St,EL108,Lower Mezzanine,Upper Mezzanine,
-190 St,EL120,Lower Mezzanine,Upper Mezzanine,
-190 St,EL115,Lower Mezzanine,Upper Mezzanine,
-190 St,EL116,Mezzanine,Upper Mezzanine,
-191 St,EL106,Lower Mezzanine,Street,
-191 St,EL105,Lower Mezzanine,Street,
-191 St,EL104,Lower Mezzanine,Street,
-191 St,EL103,Street,Platform,1-south/1-north
 207 St - Inwood,EL148,Street,Mezzanine,
 207 St - Inwood,EL149,Mezzanine,Platform,A-north/A-south
 21 St - Queensbridge,EL405,Street,Mezzanine,
@@ -52,7 +41,6 @@ station_name,equipment_id,from,to,platform_id
 233 St,EL194,Mezzanine,Platform,2-south/5-south
 233 St,EL193,Mezzanine,Platform,2-north/5-north
 28 St,EL279X,Street,Platform,6-south
-34 St - Herald Sq,EL200X,Street,Mezzanine,
 34 St - Herald Sq,EL213,Street,Mezzanine,
 34 St - Herald Sq,EL209,Mezzanine,Platform,D-south/M-south/F-south/B-south
 34 St - Herald Sq,EL211,Mezzanine,Platform,N-south/R-south/Q-south/W-south
@@ -62,9 +50,6 @@ station_name,equipment_id,from,to,platform_id
 34 St - Hudson Yards,EL600,Mezzanine,Platform,7-north/7-south
 34 St - Hudson Yards,EL602,Upper Mezzanine,Lower Mezzanine,
 34 St - Hudson Yards,EL601,Upper Mezzanine,Lower Mezzanine,
-42 St - Bryant Park,EL295X,Street,Mezzanine,
-42 St - Bryant Park,EL287X,Street,Mezzanine,
-42 St - Bryant Park,EL294X,Street,Mezzanine,
 42 St - Grand Central,EL205,Mezzanine,Platform,4-south/6-south/5-south
 42 St - Grand Central,EL206,Mezzanine,Platform,5-north/6-north/4-north
 42 St - Grand Central,EL296,Mezzanine,Street,
@@ -76,9 +61,6 @@ station_name,equipment_id,from,to,platform_id
 50 St,EL208X,Mezzanine,Platform,E-south/C-south
 51 St,EL202,Mezzanine,Platform,6-south
 51 St,EL201,Mezzanine,Platform,6-north
-57 St - 7 Av,EL281,Mezzanine,Street,
-61 St - Woodside,EL419X,Platform,Mezzanine,7-north/7-south
-61 St - Woodside,EL418X,Platform,Mezzanine,7-north/7-south
 61 St - Woodside,EL417X,Mezzanine,Platform,7-flushing main st
 61 St - Woodside,EL416X,Mezzanine,Platform,7-manhattan
 61 St - Woodside,EL415X,Street,Mezzanine,
@@ -92,7 +74,6 @@ station_name,equipment_id,from,to,platform_id
 72 St / 2 Av,EL267,Street,Lower Mezzanine,
 72 St / 2 Av,EL262,Street,Lower Mezzanine,
 72 St / 2 Av,EL259,Lower Mezzanine,Platform,Q-south/Q-north
-8 Av,EL753,Street,Platform,N-north
 8 Av - 14 St,EL224,Mezzanine,Platform,L-north/L-south
 86 St,EL273,Street,Platform,6-north/4-north/5-north
 86 St / 2 Av,EL250,Street,Mezzanine,
@@ -108,7 +89,6 @@ Bay Parkway,EL378,Mezzanine,Platform,D-coney island
 Bay Parkway,EL377,Mezzanine,Platform,D-manhattan
 Borough Hall,EL317,Street,Mezzanine,
 Borough Hall,EL318,Mezzanine,Platform,2-north/3-north/3-south/2-south
-Briarwood/Van Wyck Blvd,EL424,Street,Mezzanine,
 Brooklyn Bridge - City Hall,EL315,Mezzanine,Platform,6-south/4-south/5-south
 Brooklyn Bridge - City Hall,EL316,Mezzanine,Platform,4-north/5-north/6-north
 Brooklyn Bridge - City Hall,EL314,Street,Mezzanine,
@@ -121,16 +101,11 @@ Church Av,EL375,Mezzanine,Platform,G-coney island/F-coney island
 Church Av,EL374,Mezzanine,Platform,F-manhattan/G-manhattan
 Church Av,EL320,Street,Platform,2-manhattan/5-manhattan
 Church Av,EL321,Street,Platform,2-flatbush av brooklyn college/5-flatbush av brooklyn college
-Clark St,EL310,Lower Mezzanine,Street,
-Clark St,EL311,Lower Mezzanine,Street,
-Clark St,EL312,Lower Mezzanine,Street,
 Coney Island Stillwell Av,EL702,Unknown,Platform,N-south/N-north
 Coney Island Stillwell Av,EL701,Unknown,Platform,N-north/N-south
 Court Square,EL447,Mezzanine,Platform,7-manhattan-bound
 Court Square,EL445X,Mezzanine,Platform,7-north/7-south
 Court Square,EL446,Street,Mezzanine,
-Court St,EL308,Lower Mezzanine,Street,
-Court St,EL309,Lower Mezzanine,Street,
 Crown Hts - Utica Av,EL323,Street,Platform,3-north/4-south/4-north/3-south
 Crown Hts - Utica Av,EL322,Street,Mezzanine,
 Dyckman St,EL178,Street,Platform,1-south
@@ -156,7 +131,6 @@ Franklin Av,EL340,Street,Platform,C-south
 Franklin Av,EL339,Street,Unknown,
 Gun Hill Rd,EL183,Street,Platform,5-south/2-south
 Gun Hill Rd,EL182,Street,Platform,2-north/5-north
-Hoyt Schermerhorn,EL747X,Street,Mezzanine,
 Hunts Point,EL197,Mezzanine,Platform,6-south
 Hunts Point,EL196,Mezzanine,Platform,6-north
 Hunts Point,EL195,Street,Mezzanine,
@@ -165,7 +139,6 @@ Jamaica - Van Wyck,EL408,Mezzanine,Platform,E-south/E-north
 Jamaica Center Parsons/Archer,EL412,Street,Mezzanine,
 Jamaica Center Parsons/Archer,EL413,Mezzanine,Platform,Z-north/J-south/Z-south/E-north/J-north/E-south
 Jay St - MetroTech,EL706,Street,Mezzanine,
-Jay St - MetroTech,EL327X,Mezzanine,Street,
 Jay St - MetroTech,EL708,Mezzanine,Platform,C-south/C-north/F-north/F-south/R-north/A-north/A-south/R-south
 Jay St - MetroTech,EL707,Mezzanine,Platform,C-south/F-north/A-south/A-north/C-north/F-south
 Jay St - MetroTech,EL709,Mezzanine,Platform,R-north/A-south/R-south/F-south/C-north/F-north/A-north/C-south
