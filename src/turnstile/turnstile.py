@@ -183,16 +183,17 @@ def get_hourly_turnstile_data(start_date: datetime, end_date=None) -> pd.DataFra
         .drop(columns=["entry_diffs", "exit_diffs", "entry_diffs_abs", "exit_diffs_abs"])
 
 
-def split_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnstile_file_path: str) \
+def split_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnstile_file_path: str, output=False) \
     -> Dict[str, pd.DataFrame]:
 
     """
-    Split turnstile data by station
+    Split turnstile data by station and save to output directory if passed.
 
     Parameters
     turnstile_data: pandas.DataFram
     station_turnstile_file_path: str
-
+    output: str
+    
     Return
     dict[station_name:str, station_turnstile_data: pd.DataFrame]
 
@@ -207,6 +208,13 @@ def split_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnst
     mapping.drop(columns = ['Unnamed: 0'], inplace=True)
     aggregated = turnstile_data.groupby(['datetime', 'STATION', 'UNIT']).sum().reset_index()
     merged = aggregated.merge(mapping, how='left', left_on=['UNIT'], right_on=[lst_col])
-    return {re.sub(r"\s+", '_', re.sub(r"[/|-]", " ", station)) + ".csv": df \
-         for (station, df) in merged.groupby(['station_name'])}
-
+    turnstile_by_station = {re.sub(r"\s+", '_', re.sub(r"[/|-]", " ", station)) + ".csv": df \
+                             for (station, df) in merged.groupby(['station_name'])}
+    if not output:
+        return turnstile_by_station
+    else:
+        if not os.path.exists(output):
+                os.mkdir(output)
+        for key in turnstile_by_station:
+            d = turnstile_by_station[key]
+            d.to_csv(output.strip('/')+'/'+key,index=False)
