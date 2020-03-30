@@ -1,0 +1,628 @@
+station_name,equipment_id,description,borough,subway_lines,equipment_type,ada_compliant,is_active,direction,subset_lines,connection_to_street
+125 St,EL125,125 St & Lexington Ave (NE corner) to mezzanine for service in both directions,MN,4/5/6,EL,Y,Y,both directions,4/5/6,Y
+125 St,EL142,125 St & St Nicholas Ave (SW corner) to mezzanine for service in both directions,MN,A/B/C/D,EL,Y,Y,both directions,A/B/C/D,Y
+125 St,EL143,mezzanine to downtown platform,MN,A/B/C/D,EL,Y,Y,downtown,A/B/C/D,N
+125 St,EL126,mezzanine to platforms for service in both directions,MN,4/5/6,EL,Y,Y,both directions,4/5/6,N
+125 St,EL144,mezzanine to uptown platform ,MN,A/B/C/D,EL,Y,Y,uptown,A/B/C/D,N
+125 St,ES102,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
+125 St,ES101,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
+125 St,ES103,It operates between street near SE corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
+135 St,EL181,Lenox Ave & 181 St (SW corner) to downtown platform,MN,2/3,EL,Y,Y,downtown,2/3,N
+135 St,EL180,Lenox Ave & 181 St (NE corner) to uptown and the Bronx-bound platform,MN,2/3,EL,Y,Y,uptown,2/3,N
+14 St - 8 Av,EL221,8th Ave & 14 St (SW corner) to mezzanine for A/C/E/L service in both directions,MN,A/C/E/L,EL,Y,Y,both directions,['A/C/E/L'],N
+14 St - 8 Av,EL222,mezzanine to downtown A/C/E platform,MN,A/C/E/L,EL,Y,Y,downtown,A/C/E/L,N
+14 St - 8 Av,EL223,mezzanine to uptown A/C/E platform,MN,A/C/E/L,EL,Y,Y,uptown,A/C/E/L,N
+14 St - Union Sq,EL217,4th Ave & 14 St (NE corner) to mezzanine for L/N/Q/R/W service in both directions ,MN,L/N/Q/R/W,EL,Y,Y,both directions,['L/N/Q/R/W'],N
+14 St - Union Sq,EL220,mezzanine to downtown N/Q/R/W platform,MN,L/N/Q/R/W,EL,Y,Y,downtown,L/N/Q/R/W,N
+14 St - Union Sq,EL218,mezzanine to L platform for service in both directions,MN,L/N/Q/R/W,EL,Y,Y,both directions,L/N/Q/R/W,N
+14 St - Union Sq,EL219,mezzanine to uptown N/Q/R/W platform ,MN,L/N/Q/R/W,EL,Y,Y,uptown,L/N/Q/R/W,N
+14 St - Union Sq,ES257X,It operates between mezzanine above all lines and street at NE corner of 4th Ave & 14 St,MN,L/N/Q/R/W,ES,N,Y,,L/N/Q/R/W,N
+14 St - Union Sq,ES258X,It operates between mezzanine above all lines and street at NE corner of 4th Ave & 14 St,MN,L/N/Q/R/W,ES,N,Y,,L/N/Q/R/W,N
+14 St - Union Sq,ES256X, ,MN,4/5/6,ES,N,N,,4/5/6,N
+145 St,ES116,It operates between platform and mezzanine below 145 St & Broadway,MN,A/B/C/D,ES,N,Y,,A/B/C/D,N
+145 St,ES115,It operates between platform and mezzanine below 147 St & Broadway,MN,A/B/C/D,ES,N,Y,,A/B/C/D,N
+149 St - 3 Av,EL129,3rd Ave & 149 St (SW corner) to Bronx-bound platform,BX,2/5,EL,Y,Y,,2/5,N
+149 St - 3 Av,EL130,Melrose Ave & 149 St (NW corner) to Manhattan-bound platform,BX,2/5,EL,Y,Y,,2/5,N
+161 St - Yankee Stadium,ES114,It operates between lower mezzanine above B/D and upper mezzanine below 4 Line,BX,4/B/D,ES,N,Y,,4/B/D,N
+161 St - Yankee Stadium,ES113,It operates between lower mezzanine above B/D and upper mezzanine below 4 Line,BX,4/B/D,ES,N,Y,,4/B/D,N
+161 St - Yankee Stadium,EL134,mezzanine to Manhattan-bound B/D platform,BX,4/B/D,EL,Y,Y,,4/B/D,N
+161 St - Yankee Stadium,EL133,mezzanine to Manhattan-bound 4 platform,BX,4/B/D,EL,Y,Y,,4/B/D,N
+161 St - Yankee Stadium,EL135,mezzanine to B/D platform for Bedford Pk Blvd and Norwood 205 St-bound service,BX,4/B/D,EL,Y,Y,,4/B/D,N
+161 St - Yankee Stadium,EL132,B/D mezzanine to Woodlawn-bound 4 platform and mezzanine for Manhattan-bound 4 service ,BX,4/B/D,EL,Y,Y,,4/B/D,N
+161 St - Yankee Stadium,EL131,161 St & River Ave (NE corner) to mezzanine to reach 4/B/D service in both directions,BX,4/B/D,EL,Y,Y,both directions,['4/B/D'],N
+168 St,EL139,168 St & St Nicholas Ave (SE corner) to mezzanine for A/C service in both directions and access to non-ADA 1 line elevators,MN,A/C,EL,Y,Y,both directions,['A/C'],Y
+168 St,EL112,transfer mezzanine to overpass for 1 train service in both directions,MN,1,EL,N,Y,both directions,['1'],N
+168 St,EL111,transfer mezzanine to overpass for 1 train service in both directions,MN,1,EL,N,Y,both directions,['1'],N
+168 St,EL113,transfer mezzanine to overpass for 1 train service in both directions,MN,1,EL,N,Y,both directions,['1'],N
+168 St,EL114,transfer mezzanine to overpass for 1 train service in both directions,MN,1,EL,N,Y,both directions,['1'],N
+168 St,EL141,mezzanine to downtown A/C platform,MN,A/C,EL,Y,Y,downtown,['A/C'],N
+168 St,EL140,mezzanine to platform for uptown A service and C terminal ,MN,A/C,EL,Y,Y,uptown,A/C,N
+175 St,EL123,177 St & Fort Washington Ave (NE corner) to mezzanine for service in both directions,MN,A,EL,Y,Y,both directions,['A'],N
+175 St,EL124,mezzanine to platform for service in both directions,MN,A,EL,Y,Y,both directions,A,N
+179 St - Jamaica,EL431,179 Pl & Hillside Ave (SE corner) to mezzanine for Manhattan-bound service,QNS,F,EL,Y,Y,,F,N
+179 St - Jamaica,EL433,mezzanine to terminal platform ,QNS,F,EL,Y,Y,,F,N
+179 St - Jamaica,EL432,mezzanine to Manhattan-bound platform ,QNS,F,EL,Y,Y,,F,N
+181 St,EL107,mezzanine to bridge for service in both directions,MN,1,EL,N,Y,both directions,1,N
+181 St,ES119,It operates between lower mezzanine and upper mezzanine,MN,A,ES,N,Y,,A,N
+181 St,EL109,mezzanine to bridge for service in both directions,MN,1,EL,N,Y,both directions,1,N
+181 St,EL110,mezzanine to bridge for service in both directions,MN,1,EL,N,Y,both directions,1,N
+181 St,EL108,mezzanine to bridge for service in both directions,MN,1,EL,N,Y,both directions,1,N
+181 St,ES117,It operates between lower mezzanine and upper mezzanine,MN,A,ES,N,Y,,A,N
+181 St,ES118,It operates between lower mezzanine and upper mezzanine,MN,A,ES,N,Y,,A,N
+181 St,EL118,upper mezzanine (184 St & Ft Washington Av) to lower mezzanine for service in both directions,MN,A,EL,N,N,both directions,['A'],N
+181 St,EL119,upper mezzanine (184 St & Ft Washington Av) to lower mezzanine for service in both directions,MN,A,EL,N,N,both directions,['A'],N
+181 St,EL117,upper mezzanine (184 St & Ft Washington Av) to lower mezzanine for service in both directions,MN,A,EL,N,N,both directions,['A'],N
+190 St,EL120,upper mezzanine (Fort Washington Av) to lower mezzanine for service in both directions and access to passageway to Bennet Ave & 190 St,MN,A,EL,N,Y,both directions,"['A', 'A']",N
+190 St,EL115,upper mezzanine (Fort Washington Av) to lower mezzanine for service in both directions and access to passageway to Bennet Ave & 190 St,MN,A,EL,N,Y,both directions,"['A', 'A']",N
+190 St,EL116,upper mezzanine (Fort Washington Av) to lower mezzanine for service in both directions and access to passageway to Bennet Ave & 190 St,MN,A,EL,N,Y,both directions,"['A', 'A']",N
+191 St,EL106,191 St & St Nicholas Ave (SW corner) to mezzanine for service in both directions and access to passageway to Broadway & 191 St,MN,1,EL,N,N,both directions,"['1', '1', '1', '1']",Y
+191 St,EL105,191 St & St Nicholas Ave (SW corner) to mezzanine for service in both directions and access to passageway to Broadway & 191 St,MN,1,EL,N,N,both directions,"['1', '1', '1', '1']",Y
+191 St,EL104,191 St & St Nicholas Ave (SW corner) to mezzanine for service in both directions and access to passageway to Broadway & 191 St,MN,1,EL,N,N,both directions,"['1', '1', '1', '1']",Y
+191 St,EL103,191 St & St Nicholas Ave (SW corner) to mezzanine for service in both directions and access to passageway to Broadway & 191 St,MN,1,EL,N,N,both directions,"['1', '1', '1', '1']",Y
+205 St - Norwood,ES112,It operates between platform and mezzanine below Bainbridge Ave & 206 St,BX,D,ES,N,Y,,D,N
+207 St - Inwood,EL148,207 St & Broadway (NW corner) to mezzanine for downtown service,MN,A,EL,Y,Y,downtown,A,N
+207 St - Inwood,EL149,mezzanine to downtown platform,MN,A,EL,Y,Y,downtown,A,N
+21 St - Queensbridge,EL405,21 St & 41 Ave (NE corner) to mezzanine for service in both directions,QNS,F,EL,Y,Y,both directions,F,N
+21 St - Queensbridge,EL407,mezzanine to Jamaica-bound platform ,QNS,F,EL,Y,Y,,F,N
+21 St - Queensbridge,EL406,mezzanine to Manhattan-bound platform,QNS,F,EL,Y,Y,,F,N
+21 St - Queensbridge,ES421,It operates between mezzanine and street at NE corner of 21 St & 41 Ave,QNS,F,ES,N,Y,,F,N
+21 St - Queensbridge,ES422,It operates between mezzanine and street at NE corner of 21 St & 41 Ave,QNS,F,ES,N,Y,,F,N
+21 St - Queensbridge,ES425,It operates between platform and mezzanine,QNS,F,ES,N,Y,,F,N
+21 St - Queensbridge,ES426,It operates between platform and mezzanine,QNS,F,ES,N,Y,,F,N
+21 St - Queensbridge,ES423,It operates between platform and mezzanine,QNS,F,ES,N,Y,,F,N
+21 St - Queensbridge,ES424,It operates between platform and mezzanine,QNS,F,ES,N,Y,,F,N
+23 St,EL298,Park Ave & 23 St (NE corner) to uptown platform,MN,6,EL,Y,Y,uptown,6,N
+23 St,EL299,Park Ave & 23 St (NW corner) to downtown platform,MN,6,EL,Y,Y,downtown,6,N
+231 St,EL185,231 St & Broadway (SE corner) to Van Cortlandt Park-bound platform,BX,1,EL,Y,Y,,['1'],Y
+231 St,EL184,231 St & Broadway (SW corner) to Manhattan-bound platform,BX,1,EL,Y,Y,,['1'],Y
+233 St,EL192,233 St & White Plans Rd (NW corner) to mezzanine for service in both directions,BX,2/5,EL,Y,Y,both directions,2/5,Y
+233 St,EL194,mezzanine to Manhattan-bound platform,BX,2/5,EL,Y,Y,,2/5,N
+233 St,EL193,mezzanine to Wakefield 241 St-bound platform,BX,2/5,EL,Y,Y,,2/5,N
+28 St,EL279X,28 St & Park Ave (SW corner) to downtown platform,MN,6,EL,Y,Y,downtown,6,Y
+34 St - Herald Sq,EL200X,6th Ave & 32 St (NW corner) to mezzanine for PATH service and access to subway service via stairs or non-ADA ramp,MN,B/D/F/M/N/Q/R/W,EL,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,EL213,6th Ave & 34 St entrance (SW corner) to mezzanine for service in both directions on all lines,MN,B/D/F/M/N/Q/R/W,EL,Y,Y,both directions,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES222,It operates between mezzanine near PATH train (connecting to subway lines via non-ADA ramp) and street at NW corner of 32 St & 6th Ave,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES221,It operates between mezzanine near PATH train (connecting to subway lines via non-ADA ramp) and street at NW corner of 32 St & 6th Ave,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES233,It operates between platform for northbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES224,It operates between mezzanine near PATH train (connecting to subway lines via non-ADA ramp) and street at NW corner of 32 St & 6th Ave,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES223,It operates between mezzanine near PATH train (connecting to subway lines via non-ADA ramp) and street at NW corner of 32 St & 6th Ave,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,EL209,mezzanine to downtown B/D/F/M platform,MN,B/D/F/M/N/Q/R/W,EL,Y,Y,downtown,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,EL211,mezzanine to downtown N/Q/R/W platform,MN,B/D/F/M/N/Q/R/W,EL,Y,Y,downtown,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,EL210,mezzanine to uptown B/D/F/M platform,MN,B/D/F/M/N/Q/R/W,EL,Y,Y,uptown,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,EL212,mezzanine to uptown N/Q/R/W platform ,MN,B/D/F/M/N/Q/R/W,EL,Y,Y,uptown,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES230,It operates between platform for northbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES229,It operates between platform for northbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES234,It operates between platform for northbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES232,It operates between platform for southbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES236,It operates between platform for southbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES235,It operates between platform for southbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Herald Sq,ES231,It operates between platform for southbound B/D/F/M and mezzanine,MN,B/D/F/M/N/Q/R/W,ES,N,Y,,B/D/F/M/N/Q/R/W,N
+34 St - Hudson Yards,EL603,34th St (between 10th Ave & 11th Ave) to upper mezzanine for Flushing Main St-bound service,MN,7,EL,Y,Y,,7,N
+34 St - Hudson Yards,ES636, ,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES623,It operates between lower mezzanine and upper mezzanine,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES635, ,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES622,It operates between lower mezzanine and upper mezzanine,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES621,It operates between lower mezzanine and upper mezzanine,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES625,It operates between lower mezzanine and upper mezzanine,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES633, ,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES624,It operates between lower mezzanine and upper mezzanine,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES634, ,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,EL600,mezzanine to Flushing Main St-bound platform,MN,7,EL,Y,Y,,7,N
+34 St - Hudson Yards,EL602,upper mezzanine to lower mezzanine for Flushing Main St-bound service,MN,7,EL,Y,Y,,7,N
+34 St - Hudson Yards,EL601,upper mezzanine to lower mezzanine for Flushing Main St-bound service,MN,7,EL,Y,Y,,7,N
+34 St - Hudson Yards,ES632, ,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES629,It operates between upper mezzanine and street on 34 St between 10th & 11th Ave,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES628,It operates between upper mezzanine and street on 34 St between 10th & 11th Ave,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES630, ,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES631, ,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES627,It operates between upper mezzanine and street on 34 St between 10th & 11th Ave,MN,7,ES,N,Y,,7,N
+34 St - Hudson Yards,ES626,It operates between upper mezzanine and street on 34 St between 10th & 11th Ave,MN,7,ES,N,Y,,7,N
+34 St - Penn,EL225,34 St & 8th Ave (SE corner) to uptown C/E platform and access to rest of complex,MN,A/C/E,EL,Y,Y,uptown,A/C/E,N
+34 St - Penn,EL215,concourse level of Penn Station to platform for 2/3 service in both directions,MN,1/2/3/LIRR,EL,Y,Y,both directions,1/2/3/LIRR,N
+34 St - Penn,EL216,concourse level of Penn Station to platform for downtown 1 service,MN,1/2/3/LIRR,EL,Y,Y,downtown,1/2/3/LIRR,N
+34 St - Penn,EL214,concourse level of Penn Station to platform for uptown 1 service,MN,1/2/3/LIRR,EL,Y,Y,uptown,1/2/3/LIRR,N
+34 St - Penn,EL34X,LIRR entrance - south side of 34 St (west of 7th Ave) to Penn Station concourse for service in both directions on all lines,MN,1/2/3/LIRR,EL,Y,Y,both directions,1/2/3/LIRR,N
+34 St - Penn,EL227,Penn Station concourse to A platform for service in both directions,MN,A/C/E,EL,Y,Y,both directions,A/C/E,N
+34 St - Penn,EL228,Penn Station concourse to downtown C/E platform,MN,A/C/E,EL,Y,Y,downtown,A/C/E,N
+34 St - Penn,EL226,uptown C/E platform to lower mezzanine for access to Penn Station concourse and rest of complex,MN,A/C/E,EL,Y,Y,uptown,A/C/E,N
+42 St - Bryant Park,EL295X,39 St & 6th Ave (NW corner) to mezzanine of B/D/F/M and passageway to 7 Line,MN,B/D/F/M,EL,N,Y,,['B/D/F/M'],N
+42 St - Bryant Park,EL287X,42 St & 6th Ave (NW corner) to mezzanine of B/D/F/M and passageway to 7 Line,MN,B/D/F/M,EL,N,Y,,['B/D/F/M'],N
+42 St - Bryant Park,EL294X,42 St & 6th Ave (SW corner) to mezzanine of B/D/F/M and passageway to 7 Line,MN,B/D/F/M,EL,N,Y,,['B/D/F/M'],N
+42 St - Grand Central,EL204,42 St (between Park Ave & Lexington Ave) to mezzanine for 4/5/6/7 service in both directions,MN,4/5/6/7,EL,Y,N,both directions,['4/5/6/7'],N
+42 St - Grand Central,ES207,It operates between platform for 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES209,It operates between platform for 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES610X,It operates between mezzanine above 4/5/6 and street near SE corner of 42 St & Park Ave,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES203,It operates between lower mezzanine above 7 Line and street-level (inside building on south side of 42 St between Lexington Ave & 3rd Ave),MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES204,It operates between lower mezzanine above 7 Line and street-level (inside building on south side of 42 St between Lexington Ave & 3rd Ave),MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES206,It operates between lower mezzanine above 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES205,It operates between lower mezzanine above 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES210,It operates between platform for 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES208,It operates between platform for 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,EL244,mezzanine to 7 platform for service in both directions,MN,4/5/6/7,EL,Y,N,both directions,4/5/6/7,N
+42 St - Grand Central,EL205,mezzanine to downtown 4/5/6 platform,MN,4/5/6/7,EL,Y,Y,downtown,4/5/6/7,N
+42 St - Grand Central,EL206,mezzanine to uptown 4/5/6 platform,MN,4/5/6/7,EL,Y,Y,uptown,4/5/6/7,N
+42 St - Grand Central,EL296,42 St & Lexington Av to mezzanine for 4/5/6/7 service in both directions ,MN,4/5/6/7,EL,Y,Y,both directions,['4/5/6/7'],N
+42 St - Grand Central,ES609X,It operates between mezzanine above 4/5/6 and street at SW corner of Park Ave & 42 St,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES608X,It operates between mezzanine above 4/5/6 and street at SW corner of Park Ave & 42 St,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
+42 St - Grand Central,ES256,It operates between mezzanine above 4/5/6 and street-level (inside Grand Central Terminal at 42 St & Park Ave),MN,4/5/6/7,ES,N,N,,4/5/6/7,N
+42 St - Grand Central,ES255,It operates between mezzanine above 4/5/6 and street-level (inside Grand Central Terminal at 42 St & Park Ave),MN,4/5/6/7,ES,N,N,,4/5/6/7,N
+42 St - Port Authority Bus Terminal,EL291X,8th Ave & 44 St entrance (SW corner) to intermediate landing for A/C/E service in both directions,MN,A/C/E,EL,Y,Y,both directions,['A/C/E'],N
+42 St - Port Authority Bus Terminal,EL290X,intermediate landing to mezzanine for A/C/E service in both directions,MN,A/C/E,EL,Y,Y,both directions,['A/C/E'],N
+42 St - Port Authority Bus Terminal,ES606X,It operates between mezzanine and intermediate landing connected to Escalator ES607X that connects to street level,MN,A/C/E,ES,N,Y,,A/C/E,N
+42 St - Port Authority Bus Terminal,ES607X,It operates between landing of Escalator ES606X and street at 42 St & 8th Ave,MN,A/C/E,ES,N,Y,,A/C/E,N
+42 St - Port Authority Bus Terminal,EL288X,Port Authority Bus Terminal (8th Ave between 41st St & 42nd St) to mezzanine for A/C/E service in both directions via ramps,MN,A/C/E,EL,Y,Y,both directions,['A/C/E'],N
+42 St - Port Authority Bus Terminal,EL289X,Port Authority Bus Terminal (8th Ave between 41st St & 42nd St) to mezzanine for A/C/E service in both directions via ramps,MN,A/C/E,EL,Y,Y,both directions,['A/C/E'],N
+47-50 St - Rockefeller Ctr,EL234,49 St & 6th Ave (NW corner) to mezzanine for service in both directions,MN,B/D/F/M,EL,Y,Y,both directions,B/D/F/M,N
+47-50 St - Rockefeller Ctr,EL236,mezzanine to downtown platform,MN,B/D/F/M,EL,Y,Y,downtown,B/D/F/M,N
+47-50 St - Rockefeller Ctr,EL235,mezzanine to uptown platform,MN,B/D/F/M,EL,Y,Y,uptown,B/D/F/M,N
+49 St,EL268X,49 St & 7th Ave (NE corner) to uptown platform,MN,N/R/W,EL,Y,Y,uptown,N/R/W,Y
+5 Av / 53 St,ES239,It operates between upper (southbound) platform and mezzanine below 5th Ave and 53 St (lower platform accessed via staircase),MN,E/M,ES,N,Y,,E/M,N
+5 Av / 53 St,ES240,It operates between upper (southbound) platform and mezzanine below 5th Ave and 53 St (lower platform accessed via staircase),MN,E/M,ES,N,Y,,E/M,N
+5 Av / 53 St,ES241,It operates between upper (southbound) platform and mezzanine below 5th Ave and 53 St (lower platform accessed via staircase),MN,E/M,ES,N,Y,,E/M,N
+5 Av / 53 St,ES242,It operates between upper (southbound) platform and mezzanine below 5th Ave and 53 St (lower platform accessed via staircase),MN,E/M,ES,N,Y,,E/M,N
+50 St,EL207X,49 St and 8th Ave (NW corner) to downtown C and access to downtown E,MN,C/E,EL,Y,Y,downtown,C/E,N
+50 St,ES263X,It operates between upper (C Line) platform and street near SW corner of 50 St & 8th Ave,MN,C/E,ES,N,Y,,C/E,N
+50 St,EL208X,downtown C platform to downtown E platform,MN,C/E,EL,Y,Y,downtown,C/E,N
+50 St,ES264X,It operates between lower (E Line) platform and upper (C Line) platform,MN,C/E,ES,N,Y,,C/E,N
+51 St,EL202,downtown 6 platform to underpass for access to uptown 6 and E/M service in both directions,MN,6/E/M,EL,Y,Y,downtown,6/E/M,N
+51 St,ES252,It operates between platform for southbound 6 Line and underpass connecting northbound 6 and E/M service,MN,6/E/M,ES,N,Y,,6/E/M,N
+51 St,EL201,mezzanine to underpass for access to downtown 6 service,MN,6/E/M,EL,Y,Y,downtown,6/E/M,N
+57 St - 7 Av,EL283, ,MN, ,EL,Y,N,,[' '],N
+57 St - 7 Av,EL282, ,MN, ,EL,Y,N,,[' '],N
+57 St - 7 Av,EL604, ,MN, ,EL,Y,N,,[' '],N
+57 St - 7 Av,EL281,57 St & 7th Ave (SW corner) to mezzanine for service in both directions,MN,N/Q/R/W,EL,N,Y,both directions,N/Q/R/W,N
+59 St,ES213,It operates between platform for northbound 4/5 and platform for northbound 6 Line,MN,4/5/6,ES,N,Y,,4/5/6,N
+59 St,ES211,It operates between platform for northbound 4/5 and platform for northbound 6 Line,MN,4/5/6,ES,N,Y,,4/5/6,N
+59 St,ES214,It operates between platform for southbound 4/5 and platform for southbound 6 Line,MN,4/5/6,ES,N,Y,,4/5/6,N
+59 St,ES212,It operates between platform for southbound 4/5 and platform for southbound 6 Line,MN,4/5/6,ES,N,Y,,4/5/6,N
+59 St - Columbus Cir,EL276X,8th Ave & 58 St (NW corner) to mezzanine for downtown 1 service and A/B/C/D service in both directions,MN,1/A/B/C/D,EL,Y,Y,downtown,1/A/B/C/D,N
+59 St - Columbus Cir,EL280,Central Park West & 60 St (NW corner) to uptown 1 platform and access to rest of complex via uptown A/B/C/D platform,MN,1/A/B/C/D,EL,Y,Y,uptown,1/A/B/C/D,N
+59 St - Columbus Cir,EL277,mezzanine to downtown A/B/C/D & 1 platforms,MN,1/A/B/C/D,EL,Y,Y,downtown,1/A/B/C/D,N
+59 St - Columbus Cir,EL278,mezzanine to uptown A/B/C/D platform,MN,1/A/B/C/D,EL,Y,Y,uptown,1/A/B/C/D,N
+59 St - Columbus Cir,ES250X,It operates between mezzanine above A/B/C/D (outside paid zone) and street at NW corner of 8th Ave & 58 St,MN,1/A/B/C/D,ES,N,Y,,1/A/B/C/D,N
+59 St - Columbus Cir,ES251X,It operates between mezzanine above A/B/C/D (outside paid zone) and street at NW corner of 8th Ave & 58 St,MN,1/A/B/C/D,ES,N,Y,,1/A/B/C/D,N
+59 St - Columbus Cir,ES276X, ,MN,1/A/B/C/D,ES,N,N,,1/A/B/C/D,N
+59 St - Columbus Cir,EL279,uptown 1 platform to uptown A/B/C/D platform,MN,1/A/B/C/D,EL,Y,Y,uptown,1/A/B/C/D,N
+61 St - Woodside,EL419X,mezzanine to Long Island-bound LIRR platform,QNS,7/LIRR,EL,N,Y,,7/LIRR,N
+61 St - Woodside,EL418X,mezzanine to Penn Station-bound LIRR platform,QNS,7/LIRR,EL,N,Y,,7/LIRR,N
+61 St - Woodside,EL417X,mezzanine to Flushing Main St-bound 7 platform ,QNS,7/LIRR,EL,Y,Y,,7/LIRR,N
+61 St - Woodside,EL416X,mezzanine to Manhattan-bound 7 platform,QNS,7/LIRR,EL,Y,Y,,7/LIRR,N
+61 St - Woodside,EL415X,Roosevelt Ave & 61 St (NE corner) to mezzanine for LIRR and 7 service in both directions,QNS,7/LIRR,EL,Y,Y,both directions,7/LIRR,N
+61 St - Woodside,ES448,It operates between street at 61 St & Roosevelt Ave and mezzanine of elevated 7 Line,QNS,7/LIRR,ES,N,Y,,7/LIRR,N
+62 St / New Utrecht,EL740,mezzanine to Manhattan-bound D platform,BKN,D/N,EL,Y,Y,,D/N,N
+62 St / New Utrecht,EL741,mezzanine to Coney Island-bound D platform,BKN,D/N,EL,Y,Y,,D/N,N
+62 St / New Utrecht,EL738,62 St & New Utrecht Av (SE corner) to Manhattan-bound N platform,BKN,D/N,EL,Y,Y,,D/N,N
+62 St / New Utrecht,EL739,62 St & New Utrecht Av (SE corner) to Coney Island-bound N platform and D mezzanine for service in both directions,BKN,D/N,EL,Y,Y,both directions,D/N,N
+66 St - Lincoln Center,EL237,East side of Broadway (between 65 St & 66 St) to uptown platform ,MN,1,EL,Y,Y,uptown,1,N
+66 St - Lincoln Center,EL238,West side of Broadway (between 65 St & 66 St) to downtown platform,MN,1,EL,Y,Y,downtown,1,N
+68 St / Hunter College,EL285, ,MN, ,EL,Y,N,,[' '],N
+68 St / Hunter College,EL286, ,MN, ,EL,Y,N,,[' '],N
+68 St / Hunter College,EL284, ,MN, ,EL,Y,N,,[' '],N
+7 Av,ES238,It operates between upper platform for southbound service and mezzanine below 53 St & 7th Ave,MN,B/D/E,ES,N,Y,,B/D/E,N
+7 Av,ES237,It operates between upper platform for southbound service and mezzanine below 53 St & Broadway,MN,B/D/E,ES,N,Y,,B/D/E,N
+72 St,EL240,Broadway (between 72 St & 73 St) to downtown platform ,MN,1/2/3,EL,Y,Y,downtown,1/2/3,N
+72 St,EL239,Broadway (between 72 St & 73 St) to uptown platform,MN,1/2/3,EL,Y,Y,uptown,1/2/3,N
+72 St / 2 Av,EL264,2nd Ave & 72 St (SE corner) to mezzanine for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+72 St / 2 Av,EL265,2nd Ave & 72 St (SE corner) to mezzanine for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+72 St / 2 Av,EL266,2nd Ave & 72 St (SE corner) to mezzanine for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+72 St / 2 Av,EL267,2nd Ave & 72 St (SE corner) to mezzanine for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+72 St / 2 Av,EL262,2nd Ave & 72 St (SE corner) to mezzanine for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+72 St / 2 Av,ES291,It operates between upper mezzanine and street at 69 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,EL259,mezzanine to platform for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+72 St / 2 Av,ES288,It operates between lower mezzanine and upper mezzanine below 69 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES289,It operates between lower mezzanine and upper mezzanine below 69 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES290,It operates between upper mezzanine and street at 69 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES294,It operates between lower mezzanine and street at NW corner of 72 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES296,It operates between lower mezzanine and street at NW corner of 72 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES295,It operates between lower mezzanine and street at NW corner of 72 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES287,It operates between platform and lower mezzanine,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES286,It operates between platform and lower mezzanine,MN,Q,ES,N,Y,,Q,N
+72 St / 2 Av,ES285,It operates between platform and lower mezzanine,MN,Q,ES,N,Y,,Q,N
+74 St - Broadway / Roosevelt Av,EL423,mezzanine to Manhattan-bound 7 platform,QNS,7/E/F/M/R,EL,Y,Y,,7/E/F/M/R,N
+8 Av,EL753,street to Manhattan-bound platform,BKN,N,EL,Y,Y,,N,N
+8 Av - 14 St,EL224,mezzanine to L platform for service in both directions,MN,A/C/E/L,EL,Y,Y,both directions,A/C/E/L,N
+86 St,EL273,86 St & Lexington Ave (NE corner) to uptown 6 platform,MN,6,EL,Y,Y,uptown,"['6', '6']",Y
+86 St,EL275, ,MN, ,EL,Y,N,,[' '],N
+86 St,EL274, ,MN, ,EL,Y,N,,[' '],N
+86 St / 2 Av,EL250,86 St & 2nd Ave (SW corner)  to mezzanine for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+86 St / 2 Av,ES279,It operates between lower mezzanine and upper mezzanine below 86 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES280,It operates between lower mezzanine and upper mezzanine below 86 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES281,It operates between lower mezzanine and upper mezzanine below 86 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,EL249,mezzanine to platform for service in both directions,MN,Q,EL,Y,Y,both directions,Q,N
+86 St / 2 Av,ES276,It operates between lower mezzanine and street at NE corner of 83 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES278,It operates between lower mezzanine and street at NE corner of 83 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES277,It operates between lower mezzanine and street at NE corner of 83 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES283,It operates between upper mezzanine and street at 86 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES284,It operates between upper mezzanine and street at 86 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES282,It operates between upper mezzanine and street at 86 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES297,It operates between upper mezzanine and street at 86 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES274,It operates between platform and lower mezzanine,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES275,It operates between platform and lower mezzanine,MN,Q,ES,N,Y,,Q,N
+86 St / 2 Av,ES273,It operates between platform and lower mezzanine,MN,Q,ES,N,Y,,Q,N
+96 St,EL146,Broadway (between 72 St & 73 St) to uptown platform ,MN,1/2/3,EL,Y,Y,uptown,1/2/3,N
+96 St,EL145,Broadway (between 72 St & 73 St) to downtown platform,MN,1/2/3,EL,Y,Y,downtown,1/2/3,N
+96 St / 2 Av,EL248,95 St & 2nd Ave entrance (SW corner) to mezzanine for downtown service,MN,Q,EL,Y,Y,downtown,Q,N
+96 St / 2 Av,EL247,mezzanine to downtown platform,MN,Q,EL,Y,Y,downtown,Q,N
+96 St / 2 Av,ES270,It operates between mezzanine and street at NE corner of 94 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES260,It operates between mezzanine and street at SW corner of 96 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES259,It operates between mezzanine and street at SW corner of 96 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES271,It operates between mezzanine and street at NE corner of 94 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES272,It operates between mezzanine and street at NE corner of 94 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES247,It operates between mezzanine and street at SW corner of 94 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES200,It operates between platform and mezzanine below 94 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES220,It operates between platform and mezzanine,MN,Q,ES,N,Y,,Q,N
+96 St / 2 Av,ES202,It operates between platform and mezzanine below 96 St & 2nd Ave,MN,Q,ES,N,Y,,Q,N
+Aqueduct Racetrack,EL489X,Sidewalk entrance (east of the pedestrian skybridge) to Manhattan-bound platform ,QNS,A,EL,Y,Y,,A,N
+Atlantic Av-Barclays Ctr,EL301,4th Ave and Pacific St (NE corner) to mezzanine for D/N/R service in both directions and access to rest of complex via Brooklyn-bound 2/3 platform,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,both directions,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,EL737X,Hanson Pl to LIRR concourse for access to Manhattan-bound 2/3 platform rest of complex,BKN,2/3/4/5/B/D/N/Q/R/LIRR,EL,Y,Y,,2/3/4/5/B/D/N/Q/R/LIRR,N
+Atlantic Av-Barclays Ctr,EL300X,Hanson Pl to LIRR concourse for access to Manhattan-bound 2/3 platform rest of complex,BKN,2/3/4/5/B/D/N/Q/R/LIRR,EL,Y,Y,,2/3/4/5/B/D/N/Q/R/LIRR,N
+Atlantic Av-Barclays Ctr,ES358X,It operates between mezzanine near B/Q (and connecting to 2/3 northbound platform via accessible passageway) and street-level plaza in front of Barclays Ctr,BKN,2/3/4/5/B/D/N/Q/R/LIRR,ES,N,Y,,2/3/4/5/B/D/N/Q/R/LIRR,N
+Atlantic Av-Barclays Ctr,ES358X,It operates between mezzanine near B/Q (and connecting to 2/3 northbound platform via accessible passageway) and street-level plaza in front of Barclays Ctr,BKN,2/3/4/5/B/D/N/Q/R/LIRR,ES,N,Y,,2/3/4/5/B/D/N/Q/R/LIRR,N
+Atlantic Av-Barclays Ctr,ES310,It operates between mezzanine above B/Q and upper mezzanine below Hanson Pl entrance to LIRR Station,BKN,2/3/4/5/B/D/N/Q/R/LIRR,ES,N,Y,,2/3/4/5/B/D/N/Q/R/LIRR,N
+Atlantic Av-Barclays Ctr,EL306,Manhattan-bound 2/3 platform to mezzanine for access to rest of complex,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,EL303,mezzanine (4th Ave & Pacific St) to Manhattan-bound D/N/R platform,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,EL304,Brooklyn-bound 2/3 platform to mezzanine for access to rest of complex,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,EL305,mezzanine to 4/5 platform for service in both directions,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,both directions,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,EL307,mezzanine to B/Q platform for service in both directions,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,both directions,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,EL302,mezzanine (4th Ave & Pacific St) to Coney Island and Bay Ridge-bound D/N/R platform,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,EL700X,Plaza entrance in front of Barclays Center to accessible passageway for access to Manhattan-bound 2/3 platform and rest of complex,BKN,2/3/4/5/B/D/N/Q/R,EL,Y,Y,,2/3/4/5/B/D/N/Q/R,N
+Atlantic Av-Barclays Ctr,ES359X,It operates between mezzanine near B/Q (and connecting to 2/3 northbound platform via accessible passageway) and street-level plaza in front of Barclays Ctr,BKN,2/3/4/5/B/D/N/Q/R/LIRR,ES,N,Y,,2/3/4/5/B/D/N/Q/R/LIRR,N
+Atlantic Av-Barclays Ctr,ES359X,It operates between mezzanine near B/Q (and connecting to 2/3 northbound platform via accessible passageway) and street-level plaza in front of Barclays Ctr,BKN,2/3/4/5/B/D/N/Q/R/LIRR,ES,N,Y,,2/3/4/5/B/D/N/Q/R/LIRR,N
+Bay Parkway,EL376,Bay Pkwy & 86 St (NW corner) to mezzanine for service in both directions,BKN,D,EL,Y,Y,both directions,D,N
+Bay Parkway,EL378,mezzanine to Coney Island-bound platform,BKN,D,EL,Y,Y,,D,N
+Bay Parkway,EL377,mezzanine to Manhattan-bound platform ,BKN,D,EL,Y,Y,,D,N
+Bedford Park Blvd/Grand Concourse Line,EL501, ,BX, ,EL,Y,N,,[' '],N
+Bedford Park Blvd/Grand Concourse Line,EL502, ,BX, ,EL,Y,N,,[' '],N
+Bedford Park Blvd/Grand Concourse Line,EL500, ,BX, ,EL,Y,N,,[' '],N
+Borough Hall,EL317,Court St & Montague St (on plaza) to mezzanine for access to 2/3 service in both directions and Manhattan-bound 4/5 service ,BKN,2/3/4/5,EL,Y,Y,both directions,2/3/4/5,N
+Borough Hall,EL318,mezzanine to platforms for 2/3 service in both directions and access to Manhattan-bound 4/5 service via Manhattan-bound 2/3 platform,BKN,2/3/4/5,EL,Y,Y,both directions,2/3/4/5,N
+Borough Hall,ES303,It operates between lower (southbound) 2/3 platform and mezzanine below Court St & Montague St,BKN,2/3/4/5,ES,N,Y,,2/3/4/5,N
+Bowery,ES334,It operates between platform and mezzanine below Delancey St east of Bowery,MN,J/Z,ES,N,Y,,J/Z,N
+Bowling Green,EL711,lower mezzanine to  Brooklyn-bound platform,MN,4/5,EL,Y,Y,,4/5,N
+Bowling Green,ES341,It operates between lower level mezzanine and platformfor northbound service,MN,4/5,ES,N,Y,,4/5,N
+Bowling Green,ES340,It operates between lower level mezzanine and platformfor northbound service,MN,4/5,ES,N,Y,,4/5,N
+Bowling Green,ES343,It operates between lower level mezzanine and platformfor southbound service,MN,4/5,ES,N,Y,,4/5,N
+Bowling Green,ES342,It operates between lower level mezzanine and platformfor southbound service,MN,4/5,ES,N,Y,,4/5,N
+Bowling Green,ES337,It operates between lower mezzanine below platforms and upper mezzanine at level of 4/5 northbound platform,MN,4/5,ES,N,Y,,['4/5'],N
+Bowling Green,ES339,It operates between lower level mezzanine below platforms and upper mezzanine below north side of Battery Pl & Broadway,MN,4/5,ES,N,Y,,4/5,N
+Bowling Green,ES336,It operates between lower mezzanine below platforms and upper mezzanine at level of 4/5 northbound platform,MN,4/5,ES,N,Y,,['4/5'],N
+Bowling Green,ES338,It operates between lower level mezzanine below platforms and upper mezzanine below north side of Battery Pl & Broadway,MN,4/5,ES,N,Y,,4/5,N
+Bowling Green,EL710,plaza south of Bowling Green Park to uptown platform and lower mezzanine for Brooklyn-bound service,MN,4/5,EL,Y,Y,uptown,4/5,N
+Bowling Green,ES345,It operates between upper mezzanine at level of 4/5 northbound platform and street at Bowling Green Park on Whitehall St,MN,4/5,ES,N,Y,,['4/5'],N
+Briarwood,EL424,Queens Blvd & Main St (NE corner) to mezzanine passageway for service in both directions,QNS,E/F,EL,N,Y,both directions,E/F,N
+Brighton Beach,ES346,It operates between street east of NE corner of 7th St & Brighton Beach Ave and mezzanine below platform,BKN,B/Q,ES,N,Y,,B/Q,N
+Broadway Junction,ES347,It operates between street-level station building on Van Sinderen Ave and mezzanine connector for J/Z and L Lines,BKN,A/C/J/L/Z/LIRR,ES,N,Y,,A/C/J/L/Z/LIRR,N
+Broadway Junction,ES330,It operates between street-level station building on Van Sinderen Ave and mezzanine connector for J/Z and L Lines,BKN,A/C/J/L/Z/LIRR,ES,N,Y,,A/C/J/L/Z/LIRR,N
+Broadway Junction,ES331,It operates between street-level station building on Van Sinderen Ave and mezzanine connector for J/Z and L Lines,BKN,A/C/J/L/Z/LIRR,ES,N,Y,,A/C/J/L/Z/LIRR,N
+Broadway-Lafayette/Bleecker St,EL330,downtown 6 mezzanine to downtown B/D/F/M platform,MN,6/B/D/F/M,EL,Y,Y,downtown,6/B/D/F/M,N
+Broadway-Lafayette/Bleecker St,EL329,downtown 6 mezzanine to uptown B/D/F/M platform,MN,6/B/D/F/M,EL,Y,Y,downtown,6/B/D/F/M,N
+Broadway-Lafayette/Bleecker St,EL328,Houston St & Lafayette St (NW corner) to downtown 6 mezzanine and access to rest of complex,MN,6/B/D/F/M,EL,Y,Y,downtown,6/B/D/F/M,N
+Broadway-Lafayette/Bleecker St,ES300,It operates between northbound platform of B/D/F/M and platform level of northbound 6 Line,MN,6/B/D/F/M,ES,N,Y,,6/B/D/F/M,N
+Broadway-Lafayette/Bleecker St,EL331,uptown 6 mezzanine and uptown B/D/F/M platform,MN,6/B/D/F/M,EL,Y,Y,uptown,6/B/D/F/M,N
+Broadway-Lafayette/Bleecker St,EL332,uptown 6 mezzanine to downtown B/D/F/M platform,MN,6/B/D/F/M,EL,Y,Y,uptown,6/B/D/F/M,N
+Brooklyn Bridge - City Hall,EL315,mezzanine to platform for downtown 4/5 service and 6 terminal,MN,4/5/6,EL,Y,Y,downtown,4/5/6,N
+Brooklyn Bridge - City Hall,EL316,mezzanine to uptown platform,MN,4/5/6,EL,Y,Y,uptown,4/5/6,N
+Brooklyn Bridge - City Hall,EL314,plaza on east side of City Hall (opposite Brooklyn Bridge walkway) to mezzanine for service in both directions,MN,4/5/6,EL,Y,Y,both directions,4/5/6,N
+Canal St,EL324,Canal St & Lafayette St (NW corner) to uptown 6 platform,MN,6,EL,Y,Y,uptown,['6'],Y
+Canal St,EL325,Canal St & Lafayette St (NE corner) to downtown 6 platform,MN,6,EL,Y,Y,downtown,['6'],Y
+Chambers St,EL337,mezzanine to uptown platform,MN,1/2/3,EL,Y,Y,uptown,1/2/3,N
+Chambers St,EL742, ,MN, ,EL,Y,N,,[' '],N
+Chambers St,EL743, ,MN, ,EL,Y,N,,[' '],N
+Chambers St,EL338,mezzanine to downtown platform,MN,1/2/3,EL,Y,Y,downtown,1/2/3,N
+Chambers St,EL336,West Broadway & Chambers St (NW corner) to mezzanine for service in both directions,MN,1/2/3,EL,Y,Y,both directions,1/2/3,N
+Church Av,EL373,Church Ave & McDonald Ave (NW corner) to mezzanine for service in both directions,BKN,F/G,EL,Y,Y,both directions,F/G,Y
+Church Av,EL375,mezzanine to platform for Coney Island-bound F service and G terminal,BKN,F/G,EL,Y,Y,,F/G,N
+Church Av,EL374,mezzanine to platform for Manhattan-bound F and Queens-bound G service,BKN,F/G,EL,Y,Y,,F/G,N
+Church Av,EL320,Nostrand Ave & Church Ave (SE corner) to Manhattan-bound platform,BKN,2/5,EL,Y,Y,,2/5,N
+Church Av,EL321,Nostrand Ave & Church Ave (SW corner) to Flatbush Av Brooklyn College-bound platform,BKN,2/5,EL,Y,Y,,2/5,N
+Clark St,EL310,street-level arcade at Clark St & Henry St to lower mezzanine for service in both directions,BKN,2/3,EL,N,Y,both directions,2/3,N
+Clark St,EL311,street-level arcade at Clark St & Henry St to lower mezzanine for service in both directions,BKN,2/3,EL,N,Y,both directions,2/3,N
+Clark St,EL312,street-level arcade at Clark St & Henry St to lower mezzanine for service in both directions,BKN,2/3,EL,N,Y,both directions,2/3,N
+Coney Island Stillwell Av,EL702,D platform to overpass for access to mezzanine via N platform,BKN,D/F/N/Q,EL,Y,Y,,D/F/N/Q,N
+Coney Island Stillwell Av,EL701,N platform to overpass for access to D platform,BKN,D/F/N/Q,EL,Y,Y,,D/F/N/Q,N
+Cortlandt St,EL18X,Church St to mezzanine for downtown R/W service,MN,1/E/R/W,EL,Y,Y,downtown,1/E/R/W,N
+Cortlandt St,EL22X,Church St to South Concourse balcony and mezzanine for downtown R/W service,MN,1/E/R/W,EL,Y,Y,downtown,1/E/R/W,N
+Cortlandt St,EL16X,"Oculus main level to Fulton Center level, balcony, and mezzanine for downtown R/W service",MN,1/E/R/W,EL,Y,Y,downtown,1/E/R/W,N
+Cortlandt St,EL726X,Fulton Center level to downtown R/W platform and access to rest of complex,MN,E/R/W,EL,Y,Y,downtown,E/R/W,N
+Cortlandt St,EL727X,Fulton center level to uptown R/W platform and access to rest of complex,MN,E/R/W,EL,Y,Y,uptown,E/R/W,N
+Cortlandt St,EL17X,"Oculus main level to Fulton Center level, balcony, and mezzanine for downtown R/W service",MN,1/E/R/W,EL,Y,Y,downtown,1/E/R/W,N
+Cortlandt St,ES380X,It operates between passageway below R/W Line and mezzanine on northbound side,MN,E/R/W,ES,N,Y,,E/R/W,N
+Court Square,EL447,mezzanine to Manhattan-bound 7 platform,QNS,7,EL,Y,Y,,['7'],N
+Court Square,EL445X,G and 7 mezzanines to platform for Flushing Main St-bound 7 service,QNS,7,EL,Y,Y,,"['7', '7']",N
+Court Square,EL446,Jackson Ave & 23 St (NE corner) to mezzanine for 7 service in both directions and access to G mezzanine,QNS,7,EL,Y,Y,both directions,['7'],N
+Court Square,ES461X,It operates between mezzanine above G Line and mezzanine below 7 Line,QNS,7,ES,N,Y,,['7'],N
+Court Square,ES462X,It operates between mezzanine above G Line and mezzanine below 7 Line,QNS,7,ES,N,Y,,['7'],N
+Court Square,ES265X,It operates between mezzanine-level passageway from E/G/M and street at 45 St & Jackson Ave,QNS,7,ES,N,Y,,7,N
+Court Square,ES266X,It operates between mezzanine-level passageway from E/G/M and street at 45 St & Jackson Ave,QNS,7,ES,N,Y,,7,N
+Court Square - 23 St,PW401, ,QNS,E/M,PW,N,N,,E/M,N
+Court Square - 23 St,PW402, ,QNS,E/M,PW,N,N,,E/M,N
+Court St,EL308,mezzanine (Clinton St & Montague St) to intermediate mezzanine for R service in both directions,BKN,R,EL,N,Y,both directions,['R'],N
+Court St,EL309,mezzanine (Clinton St & Montague St) to intermediate mezzanine for R service in both directions,BKN,R,EL,N,Y,both directions,['R'],N
+Court St,ES305,It operates between lower mezzanine above R Line and upper mezzanine below Court St & Montague St,BKN,R,ES,N,Y,,['R'],N
+Court St,ES306,It operates between lower mezzanine above R Line and upper mezzanine below Court St & Montague St,BKN,R,ES,N,Y,,['R'],N
+Crown Hts - Utica Av,EL323,mezzanine (eastern entrance near Utica Ave) to platforms for service in both directions,BKN,3/4,EL,Y,Y,both directions,3/4,N
+Crown Hts - Utica Av,EL322,Utica Ave & Eastern Pkwy to mezzanine for service in both directions,BKN,3/4,EL,Y,Y,both directions,3/4,N
+Dekalb Av,EL370,Dekalb Ave & Flatbush Ave (SW corner) and mezzanine for service in both directions,BKN,B/Q/R,EL,Y,Y,both directions,B/Q/R,Y
+Dekalb Av,EL372,"mezzanine to Brighton Beach, Coney Island, and Bay Ridge-bound platform ",BKN,B/Q/R,EL,Y,Y,,B/Q/R,N
+Dekalb Av,EL371,mezzanine to Manhattan-bound platform ,BKN,B/Q/R,EL,Y,Y,,B/Q/R,N
+Dekalb Av,ES309,It operates between platform and mezzanine below Flatbush Ave west of Lafayette St,BKN,B/Q/R,ES,N,Y,,B/Q/R,N
+Dekalb Av,ES308,It operates between platform and mezzanine below Flatbush Ave west of Lafayette St,BKN,B/Q/R,ES,N,Y,,B/Q/R,N
+Delancey St Essex St,ES327,It operates between mezzanine above F Line and street at NE corner of Delancey St & Essex St,MN,F/J/M/Z,ES,N,Y,,F/J/M/Z,N
+Delancey St Essex St,ES328,It operates between platform of northbound F Line and street at SE corner of Delancey St & Essex St,MN,F/J/M/Z,ES,N,Y,,F/J/M/Z,N
+Dyckman St,EL178,Nagle Ave & Dyckman St to downtown platform ,MN,1,EL,Y,Y,downtown,1,N
+East 180 St,EL160,Morris Park Ave & E 180 St to Manhattan-bound platform ,BX,2/5,EL,Y,Y,,2/5,N
+East 180 St,EL159,Morris Park Ave & E 180 St to Bronx-bound platform ,BX,2/5,EL,Y,Y,,2/5,N
+East Broadway,ES329,It operates between platform and mezzanine below East Broadway & Rutgers St,MN,F,ES,N,Y,,F,N
+Euclid Av,EL341,Euclid Ave & Pitkin Ave (NE corner) to mezzanine for service in both directions,BKN,A/C,EL,Y,Y,both directions,A/C,Y
+Euclid Av,EL343,mezzanine to platform for Queens-bound A service and C terminal,BKN,A/C,EL,Y,Y,,A/C,N
+Euclid Av,EL342,mezzanine to Manhattan-bound platform,BKN,A/C,EL,Y,Y,,A/C,N
+Far Rockaway - Mott Av,EL498,Beach 22nd & Mott Ave to platform for Manhattan-bound service,QNS,A,EL,Y,Y,,['A'],N
+Far Rockaway - Mott Av,EL497,Beach 22nd & Mott Ave to platform for Manhattan-bound service,QNS,A,EL,Y,Y,,['A'],N
+Flatbush Av Brooklyn College,EL319,Nostrand Ave & Flatbush Ave (SE corner) to platform for service in both directions,BKN,2/5,EL,Y,Y,both directions,2/5,N
+Flushing Av,EL393,Flushing Ave & Broadway (SE corner) to mezzanine for service in both directions,BKN,J/M,EL,Y,Y,both directions,J/M,Y
+Flushing Av,EL395,mezzanine to Manhattan bound-platform ,BKN,J/M,EL,Y,Y,,J/M,N
+Flushing Av,EL394,mezzanine to Jamaica Center and Middle Village-bound platform ,BKN,J/M,EL,Y,Y,,J/M,N
+Flushing Main St,EL414,East of Main St & Roosevelt Ave to Manhattan-bound platform,QNS,7,EL,Y,Y,,7,N
+Flushing Main St,ES457,It operates between street on Roosevelt Ave and platform level of 7 Line,QNS,7,ES,N,Y,,['7'],N
+Flushing Main St,ES456,It operates between street on Roosevelt Ave and platform level of 7 Line,QNS,7,ES,N,Y,,['7'],N
+Flushing Main St,ES455,It operates between street on Roosevelt Ave and platform level of 7 Line,QNS,7,ES,N,Y,,['7'],N
+Fordham Rd,EL186,Jerome Ave & Fordham Rd (SE corner) to mezzanine for service in both directions,BX,4,EL,Y,Y,both directions,4,N
+Fordham Rd,EL188,mezzanine to Manhattan-bound platform,BX,4,EL,Y,Y,,4,N
+Fordham Rd,EL187,mezzanine to Woodlawn-bound platform,BX,4,EL,Y,Y,,4,N
+Forest Hills - 71 Av,EL438,mezzanine to platform for Jamaica-bound E/F service and M/R terminal,QNS,E/F/M/R,EL,Y,Y,,E/F/M/R,N
+Forest Hills - 71 Av,EL439,mezzanine to Manhattan-bound platform,QNS,E/F/M/R,EL,Y,Y,,E/F/M/R,N
+Forest Hills - 71 Av,EL437,South side of Queens Blvd (between 70 Rd & 71 Ave) to mezzanine for service in both directions,QNS,E/F/M/R,EL,Y,Y,both directions,E/F/M/R,N
+Franklin Av,EL340,footbridge to Manhattan-bound C platform,BKN,C/S,EL,Y,Y,,C/S,N
+Franklin Av,EL339,"Fulton St & Franklin Ave (SW corner) to Euclid-bound C platform, S platform, and footbridge for access to Manhattan-bound C service",BKN,C/S,EL,Y,Y,,C/S,N
+Franklin Av,ES352,It operates between street at SW corner of Fulton St & Franklin Ave and platform of Franklin Shuttle,BKN,C/S,ES,N,Y,,C/S,N
+Fulton St,ES377X,It operates between platform for southbound J/Z and street on Nassau St between Maiden Lane & John St,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES376X,It operates between platform for southbound J/Z and street on Nassau St between Maiden Lane & John St,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES365X,It operates between Transit Center at Dey St Concourse level and street-level in lobby on John St east of Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES365X,It operates between Transit Center at Dey St Concourse level and street-level in lobby on John St east of Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES366X,It operates between Transit Center at Dey St Concourse level and street-level in lobby on John St east of Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES366X,It operates between Transit Center at Dey St Concourse level and street-level in lobby on John St east of Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,EL728X,"Dey St & Broadway (SW corner) to downtown 4/5 platform, access to rest of Fulton St complex, and connection to Oculus complex",MN,2/3/4/5/A/C/J/Z/R/W,EL,Y,Y,downtown,2/3/4/5/A/C/J/Z/R/W,N
+Fulton St,EL718X,Transit Center (near Broadway & John St) to uptown 4/5 platform and access to rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,uptown,2/3/4/5/A/C/J/Z,N
+Fulton St,EL717X,Transit Center (near Broadway & John St) to uptown 4/5 platform and concourse for access to rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,uptown,2/3/4/5/A/C/J/Z,N
+Fulton St,EL723,William St & Fulton St (SW corner) to mezzanine for 2/3 and A/C service in both directions and access to rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,both directions,2/3/4/5/A/C/J/Z,N
+Fulton St,ES364,It operates between mezzanine at Dey St Concourse level and platform for 4/5 southbound ,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES367,It operates between lower mezzanine above south end of A/C platform and upper mezzanine near 2/3 and below William St &  Fulton St,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES368,It operates between lower mezzanine above south end of A/C platform and upper mezzanine near 2/3 and below William St &  Fulton St,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,EL719,mezzanine (Nassau St) and Broad St-bound J/Z to A/C platform for service in both directions and access to rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,both directions,2/3/4/5/A/C/J/Z,N
+Fulton St,EL721,2/3 mezzanine to A/C platform for service in both directions and access to rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,both directions,2/3/4/5/A/C/J/Z,N
+Fulton St,EL732,2/3 platform for service in both directions to mezzanine for access to A/C platform and rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,both directions,2/3/4/5/A/C/J/Z,N
+Fulton St,EL729X,Transit Center concourse to downntown 4/5 platform and access to rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,EL716,Transit Center concourse to uptown 4/5 platform and access to Brooklyn-bound J/Z platform and rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,uptown,2/3/4/5/A/C/J/Z,N
+Fulton St,EL720,concourse (Brooklyn-bound J/Z) to A/C platform for service in both directions and access to rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,both directions,2/3/4/5/A/C/J/Z,N
+Fulton St,EL733X,Transit Center (near Broadway & John St) to upper retail floors,MN, 2/3/4/5/A/C/J/Z,EL,N,Y,, 2/3/4/5/A/C/J/Z,N
+Fulton St,ES360X,It operates between Transit Center at level of 4/5 northbound platform and street at SE corner of Fulton St & Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES360X,It operates between Transit Center at level of 4/5 northbound platform and street at SE corner of Fulton St & Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES362X,It operates between Transit Center at level of 4/5 northbound platform and street at Fulton St east of Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES362X,It operates between Transit Center at level of 4/5 northbound platform and street at Fulton St east of Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES361X,It operates between Transit Center at level of 4/5 northbound platform and street at NE corner of John St & Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES361X,It operates between Transit Center at level of 4/5 northbound platform and street at NE corner of John St & Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES363X,It operates between mezzanine at Dey St Concourse level and platform for 4/5 southbound ,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES383X,It operates between Transit Center at level of 4/5 northbound platform and street at SE corner of Fulton St & Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,ES383X,It operates between Transit Center at level of 4/5 northbound platform and street at SE corner of Fulton St & Broadway,MN,2/3/4/5/A/C/J/Z,ES,N,Y,,2/3/4/5/A/C/J/Z,N
+Fulton St,EL722,Nassua St & Fulton St (NE corner) to mezzanine for Broad St-bound J/Z service and access to A/C platform and rest of complex,MN,2/3/4/5/A/C/J/Z,EL,Y,Y,,2/3/4/5/A/C/J/Z,N
+Gun Hill Rd,EL183,Gun Hill Rd to Manhattan-bound platform,BX,2/5,EL,Y,Y,,2/5,Y
+Gun Hill Rd,EL182,Gun Hill Rd to Wakefield 241 St-bound platform,BX,2/5,EL,Y,Y,,2/5,Y
+Gun Hill Rd,ES105,It operates between street at Gun Hill Rd & White Plains Rd and mezzanine below platform,BX,2/5,ES,N,Y,,2/5,N
+Gun Hill Rd,ES105,It operates between street at Gun Hill Rd & White Plains Rd and mezzanine below platform,BX,2/5,ES,N,Y,,2/5,N
+Gun Hill Rd,ES104,It operates between street at Gun Hill Rd & White Plains Rd and mezzanine below platform,BX,2/5,ES,N,Y,,2/5,N
+Gun Hill Rd,ES104,It operates between street at Gun Hill Rd & White Plains Rd and mezzanine below platform,BX,2/5,ES,N,Y,,2/5,N
+High St,ES323,It operates between lower mezzanine and upper mezzanine below Cadman Plaza East & Red Cross Pl and connected to passageway to Adams St (east of Brooklyn Bridge approach roadway),BKN,A/C,ES,N,Y,,A/C,N
+High St,ES324,It operates between lower mezzanine andupper mezzanine below Cadman Plaza East & High St (Red Cross Pl),BKN,A/C,ES,N,Y,,A/C,N
+High St,ES321,It operates between lower mezzanine and upper mezzanine below Cadman Plaza West near Middagh St,BKN,A/C,ES,N,Y,,A/C,N
+High St,ES350,It operates between lower mezzanine and upper mezzanine below Cadman Plaza West near Middagh St,BKN,A/C,ES,N,Y,,A/C,N
+High St,ES322,It operates between lower mezzanine and upper mezzanine below Cadman Plaza West near Middagh St,BKN,A/C,ES,N,Y,,A/C,N
+Howard Beach,EL491X,Colman Square to mezzanine for service in both directions,QNS,A,EL,Y,Y,both directions,A,N
+Howard Beach,EL490X,Colman Square to mezzanine for service in both directions,QNS,A,EL,Y,Y,both directions,A,N
+Howard Beach,EL495X,mezzanine to Manhattan-bound platform,QNS,A,EL,Y,Y,,A,N
+Howard Beach,EL494X,mezzanine to Manhattan-bound platform,QNS,A,EL,Y,Y,,A,N
+Howard Beach,EL493X,mezzanine to platform for Far Rockaway - Mott Av and Rockaway Park - Beach 116 St-bound service,QNS,A,EL,Y,Y,,['A'],N
+Howard Beach,ES498X,It operates between platform and intermediate landing connecting to escalator to AirTrain station,QNS,A,ES,N,Y,,['A'],N
+Howard Beach,ES497X,It operates between landing of previous escalator and AirTrain access,QNS,A,ES,N,Y,,['A'],N
+Howard Beach,ES499X,It operates between landing of previous escalator and AirTrain access,QNS,A,ES,N,Y,,['A'],N
+Howard Beach,ES496X,It operates between platform and intermediate landing connecting to escalator to AirTrain station,QNS,A,ES,N,Y,,['A'],N
+Howard Beach,EL492X,mezzanine to platform for Far Rockaway - Mott Av and Rockaway Park - Beach 116 St-bound service,QNS,A,EL,Y,Y,,['A'],N
+Hoyt Schermerhorn,EL747X,Hoyt St & Schermerhorn St (NE corner) to mezzanine for service in both directions,BKN, A/C/G,EL,N,Y,both directions, A/C/G,N
+Hunts Point,EL197,mezzanine to Manhattan-bound platform,BX,6,EL,Y,Y,,6,N
+Hunts Point,EL196,mezzanine to Pelham Bay Parkway-bound platform,BX,6,EL,Y,Y,,6,N
+Hunts Point,EL195,Hunts Pt Ave side of traffic island to mezzanine for service in both directions,BX,6,EL,Y,Y,both directions,6,N
+Intervale Av,ES108,It operates between street-level station structure on north side of Westchester Ave east of Intervale Ave and mezzanine below platform,BX,2/5,ES,N,Y,,2/5,N
+Jackson Hts - Roosevelt Av,ES449,It operates between mezzanine above E/F/M/R and mezzanine below 7 Line,QNS,7/E/F/M/R,ES,N,Y,,7/E/F/M/R,N
+Jackson Hts - Roosevelt Av,ES453,It operates between mezzanine above E/F/M/R and mezzanine below 7 Line,QNS,7/E/F/M/R,ES,N,Y,,7/E/F/M/R,N
+Jackson Hts - Roosevelt Av,ES452,It operates between mezzanine above E/F/M/R and mezzanine below 7 Line,QNS,7/E/F/M/R,ES,N,Y,,7/E/F/M/R,N
+Jackson Hts - Roosevelt Av,ES450,It operates between mezzanine above E/F/M/R and mezzanine below 7 Line,QNS,7/E/F/M/R,ES,N,Y,,7/E/F/M/R,N
+Jackson Hts - Roosevelt Av,ES451,It operates between mezzanine above E/F/M/R and mezzanine below 7 Line,QNS,7/E/F/M/R,ES,N,Y,,7/E/F/M/R,N
+Jackson Hts - Roosevelt Av,EL422,mezzanine to Forest Hills and Jamaica-bound E/F/M/R platform,QNS,7/E/F/M/R,EL,Y,Y,,7/E/F/M/R,N
+Jackson Hts - Roosevelt Av,EL421,transfer mezzanine to Manhattan-bound E/F/M/R platform and mezzanine for access to Queens-bound E/F/M/R service,QNS,7/E/F/M/R,EL,Y,Y,,7/E/F/M/R,N
+Jackson Hts - Roosevelt Av,EL420,"Roosevelt Ave & 74 St (SE corner) to Manhattan-bound 7 mezzanine, Flushing Main St-bound 7 platform, and transfer mezzanine for access to E/F/M/R service",QNS,7/E/F/M/R,EL,Y,Y,,7/E/F/M/R,N
+Jamaica - Van Wyck,EL409,89 Ave & Van Wyck Expwy (SW corner) to mezzanine for service in both directions,QNS,E,EL,Y,Y,both directions,['E'],N
+Jamaica - Van Wyck,ES429,It operates between platform andmezzanine,QNS,E,ES,N,Y,,E,N
+Jamaica - Van Wyck,ES428,It operates between platform andmezzanine,QNS,E,ES,N,Y,,E,N
+Jamaica - Van Wyck,EL408,mezzanine to platform for service in both directions,QNS,E,EL,Y,Y,both directions,E,N
+Jamaica - Van Wyck,ES427,It operates between mezzanine and street at Van Wyck Expwy service road & Jamaica Ave,QNS,E,ES,N,Y,,['E'],N
+Jamaica - Van Wyck,ES431,It operates between mezzanine and street at Van Wyck Expwy service road & 89 Ave,QNS,E,ES,N,Y,,['E'],N
+Jamaica - Van Wyck,ES430,It operates between mezzanine and street at Van Wyck Expwy service road & 89 Ave,QNS,E,ES,N,Y,,['E'],N
+Jamaica Center Parsons/Archer,EL412,Archer Ave & Parsons Blvd (SW corner) to mezzanine for service in both directions on both lines,QNS,E/J/Z,EL,Y,Y,both directions,E/J/Z,N
+Jamaica Center Parsons/Archer,ES445,It operates between lower platform and mezzanine below Parsons Blvd & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES446,It operates between lower platform and mezzanine below Parsons Blvd & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES443,It operates between upper platform and mezzanine below 153 St & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES444,It operates between upper platform and mezzanine below 153 St & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES441,It operates between lower platform and mezzanine below 153 St & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,EL413,mezzanine to platforms for E/J/Z service in both directions,QNS,E/J/Z,EL,Y,Y,both directions,['E/J/Z'],N
+Jamaica Center Parsons/Archer,ES439,It operates between mezzanine and street at NE corner of Parsons Blvd & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES438,It operates between mezzanine and street at SW corner of Parsons Blvd & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES440,It operates between mezzanine and street at 153 St & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES442,It operates between lower platform and mezzanine below 153 St & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jamaica Center Parsons/Archer,ES447,It operates between upper platform and mezzanine below Parsons Blvd & Archer Ave,QNS,E/J/Z,ES,N,Y,,E/J/Z,N
+Jay St - MetroTech,EL706,Jay St & Willoughby St (NW corner) to mezzanine for A/C/F/R service in both directions,BKN,A/C/F/R,EL,Y,Y,both directions,['A/C/F/R'],N
+Jay St - MetroTech,ES356,It operates between platform of R Line and connector to mezzanine above A/C/F,BKN,A/C/F/R,ES,N,Y,,A/C/F/R,N
+Jay St - MetroTech,EL327X,Bridge St & Willoughby St (SE corner) to mezzanine for R service in both directions,BKN,A/C/F/R,EL,N,Y,both directions,A/C/F/R,N
+Jay St - MetroTech,ES357,It operates between platform of R Line and connector to mezzanine above A/C/F,BKN,A/C/F/R,ES,N,Y,,A/C/F/R,N
+Jay St - MetroTech,EL708,mezzanine to platform for Coney Island-bound F and Queens-bound A/C service ,BKN,A/C/F/R,EL,Y,Y,,A/C/F/R,N
+Jay St - MetroTech,EL707,mezzanine to Manhattan-bound A/C/F platform,BKN,A/C/F/R,EL,Y,Y,,A/C/F/R,N
+Jay St - MetroTech,EL709,mezzanine to R platform for service in both directions,BKN,A/C/F/R,EL,Y,Y,both directions,A/C/F/R,N
+Jay St - MetroTech,ES320,It operates between mezzanine above A/C/F and street on Jay St near MetroTech,BKN,A/C/F/R,ES,N,N,,A/C/F/R,N
+Jay St - MetroTech,ES319,It operates between mezzanine above A/C/F and street on Jay St near MetroTech,BKN,A/C/F/R,ES,N,N,,A/C/F/R,N
+Jay St - MetroTech,ES318,It operates between mezzanine above A/C/F and street at Jay St & Willoughby St,BKN,A/C/F/R,ES,N,Y,,A/C/F/R,N
+Jay St - MetroTech,ES317,It operates between mezzanine above A/C/F and street at Jay St & Willoughby St,BKN,A/C/F/R,ES,N,Y,,A/C/F/R,N
+Jay St - MetroTech,ES307, ,BKN,A/C/F/R,ES,N,N,,A/C/F/R,N
+Junction Blvd,EL427,overpass to Flushing Main St-bound platform,QNS,7,EL,Y,Y,,7,N
+Junction Blvd,EL426,overpass to Manhattan-bound platform,QNS,7,EL,Y,Y,,7,N
+Junction Blvd,EL425,Roosevelt Ave & Junction Blvd (NE corner) to mezzanine and overpass for service in both directions,QNS,7,EL,Y,Y,both directions,7,N
+Kew Gardens / Union Tpk,EL434,Kew Gardens Rd & Union Tpke (SW corner) to mezzanine for service in both directions,QNS,E/F,EL,Y,Y,both directions,E/F,N
+Kew Gardens / Union Tpk,EL435,mezzanine to Jamaica-bound platform,QNS,E/F,EL,Y,Y,,E/F,N
+Kew Gardens / Union Tpk,EL436,mezzanine to Manhattan-bound platform,QNS,E/F,EL,Y,Y,,E/F,N
+Kings Highway,EL761,south side of Kings Hwy (west of 16 St) to Brighton Beach and Coney Island-bound platform ,BKN,B/Q,EL,Y,Y,,B/Q,N
+Kings Highway,EL760,south side of Kings Hwy (west of 16 St) to Manhattan-bound platform ,BKN,B/Q,EL,Y,Y,,B/Q,N
+Kingsbridge Road,EL189,Kingsbridge Rd & Grand Concourse (SE corner) to mezzanine for service in both directions,BX,B/D,EL,Y,Y,both directions,B/D,N
+Kingsbridge Road,EL191,mezzanine to Manhattan-bound platform,BX,B/D,EL,Y,Y,,B/D,N
+Kingsbridge Road,EL190,mezzanine to platform for Bedford Pk Blvd and Norwood 205 St-bound service,BX,B/D,EL,Y,Y,,B/D,N
+Lexington Av / 53 St,EL203X,53 St & Lexington Ave (SE corner) to mezzanine for E/M/6 service in both directions,MN,6/E/M,EL,Y,Y,both directions,6/E/M,N
+Lexington Av / 53 St,ES269,It operates between platform of E/M and mezzanine at level of transfer passageway to 6 Line and below 53 St & Lexington Ave,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,ES244,It operates between platform of E/M and mezzanine at level of transfer passageway to 6 Line and below 53 St & Lexington Ave,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,ES243,It operates between platform of E/M and mezzanine at level of transfer passageway to 6 Line and below 53 St & Lexington Ave,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,ES246,It operates between platform of E/M and mezzanine below 53 St & 3rd Ave,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,ES245,It operates between platform of E/M and mezzanine below 53 St & 3rd Ave,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,EL245,mezzanine to E/M platform for service in both directions,MN,6/E/M,EL,Y,Y,both directions,6/E/M,N
+Lexington Av / 53 St,ES253X,It operates between underpass of 6 Line and 6 Line uptown platform and connector to E/M Line,MN,6/E/M,ES,N,Y,uptown,6/E/M,N
+Lexington Av / 53 St,ES254X,It operates between platform of E/M and mezzanine at level of transfer passageway to 6 Line and below 53 St,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,ES600X,It operates between mezzanine of E/M and street at 53 St & Lexington Ave,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,ES245X, ,MN,6/E/M,ES,N,N,,6/E/M,N
+Lexington Av / 59 St,ES249,It operates between platform for N/R/W and mezzanine below 3rd Ave & 60 St,MN,N/R/W,ES,N,Y,,['N/R/W'],N
+Lexington Av / 59 St,ES248,It operates between platform for N/R/W and mezzanine below 3rd Ave & 60 St,MN,N/R/W,ES,N,Y,,['N/R/W'],N
+Lexington Av / 59 St,ES215,It operates between platform for N/R/W and platform for southbound 6 Line,MN,N/R/W,ES,N,Y,,['N/R/W'],N
+Lexington Av / 63 St,EL444,3rd Ave & 63 St (NW corner) to mezzanine for service in both directions,MN,F/Q,EL,Y,Y,both directions,F/Q,N
+Lexington Av / 63 St,EL401,Lexington Ave & 63 St (NW corner) to mezzanine for service in both directions,MN,F/Q,EL,Y,Y,both directions,F/Q,N
+Lexington Av / 63 St,EL402,Lexington Ave mezzanine to platforms for service in both directions,MN,F/Q,EL,Y,Y,both directions,F/Q,N
+Lexington Av / 63 St,ES408,It operates between upper platform for southbound service and lower mezzanine,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES407,It operates between upper platform for southbound service and lower mezzanine,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES409,It operates between lower platform for Queens/northbound service and lower mezzanine,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES410,It operates between lower platform for Queens/northbound service and lower mezzanine,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,EL442,3rd Ave mezzanine to platforms for service in both directions,MN,F/Q,EL,Y,Y,both directions,F/Q,N
+Lexington Av / 63 St,EL443,3rd Ave mezzanine to platforms for service in both directions,MN,F/Q,EL,Y,Y,both directions,F/Q,N
+Lexington Av / 63 St,EL440,3rd Ave mezzanine to platforms for service in both directions,MN,F/Q,EL,Y,Y,both directions,F/Q,N
+Lexington Av / 63 St,EL441,3rd Ave mezzanine to platforms for service in both directions,MN,F/Q,EL,Y,Y,both directions,F/Q,N
+Lexington Av / 63 St,ES458,It operates between upper mezzanine and street at SE corner of 3rd Ave & 63 St,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES459,It operates between upper mezzanine and street at SE corner of 3rd Ave & 63 St,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES405,It operates between lower mezzanine above platforms and landing for Escalators 403 & 404,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES406,It operates between lower mezzanine above platforms and landing for Escalators 403 & 404,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES402,It operates between upper mezzanine and street at NW corner of Lexington Ave & 63 St,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES401,It operates between upper mezzanine and street at NW corner of Lexington Ave & 63 St,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES404,It operates between landing of Escalators 405 & 406 and upper mezzanine below Lexington Ave & 63 St,MN,F/Q,ES,N,Y,,F/Q,N
+Lexington Av / 63 St,ES403,It operates between landing of Escalators 405 & 406 and upper mezzanine below Lexington Ave & 63 St,MN,F/Q,ES,N,Y,,F/Q,N
+Marcy Av,EL391,Marcy Ave & Broadway (NW corner) to Manhattan-bound platform ,BKN,J/M/Z,EL,Y,Y,,J/M/Z,Y
+Marcy Av,EL392,Marcy Ave & Broadway (SW corner) to Jamaica Center bound-platform ,BKN,J/M/Z,EL,Y,Y,,J/M/Z,Y
+Myrtle Av / Wyckoff Av,EL396,Gates Ave & Wyckoff Ave (SE corner) to mezzanines for L and M service in both directions,BKN,L/M,EL,Y,Y,both directions,L/M,N
+Myrtle Av / Wyckoff Av,ES332,It operates between lower mezzanine above L Line and upper mezzanine below M Line,BKN,L/M,ES,N,Y,,L/M,N
+Myrtle Av / Wyckoff Av,ES333,It operates between lower mezzanine above L Line and upper mezzanine below M Line,BKN,L/M,ES,N,Y,,L/M,N
+Myrtle Av / Wyckoff Av,EL397,mezzanine to L platform for service in both directions,BKN,L/M,EL,Y,Y,both directions,L/M,N
+Myrtle Av / Wyckoff Av,EL398,mezzanine to M platform for service in both directions,BKN,L/M,EL,Y,Y,both directions,L/M,N
+Ozone Park / Lefferts Blvd,EL462,Lefferts Blvd & Liberty Ave to mezzanine for service in both directions,QNS,A,EL,Y,Y,both directions,['A'],N
+Ozone Park / Lefferts Blvd,EL463,mezzanine to platform for service in both directions,QNS,A,EL,Y,Y,both directions,A,N
+Park Place,ES302,It operates between platform of 2/3 and mezzanine below Park Pl & Broadway,MN,2/3,ES,N,Y,,['2/3'],N
+Park Place,ES301,It operates between platform of 2/3 and mezzanine below Park Pl & Broadway,MN,2/3,ES,N,Y,,['2/3'],N
+Parkchester,ES111,It operates between street on Westchester Ave and Manhattan-bound platform,BX,6,ES,N,Y,,6,N
+Pelham Bay Park,EL121,Amendola Plaza entrance (adjacent to Bruckner Expwy) to mezzanine for Manhattan-bound service,BX,6,EL,Y,Y,,6,N
+Pelham Bay Park,ES121,It operates between mezzanine and platform,BX,6,ES,N,Y,,6,N
+Pelham Bay Park,EL122,mezzanine to Manhattan-bound platform,BX,6,EL,Y,Y,,6,N
+Pelham Bay Park,ES120,It operates between street at Amendola Plaza and mezzanine,BX,6,ES,N,Y,,6,N
+Pelham Pkwy,EL137,mezzanine to Manhattan-bound platform,BX,2/5,EL,Y,Y,,2/5,N
+Pelham Pkwy,EL138,mezzanine to Wakefield 241 St-bound platform,BX,2/5,EL,Y,Y,,2/5,N
+Pelham Pkwy,ES123,It operates between mezzanine and platform for Manhattan-bound service,BX,2/5,ES,N,Y,,2/5,N
+Pelham Pkwy,ES122,It operates between street at Pelham Parkway South & White Plains Rd and mezzanine,BX,2/5,ES,N,Y,,2/5,N
+Pelham Pkwy,ES122,It operates between street at Pelham Parkway South & White Plains Rd and mezzanine,BX,2/5,ES,N,Y,,2/5,N
+Pelham Pkwy,EL136,White Plains Rd & Pelham Pkwy South (SW corner) to mezzanine for service in both directions,BX,2/5,EL,Y,Y,both directions,2/5,N
+President St-Medgar Evers College,ES304,It operates between platform and mezzanine,BKN,2/5,ES,N,Y,,2/5,N
+Prospect Park,EL383,Lincoln Rd & Ocean Ave (NE corner) to Brighton Beach and Coney Island-bound B/Q platform,BKN,B/Q/S,EL,Y,Y,,B/Q/S,N
+Prospect Park,EL382,Lincoln Rd & Ocean Ave (NE corner) to platform for Manhattan-bound B/Q service and Franklin Shuttle ,BKN,B/Q/S,EL,Y,Y,,B/Q/S,N
+Queens Plaza,EL430,mezzanine to Forest Hills and Jamaica-bound platform,QNS,E/R/M,EL,Y,Y,,E/R/M,N
+Queens Plaza,EL429,mezzanine to Manhattan-bound platform,QNS,E/R/M,EL,Y,Y,,E/R/M,N
+Queens Plaza,EL428,Queens Plaza & Jackson Ave to mezzanine for service in both directions,QNS,E/R/M,EL,Y,Y,both directions,E/R/M,Y
+Roosevelt Island,ES412,It operates between intermediate mezzanine and street-level station building,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES413,It operates between intermediate mezzanine and street-level station building,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES411,It operates between intermediate mezzanine and street-level station building,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES415,It operates between lower mezzanine and intermediate mezzanine,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES414,It operates between lower mezzanine and intermediate mezzanine,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES416,It operates between lower mezzanine and intermediate mezzanine,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES417,It operates between platform and lower mezzanine,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES419,It operates between platform and lower mezzanine,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES420,It operates between platform and lower mezzanine,MN,F,ES,N,Y,,F,N
+Roosevelt Island,ES418,It operates between platform and lower mezzanine,MN,F,ES,N,Y,,F,N
+Roosevelt Island,EL404,West Rd to Jamaica-bound platform  ,MN,F,EL,Y,Y,,F,N
+Roosevelt Island,EL403,West Rd to Manhattan-bound platform,MN,F,EL,Y,Y,,F,N
+Simpson St,EL128,Westchester Ave & Simpson St (NE corner) to Manhattan-bound platform,BX,2/5,EL,Y,Y,,2/5,N
+Simpson St,EL127,Westchester Ave & Simpson St (SW corner) to Bronx-bound platform ,BX,2/5,EL,Y,Y,,2/5,N
+Smith - 9 Sts,ES315,It operates between intermediate mezzanine and upper mezzanine below platform,BKN,F/G,ES,N,Y,,F/G,N
+Smith - 9 Sts,ES349,It operates between intermediate mezzanine and upper mezzanine below platform,BKN,F/G,ES,N,Y,,F/G,N
+Smith - 9 Sts,ES316,It operates between intermediate mezzanine and upper mezzanine below platform,BKN,F/G,ES,N,Y,,F/G,N
+Smith - 9 Sts,ES348,It operates between street at Smith St & 9th St and intermediate mezzanine,BKN,F/G,ES,N,Y,,F/G,N
+Smith - 9 Sts,ES314,It operates between street at Smith St & 9th St and intermediate mezzanine,BKN,F/G,ES,N,Y,,F/G,N
+Smith - 9 Sts,ES313,It operates between street at Smith St & 9th St and intermediate mezzanine,BKN,F/G,ES,N,Y,,F/G,N
+South Ferry,EL731,mezzanine to platform for uptown service,MN,1,EL,Y,Y,uptown,1,N
+South Ferry,ES373,It operates between mezzanine above 1 Line and street on Peter Minuit Plaza in front of ferry terminal,MN,1,ES,N,Y,,['1'],N
+South Ferry,ES369,It operates between mezzanine between R/W and 1 Line and street on Peter Minuit Plaza in front of ferry terminal,MN,1,ES,N,Y,,['1'],N
+South Ferry,ES370,It operates between mezzanine between R/W and 1 Line and street on Peter Minuit Plaza in front of ferry terminal,MN,1,ES,N,Y,,['1'],N
+South Ferry,ES375,It operates between mezzanine above 1 Line and street north of ferry terminal,MN,1,ES,N,Y,,['1'],N
+South Ferry,ES371,It operates between platform of 1 Line and mezzanine,MN,1,ES,N,Y,,['1'],N
+South Ferry,ES372,It operates between platform of 1 Line and mezzanine,MN,1,ES,N,Y,,['1'],N
+South Ferry,ES374,It operates between platform of 1 Line and mezzanine,MN,1,ES,N,Y,,['1'],N
+South Ferry,EL730,plaza in front of Staten Island Ferry Terminal (east side) to mezzanine for uptown service,MN,1,EL,Y,Y,uptown,1,N
+Sutphin Blvd - Archer Av - JFK Airport,ES437,It operates between lower platform and upper platform,QNS,E/J/Z/LIRR,ES,N,Y,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES436,It operates between lower platform and upper platform,QNS,E/J/Z/LIRR,ES,N,Y,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES434,It operates between upper platform and mezzanine,QNS,E/J/Z/LIRR,ES,N,Y,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES435,It operates between upper platform and mezzanine,QNS,E/J/Z/LIRR,ES,N,Y,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,EL411,mezzanine to platforms for E/J/Z service in both directions,QNS,E/J/Z/LIRR,EL,Y,Y,both directions,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES464X, ,QNS,E/J/Z/LIRR,ES,N,N,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES463X, ,QNS,E/J/Z/LIRR,ES,N,N,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES449X, ,QNS,E/J/Z/LIRR,ES,N,N,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES433X,It operates between mezzanine for the subway and street and AirTrain terminal,QNS,E/J/Z/LIRR,ES,N,Y,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES432X,It operates between mezzanine for the subway and street and AirTrain terminal,QNS,E/J/Z/LIRR,ES,N,Y,,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,EL450X,Sutphin Blvd & Archer Ave (SW intersection) to mezzanine for service in both directions ,QNS,E/J/Z/LIRR,EL,Y,Y,both directions,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,EL449X,Sutphin Blvd & Archer Ave (SW intersection) to mezzanine for service in both directions ,QNS,E/J/Z/LIRR,EL,Y,Y,both directions,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,EL448X,Sutphin Blvd & Archer Ave (SW intersection) to mezzanine for service in both directions ,QNS,E/J/Z/LIRR,EL,Y,Y,both directions,E/J/Z/LIRR,N
+Sutphin Blvd - Archer Av - JFK Airport,ES448X, ,QNS,E/J/Z/LIRR,ES,N,N,,E/J/Z/LIRR,N
+Times Sq - 42 St,EL231X,7th Ave & 42 St (SE corner) to mezzanine for service in both directions on all lines,MN,1/2/3/7/N/Q/R/W,EL,Y,Y,both directions,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES216,It operates between platform of 7 Line and mezzanine below street level,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES217,It operates between platform of 7 Line and mezzanine below street level,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES218,It operates between platform of 7 Line and mezzanine below street level,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,EL229,mezzanine to downtown N/Q/R/W platform,MN,1/2/3/7/N/Q/R/W,EL,Y,Y,downtown,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,EL232,mezzanine to downtown 1/2/3 platform and 7 platform for service in both directions,MN,1/2/3/7/N/Q/R/W,EL,Y,Y,downtown,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,EL233,mezzanine to uptown 1/2/3 platform,MN,1/2/3/7/N/Q/R/W,EL,Y,Y,uptown,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,EL230,mezzanine to uptown N/Q/R/W platform ,MN,1/2/3/7/N/Q/R/W,EL,Y,Y,uptown,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES261X,It operates between mezzanine and street at SW corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES261X,It operates between mezzanine and street at SW corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES262X,It operates between mezzanine and street at SW corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES262X,It operates between mezzanine and street at SW corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES268X,It operates between mezzanine and street at SE corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES268X,It operates between mezzanine and street at SE corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES267X,It operates between mezzanine and street at SE corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Times Sq - 42 St,ES267X,It operates between mezzanine and street at SE corner of 42 St & 7th Ave,MN,1/2/3/7/N/Q/R/W,ES,N,Y,,1/2/3/7/N/Q/R/W,N
+Utica Av,EL346,mezzanine to platform for Euclid-bound C and Queens-bound A service,BKN,A/C,EL,Y,Y,,A/C,N
+Utica Av,EL345,mezzanine to Manhattan-bound platform,BKN,A/C,EL,Y,Y,,A/C,N
+Utica Av,EL344,Utica Ave & Fulton St (NW corner) to mezzanine for service in both directions,BKN,A/C,EL,Y,Y,both directions,A/C,Y
+Wall St,ES379X,It operates between mezzanine-level passageway above middle of platform and street-level atrium at 60 Wall St between William St & Pearl St,MN,2/3,ES,N,Y,,2/3,N
+Wall St,ES378X,It operates between mezzanine-level passageway above middle of platform and street-level atrium at 60 Wall St between William St & Pearl St,MN,2/3,ES,N,Y,,2/3,N
+West 4 St - Washington Sq,EL334,downtown A/C/E platform to transfer mezzanine and downtown B/D/F/M platform,MN,A/B/C/D/E/F/M,EL,Y,Y,downtown,A/B/C/D/E/F/M,N
+West 4 St - Washington Sq,ES325,It operates between lower platform for B/D/F/M northbound and upper platform for A/C/E northbound,MN,A/B/C/D/E/F/M,ES,N,Y,,A/B/C/D/E/F/M,N
+West 4 St - Washington Sq,ES326,It operates between lower platform for B/D/F/M southbound and upper platform for A/C/E northbound,MN,A/B/C/D/E/F/M,ES,N,Y,,A/B/C/D/E/F/M,N
+West 4 St - Washington Sq,EL335,uptown A/C/E platform to transfer mezzanine and uptown B/D/F/M platform,MN,A/B/C/D/E/F/M,EL,Y,Y,uptown,A/B/C/D/E/F/M,N
+West 4 St - Washington Sq,EL333,W 3rd St & 6th Ave (NE corner) to mezzanine for A/C/E service and access to B/D/F/M service,MN,A/B/C/D/E/F/M,EL,Y,Y,,A/B/C/D/E/F/M,N
+West 8 St - NY Aquarium,ES335,It operates between mezzanine and upper platform for Manhattan-bound service,BKN,F/Q,ES,N,Y,,F/Q,N
+West Farms Sq - E Tremont Av,ES106,It operates between street at East 178 St & Boston Post Rd and mezzanine below platform,BX,2/5,ES,N,Y,,2/5,N
+Whitehall St - South Ferry,ES351,It operates between lower mezzanine above R/W and upper mezzanine below Water St & Whitehall St,MN,R/W,ES,N,Y,,['R/W'],N
+Whitehall St - South Ferry,ES312,It operates between lower mezzanine above R/W and upper mezzanine below Stone St & Whitehall St,MN,R/W,ES,N,Y,,['R/W'],N
+Whitehall St - South Ferry,ES311,It operates between lower mezzanine above R/W and upper mezzanine below Water St & Whitehall St,MN,R/W,ES,N,Y,,['R/W'],N
+World Trade Center,EL326,Park Pl & Church St (SE corner) to E Line with access to downtown R/W,MN,E/R/W,EL,Y,Y,downtown,E/R/W,N
+World Trade Center,EL23X,"Church St to E line with access to downtown R/W, balcony & Oculus main level",MN,1/E/R/W,EL,Y,Y,downtown,1/E/R/W,N
+WTC Cortlandt St,EL14X,Greenwich St to Oculus Balcony with access to uptown 1 and downtown R/W service,MN,1/E/R/W,EL,Y,Y,uptown,1/E/R/W,N
+WTC Cortlandt St,EL712,mezzanine at Oculus main level to uptown 1 platform,MN,1,EL,Y,Y,uptown,['1'],N
+WTC Cortlandt St,EL713,mezzanine at Oculus main level to downtown 1 platform,MN,1,EL,Y,Y,downtown,['1'],N
+WTC Cortlandt St,ES353, ,MN,1,ES,N,Y,,1,N
+WTC Cortlandt St,EL13X,Oculus main level  to PATH level with access to 1 train service in both directions,MN,1/E/R/W,EL,Y,Y,both directions,1/E/R/W,N
+WTC Cortlandt St,EL736,Greenwich Street (near southwest corner of Greenwich Street and Vesey Street) to downtown 1 platform and access to uptown 1 service,MN,1,EL,Y,N,downtown,"['1', '1']",N
+WTC Cortlandt St,EL12X,West Concourse balcony to PATH level with access to 1 train service in both directions,MN,1/E/R/W,EL,Y,Y,both directions,1/E/R/W,N
+WTC Cortlandt St,EL11X,West Concourse balcony to West Concourse with access to 1 service  in both directions,MN,1/E/R/W,EL,Y,Y,both directions,1/E/R/W,N

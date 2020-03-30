@@ -187,3 +187,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Potential large files
+*.pkl.gz
