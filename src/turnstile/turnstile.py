@@ -126,7 +126,7 @@ class TurnstilePageParser(HTMLParser):
                 upper = min(len(keys) - 1, upper + 1) if keys[upper] == self.end_date else upper
             else:
                 upper = len(keys) - 1
-        return [r[1] for r in self.links[lower:upper]]
+        return [r[1] for r in self.links[lower:upper+1]]
 
 
 def download_turnstile_data(start_date: datetime, end_date: datetime=None) -> pd.DataFrame:
@@ -193,7 +193,7 @@ def split_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnst
     turnstile_data: pandas.DataFram
     station_turnstile_file_path: str
     output: str
-    
+
     Return
     dict[station_name:str, station_turnstile_data: pd.DataFrame]
 
