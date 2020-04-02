@@ -2,6 +2,10 @@
 python3 src/stationgraph/station_to_elevator.py \
   --master-list data/interim/crosswalks/EE_master_list.csv \
  > data/processed/elevator_to_line_dir_station.csv
+python3 src/stationgraph/station_to_station.py \
+  --routes data/raw/google_transit/routes.txt \
+  --stop-times data/raw/google_transit/stop_times.txt \
+ > data/processed/station_to_station.csv
 python3 src/stationgraph/buildgraphs.py \
   --no-inaccessible \
   --no-escalators \
