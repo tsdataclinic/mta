@@ -126,7 +126,7 @@ class TurnstilePageParser(HTMLParser):
                 upper = min(len(keys) - 1, upper + 1) if keys[upper] == self.end_date else upper
             else:
                 upper = len(keys) - 1
-        return [r[1] for r in self.links[lower:upper]]
+        return [r[1] for r in self.links[lower:upper+1]]
 
 
 def download_turnstile_data(start_date: datetime, end_date: datetime=None) -> pd.DataFrame:
@@ -146,6 +146,7 @@ def download_turnstile_data(start_date: datetime, end_date: datetime=None) -> pd
     start_page = requests.get(mta_link_rook + 'turnstile.html')
     parser = TurnstilePageParser(start_date, end_date)
     parser.feed(start_page.content.decode('utf-8'))
+    print(parser.get_all_links())
     dfs = [pd.read_csv(io.StringIO(requests.get(mta_link_rook + l).content.decode('utf-8'))) for l in parser.get_all_links()]
     return pd.concat(dfs)
 
@@ -193,7 +194,7 @@ def split_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnst
     turnstile_data: pandas.DataFram
     station_turnstile_file_path: str
     output: str
-    
+
     Return
     dict[station_name:str, station_turnstile_data: pd.DataFrame]
 
