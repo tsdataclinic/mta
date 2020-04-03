@@ -558,14 +558,14 @@ EL441,Q,north,Lexington Av / 63 St
 EL441,F,north,Lexington Av / 63 St
 EL441,F,south,Lexington Av / 63 St
 EL441,Q,south,Lexington Av / 63 St
+EL442,F,north,Lexington Av / 63 St
 EL442,Q,north,Lexington Av / 63 St
 EL442,Q,south,Lexington Av / 63 St
-EL442,F,north,Lexington Av / 63 St
 EL442,F,south,Lexington Av / 63 St
-EL443,Q,south,Lexington Av / 63 St
-EL443,F,south,Lexington Av / 63 St
-EL443,F,north,Lexington Av / 63 St
 EL443,Q,north,Lexington Av / 63 St
+EL443,F,north,Lexington Av / 63 St
+EL443,F,south,Lexington Av / 63 St
+EL443,Q,south,Lexington Av / 63 St
 EL445X,7,south,Court Square
 EL445X,7,north,Court Square
 EL447,7,north,Court Square
