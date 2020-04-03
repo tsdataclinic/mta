@@ -19,3 +19,7 @@ python3 src/stationgraph/station_to_station.py \
  > data/processed/stationgraph/station_to_station.csv
  
 # add station-to-station edges to graph
+Rscript src/stationgraph/update_graph_w_station_connections.R \
+    --graph data/processed/stationgraph/mta-elevators-w-station-connections.graphml \
+    --stations data/processed/stationgraph/station_to_station.csv \
+    --stopids data/crosswalk/platform_id_to_GTFS_mapping.csv

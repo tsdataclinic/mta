@@ -48,6 +48,8 @@ station_components <- data.frame(component=V(g)$component,station=ee$station_nam
 unique_stations <- unique(station_components$station)
 unique_stations <- unique_stations[!is.na(unique_stations)]
 
+write.graph(g,opt$graph,format = 'graphml')
+    
 if(!dir.exists(gsub("/$","",opt$out))){
     dir.create(gsub("/$","",opt$out))
 }
