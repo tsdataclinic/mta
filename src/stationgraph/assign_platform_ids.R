@@ -3,10 +3,13 @@ library('igraph')
 library("optparse")
  
 option_list = list(
-    make_option(c("-g","--graph"), type="character", default=NULL, 
+    make_option(c("--graph"), type="character", default=NULL, 
               help="graph ml file", metavar="character"),
-    make_option(c("-o","--out"), type="character", default=NULL, 
-              help="output file", metavar="character")
+    make_option(c("--outel"), type="character", default=NULL, 
+              help="output edgelist as csv", metavar="character"),
+    make_option(c("--outgraph"), type="character", default=NULL, 
+              help="output graph with pids", metavar="character")
+    
 ); 
  
 opt_parser = OptionParser(option_list=option_list);
@@ -70,4 +73,7 @@ for(i in c(1:nrow(el_w_st))){
     }
 }
 
-write.csv(el_w_st,file=opt$out,row.names=FALSE)
+V(g)$name <- gsub('.*:','',V(g)$name)
+
+write.csv(el_w_st,file=opt$outel,row.names=FALSE)
+write.graph(g,file =opt$outgraph,format = 'graphml')
