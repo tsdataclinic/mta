@@ -4,8 +4,8 @@ station_name,equipment_id,from,to,platform_id
 125 St,EL143,Unknown,Platform,A-south/D-south/C-south/B-south
 125 St,EL126,Unknown,Platform,6-south/6-north/5-south/5-north/4-north/4-south
 125 St,EL144,Unknown,Platform,A-north/C-north/D-north/B-north
-135 St,EL181,Street,Platform,3-south/2-south
-135 St,EL180,Street,Platform,2-north/3-north/3-south/2-south
+135 St,EL180,Street,Platform,2-south/2-north/3-north/3-south
+135 St,EL181,Street,Platform,2-south/3-south
 14 St - 8 Av,EL221,Street,Unknown,
 14 St - 8 Av,EL222,Unknown,Platform,E-south/C-south/A-south
 14 St - 8 Av,EL223,Unknown,Platform,A-north/C-north/E-north

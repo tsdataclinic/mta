@@ -215,43 +215,11 @@
       <data key="v_station">135 St</data>
       <data key="v_label">Platform</data>
       <data key="v_node_type">Platform</data>
-      <data key="v_id">Platform-135 St-3-south/2-south</data>
+      <data key="v_id">Platform-135 St-2-south/2-north/3-north/3-south</data>
       <data key="v_component">2</data>
       <data key="v_color">white</data>
     </node>
     <node id="n26">
-      <data key="v_station">135 St</data>
-      <data key="v_label">EL181</data>
-      <data key="v_node_type">Elevator</data>
-      <data key="v_id">EL181</data>
-      <data key="v_component">2</data>
-      <data key="v_color">lightblue</data>
-    </node>
-    <node id="n27">
-      <data key="v_station">135 St</data>
-      <data key="v_label">3-south</data>
-      <data key="v_node_type">Train</data>
-      <data key="v_id">135 St-3-south</data>
-      <data key="v_component">2</data>
-      <data key="v_color">#EE352E</data>
-    </node>
-    <node id="n28">
-      <data key="v_station">135 St</data>
-      <data key="v_label">2-south</data>
-      <data key="v_node_type">Train</data>
-      <data key="v_id">135 St-2-south</data>
-      <data key="v_component">2</data>
-      <data key="v_color">#EE352E</data>
-    </node>
-    <node id="n29">
-      <data key="v_station">135 St</data>
-      <data key="v_label">Platform</data>
-      <data key="v_node_type">Platform</data>
-      <data key="v_id">Platform-135 St-2-north/3-north/3-south/2-south</data>
-      <data key="v_component">2</data>
-      <data key="v_color">white</data>
-    </node>
-    <node id="n30">
       <data key="v_station">135 St</data>
       <data key="v_label">EL180</data>
       <data key="v_node_type">Elevator</data>
@@ -259,7 +227,15 @@
       <data key="v_component">2</data>
       <data key="v_color">lightblue</data>
     </node>
-    <node id="n31">
+    <node id="n27">
+      <data key="v_station">135 St</data>
+      <data key="v_label">2-south</data>
+      <data key="v_node_type">Train</data>
+      <data key="v_id">135 St-2-south</data>
+      <data key="v_component">2</data>
+      <data key="v_color">#EE352E</data>
+    </node>
+    <node id="n28">
       <data key="v_station">135 St</data>
       <data key="v_label">2-north</data>
       <data key="v_node_type">Train</data>
@@ -267,13 +243,37 @@
       <data key="v_component">2</data>
       <data key="v_color">#EE352E</data>
     </node>
-    <node id="n32">
+    <node id="n29">
       <data key="v_station">135 St</data>
       <data key="v_label">3-north</data>
       <data key="v_node_type">Train</data>
       <data key="v_id">135 St-3-north</data>
       <data key="v_component">2</data>
       <data key="v_color">#EE352E</data>
+    </node>
+    <node id="n30">
+      <data key="v_station">135 St</data>
+      <data key="v_label">3-south</data>
+      <data key="v_node_type">Train</data>
+      <data key="v_id">135 St-3-south</data>
+      <data key="v_component">2</data>
+      <data key="v_color">#EE352E</data>
+    </node>
+    <node id="n31">
+      <data key="v_station">135 St</data>
+      <data key="v_label">Platform</data>
+      <data key="v_node_type">Platform</data>
+      <data key="v_id">Platform-135 St-2-south/3-south</data>
+      <data key="v_component">2</data>
+      <data key="v_color">white</data>
+    </node>
+    <node id="n32">
+      <data key="v_station">135 St</data>
+      <data key="v_label">EL181</data>
+      <data key="v_node_type">Elevator</data>
+      <data key="v_id">EL181</data>
+      <data key="v_component">2</data>
+      <data key="v_color">lightblue</data>
     </node>
     <node id="n33">
       <data key="v_station">14 St - 8 Av</data>
@@ -8517,7 +8517,7 @@
     </edge>
     <edge source="n24" target="n26">
     </edge>
-    <edge source="n24" target="n30">
+    <edge source="n24" target="n32">
     </edge>
     <edge source="n25" target="n26">
     </edge>
@@ -8525,15 +8525,15 @@
     </edge>
     <edge source="n25" target="n28">
     </edge>
-    <edge source="n27" target="n29">
+    <edge source="n25" target="n29">
     </edge>
-    <edge source="n28" target="n29">
+    <edge source="n25" target="n30">
     </edge>
-    <edge source="n29" target="n30">
+    <edge source="n27" target="n31">
     </edge>
-    <edge source="n29" target="n31">
+    <edge source="n30" target="n31">
     </edge>
-    <edge source="n29" target="n32">
+    <edge source="n31" target="n32">
     </edge>
     <edge source="n33" target="n35">
     </edge>

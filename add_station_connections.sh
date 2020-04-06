@@ -4,7 +4,7 @@
 Rscript src/stationgraph/assign_platform_ids.R \
     --graph data/processed/stationgraph/mta-elevators.graphml \
     --outel data/processed/stationgraph/edgelist_w_pid.csv \
-    --outgraph data/processed/stationgraph/mta-elevators-w-station-connections.graphml \
+    --outgraph data/processed/stationgraph/mta-elevators-w-station-connections.graphml
 
 # Map platform IDs to GTFS Stop IDs
 python src/stationgraph/map_platforms_to_GTFS.py \
@@ -22,4 +22,6 @@ python3 src/stationgraph/station_to_station.py \
 Rscript src/stationgraph/update_graph_w_station_connections.R \
     --graph data/processed/stationgraph/mta-elevators-w-station-connections.graphml \
     --stations data/processed/stationgraph/station_to_station.csv \
-    --stopids data/crosswalk/platform_id_to_GTFS_mapping.csv
+    --gtfsmapping data/crosswalk/platform_id_to_GTFS_mapping.csv \
+    --stops data/raw/google_transit/stops.txt
+    

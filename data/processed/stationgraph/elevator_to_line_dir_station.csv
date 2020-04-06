@@ -72,12 +72,12 @@ EL160,2,south,East 180 St
 EL160,5,north,East 180 St
 EL160,2,north,East 180 St
 EL178,1,south,Dyckman St
+EL180,2,south,135 St
 EL180,2,north,135 St
 EL180,3,north,135 St
 EL180,3,south,135 St
-EL180,2,south,135 St
-EL181,3,south,135 St
 EL181,2,south,135 St
+EL181,3,south,135 St
 EL182,5,north,Gun Hill Rd
 EL182,5,south,Gun Hill Rd
 EL182,2,north,Gun Hill Rd

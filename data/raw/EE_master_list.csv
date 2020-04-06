@@ -7,8 +7,8 @@ station_name,equipment_id,description,borough,subway_lines,equipment_type,ada_co
 125 St,ES102,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
 125 St,ES101,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
 125 St,ES103,It operates between street near SE corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
-135 St,EL181,Lenox Ave & 181 St (SW corner) to downtown platform,MN,2/3,EL,Y,Y,downtown,2/3,N
-135 St,EL180,Lenox Ave & 181 St (NE corner) to uptown and the Bronx-bound platform,MN,2/3,EL,Y,Y,uptown,2/3,N
+135 St,EL180,135 St & Lenox Ave (NE corner) to uptown and the Bronx-bound platform,MN,2/3,EL,Y,Y,uptown,2/3,Y
+135 St,EL181,135 St & Lenox Ave (SW corner) to downtown platform,MN,2/3,EL,Y,Y,downtown,2/3,Y
 14 St - 8 Av,EL221,8th Ave & 14 St (SW corner) to mezzanine for A/C/E/L service in both directions,MN,A/C/E/L,EL,Y,Y,both directions,['A/C/E/L'],N
 14 St - 8 Av,EL222,mezzanine to downtown A/C/E platform,MN,A/C/E/L,EL,Y,Y,downtown,A/C/E/L,N
 14 St - 8 Av,EL223,mezzanine to uptown A/C/E platform,MN,A/C/E/L,EL,Y,Y,uptown,A/C/E/L,N
