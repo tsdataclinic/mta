@@ -1,10 +1,14 @@
 mta_data_repo
 ==============================
 
-Analyzing MTA elevator outages
+short desc
 
+Getting Started
+------------
 
-Project Organization
+setup & requirements
+
+Project Description
 ------------
 
 Accessibility Graph for stations:
@@ -17,7 +21,7 @@ Crosswalks:
 
 
 
-Directory Structure:
+### Directory Structure:
 
     mta-accessibility/
     ├── LICENSE
