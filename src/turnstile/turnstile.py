@@ -18,7 +18,8 @@ def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
     logging.getLogger().info("Cleaning turnstile data")
 
     # create datetime from DATE and TIME columns
-    processed = raw_data.assign(datetime=pd.to_datetime(raw_data['DATE'] + " " + raw_data['TIME']))
+    processed = raw_data.assign(datetime=pd.to_datetime(raw_data['DATE'] + " " + raw_data['TIME'], \
+        format="%m/%d/%Y %H:%M:%S"))
 
     # remove mysterious duplicate index along STATION + UNIT
     processed = processed.groupby(['STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
@@ -36,21 +37,21 @@ def _process_grouped_data(grouped: pd.DataFrame):
     # calculate the diff and take the absolute value
     entry_diffs =grouped.ENTRIES.diff()
     exit_diffs = grouped.EXITS.diff()
-    entry_diffs_abs = entry_diffs.abs()
-    exit_diffs_abs = exit_diffs.abs()
 
-    # more clean up
+    # clean up data
+    grouped.loc[entry_diffs < 0, 'entry_diffs'] = 0
+    grouped.loc[exit_diffs < 0, 'exit_diffs'] = 0
+    grouped.loc[entry_diffs > 10000, 'entry_diffs'] = 0
+    grouped.loc[entry_diffs > 10000, 'entry_diffs'] = 0
 
     # restore cumulative data
-    cleaned_entries = entry_diffs_abs.cumsum()
-    cleaned_exits = exit_diffs_abs.cumsum()
+    cleaned_entries = entry_diffs.cumsum()
+    cleaned_exits = entry_diffs.cumsum()
 
     # assign new columns
     grouped = grouped.assign(
         entry_diffs=entry_diffs,
         exit_diffs=exit_diffs,
-        entry_diffs_abs=entry_diffs_abs,
-        exit_diffs_abs=exit_diffs_abs,
         cleaned_entries=cleaned_entries,
         cleaned_exits=cleaned_exits,
     )
@@ -180,7 +181,7 @@ def get_hourly_turnstile_data(start_date: datetime, end_date=None) -> pd.DataFra
     interpolated = _interpolate(_process_raw_data(raw))
     end_date = end_date or interpolated.index.max()
     return interpolated[interpolated.index.to_series().between(start_date, end_date)] \
-        .drop(columns=["entry_diffs", "exit_diffs", "entry_diffs_abs", "exit_diffs_abs"])
+        .drop(columns=["entry_diffs", "exit_diffs"])
 
 
 def split_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnstile_file_path: str, output=False) \
