@@ -24,9 +24,20 @@ def main():
     parser.add_argument("--output", required=False)
 
     opts = parser.parse_args()
+    
+    url = 'http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx'
+    try:
+        response = requests.get(url)
 
-    page = requests.get('http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx')
-    soup = BeautifulSoup(page.content, 'lxml')
+        # If the response was successful, no Exception will be raised
+        response.raise_for_status()
+    except Exception as err:
+        print(f'Error in getting elevator list from {url}: {err}')  # Python 3.6
+    else:
+        print('Parsing MTA equipment list')
+        
+    
+    soup = BeautifulSoup(response.content, 'lxml')
     station = [t.text for t in soup.findAll('station')]
     el_id = [t.text for t in soup.findAll('equipmentno')]
     desc = [t.text for t in soup.findAll('serving')]
