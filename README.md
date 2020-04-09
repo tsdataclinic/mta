@@ -6,7 +6,15 @@ short desc
 Getting Started
 ------------
 
-setup & requirements
+You can set-up the environment needed to run this project using conda as below: 
+- Add conda-forge to the config and 
+- Install the conda environment named {env_name} from the requirements file 
+
+```
+conda config --append channels conda-forge
+conda create -n {env_name} --file requirements.txt
+```
+
 
 Project Description
 ------------
@@ -15,15 +23,15 @@ Accessibility Graph for stations:
 
 
 Turnstile Data:
-turnstile.py provides 3 methods to process turnstile data:
+`turnstile.py` provides 3 methods to process turnstile data:
 
-download_turnstile_data - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
+*download_turnstile_data* - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
 
-get_hourly_turnstile_data - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
+*get_hourly_turnstile_data* - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
 
-aggregate_turnstile_data_by_station - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (data/crosswalk/ee_turnstile.csv)
+*aggregate_turnstile_data_by_station* - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (`data/crosswalk/ee_turnstile.csv`)
 
-Jupyter notebook illustrating the usage can be found at notebooks/Turnstile_sample.ipynb
+Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
 Crosswalks:
 

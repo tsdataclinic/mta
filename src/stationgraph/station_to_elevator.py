@@ -6,7 +6,6 @@ import re
 import sys
 import geopandas as gp
 import json
-import matplotlib.pyplot as plt
 import itertools
 
 from utils import split_elevator_description_rec
