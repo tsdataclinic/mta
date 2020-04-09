@@ -157,7 +157,7 @@ def get_hourly_turnstile_data(start_date: datetime, end_date=None) -> pd.DataFra
 
     Raw turnstile data is downloaded from http://web.mta.info/developers/turnstile.html
     For each turnstile unit, the differences of ENTRIES/EXITS are taken between two snapshots
-    and negative values are excluded.
+    and large difference (>= 10000) and negative values are set to zero.
     The cleaned data is linearly interpolated to generate hourly turnstile usage
 
     Parameters
@@ -184,11 +184,11 @@ def get_hourly_turnstile_data(start_date: datetime, end_date=None) -> pd.DataFra
         .drop(columns=["entry_diffs", "exit_diffs"])
 
 
-def split_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnstile_file_path: str, output=False) \
+def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnstile_file_path: str, output=False) \
     -> Dict[str, pd.DataFrame]:
 
     """
-    Split turnstile data by station and save to output directory if passed.
+    aggregate turnstile data by station and save to output directory if passed.
 
     Parameters
     turnstile_data: pandas.DataFram

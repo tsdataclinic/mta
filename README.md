@@ -11,7 +11,15 @@ Accessibility Graph for stations:
 
 
 Turnstile Data:
+turnstile.py provides 3 methods to process turnstile data:
 
+download_turnstile_data - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
+
+get_hourly_turnstile_data - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
+
+aggregate_turnstile_data_by_station - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (data/crosswalk/ee_turnstile.csv)
+
+Jupyter notebook illustrating the usage can be found at notebooks/Turnstile_sample.ipynb
 
 Crosswalks:
 
@@ -33,7 +41,7 @@ Directory Structure:
     │
     ├── figures             <- Generated graphics and figures to be used in reporting
     │
-    ├── add_station_connections.sh 
+    ├── add_station_connections.sh
     ├── gen-graphs.sh
     │
     ├── notebooks           <- Jupyter notebooks illustrating some of the code.
