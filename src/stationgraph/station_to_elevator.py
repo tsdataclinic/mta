@@ -13,11 +13,11 @@ from utils import split_elevator_description_rec
 
 def get_all_lines(desc, fallback):
     # some sanity tests
-    # assert get_lines_on_floor("platform for downtown a/c service", "") == (["A", "C"], ["south"])
-    # assert get_lines_on_floor("platform for a line", "") == (["A"], ["north", "south"])
-    # assert get_lines_on_floor("flushing bound 7 platform", "") == (["7"], ["flushing"])
-    # assert get_lines_on_floor("platform", "A/B") == (["A", "B"], ["north", "south"])
-    # assert get_lines_on_floor("southbound platform", "A/B") == (["A", "B"], ["south"])
+    assert get_lines_on_floor("platform for downtown a/c service", "") == (["A", "C"], ["south"])
+    assert get_lines_on_floor("platform for a line", "") == (["A"], ["north", "south"])
+    assert get_lines_on_floor("flushing bound 7 platform", "") == (["7"], ["flushing"])
+    assert get_lines_on_floor("platform", "A/B") == (["A", "B"], ["north", "south"])
+    assert get_lines_on_floor("southbound platform", "A/B") == (["A", "B"], ["south"])
 
     desc = desc.lower()
     floors = split_elevator_description_rec(desc)
@@ -71,8 +71,8 @@ def get_canon_direction(x):
         else:
             output.append(bound_to_r.group(1))
     # default
-    return output if output else ['north', 'south'] 
-    
+    return output if output else ['north', 'south']
+
 
 def expand_all(data):
     rez = []

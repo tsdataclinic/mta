@@ -33,10 +33,7 @@ def main():
         response.raise_for_status()
     except Exception as err:
         print(f'Error in getting elevator list from {url}: {err}')  # Python 3.6
-    else:
-        print('Parsing MTA equipment list')
-        
-    
+
     soup = BeautifulSoup(response.content, 'lxml')
     station = [t.text for t in soup.findAll('station')]
     el_id = [t.text for t in soup.findAll('equipmentno')]
