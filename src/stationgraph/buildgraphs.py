@@ -89,7 +89,7 @@ def identify_edges(equipment):
                 return 'Upper Mezzanine'
             if re.match(r'.*Lower Mezzanine.*', name):
                 return 'Lower Mezzanine'
-            if re.match(r'.*(Mezzanine|[Bb]alcony).*', name):
+            if re.match(r'.*([Mm]ezzanine|[Bb]alcony).*', name):
                 return 'Mezzanine'
             if re.match(r'.*[Bb]alcony.*', name):
                 return 'Balcony'
