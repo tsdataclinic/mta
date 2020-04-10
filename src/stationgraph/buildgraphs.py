@@ -62,7 +62,7 @@ def merge_platforms(equipment, platforms):
     # the MTA direction information is incomplete!
     platform_ids = platforms[['equipment_id', 'line', 'direction']].set_index('equipment_id')
     platform_ids = platform_ids.apply(lambda t : '-'.join(t), axis=1).groupby(level=0).unique()
-    platform_ids = platform_ids.apply(lambda t : '/'.join(t))
+    platform_ids = platform_ids.apply(lambda t : '/'.join(sorted(t)))
     equipment = equipment.set_index('equipment_id')
     equipment['platform_id'] = platform_ids
     equipment.reset_index(inplace=True)
@@ -129,7 +129,7 @@ def identify_edges(equipment):
 
     return pd.DataFrame({'from': from_col, 'to': to_col})
 
-def canonical_names(equipment):
+def canonical_names(equipment):        
     def make_canon(t):
         label, station, platform_id = t
         if label == 'Unknown':
