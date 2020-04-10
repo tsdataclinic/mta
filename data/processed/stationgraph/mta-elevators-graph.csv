@@ -57,7 +57,7 @@ station_name,equipment_id,from,to,platform_id
 47-50 St - Rockefeller Ctr,EL236,Unknown,Platform,B-south/D-south/F-south/M-south
 47-50 St - Rockefeller Ctr,EL235,Unknown,Platform,D-north/B-north/F-north/M-north
 49 St,EL268X,Street,Platform,W-north/N-north/R-north
-50 St,EL207X,Street,Street,
+50 St,EL207X,Street,Unknown,
 50 St,EL208X,Platform,Platform,C-south/E-south
 51 St,EL202,Platform,Unknown,6-south
 51 St,EL201,Unknown,Unknown,

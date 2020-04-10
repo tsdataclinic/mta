@@ -10,8 +10,6 @@ import pandas as pd
 import re
 import sys
 
-from utils import split_elevator_description
-
 
 def load_equipment(master_file, with_inactive=False, with_inaccessible=False, with_escalators=False, with_elevators=True):
     equipment = pd.read_csv(master_file)
@@ -99,9 +97,14 @@ def identify_edges(equipment):
                 return 'Street'
             return 'Unknown'
 
-        levels = split_elevator_description(desc)
-        if len(levels) > 1:
-            return simplify(levels[0]), simplify(levels[1])
+        # try "to" and "for" first
+        m = re.search(r'^(.*?) (to|for) (.*)$', desc)
+        if m:
+            return simplify(m.group(1)), simplify(m.group(3))
+        # then try for "and"
+        m = re.search(r'^(.*?) (and) (.*)$', desc)
+        if m:
+            return simplify(m.group(1)), simplify(m.group(3))
 
         if re.match('^Mezzanine .*bound Platform$', desc):
             return ('Mezzanine', 'Platform')
@@ -116,7 +119,7 @@ def identify_edges(equipment):
     assert elevator_route('161 St & River Ave (NE Corner) to Mezzanine to reach service in both directions') == ('Street', 'Mezzanine')
     assert elevator_route('Street to # 6 Northbound platform') == ('Street', 'Platform')
     assert elevator_route('Sidewalk entrance (east of the pedestrian skybridge) to Manhattan bound Platform') == ('Street', 'Platform')
-#     assert elevator_route('G and 7 Mezzanines to Flushing-bound 7 Platform') == ('Mezzanine', 'Platform')
+    assert elevator_route('G and 7 Mezzanines to Flushing-bound 7 Platform') == ('Mezzanine', 'Platform')
 
     from_col = equipment.description.apply(lambda d : elevator_route(d)[0])
     # some elevators record the street part explicitly
