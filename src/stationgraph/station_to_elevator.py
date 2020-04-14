@@ -15,9 +15,10 @@ def get_all_lines(desc, fallback):
     # some sanity tests
     assert get_lines_on_floor("platform for downtown a/c service", "") == (["A", "C"], ["south"])
     assert get_lines_on_floor("platform for a line", "") == (["A"], ["north", "south"])
-    assert get_lines_on_floor("flushing bound 7 platform", "") == (["7"], ["flushing"])
     assert get_lines_on_floor("platform", "A/B") == (["A", "B"], ["north", "south"])
     assert get_lines_on_floor("southbound platform", "A/B") == (["A", "B"], ["south"])
+    assert get_lines_on_floor("7 platform for service in both directions", "") == (["7"], ["north", "south"])
+    assert get_lines_on_floor("7/A/W platform for service in both directions", "") == (["7", "W", "A"], ["north", "south"])
 
     desc = desc.lower()
     floors = split_elevator_description_rec(desc)
@@ -28,23 +29,31 @@ def get_all_lines(desc, fallback):
             rez.append(lines)
     return rez
 
+platform = {"line", "service", "train", "platform", "terminal"}
+line_regex = f'(?:^| )(\w(?:/\w)*) ({"|".join(platform)})'
+
+def is_platform_floor(floor):
+    for synonym in platform:
+        if synonym in floor:
+            return True
+    return False
 
 def get_lines_on_floor(floor, fallback):
     # exclude floors that don't serve trains
-    if "platform" not in floor:
+    if "mezzanine" in floor or not is_platform_floor(floor):
         return None
+
     if "mezzanine below 7 line (one level up), platform of flushing main st" in floor:
         return None
 
+    if floor is "downtown A/B/C/D & 1 platforms":
+        return (["A", "B", "C", "D", "1"], "south")
+
     directions = get_canon_direction(floor)
 
+    # get list of lines served by the floor
     lines = []
-
-    # search for "A line" style text
-    for match in re.findall(' (.) (line|service|train|platform)', floor):
-        lines.append(match[0])
-    # search for "A/B/C" style text
-    for match in re.findall('(.(/.)+)', floor):
+    for match in re.findall(line_regex, floor):
         lines.extend(match[0].split("/"))
 
     if lines:
@@ -52,26 +61,39 @@ def get_lines_on_floor(floor, fallback):
     else:
         return (fallback.split("/"), directions)
 
+dir_map = {
+    "uptown": ["north"],
+    "both directions": ["north", "south"],
+    "downtown": ["south"],
+}
 
 def get_canon_direction(x):
-    output = []
+    output = set()
+
+    x = x.lower()
+
     # look for usage of north/south
     north_r = re.findall('uptown|north|both directions', x)
-    if len(north_r):
-        output.append('north')
     south_r = re.findall('downtown|south|both directions', x)
-    if len(south_r):
-        output.append('south')
-    # look for bound, bound for
-    bound_to_r = re.search('(.*) bound', x)
+    if north_r:
+        output.update(north_r)
+    if south_r:
+        output.update(south_r)
+
+    # grab the direction a train is bound for
+    bound_to_r = re.search('(?:to|for) (.*)-bound', x)
+    if not bound_to_r:
+        to = bound_to_r = re.search('(.*)-bound', x)
     if bound_to_r:
-        bound_for_r = re.search('for (.*)', bound_to_r.group(1))
-        if bound_for_r:
-            output.append(bound_for_r.group(1))
-        else:
-            output.append(bound_to_r.group(1))
-    # default
-    return output if output else ['north', 'south']
+        to = bound_to_r.group(1).split(" and ")
+        to = [v.replace("the", "").strip() for v in to]
+        output.update(to)
+
+    # combine similar directions
+    rez = set()
+    for o in output:
+        rez.update(dir_map.get(o, [o]))
+    return list(rez) if len(rez) > 0 else ['north', 'south']
 
 
 def expand_all(data):
