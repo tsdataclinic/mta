@@ -92,7 +92,11 @@ Bay Parkway,EL376,Street,Mezzanine,
 Bay Parkway,EL378,Mezzanine,Platform,D-coney island
 Bay Parkway,EL377,Mezzanine,Platform,D-manhattan
 Borough Hall,EL317,Street,Mezzanine,
+<<<<<<< HEAD
 Borough Hall,EL318,Mezzanine,Platform,2-manhattan-bound 4/5 service via manhattan/2-north/2-south/3-manhattan-bound 4/5 service via manhattan/3-north/3-south/4-manhattan-bound 4/5 service via manhattan/5-manhattan-bound 4/5 service via manhattan
+=======
+Borough Hall,EL318,Mezzanine,Platform,2-manhattan/2-north/2-south/3-manhattan/3-north/3-south/4-manhattan/5-manhattan
+>>>>>>> 34eb2dc49d673b86225ebb92f72b974a07506450
 Brooklyn Bridge - City Hall,EL315,Mezzanine,Platform,4-south/5-south/6-north/6-south
 Brooklyn Bridge - City Hall,EL316,Mezzanine,Platform,4-north/5-north/6-north
 Brooklyn Bridge - City Hall,EL314,Unknown,Mezzanine,

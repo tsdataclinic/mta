@@ -46,7 +46,7 @@ def get_lines_on_floor(floor, fallback):
     if "mezzanine below 7 line (one level up), platform of flushing main st" in floor:
         return None
 
-    if floor is "downtown A/B/C/D & 1 platforms":
+    if floor == "downtown A/B/C/D & 1 platforms":
         return (["A", "B", "C", "D", "1"], "south")
 
     directions = get_canon_direction(floor)
@@ -67,10 +67,15 @@ dir_map = {
     "downtown": ["south"],
 }
 
+def drop_via(x):
+    pos = x.find("via")
+    return x if pos == -1 else x[:pos]
+
 def get_canon_direction(x):
     output = set()
 
     x = x.lower()
+    x = drop_via(x)
 
     # look for usage of north/south
     north_r = re.findall('uptown|north|both directions', x)
