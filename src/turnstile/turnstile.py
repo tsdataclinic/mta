@@ -65,7 +65,7 @@ def _process_grouped_data(grouped: pd.DataFrame):
     interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
     interpolated_group = interpolated_group.assign(
         cleaned_entries_diff=interpolated_group.cleaned_entries.diff().round(), \
-        cleaned_exists_diff=interpolated_group.cleaned_exits.diff().round())
+        cleaned_exits_diff=interpolated_group.cleaned_exits.diff().round())
     interpolated_group.fillna   (method='ffill', inplace=True)
     interpolated_group = interpolated_group.loc[hourly_sampled.index]
     return interpolated_group
