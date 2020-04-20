@@ -14,28 +14,34 @@ from typing import Dict
 
 # This module provides methods that handles MTA turnstile data
 
+
 def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
     logging.getLogger().info("Cleaning turnstile data")
 
     # create datetime from DATE and TIME columns
-    processed = raw_data.assign(datetime=pd.to_datetime(raw_data['DATE'] + " " + raw_data['TIME'], \
-        format="%m/%d/%Y %H:%M:%S"))
+    processed = raw_data.assign(
+        datetime=pd.to_datetime(
+            raw_data['DATE'] + " " + raw_data['TIME'],
+            format="%m/%d/%Y %H:%M:%S"))
 
     # remove mysterious duplicate index along STATION + UNIT
-    processed = processed.groupby(['STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
+    processed = processed.groupby(
+        ['STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
 
     processed = processed.set_index(pd.DatetimeIndex(processed.datetime))
     processed.drop(columns=['datetime'], inplace=True)
 
     # clean up whitespace in the columns
-    processed.rename(columns={c : c.strip() for c in processed.columns}, inplace=True)
+    processed.rename(columns={c: c.strip()
+                              for c in processed.columns}, inplace=True)
 
     return processed
 
 
-def _process_grouped_data(grouped: pd.DataFrame):
+def _process_grouped_data(grouped: pd.DataFrame,
+                          frequency: str) -> pd.DataFrame:
     # calculate the diff and take the absolute value
-    entry_diffs =grouped.ENTRIES.diff()
+    entry_diffs = grouped.ENTRIES.diff()
     exit_diffs = grouped.EXITS.diff()
 
     # clean up data
@@ -56,26 +62,36 @@ def _process_grouped_data(grouped: pd.DataFrame):
         cleaned_exits=cleaned_exits,
     )
 
-    # cleaned.reset_index(inplace=True)
-    hourly_sampled = grouped.resample('1H').asfreq()
-    interpolated_group = pd.concat([hourly_sampled, grouped])
-    interpolated_group = interpolated_group.loc[~interpolated_group.index.duplicated(keep='first')]
+    resampled = grouped.resample(frequency).asfreq()
+    interpolated_group = pd.concat([resampled, grouped])
+    interpolated_group = interpolated_group.loc[~interpolated_group.index.duplicated(
+        keep='first')]
     interpolated_group = interpolated_group.sort_index(ascending=True)
-    interpolated_group.cleaned_entries.interpolate(method='linear', inplace=True)
+    interpolated_group.cleaned_entries.interpolate(
+        method='linear', inplace=True)
     interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
     interpolated_group = interpolated_group.assign(
-        cleaned_entries_diff=interpolated_group.cleaned_entries.diff().round(), \
-        cleaned_exits_diff=interpolated_group.cleaned_exits.diff().round())
-    interpolated_group.fillna   (method='ffill', inplace=True)
-    interpolated_group = interpolated_group.loc[hourly_sampled.index]
+        estimated_entries=interpolated_group.cleaned_entries.diff().round(),
+        estimated_exits=interpolated_group.cleaned_exits.diff().round())
+    interpolated_group.fillna(method='ffill', inplace=True)
+    interpolated_group = interpolated_group.loc[resampled.index]
+    interpolated_group.drop(
+        columns=[
+            "ENTRIES",
+            "EXITS",
+            "cleaned_entries",
+            "cleaned_exits"],
+        inplace=True)
     return interpolated_group
 
 
-def _interpolate(intervalized_data: pd.DataFrame) -> pd.DataFrame:
-    logging.getLogger().info("Start creating hourly turnstile data")
+def _interpolate(intervalized_data: pd.DataFrame,
+                 frequency: str) -> pd.DataFrame:
+    logging.getLogger().info("Start interpolating turnstile data")
 
     interpolated = []
-    intervalized_data.groupby(['UNIT', 'SCP']).apply(lambda g: interpolated.append(_process_grouped_data(g)))
+    intervalized_data.groupby(['UNIT', 'SCP']).apply(
+        lambda g: interpolated.append(_process_grouped_data(g, frequency)))
     logging.getLogger().info("Finish interpolating")
     result = pd.concat(interpolated)
     logging.getLogger().info("Finish concatenating the result")
@@ -93,10 +109,10 @@ class TurnstilePageParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if tag == "a":
-           for name, value in attrs:
-               if name == "href":
-                   self.href = True
-                   self.link = value
+            for name, value in attrs:
+                if name == "href":
+                    self.href = True
+                    self.link = value
 
     def handle_endtag(self, tag):
         if tag == "a":
@@ -116,7 +132,8 @@ class TurnstilePageParser(HTMLParser):
         keys = [r[0] for r in self.links]
         lower = bisect.bisect_left(keys, self.start_date)
         if lower != len(keys):
-            lower = max(0, lower - 1) if keys[lower] == self.start_date else lower
+            lower = max(
+                0, lower - 1) if keys[lower] == self.start_date else lower
         else:
             lower = 0
 
@@ -124,13 +141,15 @@ class TurnstilePageParser(HTMLParser):
         if self.end_date:
             upper = bisect.bisect_right(keys, self.end_date)
             if upper != len(keys):
-                upper = min(len(keys) - 1, upper + 1) if keys[upper] == self.end_date else upper
+                upper = min(len(keys) - 1, upper +
+                            1) if keys[upper] == self.end_date else upper
             else:
                 upper = len(keys) - 1
-        return [r[1] for r in self.links[lower:upper+1]]
+        return [r[1] for r in self.links[lower:upper + 1]]
 
 
-def download_turnstile_data(start_date: datetime, end_date: datetime=None) -> pd.DataFrame:
+def download_turnstile_data(start_date: datetime,
+                            end_date: datetime = None) -> pd.DataFrame:
     """
     Download raw turnstile data from http://web.mta.info/developers/turnstile.html
 
@@ -147,75 +166,99 @@ def download_turnstile_data(start_date: datetime, end_date: datetime=None) -> pd
     start_page = requests.get(mta_link_rook + 'turnstile.html')
     parser = TurnstilePageParser(start_date, end_date)
     parser.feed(start_page.content.decode('utf-8'))
-    dfs = [pd.read_csv(io.StringIO(requests.get(mta_link_rook + l).content.decode('utf-8'))) for l in parser.get_all_links()]
+    dfs = [
+        pd.read_csv(
+            io.StringIO(
+                requests.get(
+                    mta_link_rook +
+                    l).content.decode('utf-8'))) for l in parser.get_all_links()]
     return pd.concat(dfs)
 
 
-def get_hourly_turnstile_data(start_date: datetime, end_date=None) -> pd.DataFrame:
+def create_interpolated_turnstile_data(
+        start_date: datetime,
+        end_date: datetime = None,
+        frequency: str = '1H') -> pd.DataFrame:
     """
-    Get hourly turnstile data
+    Create interpolated turnstile data
 
     Raw turnstile data is downloaded from http://web.mta.info/developers/turnstile.html
     For each turnstile unit, the differences of ENTRIES/EXITS are taken between two snapshots
     and large difference (>= 10000) and negative values are set to zero.
-    The cleaned data is linearly interpolated to generate hourly turnstile usage
+    The cleaned data is linearly interpolated using the frequency provided
 
     Parameters
     start_date : datetime
     end_date : datetime, optional
+    frequency: str, optional
 
     Returns
     dataframe
     [STATION: str,
      UNIT: str
      SCP: str
-     ENTRIES: int
-     EXITS: int
-     cleaned_entries: int
-     cleaned_exits: int
-     cleaned_entries_diff: int
-     cleaned_exists_diff: int]
+     estimated_entries: int
+     estimated_exits: int]
 
     """
     raw = download_turnstile_data(start_date, end_date)
-    interpolated = _interpolate(_process_raw_data(raw))
+    interpolated = _interpolate(_process_raw_data(raw), frequency)
     end_date = end_date or interpolated.index.max()
-    return interpolated[interpolated.index.to_series().between(start_date, end_date)] \
-        .drop(columns=["entry_diffs", "exit_diffs"])
+    return interpolated[interpolated.index.to_series().between(
+        start_date, end_date)] .drop(columns=["entry_diffs", "exit_diffs"])
 
 
-def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame, station_turnstile_file_path: str, output=False) \
-    -> Dict[str, pd.DataFrame]:
-
+def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame,
+                                        station_turnstile_file_path: str,
+                                        output_directory: str = None) -> Dict[str,
+                                                                              pd.DataFrame]:
     """
     aggregate turnstile data by station and save to output directory if passed.
 
     Parameters
     turnstile_data: pandas.DataFram
     station_turnstile_file_path: str
-    output: str
+    output_directory: str, optional - If specified, the data by station will be saved under the specified directory.
+
 
     Return
-    dict[station_name:str, station_turnstile_data: pd.DataFrame]
+    dict[station_name:str, station_turnstile_data: pd.DataFrame] will be returned.
 
     """
 
     equipment = pd.read_csv(station_turnstile_file_path)
     equipment.remote = equipment.remote.apply(lambda x: literal_eval(str(x)))
     lst_col = 'remote'
-    mapping = pd.DataFrame({col:np.repeat(equipment[col].values, equipment[lst_col].str.len())
-                    for col in equipment.columns.difference([lst_col])}).assign(
-                        **{lst_col:np.concatenate(equipment[lst_col].values)})[equipment.columns.tolist()]
-    mapping.drop(columns = ['Unnamed: 0'], inplace=True)
-    aggregated = turnstile_data.groupby(['datetime', 'STATION', 'UNIT']).sum().reset_index()
-    merged = aggregated.merge(mapping, how='left', left_on=['UNIT'], right_on=[lst_col])
-    turnstile_by_station = {re.sub(r"\s+", '_', re.sub(r"[/|-]", " ", station)) + ".csv": df \
-                             for (station, df) in merged.groupby(['station_name'])}
-    if not output:
-        return turnstile_by_station
-    else:
-        if not os.path.exists(output):
-                os.mkdir(output)
+    mapping = pd.DataFrame({col: np.repeat(equipment[col].values, equipment[lst_col].str.len())
+                            for col in equipment.columns.difference([lst_col])}).assign(
+        **{lst_col: np.concatenate(equipment[lst_col].values)})[equipment.columns.tolist()]
+    mapping.drop(columns=['Unnamed: 0'], inplace=True)
+    aggregated_by_unit = turnstile_data.groupby(
+        ['datetime', 'STATION', 'UNIT']).sum().reset_index()
+    merged = aggregated_by_unit.merge(mapping, how='left', left_on=[
+        'UNIT'], right_on=[lst_col])
+    aggregated_by_station = merged.groupby(
+        ['datetime', 'station_name']).sum().reset_index()
+    turnstile_by_station = {
+        re.sub(
+            r"\s+",
+            '_',
+            re.sub(
+                r"[/|-]",
+                " ",
+                station)) +
+        ".csv": df for (
+            station,
+            df) in aggregated_by_station.groupby(
+            ['station_name'])}
+    if output_directory:
+        if not os.path.exists(output_directory):
+            os.mkdir(output_directory)
         for key in turnstile_by_station:
             d = turnstile_by_station[key]
-            d.to_csv(output.strip('/')+'/'+key,index=False)
+            d.to_csv(
+                os.path.join(
+                    output_directory.strip('/'),
+                    '/') + key,
+                index=False)
+    return turnstile_by_station
