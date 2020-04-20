@@ -65,7 +65,7 @@ def main():
     opts = parser.parse_args()
     
     ee = pd.read_csv(opts.edgelist)
-    
+#     ee.loc[ee.to == '5 service via manhattan','to'] = '5-manhattan'
     ee = ee[ee.to_type == 'Train']
     ee['line'] = [x.split('-')[0] for x in ee.to]
     ee['direction'] = [x.split('-')[1] for x in ee.to]
