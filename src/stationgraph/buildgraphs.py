@@ -150,15 +150,16 @@ def main():
     parser.add_argument("--master-list", required=True)
     parser.add_argument("--override-list",  required=False)
     parser.add_argument("--platform-list",  required=True)
-    parser.add_argument("--output", required=False)
-    parser.add_argument("--inactive", dest="inactive", action="store_true", required=False, default=False)
-    parser.add_argument("--no-inactive", dest="inactive", action="store_false", required=False)
-    parser.add_argument("--inaccessible", dest="inaccessible", action="store_true", required=False, default=False)
-    parser.add_argument("--no-inaccessible", dest="inaccessible", action="store_false", required=False)
-    parser.add_argument("--escalators", dest="escalators", action="store_true", required=False, default=False)
-    parser.add_argument("--no-escalators", dest="escalators", action="store_false", required=False)
-    parser.add_argument("--elevators", dest="elevators", action="store_true", required=False, default=True)
-    parser.add_argument("--no-elevators", dest="elevators", action="store_false", required=False)
+    parser.add_argument("--output", required=False,
+            help="file to output to, defaults to stdout")
+    parser.add_argument("--inactive", dest="inactive", action="store_true", required=False, default=False
+            help="if the output should include connections by inactive elevators/escalators")
+    parser.add_argument("--inaccessible", dest="inaccessible", action="store_true", required=False, default=False
+            help="if the output should include non-ADA compliant connections")
+    parser.add_argument("--escalators", dest="escalators", action="store_true", required=False, default=False
+            help="if the output should include escalators as a connection between floors")
+    parser.add_argument("--elevators", dest="elevators", action="store_true", required=False, default=True
+            help="if the output should include elevators as a connection between floors")
     parser.add_argument("--verbose", dest="verbose", action="store_true", required=False, default=False)
 
     opts = parser.parse_args()
