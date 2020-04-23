@@ -24,11 +24,12 @@ Lexington Av / 63 St,EL441,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-sout
 Lexington Av / 63 St,EL442,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
 Lexington Av / 63 St,EL443,Mezzanine 444,Platform,F-north/Q-north/F-south/Q-south
 Kings Highway,EL761,Street,Platform,H-brigton beach/Q-coney island/B-brighton beach
-Broadway-Lafayette/Bleecker St,EL328,Street,Mezzanine A,6-south
-Broadway-Lafayette/Bleecker St,EL329,Platform,Mezzanine A,B-north/D-north/F-north/M-north
-Broadway-Lafayette/Bleecker St,EL331,Platform,Platform,6-north
-Broadway-Lafayette/Bleecker St,EL332,Platform,Platform,6-north
-Broadway-Lafayette/Bleecker St,EL330,Platform,Mezzanine A,B-south/D-south/F-south/M-south
+Broadway-Lafayette/Bleecker St,EL328,Street,Mezzanine,
+Broadway-Lafayette/Bleecker St,,Mezzanine,Platform,6-south
+Broadway-Lafayette/Bleecker St,EL329,Mezzanine,Platform,B-north/D-north/F-north/M-north
+Broadway-Lafayette/Bleecker St,EL331,Mezzanine,Platform,6-north
+Broadway-Lafayette/Bleecker St,EL332,Mezzanine,Platform,6-north
+Broadway-Lafayette/Bleecker St,EL330,Mezzanine,Platform,B-south/D-south/F-south/M-south
 42 St - Port Authority Bus Terminal,EL288X,Street,Platform,A-south/C-south/E-south/A-north/C-north/E-north
 42 St - Port Authority Bus Terminal,EL289X,Street,Platform,A-south/C-south/E-south/A-north/C-north/E-north
 42 St - Port Authority Bus Terminal,EL291X,Street,Mezzanine,
