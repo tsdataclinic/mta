@@ -82,11 +82,11 @@ Dekalb Av,EL371,Mezzanine,Platform,B-manhattan/R-manhattan/Q-manhattan
 Bowling Green,EL710,Street,Upper Mezzanine,4-north/5-north
 Bowling Green,EL711,Street,Lower Mezzanine,4-south/5-south
 74 St - Broadway / Roosevelt Av,EL423,Mezzanine,Platform,7-south
-74 St - Broadway / Roosevelt Av,EL420,Mezzanine,Platform,7-north
-74 St - Broadway / Roosevelt Av,EL420,Mezzanine,Street,
-Jackson Hts - Roosevelt Av,EL422,Lower Mezzanine,Platform,E-north/F-north/M-north/R-north
-Jackson Hts - Roosevelt Av,EL421,Lower Mezzanine,Platform,E-south/F-south/M-south/R-south
-Jackson Hts - Roosevelt Av,EL420,Street,Lower Mezzanine,
+74 St - Broadway / Roosevelt Av,EL420,Street,Mezzanine,
+74 St - Broadway / Roosevelt Av,,Mezzanine,Platform,7-north
+74 St - Broadway / Roosevelt Av,EL422,Lower Mezzanine,Platform,E-north/F-north/M-north/R-north
+74 St - Broadway / Roosevelt Av,EL421,Lower Mezzanine,Platform,E-south/F-south/M-south/R-south
+74 St - Broadway / Roosevelt Av,EL420,Street,Lower Mezzanine,
 Fulton St,EL716,Concourse,Platform,4-south/5-south
 Fulton St,EL717X,Street,Platform,5-north/4-north
 Fulton St,EL717X,Street,Concourse
