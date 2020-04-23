@@ -42,9 +42,11 @@ West 4 St - Washington Sq,EL333,Street,Mezzanine,A-south/C-south/E-south/A-north
 West 4 St - Washington Sq,EL336,Mezzanine,Lower Mezzanine,
 West 4 St - Washington Sq,EL335,Lower Mezzanine,Platform,B-north/D-north/F-north/M-north
 West 4 St - Washington Sq,EL336,Lower Mezzanine,Platform,B-south/D-south/F-south/M-south
-59 St - Columbus Cir,EL276X,Street,Lower Mezzanine,1-south
+59 St - Columbus Cir,EL276X,Street,Lower Mezzanine,
+59 St - Columbus Cir,,Lower Mezzanine,Platform,1-south
 59 St - Columbus Cir,EL277,Lower Mezzanine,Platform,A-south/B-south/C-south/D-south
-59 St - Columbus Cir,EL280,Street,Mezzanine,1-north
+59 St - Columbus Cir,EL280,Street,Mezzanine,
+59 St - Columbus Cir,,Mezzanine,Platform,1-north
 59 St - Columbus Cir,EL279,Mezzanine,Platform,A-north/B-north/C-north/D-north
 59 St - Columbus Cir,EL278,Lower Mezzanine,Platform,A-north/B-north/C-north/D-north
 WTC Cortlandt St,EL736,Street,Platform,1-south
