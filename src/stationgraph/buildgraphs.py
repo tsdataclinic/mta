@@ -83,13 +83,13 @@ def identify_edges(equipment):
         def simplify(name):
             if re.match(r'.*[Pp]latform.*', name):
                 return 'Platform'
-            if re.match(r'.*(St|Av|Plaza|Blvd|Park|Sidewalk|Pl|Rd|Square).*', name):
+            if re.match(r'.*(St|Av|Pl|Rd|[Pp]laza|[Bb]lvd|[Pp]ark|[Ss]idewalk|[Ss]quare|[Ss]treet).*', name):
                 return 'Street'
             if re.match(r'.*Upper Mezzanine.*', name):
                 return 'Upper Mezzanine'
             if re.match(r'.*Lower Mezzanine.*', name):
                 return 'Lower Mezzanine'
-            if re.match(r'.*([Mm]ezzanine|[Bb]alcony).*', name):
+            if re.match(r'.*([Mm]ezzanine|[Bb]alcony|[Oo]verpass).*', name):
                 return 'Mezzanine'
             if re.match(r'.*[Bb]alcony.*', name):
                 return 'Balcony'
