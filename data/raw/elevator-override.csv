@@ -39,10 +39,11 @@ Times Sq - 42 St,EL232X,Mezzanine,Platform,7-east/7-west/1-south/2-south/3-south
 Times Sq - 42 St,EL233,Mezzanine,Platform,1-north/2-north/3-north
 Times Sq - 42 St,EL229,Mezzanine,Platform,N-south/Q-south/R-south/W-south
 Times Sq - 42 St,EL230,Mezzanine,Platform,N-north/Q-north/R-north/W-north
-West 4 St - Washington Sq,EL333,Street,Mezzanine,A-south/C-south/E-south/A-north/C-north/E-north
-West 4 St - Washington Sq,EL336,Mezzanine,Lower Mezzanine,
+West 4 St - Washington Sq,EL333,Street,Mezzanine,
+West 4 St - Washington Sq,,Mezzanine,Platform,A-south/C-south/E-south/A-north/C-north/E-north
+West 4 St - Washington Sq,EL334,Mezzanine,Lower Mezzanine,
 West 4 St - Washington Sq,EL335,Lower Mezzanine,Platform,B-north/D-north/F-north/M-north
-West 4 St - Washington Sq,EL336,Lower Mezzanine,Platform,B-south/D-south/F-south/M-south
+West 4 St - Washington Sq,EL334,Lower Mezzanine,Platform,B-south/D-south/F-south/M-south
 59 St - Columbus Cir,EL276X,Street,Lower Mezzanine,
 59 St - Columbus Cir,,Lower Mezzanine,Platform,1-south
 59 St - Columbus Cir,EL277,Lower Mezzanine,Platform,A-south/B-south/C-south/D-south
