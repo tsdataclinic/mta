@@ -73,6 +73,7 @@ get_equipment_list.py +---->station_to_elevator.py
 1. ``map_platforms_to_GTFS.py`` - Maps platform IDs to GTFS Stop IDs onto the output of ``assign_platform_ids.R``.
 1. ``station_to_station.py`` - Uses ``GTFS_ROUTES`` and ``GTFS_STOP_TIMES`` to determine which platforms are connected by which trains. It is designed to determine the weekday schedule, which is what the standard NYC subway map shows.
 1. ``update_graph_w_station_connections.R`` - Connects all the individual station maps together by the train lines that service them. It adds intermediary nodes for stations without any elevators, creating a complete  view of all stations in the subway system, mapped from street to train back to street via ADA compliant routes.
+1. ``visualize_graphs.R`` - Produces individual station graphs.
 
 ### Directory Structure
     mta-accessibility/
