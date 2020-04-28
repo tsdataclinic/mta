@@ -1,25 +1,20 @@
-mta_data_repo
-==============================
-
+# mta_data_repo
 During a Data Clinic Hack Day back in December 2019, we set out to use open data to better understand how elevator outages impact riders in the hopes that any insights could empower the MTA to make data-informed decisions on prioritizing/scheduling elevator maintenance and to enhance the information they might choose to provide re: alternate routes, etc. Similarly, we hoped these insights would inspire and empower civic tech members of the public to build solutions, tools, apps, etc. to help elevator users navigate the subway system.
 
 We made a lot of headway that day, but given the complexity of data on the subway system, its elevators, and its ridership, we turned the Hack Day investigation into a full-fledged project.
- 
+
 While we have many more exciting analyses and data products in the works, in the short term, we are releasing three initial resources in this repo:
 
-1. **Accessible station elevator maps:** Using open data on elevator descriptions and some crowdsourcing efforts, we have built a graph/network for each of the 125 accessible stations in the subway system. The graph maps possible street to platform connections using only elevators. 
+1. **Accessible station elevator maps:** Using open data on elevator descriptions and some crowdsourcing efforts, we have built a graph/network for each of the 125 accessible stations in the subway system. The graph maps possible street to platform connections using only elevators.
 
-2. **Turnstile Data Processing:** A script to pull, process, and standardize turnstile usage data for ease of use in analysis. The processing involves data cleaning to correct for integer overflows and interpolation to standardize time of measurement across all turnstiles. 
+2. **Turnstile Data Processing:** A script to pull, process, and standardize turnstile usage data for ease of use in analysis. The processing involves data cleaning to correct for integer overflows and interpolation to standardize time of measurement across all turnstiles.
 
-3. **Crosswalks:** Mapping variations in station names across elevator listing data, turnstile usage data, station location data, and GTFS data. This will provide a consolidated crosswalk that enables all datasets to be easily merged with each other at the station level. 
+3. **Crosswalks:** Mapping variations in station names across elevator listing data, turnstile usage data, station location data, and GTFS data. This will provide a consolidated crosswalk that enables all datasets to be easily merged with each other at the station level.
 
-
-Getting Started
-------------
-
-You can set-up the environment needed to run this project using conda as below: 
-- Add conda-forge to the config and 
-- Install the conda environment named {env_name} from the requirements file 
+## Getting Started
+You can set-up the environment needed to run this project using conda as below:
+- Add conda-forge to the config and
+- Install the conda environment named {env_name} from the requirements file
 
 ```
 conda config --append channels conda-forge
@@ -29,14 +24,10 @@ conda create -n {env_name} --file requirements.txt
 python -m ipykernel install --user --name {env_name} --display-name "Python ({env_name})"
 ```
 
-
-Project Description
-------------
-
+## Project Description
 Accessibility Graph for stations:
 
-
-Turnstile Data:
+### Turnstile Data
 `turnstile.py` provides 3 methods to process turnstile data:
 
 *download_turnstile_data* - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
@@ -47,12 +38,39 @@ Turnstile Data:
 
 Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
-Crosswalks:
+### Station Graph:
+1. ``get_equipment_list.py`` - Gets the list of all equipment (elevators and escalators) and their descriptions from MTA Data portal.
+1. ``station_to_elevator.py`` - Determines which elevators serve which platforms. It then extracts the line and direction of trains that will stop at each platform.
+1. ``buildgraphs.py`` - Builds a map of floor to floor connections for each station. For our solution, we only consider ADA compliant elevators accessible via ADA compliant routes, but the script can include more via configuration.
+1. ``csv2graphml.py`` - Turns the edgelist output of ``buildgraphs.py`` into a graphml file.
+1. ``assign_platform_ids.R`` - Adds platform ids to the graph produced by ``csv2graphml.py``.
+1. ``map_platforms_to_GTFS.py`` - Maps platform IDs to GTFS Stop IDs onto the output of ``assign_platform_ids.R``.
+1. ``station_to_station.py`` - Uses ``GTFS_ROUTES`` and ``GTFS_STOP_TIMES`` to determine which platforms are connected by which trains. It is designed to determine the weekday schedule, which is what the standard NYC subway map shows.
+1. ``update_graph_w_station_connections.R`` - Connects all the individual station maps together by the train lines that service them. It adds intermediary nodes for stations without any elevators, creating a complete  view of all stations in the subway system, mapped from street to train back to street via ADA compliant routes.
 
-
+get_equipment_list.py +---->station_to_elevator.py
+                      |               +
+                      |               |
+                      |               v
+                      +-------->buildgraphs.py
+                      |               +
+                      |               |
+                      v               v
+         visualize_graphs.R<---+csv2graphml.py
+                                      +
+                                      |
+                                      v
+                             assign_platform_ids.R
+                                      +
+   station_to_station.py              |
+            +                         v
+            |               map_platforms_to_GTFS.py
+            |                         +
+            |                         |
+            |                         v
+            +------->update_graph_w_station_connections.R
 
 ### Directory Structure:
-
     mta-accessibility/
     ├── LICENSE
     ├── README.md           <- The top-level README for developers using this project.
@@ -86,4 +104,3 @@ Crosswalks:
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
