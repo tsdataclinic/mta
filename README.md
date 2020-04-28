@@ -38,16 +38,10 @@ Accessibility Graph for stations:
 
 Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
-### Station Graph:
-1. ``get_equipment_list.py`` - Gets the list of all equipment (elevators and escalators) and their descriptions from MTA Data portal.
-1. ``station_to_elevator.py`` - Determines which elevators serve which platforms. It then extracts the line and direction of trains that will stop at each platform.
-1. ``buildgraphs.py`` - Builds a map of floor to floor connections for each station. For our solution, we only consider ADA compliant elevators accessible via ADA compliant routes, but the script can include more via configuration.
-1. ``csv2graphml.py`` - Turns the edgelist output of ``buildgraphs.py`` into a graphml file.
-1. ``assign_platform_ids.R`` - Adds platform ids to the graph produced by ``csv2graphml.py``.
-1. ``map_platforms_to_GTFS.py`` - Maps platform IDs to GTFS Stop IDs onto the output of ``assign_platform_ids.R``.
-1. ``station_to_station.py`` - Uses ``GTFS_ROUTES`` and ``GTFS_STOP_TIMES`` to determine which platforms are connected by which trains. It is designed to determine the weekday schedule, which is what the standard NYC subway map shows.
-1. ``update_graph_w_station_connections.R`` - Connects all the individual station maps together by the train lines that service them. It adds intermediary nodes for stations without any elevators, creating a complete  view of all stations in the subway system, mapped from street to train back to street via ADA compliant routes.
+### Station Graph
 
+#### Pipeline Dependencies
+```
 get_equipment_list.py +---->station_to_elevator.py
                       |               +
                       |               |
@@ -69,8 +63,18 @@ get_equipment_list.py +---->station_to_elevator.py
             |                         |
             |                         v
             +------->update_graph_w_station_connections.R
+```
+#### Pipeline descriptions
+1. ``get_equipment_list.py`` - Gets the list of all equipment (elevators and escalators) and their descriptions from MTA Data portal.
+1. ``station_to_elevator.py`` - Determines which elevators serve which platforms. It then extracts the line and direction of trains that will stop at each platform.
+1. ``buildgraphs.py`` - Builds a map of floor to floor connections for each station. For our solution, we only consider ADA compliant elevators accessible via ADA compliant routes, but the script can include more via configuration.
+1. ``csv2graphml.py`` - Turns the edgelist output of ``buildgraphs.py`` into a graphml file.
+1. ``assign_platform_ids.R`` - Adds platform ids to the graph produced by ``csv2graphml.py``.
+1. ``map_platforms_to_GTFS.py`` - Maps platform IDs to GTFS Stop IDs onto the output of ``assign_platform_ids.R``.
+1. ``station_to_station.py`` - Uses ``GTFS_ROUTES`` and ``GTFS_STOP_TIMES`` to determine which platforms are connected by which trains. It is designed to determine the weekday schedule, which is what the standard NYC subway map shows.
+1. ``update_graph_w_station_connections.R`` - Connects all the individual station maps together by the train lines that service them. It adds intermediary nodes for stations without any elevators, creating a complete  view of all stations in the subway system, mapped from street to train back to street via ADA compliant routes.
 
-### Directory Structure:
+### Directory Structure
     mta-accessibility/
     ├── LICENSE
     ├── README.md           <- The top-level README for developers using this project.
