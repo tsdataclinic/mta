@@ -25,20 +25,8 @@ python -m ipykernel install --user --name {env_name} --display-name "Python ({en
 ```
 
 ## Project Description
-Accessibility Graph for stations:
 
-### Turnstile Data
-`turnstile.py` provides 3 methods to process turnstile data:
-
-*download_turnstile_data* - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
-
-*get_hourly_turnstile_data* - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
-
-*aggregate_turnstile_data_by_station* - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (`data/crosswalk/ee_turnstile.csv`)
-
-Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
-
-### Station Graph
+### Accessibility Graph for stations
 
 #### Pipeline Dependencies
 ```
@@ -74,6 +62,27 @@ get_equipment_list.py +---->station_to_elevator.py
 1. ``station_to_station.py`` - Uses ``GTFS_ROUTES`` and ``GTFS_STOP_TIMES`` to determine which platforms are connected by which trains. It is designed to determine the weekday schedule, which is what the standard NYC subway map shows.
 1. ``update_graph_w_station_connections.R`` - Connects all the individual station maps together by the train lines that service them. It adds intermediary nodes for stations without any elevators, creating a complete  view of all stations in the subway system, mapped from street to train back to street via ADA compliant routes.
 1. ``visualize_graphs.R`` - Produces individual station graphs.
+
+### Turnstile Data
+`turnstile.py` provides 3 methods to process turnstile data:
+
+*download_turnstile_data* - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
+
+*get_hourly_turnstile_data* - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
+
+*aggregate_turnstile_data_by_station* - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (`data/crosswalk/ee_turnstile.csv`)
+
+Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
+
+### Crosswalk
+`make_crosswalk.py` contains the script used to generate a crosswalk of station names and lines between 
+- Subway Stations GeoJSON from (https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49)
+- Equipment list (Elevators and Escalators) from ('http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx')
+- Tunrstile Remote Unit/Control Area/Station Name Key from (http://web.mta.info/developers/turnstile.html)
+- New York City Transit Subway Static GTFS data (http://web.mta.info/developers/developer-data-terms.html#data)
+
+The crosswalk is pre-generated and made available [here](../blob/master/data/crosswalk/Master_crosswalk.csv)
+
 
 ### Directory Structure
     mta-accessibility/
