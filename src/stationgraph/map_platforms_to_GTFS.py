@@ -57,7 +57,7 @@ def match_jaro_winkler(ee, platforms):
 
 # This generates a mapping between platforms and GTFS Stop IDs
 def main():
-    parser = argparse.ArgumentParser("Station graph builder")
+    parser = argparse.ArgumentParser("Platform to GTFS mapping")
     parser.add_argument("--edgelist", required=True)
     parser.add_argument("--gtfs", required=True)
     parser.add_argument("--output", required=False)

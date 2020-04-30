@@ -50,7 +50,7 @@ def main():
                  "equipment_type","ada_compliant","is_active"])
                                              
     elevators_master_list['direction'] = [get_direction(x) for x in elevators_master_list.description]
-    tmp = [re.findall(y,x) for x,y in zip(elevators_master_list.description,
+    tmp = [re.findall(y,x) if y != ' ' else None for x,y in zip(elevators_master_list.description,
                                           elevators_master_list.subway_lines)]
     elevators_master_list['subset_lines'] = [x if x else y for x,y in zip(tmp,
                                             elevators_master_list.subway_lines)]
