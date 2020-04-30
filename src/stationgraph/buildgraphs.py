@@ -10,6 +10,8 @@ import pandas as pd
 import re
 import sys
 
+from utils import split_elevator_description
+
 
 def load_equipment(master_file, with_inactive=False, with_inaccessible=False, with_escalators=False, with_elevators=True):
     equipment = pd.read_csv(master_file)
@@ -62,7 +64,7 @@ def merge_platforms(equipment, platforms):
     # the MTA direction information is incomplete!
     platform_ids = platforms[['equipment_id', 'line', 'direction']].set_index('equipment_id')
     platform_ids = platform_ids.apply(lambda t : '-'.join(t), axis=1).groupby(level=0).unique()
-    platform_ids = platform_ids.apply(lambda t : '/'.join(sorted(t)))
+    platform_ids = platform_ids.apply(lambda t : '/'.join(t))
     equipment = equipment.set_index('equipment_id')
     equipment['platform_id'] = platform_ids
     equipment.reset_index(inplace=True)
@@ -83,13 +85,13 @@ def identify_edges(equipment):
         def simplify(name):
             if re.match(r'.*[Pp]latform.*', name):
                 return 'Platform'
-            if re.match(r'.*(St|Av|Pl|Rd|[Pp]laza|[Bb]lvd|[Pp]ark|[Ss]idewalk|[Ss]quare|[Ss]treet).*', name):
+            if re.match(r'.*(St|Av|Plaza|Blvd|Park|Sidewalk|Pl|Rd|Square).*', name):
                 return 'Street'
             if re.match(r'.*Upper Mezzanine.*', name):
                 return 'Upper Mezzanine'
             if re.match(r'.*Lower Mezzanine.*', name):
                 return 'Lower Mezzanine'
-            if re.match(r'.*([Mm]ezzanine|[Bb]alcony|[Oo]verpass).*', name):
+            if re.match(r'.*(Mezzanine|[Bb]alcony).*', name):
                 return 'Mezzanine'
             if re.match(r'.*[Bb]alcony.*', name):
                 return 'Balcony'
@@ -97,14 +99,9 @@ def identify_edges(equipment):
                 return 'Street'
             return 'Unknown'
 
-        # try "to" and "for" first
-        m = re.search(r'^(.*?) (to|for) (.*)$', desc)
-        if m:
-            return simplify(m.group(1)), simplify(m.group(3))
-        # then try for "and"
-        m = re.search(r'^(.*?) (and) (.*)$', desc)
-        if m:
-            return simplify(m.group(1)), simplify(m.group(3))
+        levels = split_elevator_description(desc)
+        if len(levels) > 1:
+            return simplify(levels[0]), simplify(levels[1])
 
         if re.match('^Mezzanine .*bound Platform$', desc):
             return ('Mezzanine', 'Platform')
@@ -119,7 +116,7 @@ def identify_edges(equipment):
     assert elevator_route('161 St & River Ave (NE Corner) to Mezzanine to reach service in both directions') == ('Street', 'Mezzanine')
     assert elevator_route('Street to # 6 Northbound platform') == ('Street', 'Platform')
     assert elevator_route('Sidewalk entrance (east of the pedestrian skybridge) to Manhattan bound Platform') == ('Street', 'Platform')
-    assert elevator_route('G and 7 Mezzanines to Flushing-bound 7 Platform') == ('Mezzanine', 'Platform')
+#     assert elevator_route('G and 7 Mezzanines to Flushing-bound 7 Platform') == ('Mezzanine', 'Platform')
 
     from_col = equipment.description.apply(lambda d : elevator_route(d)[0])
     # some elevators record the street part explicitly
@@ -129,7 +126,7 @@ def identify_edges(equipment):
 
     return pd.DataFrame({'from': from_col, 'to': to_col})
 
-def canonical_names(equipment):        
+def canonical_names(equipment):
     def make_canon(t):
         label, station, platform_id = t
         if label == 'Unknown':
@@ -150,16 +147,15 @@ def main():
     parser.add_argument("--master-list", required=True)
     parser.add_argument("--override-list",  required=False)
     parser.add_argument("--platform-list",  required=True)
-    parser.add_argument("--output", required=False,
-            help="file to output to, defaults to stdout")
-    parser.add_argument("--inactive", dest="inactive", action="store_true", required=False, default=False
-            help="if the output should include connections by inactive elevators/escalators")
-    parser.add_argument("--inaccessible", dest="inaccessible", action="store_true", required=False, default=False
-            help="if the output should include non-ADA compliant connections")
-    parser.add_argument("--escalators", dest="escalators", action="store_true", required=False, default=False
-            help="if the output should include escalators as a connection between floors")
-    parser.add_argument("--elevators", dest="elevators", action="store_true", required=False, default=True
-            help="if the output should include elevators as a connection between floors")
+    parser.add_argument("--output", required=False)
+    parser.add_argument("--inactive", dest="inactive", action="store_true", required=False, default=False)
+    parser.add_argument("--no-inactive", dest="inactive", action="store_false", required=False)
+    parser.add_argument("--inaccessible", dest="inaccessible", action="store_true", required=False, default=False)
+    parser.add_argument("--no-inaccessible", dest="inaccessible", action="store_false", required=False)
+    parser.add_argument("--escalators", dest="escalators", action="store_true", required=False, default=False)
+    parser.add_argument("--no-escalators", dest="escalators", action="store_false", required=False)
+    parser.add_argument("--elevators", dest="elevators", action="store_true", required=False, default=True)
+    parser.add_argument("--no-elevators", dest="elevators", action="store_false", required=False)
     parser.add_argument("--verbose", dest="verbose", action="store_true", required=False, default=False)
 
     opts = parser.parse_args()
