@@ -8,7 +8,7 @@ import re
 import requests
 
 from ast import literal_eval
-from datetime import datetime
+from datetime import datetime, timedelta
 from html.parser import HTMLParser
 from typing import Dict
 
@@ -26,7 +26,7 @@ def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
 
     # remove mysterious duplicate index along STATION + UNIT
     processed = processed.groupby(
-        ['STATION', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
+        ['STATION','LINENAME', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
 
     processed = processed.set_index(pd.DatetimeIndex(processed.datetime))
     processed.drop(columns=['datetime'], inplace=True)
@@ -34,7 +34,7 @@ def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
     # clean up whitespace in the columns
     processed.rename(columns={c: c.strip()
                               for c in processed.columns}, inplace=True)
-
+    
     return processed
 
 
@@ -202,6 +202,10 @@ def create_interpolated_turnstile_data(
 
     """
     raw = download_turnstile_data(start_date, end_date)
+    raw['date'] = pd.to_datetime(raw.DATE)
+    raw = raw[(raw.date <= (end_date + timedelta(1))) & (raw.date >= (start_date - timedelta(1)))]
+    raw.drop('date',axis=1,inplace=True)
+    
     interpolated = _interpolate(_process_raw_data(raw), frequency)
     end_date = end_date or interpolated.index.max()
     return interpolated[interpolated.index.to_series().between(
@@ -209,7 +213,6 @@ def create_interpolated_turnstile_data(
 
 
 def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame,
-                                        station_turnstile_file_path: str,
                                         output_directory: str = None) -> Dict[str,
                                                                               pd.DataFrame]:
     """
@@ -217,7 +220,6 @@ def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame,
 
     Parameters
     turnstile_data: pandas.DataFram
-    station_turnstile_file_path: str
     output_directory: str, optional - If specified, the data by station will be saved under the specified directory.
 
 
@@ -226,19 +228,8 @@ def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame,
 
     """
 
-    equipment = pd.read_csv(station_turnstile_file_path)
-    equipment.remote = equipment.remote.apply(lambda x: literal_eval(str(x)))
-    lst_col = 'remote'
-    mapping = pd.DataFrame({col: np.repeat(equipment[col].values, equipment[lst_col].str.len())
-                            for col in equipment.columns.difference([lst_col])}).assign(
-        **{lst_col: np.concatenate(equipment[lst_col].values)})[equipment.columns.tolist()]
-    mapping.drop(columns=['Unnamed: 0'], inplace=True)
-    aggregated_by_unit = turnstile_data.groupby(
-        ['datetime', 'STATION', 'UNIT']).sum().reset_index()
-    merged = aggregated_by_unit.merge(mapping, how='left', left_on=[
-        'UNIT'], right_on=[lst_col])
-    aggregated_by_station = merged.groupby(
-        ['datetime', 'station_name']).sum().reset_index()
+    aggregated_by_station = turnstile_data.groupby(
+        ['datetime', 'STATION','LINENAME']).sum().reset_index()
     turnstile_by_station = {
         re.sub(
             r"\s+",
@@ -246,11 +237,11 @@ def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame,
             re.sub(
                 r"[/|-]",
                 " ",
-                station)) +
+                '_'.join(station))) + 
         ".csv": df for (
             station,
             df) in aggregated_by_station.groupby(
-            ['station_name'])}
+            ['STATION','LINENAME'])}
     if output_directory:
         if not os.path.exists(output_directory):
             os.mkdir(output_directory)
