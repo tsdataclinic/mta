@@ -76,12 +76,12 @@ Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sam
 
 ### Crosswalk
 `make_crosswalk.py` contains the script used to generate a crosswalk of station names and lines between 
-- Subway Stations GeoJSON from (https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49)
-- Equipment list (Elevators and Escalators) from ('http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx')
-- Tunrstile Remote Unit/Control Area/Station Name Key from (http://web.mta.info/developers/turnstile.html)
+- Subway Stations GeoJSON (https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49)
+- Equipment list (Elevators and Escalators) ('http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx')
+- Tunrstile Remote Unit/Control Area/Station Name Key (http://web.mta.info/developers/turnstile.html)
 - New York City Transit Subway Static GTFS data (http://web.mta.info/developers/developer-data-terms.html#data)
 
-The crosswalk is pre-generated and made available [here](../blob/master/data/crosswalk/Master_crosswalk.csv)
+The crosswalk is pre-generated and made available [here](data/crosswalk/Master_crosswalk.csv)
 
 
 ### Directory Structure
