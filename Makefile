@@ -1,144 +1,127 @@
-.PHONY: clean data lint requirements sync_data_to_s3 sync_data_from_s3
+# input folders and files
+RAW_DATA          := data/raw
+GTFS_DATA         := $(RAW_DATA)/google_transit
+MASTER_LIST       := $(RAW_DATA)/EE_master_list.csv
+EQUIP_OVERRIDES   := $(RAW_DATA)/elevator-override.csv
+GTFS_ROUTES       := $(GTFS_DATA)/routes.txt
+GTFS_STOP_TIMES   := $(GTFS_DATA)/stop_times.txt
+GTFS_STOPS        := $(GTFS_DATA)/stops.txt
 
-#################################################################################
-# GLOBALS                                                                       #
-#################################################################################
+# outputs folders and files
+GRAPH_DATA        := data/processed/stationgraph
+CROSSWALK_DATA    := data/crosswalk
+MAPS_FIGURES      := figures/elevator_maps
+EDGELIST_W_PID    := $(GRAPH_DATA)/edgelist_w_pid.csv
+EDGELIST_W_STNS_1 := $(GRAPH_DATA)/mta-elevators-w-station-connections-tmp1.graphml
+EDGELIST_W_STNS   := $(GRAPH_DATA)/mta-elevators-w-station-connections.graphml
+EQUIP_GRAPH_CSV   := $(GRAPH_DATA)/mta-elevators-graph.csv
+EQUIP_GRAPHML     := $(GRAPH_DATA)/mta-elevators.graphml
+EQUIP_TO_LINE_DIR := $(GRAPH_DATA)/elevator_to_line_dir_station.csv
+STN2STN_CSV       := $(GRAPH_DATA)/station_to_station.csv
+MAPS_TIMESTAMP    := $(MAPS_FIGURES)/timestamp
+PLAT2GTFS_CSV     := $(CROSSWALK_DATA)/platform_id_to_GTFS_mapping.csv
 
-PROJECT_DIR := $(shell dirname $(realpath $(lastword $(MAKEFILE_LIST))))
-BUCKET = [OPTIONAL] your-bucket-for-syncing-data (do not include 's3://')
-PROFILE = default
-PROJECT_NAME = mta_accessibility
-PYTHON_INTERPRETER = python3
+# TODO: some of these are just intermediate products that needn't
+# be in the 'all' target
+all: $(EQUIP_TO_LINE_DIR) $(EQUIP_GRAPH_CSV) $(EQUIP_GRAPHML) $(MAPS_TIMESTAMP) \
+     $(EDGELIST_W_PID) $(EDGELIST_W_STNS) $(PLAT2GTFS_CSV) $(STN2STN_CSV)
 
-ifeq (,$(shell which conda))
-HAS_CONDA=False
-else
-HAS_CONDA=True
-endif
-
-#################################################################################
-# COMMANDS                                                                      #
-#################################################################################
-
-## Install Python Dependencies
-requirements: test_environment
-	$(PYTHON_INTERPRETER) -m pip install -U pip setuptools wheel
-	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
-
-## Make Dataset
-data: requirements
-	$(PYTHON_INTERPRETER) src/data/make_dataset.py data/raw data/processed
-
-## Delete all compiled Python files
+#
+# Delete all derived data
+#
 clean:
-	find . -type f -name "*.py[co]" -delete
-	find . -type d -name "__pycache__" -delete
+	-rm $(GRAPH_DATA)/*
+	#-rm $(CROSSWALK_DATA)/*
+	-rm $(PLAT2GTFS_CSV)
+	-rm $(MAPS_FIGURES)/*
 
-## Lint using flake8
-lint:
-	flake8 src
+#
+# Delete all derived data and any raw data we can refetch
+#
+realclean: clean
+	-rm $(MASTER_LIST)
 
-## Upload Data to S3
-sync_data_to_s3:
-ifeq (default,$(PROFILE))
-	aws s3 sync data/ s3://$(BUCKET)/data/
-else
-	aws s3 sync data/ s3://$(BUCKET)/data/ --profile $(PROFILE)
-endif
+#
+# get equipment list (usually not necessary!)
+#
+$(MASTER_LIST): src/stationgraph/get_equipment_list.py
+	> $@ python3 $< 
 
-## Download Data from S3
-sync_data_from_s3:
-ifeq (default,$(PROFILE))
-	aws s3 sync s3://$(BUCKET)/data/ data/
-else
-	aws s3 sync s3://$(BUCKET)/data/ data/ --profile $(PROFILE)
-endif
+#
+# extract platform information from MTA data
+#
+$(EQUIP_TO_LINE_DIR): src/stationgraph/station_to_elevator.py $(MASTER_LIST)
+	> $@ python3 $< --master-list $(MASTER_LIST)
 
-## Set up python interpreter environment
-create_environment:
-ifeq (True,$(HAS_CONDA))
-		@echo ">>> Detected conda, creating conda environment."
-ifeq (3,$(findstring 3,$(PYTHON_INTERPRETER)))
-	conda create --name $(PROJECT_NAME) python=3
-else
-	conda create --name $(PROJECT_NAME) python=2.7
-endif
-		@echo ">>> New conda env created. Activate with:\nsource activate $(PROJECT_NAME)"
-else
-	$(PYTHON_INTERPRETER) -m pip install -q virtualenv virtualenvwrapper
-	@echo ">>> Installing virtualenvwrapper if not already intalled.\nMake sure the following lines are in shell startup file\n\
-	export WORKON_HOME=$$HOME/.virtualenvs\nexport PROJECT_HOME=$$HOME/Devel\nsource /usr/local/bin/virtualenvwrapper.sh\n"
-	@bash -c "source `which virtualenvwrapper.sh`;mkvirtualenv $(PROJECT_NAME) --python=$(PYTHON_INTERPRETER)"
-	@echo ">>> New virtualenv created. Activate with:\nworkon $(PROJECT_NAME)"
-endif
+#
+# build network of elevators, mezzanines and platforms for each station
+#
+$(EQUIP_GRAPH_CSV): src/stationgraph/buildgraphs.py $(MASTER_LIST) $(EQUIP_TO_LINE_DIR) $(EQUIP_OVERRIDES)
+	> $@ python3 $< \
+	  --no-inaccessible \
+	  --no-escalators \
+	  --master-list $(MASTER_LIST) \
+	  --platform-list $(EQUIP_TO_LINE_DIR) \
+	  --override-list $(EQUIP_OVERRIDES)
 
-## Test python environment is setup correctly
-test_environment:
-	$(PYTHON_INTERPRETER) test_environment.py
+#
+# build graphml file from edgelist
+#
+$(EQUIP_GRAPHML): src/stationgraph/csv2graphml.py $(EQUIP_GRAPH_CSV)
+	> $@ python3 $< --pretty < $(EQUIP_GRAPH_CSV)
 
-#################################################################################
-# PROJECT RULES                                                                 #
-#################################################################################
+#
+# visualize individual station graphs
+#
+$(MAPS_TIMESTAMP): src/visualization/visualize_graphs.R $(EQUIP_GRAPHML) $(GTFS_ROUTES) $(MASTER_LIST)
+	-rm $@
+	-rm $(dir $@)/*.png
+	Rscript $< \
+	  --g $(EQUIP_GRAPHML) \
+	  --routes $(GTFS_ROUTES) \
+	  --elevators $(MASTER_LIST) \
+	  --out $(dir $@)
+	> $@ date
 
+#
+# assign platforms IDs in Graph
+#
+$(EDGELIST_W_PID) $(EDGELIST_W_STNS_1) &: src/stationgraph/assign_platform_ids.R $(EQUIP_GRAPHML)
+	Rscript $< \
+	  --graph $(EQUIP_GRAPHML) \
+	  --outel $(EDGELIST_W_PID) \
+	  --outgraph $(EDGELIST_W_STNS_1)
 
+#
+# map platform IDs to GTFS Stop IDs
+#
+# NB: This script implicitly depends on several files in the GTFS directory!
+GTFS_INPUTS := $(addprefix $(GTFS_DATA)/,routes.txt trips.txt stops.txt stop_times.txt)
+$(PLAT2GTFS_CSV): src/stationgraph/map_platforms_to_GTFS.py $(EDGELIST_W_PID) $(GTFS_INPUTS)
+	python3 $< \
+	  --edgelist $(EDGELIST_W_PID) \
+	  --gtfs $(GTFS_DATA)/ \
+	  --output $@
 
-#################################################################################
-# Self Documenting Commands                                                     #
-#################################################################################
+#
+# build station-to-station connections
+#
+$(STN2STN_CSV): src/stationgraph/station_to_station.py $(GTFS_ROUTES) $(GTFS_STOP_TIMES)
+	> $@ python3 $< \
+	  --routes $(GTFS_ROUTES) \
+	  --stop-times $(GTFS_STOP_TIMES) \
 
-.DEFAULT_GOAL := help
-
-# Inspired by <http://marmelab.com/blog/2016/02/29/auto-documented-makefile.html>
-# sed script explained:
-# /^##/:
-# 	* save line in hold space
-# 	* purge line
-# 	* Loop:
-# 		* append newline + line to hold space
-# 		* go to next line
-# 		* if line starts with doc comment, strip comment character off and loop
-# 	* remove target prerequisites
-# 	* append hold space (+ newline) to line
-# 	* replace newline plus comments by `---`
-# 	* print line
-# Separate expressions are necessary because labels cannot be delimited by
-# semicolon; see <http://stackoverflow.com/a/11799865/1968>
-.PHONY: help
-help:
-	@echo "$$(tput bold)Available rules:$$(tput sgr0)"
-	@echo
-	@sed -n -e "/^## / { \
-		h; \
-		s/.*//; \
-		:doc" \
-		-e "H; \
-		n; \
-		s/^## //; \
-		t doc" \
-		-e "s/:.*//; \
-		G; \
-		s/\\n## /---/; \
-		s/\\n/ /g; \
-		p; \
-	}" ${MAKEFILE_LIST} \
-	| LC_ALL='C' sort --ignore-case \
-	| awk -F '---' \
-		-v ncol=$$(tput cols) \
-		-v indent=19 \
-		-v col_on="$$(tput setaf 6)" \
-		-v col_off="$$(tput sgr0)" \
-	'{ \
-		printf "%s%*s%s ", col_on, -indent, $$1, col_off; \
-		n = split($$2, words, " "); \
-		line_length = ncol - indent; \
-		for (i = 1; i <= n; i++) { \
-			line_length -= length(words[i]) + 1; \
-			if (line_length <= 0) { \
-				line_length = ncol - indent - length(words[i]) - 1; \
-				printf "\n%*s ", -indent, " "; \
-			} \
-			printf "%s ", words[i]; \
-		} \
-		printf "\n"; \
-	}' \
-	| more $(shell test $(shell uname) = Darwin && echo '--no-init --raw-control-chars')
+#
+# add station-to-station edges to graph
+#
+# TODO: this R script modifies the file in place, so we need to copy the source
+# file then rename it when we're done. Instead, the script should have in & out graphs
+$(EDGELIST_W_STNS): src/stationgraph/update_graph_w_station_connections.R \
+                    $(EDGELIST_W_STNS_1) $(STN2STN_CSV) $(PLAT2GTFS_CSV) $(GTFS_STOPS)
+	cp $(EDGELIST_W_STNS_1) $(@:.graphml=.tmp.graphml)
+	Rscript $< \
+	  --graph $(@:.graphml=.tmp.graphml) \
+	  --stations $(STN2STN_CSV) \
+	  --gtfsmapping $(PLAT2GTFS_CSV) \
+	  --stops $(GTFS_STOPS)
+	mv $(@:.graphml=.tmp.graphml) $@

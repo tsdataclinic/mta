@@ -1,117 +1,120 @@
-mta_accessibility
-==============================
+# mta_data_repo
+During a Data Clinic Hack Day back in December 2019, we set out to use open data to better understand how elevator outages impact riders in the hopes that any insights could empower the MTA to make data-informed decisions on prioritizing/scheduling elevator maintenance and to enhance the information they might choose to provide re: alternate routes, etc. Similarly, we hoped these insights would inspire and empower civic tech members of the public to build solutions, tools, apps, etc. to help elevator users navigate the subway system.
 
-Analyzing MTA elevator outages
+We made a lot of headway that day, but given the complexity of data on the subway system, its elevators, and its ridership, we turned the Hack Day investigation into a full-fledged project.
 
-### Git stuff 
+While we have many more exciting analyses and data products in the works, in the short term, we are releasing three initial resources in this repo:
 
-We encourage people to follow the git feature branch workflow which you can read more about here: [https://towardsdatascience.com/why-git-and-how-to-use-git-as-a-data-scientist-4fa2d3bdc197](How to use git as a Data Scientist)
+1. **Accessible station elevator maps:** Using open data on elevator descriptions and some crowdsourcing efforts, we have built a graph/network for each of the 125 accessible stations in the subway system. The graph maps possible street to platform connections using only elevators.
 
-For each feature you are adding to the code 
+2. **Turnstile Data Processing:** A script to pull, process, and standardize turnstile usage data for ease of use in analysis. The processing involves data cleaning to correct for integer overflows and interpolation to standardize time of measurement across all turnstiles.
 
-1. Switch to the master branch and pull the most recent changes 
+3. **Crosswalks:** Mapping variations in station names across elevator listing data, turnstile usage data, station location data, and GTFS data. This will provide a consolidated crosswalk that enables all datasets to be easily merged with each other at the station level.
+
+## Getting Started
+You can set-up the environment needed to run this project using conda as below:
+- Add conda-forge to the config and
+- Install the conda environment named {env_name} from the requirements file
+
 ```
-git checkout master 
-git pull
+conda config --append channels conda-forge
+conda create -n {env_name} --file requirements.txt
+
+## to have the environment showup as a kernel on jupyter
+python -m ipykernel install --user --name {env_name} --display-name "Python ({env_name})"
 ```
 
-2. Make a new branch for your addition 
+## Project Description
+
+### Accessibility Graph for stations
+
+#### Pipeline Dependencies
 ```
-git checkout -b cleaning_script
-``` 
-3. Write your awesome code.
-4. Once it's done add it to git 
+get_equipment_list.py +---->station_to_elevator.py
+                      |               +
+                      |               |
+                      |               v
+                      +-------->buildgraphs.py
+                      |               +
+                      |               |
+                      v               v
+         visualize_graphs.R<---+csv2graphml.py
+                                      +
+                                      |
+                                      v
+                             assign_platform_ids.R
+                                      +
+   station_to_station.py              |
+            +                         v
+            |               map_platforms_to_GTFS.py
+            |                         +
+            |                         |
+            |                         v
+            +------->update_graph_w_station_connections.R
 ```
-git status
-git add {files that have changed}
-git commit -m {some descriptive commit message}
-```
-5. Push the branch to gitlab 
-```
-git push -u origin cleaning_script
-``` 
-6. Go to git lab and create a merge request.
-7. Either merge the branch yourself if your confident it's good or request that someone else reviews the changes and merges it in.
-8. Repeat
-9. ...
-10. Profit.
+#### Pipeline descriptions
+1. ``get_equipment_list.py`` - Gets the list of all equipment (elevators and escalators) and their descriptions from MTA Data portal.
+1. ``station_to_elevator.py`` - Determines which elevators serve which platforms. It then extracts the line and direction of trains that will stop at each platform.
+1. ``buildgraphs.py`` - Builds a map of floor to floor connections for each station. For our solution, we only consider ADA compliant elevators accessible via ADA compliant routes, but the script can include more via configuration.
+1. ``csv2graphml.py`` - Turns the edgelist output of ``buildgraphs.py`` into a graphml file.
+1. ``assign_platform_ids.R`` - Adds platform ids to the graph produced by ``csv2graphml.py``.
+1. ``map_platforms_to_GTFS.py`` - Maps platform IDs to GTFS Stop IDs onto the output of ``assign_platform_ids.R``.
+1. ``station_to_station.py`` - Uses ``GTFS_ROUTES`` and ``GTFS_STOP_TIMES`` to determine which platforms are connected by which trains. It is designed to determine the weekday schedule, which is what the standard NYC subway map shows.
+1. ``update_graph_w_station_connections.R`` - Connects all the individual station maps together by the train lines that service them. It adds intermediary nodes for stations without any elevators, creating a complete  view of all stations in the subway system, mapped from street to train back to street via ADA compliant routes.
+1. ``visualize_graphs.R`` - Produces individual station graphs.
 
-Project Organization
-------------
+### Turnstile Data
+`turnstile.py` provides 3 methods to process turnstile data:
 
-Data Clinic projects are a little different form internal Two Sigma projects. We work with external partners 
-who will either be the ones who we hope will take our work and use it in their day to day missions to 
-empower the communities they serve. We also try to open source as much of our analysis as possible 
-to enable others to build on what we have done. 
+*download_turnstile_data* - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
 
-Because these wider audiences will have to deal with the code / analysis we write potentially long after 
-all our volunteers have moved on, we try to adhere to some best practises while working on a project.
+*get_hourly_turnstile_data* - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
 
-To that end we have adopted the Data Science Cookie cutter approach to project structure. The full 
-structure is described in detail in the next section but some major guidelines are:
+*aggregate_turnstile_data_by_station* - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (`data/crosswalk/ee_turnstile.csv`)
 
-1. Data should be immutable. Datafiles should not be modified in place ever especially the data in RAW. Instead 
-scripts should be written that reads in data from a previous step and outputs the results to a new file. 
+Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
-2. Treat analysis as code in a DAG: Each script should build on those that go before it, reading in data from 
-the raw data files and from interim data files and generating new datasets. It shouldn't be required for you 
-to run a processing stage again once it has been run. The make file is a good way to ensure this.
+### Crosswalk
+`make_crosswalk.py` contains the script used to generate a crosswalk of station names and lines between 
+- Subway Stations GeoJSON (https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49)
+- Equipment list (Elevators and Escalators) ('http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx')
+- Tunrstile Remote Unit/Control Area/Station Name Key (http://web.mta.info/developers/turnstile.html)
+- New York City Transit Subway Static GTFS data (http://web.mta.info/developers/developer-data-terms.html#data)
 
-3. Notebooks should be for exploration and communication. Try to keep processing code out of notebooks especially 
-code that can be used in multiple parts of the analysis. Instead add that code to the robinhood module. In general
-someone coming to the project fresh should be able to recreate the analysis using nothing but the code in the robinhood 
-directory and data in the data directory. An example notebook for how to access the module can be found in notebooks/Examples.ipynb
+The crosswalk is pre-generated and made available [here](data/crosswalk/Master_crosswalk.csv)
 
 
-Directory Structure:
-
+### Directory Structure
+    mta-accessibility/
     ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
+    ├── README.md           <- The top-level README for developers using this project.
+    ├── Makefile            <- Makefile with commands like `make data` or `make train`
+    │
     ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
+    │   ├── crosswalk       <- Crosswalks between different MTA data sets.
+    │   ├── processed       <- The final, canonical data sets.
+    │   │   ├── stationgraph
+    │   │   └── turnstile
+    │   └── raw             <- The original, immutable data dump.
     │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    ├── figures             <- Generated graphics and figures to be used in reporting
     │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    ├── add_station_connections.sh
+    ├── gen-graphs.sh
     │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
+    ├── notebooks           <- Jupyter notebooks illustrating some of the code.
+    │   ├── Station_Graph.ipynb
+    │   └── Turnstile_sample.ipynb
     │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    ├── requirements.txt
+    ├── setup.py
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
-
+    ├── src
+    │   ├── crosswalks      <- Scripts used to generate crosswalks
+    │   ├── stationgraph    <- Scripts to build accessibility graph for stations
+    │   ├── turnstile       <- Scripts to download and process turnstile data
+    │   └── visualization   <- Scripts to visualize graph data
 
 --------
 
 <p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
-
