@@ -28,6 +28,7 @@ def main():
     turnstile_remotes = pd.read_excel('../../data/raw/Remote-Booth-Station.xls')
     gtfs = pd.read_csv('../../data/raw/google_transit/stops.txt')
     
+    turnstile_remotes['Line Name'] = turnstile_remotes['Line Name'].astype(str)
     gtfs = gtfs[gtfs.location_type == 1]
     
     gtfs_routes = pd.read_csv('../../data/raw/google_transit/routes.txt')
@@ -64,10 +65,10 @@ def main():
     gtfs['clean_lines'] = [re.sub('-','',re.sub(',','-',re.sub(',((\d)|(\w))X','',x))) for x in gtfs.lines]
     
     # Dropping unnecessary columns
-    stations = stations[['name','name_ord','clean_lines']]
-    elevator_list = elevator_list[['equipment_id','station_name','name_ord','clean_lines']]
-    turnstile_remotes = turnstile_remotes[['Remote','Station','name_ord','clean_lines']]
-    gtfs = gtfs[['stop_id','stop_name','stop_lat','stop_lon','name_ord','clean_lines']]
+    stations = stations[['name','name_ord','clean_lines','line']]
+    elevator_list = elevator_list[['equipment_id','station_name','name_ord','clean_lines','subway_lines']]
+    turnstile_remotes = turnstile_remotes[['Remote','Station','name_ord','clean_lines','Line Name']]
+    gtfs = gtfs[['stop_id','stop_name','stop_lat','stop_lon','name_ord','clean_lines','lines']]
     
     ###### Text Matching
     elevator_list.reset_index(drop=True,inplace=True)
@@ -89,26 +90,26 @@ def main():
             st_match = st_subset.iloc[np.argmax(st_dist),]
             st_score = max(st_dist)
             if st_score > 0.75:
-                elevator_list.iloc[i,][['station_match','station_lines']] = st_match[['name_ord','clean_lines']]
+                elevator_list.iloc[i,][['station_match','station_lines']] = st_match[['name_ord','line']]
             else:
                 st_dist = [textdistance.jaro_winkler(row.name_ord,y) for y in st_subset.name_ord]
                 st_match = st_subset.iloc[np.argmax(st_dist),]
                 st_score = max(st_dist)
-                elevator_list.iloc[i,][['station_match','station_lines']] = st_match[['name_ord','clean_lines']]
+                elevator_list.iloc[i,][['station_match','station_lines']] = st_match[['name_ord','line']]
                 
     ## Manual overrides
     elevator_list.loc[(elevator_list.station_name == '57 St - 7 Av')&(elevator_list.station_match == ''),
-                      ['clean_lines','station_match','station_lines']] = ['NQRW','57th St','NQRW']
+                      ['clean_lines','station_match','station_lines']] = ['NQRW','57th St','N-Q-R-W']
     elevator_list.loc[(elevator_list.station_name == '59 St')&(elevator_list.station_match == ''),
-                      ['clean_lines','station_match','station_lines']] = ['456','Lexington Ave - 59th St','456']
+                      ['clean_lines','station_match','station_lines']] = ['456','Lexington Ave - 59th St','4-5-6-6 Express']
     elevator_list.loc[(elevator_list.station_name == '68 St / Hunter College')&(elevator_list.station_match == ''),
-                      ['clean_lines','station_match','station_lines']] = ['46','68th St - Hunter College','46']
+                      ['clean_lines','station_match','station_lines']] = ['46','68th St - Hunter College','4-6-6 Express']
     elevator_list.loc[(elevator_list.station_name == '86 St')&(elevator_list.station_match == ''),
-                      ['clean_lines','station_match','station_lines']] = ['456','86th St','456']
+                      ['clean_lines','station_match','station_lines']] = ['456','86th St','4-5-6-6 Express']
     elevator_list.loc[(elevator_list.station_name == 'Bedford Park Blvd/Grand Concourse Line')&(elevator_list.station_match == ''),
-                      ['clean_lines','station_match','station_lines']] = ['BD','Bedford Park Blvd','BD']
+                      ['clean_lines','station_match','station_lines']] = ['BD','Bedford Park Blvd','B-D']
     elevator_list.loc[(elevator_list.station_name == 'Chambers St')&(elevator_list.station_match == ''),
-                      ['clean_lines','station_match','station_lines']] = ['JZ','Chambers St','JZ']
+                      ['clean_lines','station_match','station_lines']] = ['JZ','Chambers St','J-Z']
     
     el_station_merge = elevator_list.copy()
     el_station_merge['equipments'] = el_station_merge.groupby(['station_match','station_lines'])['equipment_id'].transform(lambda x :
@@ -117,9 +118,9 @@ def main():
     el_station_merge.drop(['equipment_id','name_ord'],axis=1,inplace=True)
     el_station_merge = el_station_merge.drop_duplicates()
     
-    crosswalk = stations.merge(el_station_merge,how='left',left_on=['name','clean_lines'],right_on=['station_match','station_lines'])
-    crosswalk.rename(columns={'clean_lines_x':'clean_lines','station_name':'el_station_name','clean_lines_y':'el_lines'},inplace=True)
-    crosswalk.drop(['station_match','station_lines'],axis=1,inplace=True)
+    crosswalk = stations.merge(el_station_merge,how='left',left_on=['name','line'],right_on=['station_match','station_lines'])
+    crosswalk.rename(columns={'clean_lines_x':'clean_lines','station_name':'el_station_name','subway_lines':'el_lines'},inplace=True)
+    crosswalk.drop(['station_match','station_lines','clean_lines_y'],axis=1,inplace=True)
     crosswalk.fillna('',inplace=True)
     
     ## Matching GTFS
@@ -143,32 +144,32 @@ def main():
             gtfs_match = gtfs_subset.iloc[np.argmax(gtfs_dist),]
             gtfs_score = max(gtfs_dist)
             if gtfs_score > 0.88:
-                crosswalk.iloc[i,][['gtfs_station_name','gtfs_lines']] = gtfs_match[['stop_name','clean_lines']]
+                crosswalk.iloc[i,][['gtfs_station_name','gtfs_lines']] = gtfs_match[['stop_name','lines']]
             else:
                 gtfs_dist = [textdistance.jaro_winkler(row.name_ord,y) for y in gtfs_subset.name_ord]
                 gtfs_match = gtfs_subset.iloc[np.argmax(gtfs_dist),]
                 gtfs_score = max(gtfs_dist)
                 if gtfs_score > 0.74:
-                    crosswalk.iloc[i,][['gtfs_station_name','gtfs_lines']] = gtfs_match[['stop_name','clean_lines']]
+                    crosswalk.iloc[i,][['gtfs_station_name','gtfs_lines']] = gtfs_match[['stop_name','lines']]
                     
     
     ## Manual overrides
     crosswalk.loc[(crosswalk.name_ord == 'Lexington Ave - 59th St')&(crosswalk.gtfs_station_name == ''),
-                  ['gtfs_station_name','gtfs_lines']] = ['59 St','456']
+                  ['gtfs_station_name','gtfs_lines']] = ['59 St','4,5,5X,6,6X']
     crosswalk.loc[(crosswalk.name_ord == 'Long Island City - Court Sq')&(crosswalk.gtfs_station_name == ''),
                   ['gtfs_station_name','gtfs_lines']] = ['Court Sq - 23 St','G']
     crosswalk.loc[(crosswalk.name_ord == '46th St')&(crosswalk.clean_lines=='EMR')&(crosswalk.gtfs_station_name == ''),
-                  ['gtfs_station_name','gtfs_lines']] = ['46 St','EMR']
+                  ['gtfs_station_name','gtfs_lines']] = ['46 St','E,M,R']
     crosswalk.loc[(crosswalk.name_ord == '46th St')&(crosswalk.clean_lines=='7')&(crosswalk.gtfs_station_name == ''),
                   ['gtfs_station_name','gtfs_lines']] = ['46 St - Bliss St','7']
     crosswalk.loc[(crosswalk.name_ord == 'Gravesend - 86th St')&(crosswalk.gtfs_station_name == ''),
-                  ['gtfs_station_name','gtfs_lines']] = ['86 St','NWQ']
+                  ['gtfs_station_name','gtfs_lines']] = ['86 St','N,W,Q']
     crosswalk.loc[(crosswalk.name_ord == 'Lower East Side - 2nd Ave')&(crosswalk.gtfs_station_name == ''),
-                  ['gtfs_station_name','gtfs_lines']] = ['2 Av','F']
+                  ['gtfs_station_name','gtfs_lines']] = ['2 Av','F,FX']
     crosswalk.loc[(crosswalk.name_ord == '57th St')&(crosswalk.clean_lines=='F')&(crosswalk.gtfs_station_name == ''),
-                  ['gtfs_station_name','gtfs_lines']] = ['57 St','FM']
+                  ['gtfs_station_name','gtfs_lines']] = ['57 St','F,FX,M']
     crosswalk.loc[(crosswalk.name_ord == '57th St')&(crosswalk.clean_lines=='NQRW')&(crosswalk.gtfs_station_name == ''),
-                  ['gtfs_station_name','gtfs_lines']] = ['57 St - 7 Av','NWQR']
+                  ['gtfs_station_name','gtfs_lines']] = ['57 St - 7 Av','N,W,Q,R']
     
     
     
@@ -196,31 +197,30 @@ def main():
             ts_match = ts_subset.iloc[np.argmax(ts_dist),]
             ts_score = max(ts_dist)
             if ts_score > 0.88:
-                crosswalk.iloc[i,][['turnstile_station_name','turnstile_lines']] = ts_match[['Station','clean_lines']]
+                crosswalk.iloc[i,][['turnstile_station_name','turnstile_lines']] = ts_match[['Station','Line Name']]
             else:
                 ts_dist = [textdistance.jaro_winkler(row.name_ord,y) for y in ts_subset.name_ord]
                 ts_match = ts_subset.iloc[np.argmax(ts_dist),]
                 ts_score = max(ts_dist)
                 if ts_score > 0.81:
-                    crosswalk.iloc[i,][['turnstile_station_name','turnstile_lines']] = ts_match[['Station','clean_lines']]
+                    crosswalk.iloc[i,][['turnstile_station_name','turnstile_lines']] = ts_match[['Station','Line Name']]
     
     missing_vals = crosswalk[crosswalk.turnstile_station_name == ''][['name','clean_lines']]
     missing_vals.reset_index(drop=True,inplace=True)
     
     ## manual overrides
-    ts_override = [['MAIN ST','7'],['138 ST-3 AVE','6'],['42 ST-GRD CNTRL','4567S'],['96 ST','6'],['61 ST/WOODSIDE','7'],
-               ['96 ST','BC'],['168 ST-BROADWAY','1AC'],['UNION TPK-KEW G','EF'],['WASHINGTON-36 A','NQ'],['42 ST-GRD CNTRL','4567S'],
-               ['GREENWOOD-111','A'],['OXFORD-104 ST','A'],['7 AV-PARK SLOPE','FG'],['7 AVE','BQ'],['FLATBUSH AVE','25'],
-               ['28 ST-BROADWAY','NR'],['COURT SQ','EMG'],['VAN ALSTON-21ST','G'],['BEEBE-39 AVE','NQ'],['96 ST','123'],
-               ['110 ST-CPN','23'],['81 ST-MUSEUM','BC'],['110 ST-CATHEDRL','1'],['168 ST-BROADWAY','1AC'],['111 ST','7'],
-               ['LEFFERTS BLVD','A'],['28 ST','1'],['28 ST','6'],['42 ST-GRD CNTRL','4567S'],['FOREST PARKWAY','J'],['111 ST','J'],
-               ['MYRTLE AVE','LM'],['ROCKAWAY PKY','L'],['EAST 105 ST','L'],['BROADWAY-ENY','ACJLZ'],['ELDERTS LANE','JZ'],
-               ['MYRTLE AVE','LM'],['VAN WYCK BLVD','EF'],['HOYT ST-ASTORIA','NQ'],['DITMARS BL-31 S','NQ'],['148 ST-LENOX','3'],
-               ['242 ST','1'],['E TREMONT AVE','25'],['DYRE AVE','5'],['BROADWAY-ENY','ACJLZ'],['149 ST-3 AVE','25'],
-               ['GRAND-30 AVE','NQ'],['NEW UTRECHT AVE','ND'],['86 ST','N'],['22 AVE-BAY PKY','F'],['7 AVE-53 ST','BDE'],['57 ST','F'],
-               ['49 ST-7 AVE','NQR'],['57 ST-7 AVE','NQR'],['2 AVE','F'],['BOROUGH HALL/CT','2345R'],['BROADWAY-ENY','ACJLZ'],
-               ['BROOKLYN BRIDGE','456JZ'],['METROPOLITAN AV','M'],['ROOSEVELT AVE','EFMR7'],['E 177 ST-PARKCH','6'],['HUDSON-80 ST','A'],
-               ['STILLWELL AVE','DFNQ'],['',''],['',''],['',''],['','']]
+    ts_override = [['MAIN ST','7'],['138 ST-3 AVE','6'],['42 ST-GRD CNTRL','4567S'],['96 ST','6'],['61 ST/WOODSIDE','7'],['96 ST','BC'],
+    ['168 ST-BROADWAY','1AC'],['UNION TPK-KEW G','EF'],['WASHINGTON-36 A','NQ'],['42 ST-GRD CNTRL','4567S'],['GREENWOOD-111','A'],
+    ['OXFORD-104 ST','A'],['7 AV-PARK SLOPE','FG'],['7 AVE','BQ'],['FLATBUSH AVE','25'],['28 ST-BROADWAY','NR'],['COURT SQ','EMG'],
+    ['VAN ALSTON-21ST','G'],['BEEBE-39 AVE','NQ'],['96 ST','123'],['110 ST-CPN','23'],['81 ST-MUSEUM','BC'],['110 ST-CATHEDRL','1'],['176 ST','4'],
+    ['168 ST-BROADWAY','1AC'],['111 ST','7'],['LEFFERTS BLVD','A'],['28 ST','1'],['28 ST','6'],['42 ST-GRD CNTRL','4567S'],['FOREST PARKWAY','J'],
+    ['111 ST','J'],['MYRTLE AVE','LM'],['ROCKAWAY PKY','L'],['EAST 105 ST','L'],['BROADWAY-ENY','ACJLZ'],['ELDERTS LANE','JZ'],['MYRTLE AVE','LM'],
+    ['VAN WYCK BLVD','EF'],['HOYT ST-ASTORIA','NQ'],['DITMARS BL-31 S','NQ'],['148 ST-LENOX','3'],['242 ST','1'],['E TREMONT AVE','25'],['DYRE AVE','5'],
+    ['BROADWAY-ENY','ACJLZ'],['149 ST-3 AVE','25'],['GRAND-30 AVE','NQ'],['NEW UTRECHT AVE','ND'],['86 ST','N'],['22 AVE-BAY PKY','F'],
+    ['7 AVE-53 ST','BDE'],['57 ST','F'],['49 ST-7 AVE','NQR'],['57 ST-7 AVE','NQR'],['57 ST-7 AVE','NQR'],['2 AVE','F'],['BOROUGH HALL/CT','2345R'],['BROADWAY-ENY','ACJLZ'],
+    ['BROOKLYN BRIDGE','456JZ'],['METROPOLITAN AV','M'],['ROOSEVELT AVE','EFMR7'],['E 177 ST-PARKCH','6'],['HUDSON-80 ST','A'],['STILLWELL AVE','DFNQ'],['34 ST-HUDSON YD','7'],
+    ['72 ST-2 AVE','Q'],['86 ST-2 AVE','Q'],['96 ST-2 AVE','Q']]
+
     
     turnstile_override = pd.DataFrame(ts_override)
     turnstile_override.rename(columns={0:'turnstile_station_name',1:'turnstile_lines'},inplace=True)
@@ -234,21 +234,26 @@ def main():
             crosswalk.iloc[i,][['turnstile_station_name','turnstile_lines']] = ts_match.values[0]
             
     crosswalk.drop('name_ord',axis=1,inplace=True)
-    crosswalk.rename(columns={'clean_lines':'lines'},inplace=True)
+    crosswalk.rename(columns={'name':'station_name','line':'station_lines'},inplace=True)
     
-    crosswalk = crosswalk.merge(gtfs.drop('name_ord',axis=1),how='left',
-                                left_on=['gtfs_station_name','gtfs_lines'],right_on=['stop_name','clean_lines'])
+    crosswalk = crosswalk.merge(gtfs.drop('name_ord',axis=1),how='left',left_on=['gtfs_station_name','gtfs_lines'],right_on=['stop_name','lines'])
     
-    crosswalk.drop(['stop_name','clean_lines'],axis=1,inplace=True)
-    crosswalk.rename(columns={'stop_id':'gtfs_stop_id','stop_lat':'lat','stop_lon':'lon'},inplace=True)
+    crosswalk.drop(['stop_name','clean_lines_y','lines'],axis=1,inplace=True)
+    crosswalk.rename(columns={'stop_id':'gtfs_stop_id','stop_lat':'lat','stop_lon':'lon','clean_lines_x':'clean_lines'},inplace=True)
     
-    turnstile_remotes['turnstile_remotes'] = turnstile_remotes.groupby(['Station','clean_lines'])['Remote'].transform(lambda x : 
-                                                                                                                      ','.join(x.unique()))
+    turnstile_remotes['turnstile_units'] = turnstile_remotes.groupby(['Station','Line Name'])['Remote'].transform(lambda x : ','.join(x.unique()))
     
-    turnstile_merge = turnstile_remotes.drop(['Remote','name_ord'],axis=1).drop_duplicates()
+    turnstile_merge = turnstile_remotes.drop(['Remote','name_ord','clean_lines'],axis=1).drop_duplicates()
 
-    crosswalk = crosswalk.merge(turnstile_merge,how='left',left_on=['turnstile_station_name','turnstile_lines'],
-                                right_on=['Station','clean_lines']).drop(['Station','clean_lines'],axis=1)
+    crosswalk = crosswalk.merge(turnstile_merge,how='left',left_on=['turnstile_station_name','turnstile_lines'],right_on=['Station','Line Name']).drop(['Station','Line Name'],axis=1)
+    
+    ## adding missing units
+    crosswalk.loc[(crosswalk.station_name == '34th St - Hudson Yards')&(crosswalk.clean_lines == '7'),['turnstile_units']] = ['R072']
+    crosswalk.loc[(crosswalk.station_name == '72nd St')&(crosswalk.clean_lines == 'Q'),['turnstile_units']] = ['R570']
+    crosswalk.loc[(crosswalk.station_name == '86th St')&(crosswalk.clean_lines == 'Q'),['turnstile_units']] = ['R571']
+    crosswalk.loc[(crosswalk.station_name == '96th St')&(crosswalk.clean_lines == 'Q'),['turnstile_units']] = ['R572']
     
     crosswalk.to_csv('../../data/crosswalk/Master_crosswalk.csv',index=False)
 
+if __name__ == "__main__":
+    main()
