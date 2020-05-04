@@ -45,10 +45,13 @@ def _process_grouped_data(grouped: pd.DataFrame,
     exit_diffs = grouped.EXITS.diff()
 
     # clean up data
-    grouped.loc[entry_diffs < 0, 'entry_diffs'] = 0
-    grouped.loc[exit_diffs < 0, 'exit_diffs'] = 0
-    grouped.loc[entry_diffs > 10000, 'entry_diffs'] = 0
-    grouped.loc[entry_diffs > 10000, 'entry_diffs'] = 0
+    # grouped.loc[entry_diffs < 0, 'entry_diffs'] = np.nan
+    # grouped.loc[exit_diffs < 0, 'exit_diffs'] = np.nan
+    # grouped.loc[entry_diffs > 10000, 'entry_diffs'] = np.nan
+    # grouped.loc[exit_diffs > 10000, 'exit_diffs'] = np.nan
+
+    entry_diffs = pd.Series([np.nan if (x < 0)|(x>10000) else x for x in entry_diffs])
+    exit_diffs = pd.Series([np.nan if (x < 0)|(x>10000) else x for x in exit_diffs])
 
     # restore cumulative data
     cleaned_entries = entry_diffs.cumsum()
@@ -56,10 +59,10 @@ def _process_grouped_data(grouped: pd.DataFrame,
 
     # assign new columns
     grouped = grouped.assign(
-        entry_diffs=entry_diffs,
-        exit_diffs=exit_diffs,
-        cleaned_entries=cleaned_entries,
-        cleaned_exits=cleaned_exits,
+        entry_diffs=entry_diffs.values,
+        exit_diffs=exit_diffs.values,
+        cleaned_entries=cleaned_entries.values,
+        cleaned_exits=cleaned_exits.values,
     )
 
     resampled = grouped.resample(frequency).asfreq()
