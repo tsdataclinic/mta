@@ -70,9 +70,18 @@ def _process_grouped_data(grouped: pd.DataFrame,
     interpolated_group = interpolated_group.loc[~interpolated_group.index.duplicated(
         keep='first')]
     interpolated_group = interpolated_group.sort_index(ascending=True)
-    interpolated_group.cleaned_entries.interpolate(
-        method='linear', inplace=True)
-    interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
+    if interpolated_group[interpolated_group.cleaned_entries.notnull()].shape[0] > 2:
+        interpolated_group.cleaned_entries.interpolate(
+            method='quadratic', inplace=True)
+    else:
+        interpolated_group.cleaned_entries.interpolate(
+            method='linear', inplace=True)
+        
+    if interpolated_group[interpolated_group.cleaned_exits.notnull()].shape[0] > 2:
+        interpolated_group.cleaned_exits.interpolate(method='quadratic', inplace=True)
+    else:
+        interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
+        
     interpolated_group = interpolated_group.assign(
         estimated_entries=interpolated_group.cleaned_entries.diff().round(),
         estimated_exits=interpolated_group.cleaned_exits.diff().round())
