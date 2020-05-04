@@ -55,7 +55,7 @@ def _process_grouped_data(grouped: pd.DataFrame,
 
     # restore cumulative data
     cleaned_entries = entry_diffs.cumsum()
-    cleaned_exits = entry_diffs.cumsum()
+    cleaned_exits = exit_diffs.cumsum()
 
     # assign new columns
     grouped = grouped.assign(
