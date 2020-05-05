@@ -45,21 +45,24 @@ def _process_grouped_data(grouped: pd.DataFrame,
     exit_diffs = grouped.EXITS.diff()
 
     # clean up data
-    grouped.loc[entry_diffs < 0, 'entry_diffs'] = 0
-    grouped.loc[exit_diffs < 0, 'exit_diffs'] = 0
-    grouped.loc[entry_diffs > 10000, 'entry_diffs'] = 0
-    grouped.loc[entry_diffs > 10000, 'entry_diffs'] = 0
+    # grouped.loc[entry_diffs < 0, 'entry_diffs'] = np.nan
+    # grouped.loc[exit_diffs < 0, 'exit_diffs'] = np.nan
+    # grouped.loc[entry_diffs > 10000, 'entry_diffs'] = np.nan
+    # grouped.loc[exit_diffs > 10000, 'exit_diffs'] = np.nan
+
+    entry_diffs = pd.Series([np.nan if (x < 0)|(x>10000) else x for x in entry_diffs])
+    exit_diffs = pd.Series([np.nan if (x < 0)|(x>10000) else x for x in exit_diffs])
 
     # restore cumulative data
     cleaned_entries = entry_diffs.cumsum()
-    cleaned_exits = entry_diffs.cumsum()
+    cleaned_exits = exit_diffs.cumsum()
 
     # assign new columns
     grouped = grouped.assign(
-        entry_diffs=entry_diffs,
-        exit_diffs=exit_diffs,
-        cleaned_entries=cleaned_entries,
-        cleaned_exits=cleaned_exits,
+        entry_diffs=entry_diffs.values,
+        exit_diffs=exit_diffs.values,
+        cleaned_entries=cleaned_entries.values,
+        cleaned_exits=cleaned_exits.values,
     )
 
     resampled = grouped.resample(frequency).asfreq()
@@ -67,9 +70,18 @@ def _process_grouped_data(grouped: pd.DataFrame,
     interpolated_group = interpolated_group.loc[~interpolated_group.index.duplicated(
         keep='first')]
     interpolated_group = interpolated_group.sort_index(ascending=True)
-    interpolated_group.cleaned_entries.interpolate(
-        method='linear', inplace=True)
-    interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
+    if interpolated_group[interpolated_group.cleaned_entries.notnull()].shape[0] > 2:
+        interpolated_group.cleaned_entries.interpolate(
+            method='quadratic', inplace=True)
+    else:
+        interpolated_group.cleaned_entries.interpolate(
+            method='linear', inplace=True)
+        
+    if interpolated_group[interpolated_group.cleaned_exits.notnull()].shape[0] > 2:
+        interpolated_group.cleaned_exits.interpolate(method='quadratic', inplace=True)
+    else:
+        interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
+        
     interpolated_group = interpolated_group.assign(
         estimated_entries=interpolated_group.cleaned_entries.diff().round(),
         estimated_exits=interpolated_group.cleaned_exits.diff().round())
