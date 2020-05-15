@@ -85,18 +85,19 @@ def identify_edges(equipment):
         def simplify(name):
             if re.match(r'.*[Pp]latform.*', name):
                 return 'Platform'
-            if re.match(r'.*(St|Av|Plaza|Blvd|Park|Sidewalk|Pl|Rd|Square).*', name):
+            if re.match(r'.*(St|Av|[Pp]laza|[Bb]lvd|[Pp]ark|[Ss]idewalk|Pl|Rd|[Ss]quare|[Ss]treet).*', name):
                 return 'Street'
             if re.match(r'.*Upper Mezzanine.*', name):
                 return 'Upper Mezzanine'
             if re.match(r'.*Lower Mezzanine.*', name):
                 return 'Lower Mezzanine'
-            if re.match(r'.*(Mezzanine|[Bb]alcony).*', name):
+            if re.match(r'.*([Mm]ezzanine|[Bb]alcony|[Oo]verpass).*', name):
                 return 'Mezzanine'
             if re.match(r'.*[Bb]alcony.*', name):
                 return 'Balcony'
             if name in ['PA Bus Terminal', 'Oculus Main Level']:
                 return 'Street'
+            print(f'Failed to parse "{name}". Using "Unknown"', file=sys.stderr)
             return 'Unknown'
 
         levels = split_elevator_description(desc)
@@ -106,6 +107,7 @@ def identify_edges(equipment):
         if re.match('^Mezzanine .*bound Platform$', desc):
             return ('Mezzanine', 'Platform')
 
+        print(f'Failed to parse "{desc}". Using "Unknown-Unknown"', file=sys.stderr)
         return ('Unknown', 'Unknown')
 
     # some sanity tests
