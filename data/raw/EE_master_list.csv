@@ -118,7 +118,7 @@ station_name,equipment_id,description,borough,subway_lines,equipment_type,ada_co
 34 St - Hudson Yards,ES627,It operates between upper mezzanine and street on 34 St between 10th & 11th Ave,MN,7,ES,N,Y,,7,N
 34 St - Hudson Yards,ES626,It operates between upper mezzanine and street on 34 St between 10th & 11th Ave,MN,7,ES,N,Y,,7,N
 34 St - Penn,EL225,34 St & 8th Ave (SE corner) to uptown C/E platform and access to rest of complex,MN,A/C/E,EL,Y,Y,uptown,A/C/E,N
-34 St - Penn,EL215,concourse level of Penn Station to platform for 2/3 service in both directions,MN,1/2/3/LIRR,EL,Y,Y,both directions,1/2/3/LIRR,N
+34 St - Penn,EL215,concourse level of Penn Station to platform for 2/3 service in both directions.,MN,1/2/3/LIRR,EL,Y,Y,both directions,1/2/3/LIRR,N
 34 St - Penn,EL216,concourse level of Penn Station to platform for downtown 1 service,MN,1/2/3/LIRR,EL,Y,Y,downtown,1/2/3/LIRR,N
 34 St - Penn,EL214,concourse level of Penn Station to platform for uptown 1 service,MN,1/2/3/LIRR,EL,Y,Y,uptown,1/2/3/LIRR,N
 34 St - Penn,EL34X,LIRR entrance - south side of 34 St (west of 7th Ave) to Penn Station concourse for service in both directions on all lines,MN,1/2/3/LIRR,EL,Y,Y,both directions,1/2/3/LIRR,N
@@ -138,7 +138,7 @@ station_name,equipment_id,description,borough,subway_lines,equipment_type,ada_co
 42 St - Grand Central,ES205,It operates between lower mezzanine above 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
 42 St - Grand Central,ES210,It operates between platform for 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
 42 St - Grand Central,ES208,It operates between platform for 7 Line and mezzanine above 4/5/6 Line,MN,4/5/6/7,ES,N,Y,,4/5/6/7,N
-42 St - Grand Central,EL244,mezzanine to 7 platform for service in both directions,MN,4/5/6/7,EL,Y,N,both directions,4/5/6/7,N
+42 St - Grand Central,EL244,mezzanine to 7 platform for service in both directions,MN,4/5/6/7,EL,Y,Y,both directions,4/5/6/7,N
 42 St - Grand Central,EL205,mezzanine to downtown 4/5/6 platform,MN,4/5/6/7,EL,Y,Y,downtown,4/5/6/7,N
 42 St - Grand Central,EL206,mezzanine to uptown 4/5/6 platform,MN,4/5/6/7,EL,Y,Y,uptown,4/5/6/7,N
 42 St - Grand Central,EL296,42 St & Lexington Av to mezzanine for 4/5/6/7 service in both directions ,MN,4/5/6/7,EL,Y,Y,both directions,['4/5/6/7'],N
@@ -481,7 +481,7 @@ Lexington Av / 53 St,ES245,It operates between platform of E/M and mezzanine bel
 Lexington Av / 53 St,EL245,mezzanine to E/M platform for service in both directions,MN,6/E/M,EL,Y,Y,both directions,6/E/M,N
 Lexington Av / 53 St,ES253X,It operates between underpass of 6 Line and 6 Line uptown platform and connector to E/M Line,MN,6/E/M,ES,N,Y,uptown,6/E/M,N
 Lexington Av / 53 St,ES254X,It operates between platform of E/M and mezzanine at level of transfer passageway to 6 Line and below 53 St,MN,6/E/M,ES,N,Y,,6/E/M,N
-Lexington Av / 53 St,ES600X,It operates between mezzanine of E/M and street at 53 St & Lexington Ave,MN,6/E/M,ES,N,Y,,6/E/M,N
+Lexington Av / 53 St,ES600X,It operates between mezzanine of E/M and street at 53 St & Third Ave.,MN,6/E/M,ES,N,Y,,6/E/M,N
 Lexington Av / 53 St,ES245X, ,MN,6/E/M,ES,N,N,,6/E/M,N
 Lexington Av / 59 St,ES249,It operates between platform for N/R/W and mezzanine below 3rd Ave & 60 St,MN,N/R/W,ES,N,Y,,['N/R/W'],N
 Lexington Av / 59 St,ES248,It operates between platform for N/R/W and mezzanine below 3rd Ave & 60 St,MN,N/R/W,ES,N,Y,,['N/R/W'],N
