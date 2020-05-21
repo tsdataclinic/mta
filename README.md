@@ -1,9 +1,7 @@
 # mta_data_repo
-During a Data Clinic Hack Day back in December 2019, we set out to use open data to better understand how elevator outages impact riders in the hopes that any insights could empower the MTA to make data-informed decisions on prioritizing/scheduling elevator maintenance and to enhance the information they might choose to provide re: alternate routes, etc. Similarly, we hoped these insights would inspire and empower civic tech members of the public to build solutions, tools, apps, etc. to help elevator users navigate the subway system.
+During a Data Clinic Hack Day back in December 2019, we set out to use open data to better understand the impact of elevator outages within the NYC subway system. Our goal was to use the insights we derived to a) provide MTA with a data-driven method to prioritize and schedule elevator maintenance to minimize rider impact, b) enhance alternative routing capabilities during outages, and c) inspire members of the public to build solutions, tools, apps, etc. to support elevator riders navigate the subway system more effectively.
 
-We made a lot of headway that day, but given the complexity of data on the subway system, its elevators, and its ridership, we turned the Hack Day investigation into a full-fledged project.
- 
-While we have many more exciting analyses and data products in the works, in the short term, we are releasing three initial resources in this repo:
+We made a lot of headway that day, but given the complexity of the data on subway systems, elevators, and ridership, we turned the Hack Day investigation into a full-fledged project. While we continue to work on additional analyses and dataset, in the short term, we are releasing three initial data products in this repo:
 
 1. **Accessible station elevator maps:** Using open data on elevator descriptions and some crowdsourcing efforts, we have built a graph/network for each of the 125 accessible stations in the subway system. The graph maps possible street to platform connections using only elevators. 
 
