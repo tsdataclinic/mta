@@ -101,7 +101,7 @@ The crosswalk is pre-generated and made available [here](data/crosswalk/Master_c
     ├── gen-graphs.sh
     │
     ├── notebooks           <- Jupyter notebooks illustrating some of the code.
-    │   ├── Station_Graph.ipynb
+    │   ├── Crosswalk.ipynb
     │   └── Turnstile_sample.ipynb
     │
     ├── requirements.txt
