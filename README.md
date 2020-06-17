@@ -119,8 +119,9 @@ Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sam
 ### Directory Structure
     mta-accessibility/
     ├── LICENSE
-    ├── README.md           <- The top-level README for developers using this project.
-    ├── Makefile            <- Makefile with commands like `make data` or `make train`
+    ├── README.md               <- The top-level README for developers using this project.
+    ├── Makefile                <- Makefile with commands like `make` and `make clean`
+    ├── process_turnstiles.py   <- Python script that provides a CLI for generating processed turnstile data
     │
     ├── data
     │   ├── crosswalk       <- Crosswalks between different MTA data sets.
@@ -130,9 +131,6 @@ Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sam
     │   └── raw             <- The original, immutable data dump.
     │
     ├── figures             <- Generated graphics and figures to be used in reporting
-    │
-    ├── add_station_connections.sh
-    ├── gen-graphs.sh
     │
     ├── notebooks           <- Jupyter notebooks illustrating some of the code.
     │   ├── Crosswalk.ipynb
