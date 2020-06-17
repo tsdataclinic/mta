@@ -5,9 +5,17 @@ We made a lot of headway that day, but given the complexity of the data on subwa
 
 1. **Accessible station elevator maps:** Using open data on elevator descriptions and some crowdsourcing efforts, we have built a graph/network for each of the 125 accessible stations in the subway system. The graph maps possible street to platform connections using only elevators. 
 
+You can find the accessibility graphs as graphml files and as figures for each station in the below links.  
+  - [Data in graphml format](data/processed/stationgraph)
+  - [Figures for each station](figures/elevator_maps)
+
 2. **Turnstile Data Processing:** A script to pull, process, and standardize turnstile usage data for ease of use in analysis. The processing involves data cleaning to correct for integer overflows and interpolation to standardize time of measurement across all turnstiles. 
 
+You can find a list of CSVs for each station containing data from the start of 2020 to date [here](turnstile_station_data.md).
+
 3. **Crosswalks:** Mapping variations in station names across elevator listing data, turnstile usage data, station location data, and GTFS data. This will provide a consolidated crosswalk that enables all datasets to be easily merged with each other at the station level.
+
+The crosswalk linking these different MTA data sets is pre-generated and made available [here](data/crosswalk/Master_crosswalk.csv)
 
 ## Getting Started
 You can set-up the environment needed to run this project using conda as below:
@@ -25,6 +33,16 @@ python -m ipykernel install --user --name {env_name} --display-name "Python ({en
 ## Project Description
 
 ### Accessibility Graph for stations
+
+To run the below defined pipeline to generate the accessibility graphs for stations, you simply need to run `make` from the project directory.
+
+```bash
+# This looks for any changes in file dependencies and runs only the parts of the pipeline downstream from the it
+make  
+
+# This removes all the file dependencies and runs the full pipeline afresh
+make clean
+```
 
 #### Pipeline Dependencies
 ```
@@ -62,15 +80,6 @@ get_equipment_list.py +---->station_to_elevator.py
 1. ``visualize_graphs.R`` - Produces individual station graphs.
 
 ### Turnstile Data
-`turnstile.py` provides 3 methods to process turnstile data:
-
-*download_turnstile_data* - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
-
-*get_hourly_turnstile_data* - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
-
-*aggregate_turnstile_data_by_station* - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (`data/crosswalk/ee_turnstile.csv`)
-
-Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
 The script `process_turnstiles.py` provides a CLI for processing the turnstile data.
 
@@ -94,7 +103,15 @@ optional arguments:
                         Prefix to add on the the url's in the manifest
 ```
 
-Alternatively you can find a list of csv's containing each stations data from the start of 2020 to date [here](turnstile_station_data.md).
+`src/turnstile.py` provides 3 methods to process turnstile data:
+
+*download_turnstile_data* - Download MTA turnstile data from http://web.mta.info/developers/turnstile.html for a given data range
+
+*get_hourly_turnstile_data* - Clean the raw data and generate linearly interpolated hourly turnstile entries/exits data. The clean up methodology is mainly based on https://www.kaggle.com/nieyuqi/mta-turnstile-data-analysis
+
+*aggregate_turnstile_data_by_station* - Aggregate turnstile data created by get_hourly_turnstile_data by station using the station-to-turnstile mapping file (`data/crosswalk/ee_turnstile.csv`)
+
+Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
 
 ### Crosswalk
@@ -103,9 +120,6 @@ Alternatively you can find a list of csv's containing each stations data from th
 - Equipment list (Elevators and Escalators) ('http://advisory.mtanyct.info/eedevwebsvc/allequipments.aspx')
 - Tunrstile Remote Unit/Control Area/Station Name Key (http://web.mta.info/developers/turnstile.html)
 - New York City Transit Subway Static GTFS data (http://web.mta.info/developers/developer-data-terms.html#data)
-
-The crosswalk is pre-generated and made available [here](data/crosswalk/Master_crosswalk.csv)
-
 
 ### Directory Structure
     mta-accessibility/
