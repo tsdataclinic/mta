@@ -3,19 +3,13 @@ During a Data Clinic Hack Day back in December 2019, we set out to use open data
 
 We made a lot of headway that day, but given the complexity of the data on subway systems, elevators, and ridership, we turned the Hack Day investigation into a full-fledged project. While we continue to work on additional analyses and dataset, in the short term, we are releasing three initial data products in this repo:
 
-1. **Accessible station elevator maps:** Using open data on elevator descriptions and some crowdsourcing efforts, we have built a graph/network for each of the 125 accessible stations in the subway system. The graph maps possible street to platform connections using only elevators. 
-
-You can find the accessibility graphs as graphml files and as figures for each station in the below links.  
+1. **Accessible station elevator maps:** Using open data on elevator descriptions and some crowdsourcing efforts, we have built a graph/network for each of the 125 accessible stations in the subway system. The graph maps possible street to platform connections using only elevators. The accessibility graphs are available to download as graphml files and as figures for each station at the below links.  
   - [Data in graphml format](data/processed/stationgraph)
   - [Figures for each station](figures/elevator_maps)
 
-2. **Turnstile Data Processing:** A script to pull, process, and standardize turnstile usage data for ease of use in analysis. The processing involves data cleaning to correct for integer overflows and interpolation to standardize time of measurement across all turnstiles. 
+2. **Turnstile Data Processing:** A script to pull, process, and standardize turnstile usage data for ease of use in analysis. The processing involves data cleaning to correct for integer overflows and interpolation to standardize time of measurement across all turnstiles. You can find a list of CSVs for each station containing data from the start of 2020 to date [here](turnstile_station_data.md).
 
-You can find a list of CSVs for each station containing data from the start of 2020 to date [here](turnstile_station_data.md).
-
-3. **Crosswalks:** Mapping variations in station names across elevator listing data, turnstile usage data, station location data, and GTFS data. This will provide a consolidated crosswalk that enables all datasets to be easily merged with each other at the station level.
-
-The crosswalk linking these different MTA data sets is pre-generated and made available [here](data/crosswalk/Master_crosswalk.csv)
+3. **Crosswalks:** Mapping variations in station names across elevator listing data, turnstile usage data, station location data, and GTFS data. This will provide a consolidated crosswalk that enables all datasets to be easily merged with each other at the station level. The crosswalk linking these different MTA data sets is pre-generated and made available [here](data/crosswalk/Master_crosswalk.csv)
 
 ## Getting Started
 You can set-up the environment needed to run this project using conda as below:
