@@ -72,7 +72,7 @@ get_equipment_list.py +---->station_to_elevator.py
 
 Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
-The script 'process_turnstiles.py' provides a CLI for processing the turnstile data.
+The script `process_turnstiles.py` provides a CLI for processing the turnstile data.
 
 ```bash
 python process_turnstiles.py --help
@@ -94,7 +94,7 @@ optional arguments:
                         Prefix to add on the the url's in the manifest
 ```
 
-Alternatively you can find a list of csv's containing each stations data from the start of 2020 to date [here](https://github.com/tsdataclinic/mta-accessibility/blob/master/turnstile_station_data.md).
+Alternatively you can find a list of csv's containing each stations data from the start of 2020 to date [here](turnstile_station_data.md).
 
 
 ### Crosswalk
