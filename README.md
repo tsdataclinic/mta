@@ -23,6 +23,7 @@ conda create -n {env_name} --file requirements.txt
 ## to have the environment showup as a kernel on jupyter
 python -m ipykernel install --user --name {env_name} --display-name "Python ({env_name})"
 ```
+A Dockerfile is also available to run the project within a container.
 
 ## Project Description
 
