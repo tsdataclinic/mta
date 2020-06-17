@@ -72,6 +72,31 @@ get_equipment_list.py +---->station_to_elevator.py
 
 Jupyter notebook illustrating the usage can be found at `notebooks/Turnstile_sample.ipynb`
 
+The script 'process_turnstiles.py' provides a CLI for processing the turnstile data.
+
+```bash
+python process_turnstiles.py --help
+
+usage: process_turnstiles.py [-h] [-s START] [-e END] [-o OUTPUT] [-m MANIFEST] [-p PREFIX]
+
+Downloads turnstile data for a given time period, interpolates and aggregates to station level
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -s START, --start START
+                        Date to start pulling data from
+  -e END, --end END     Date to stop pulling data from
+  -o OUTPUT, --output OUTPUT
+                        Directory to output to.
+  -m MANIFEST, --manifest MANIFEST
+                        Create a manifest markdown file?
+  -p PREFIX, --prefix PREFIX
+                        Prefix to add on the the url's in the manifest
+```
+
+Alternatively you can find a list of csv's containing each stations data from the start of 2020 to date [here](https://github.com/tsdataclinic/mta-accessibility/blob/master/turnstile_station_data.md).
+
+
 ### Crosswalk
 `make_crosswalk.py` contains the script used to generate a crosswalk of station names and lines between 
 - Subway Stations GeoJSON (https://data.cityofnewyork.us/Transportation/Subway-Stations/arq3-7z49)
