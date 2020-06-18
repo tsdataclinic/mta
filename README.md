@@ -77,7 +77,7 @@ The script 'process_turnstiles.py' provides a CLI for processing the turnstile d
 ```bash
 python process_turnstiles.py --help
 
-usage: process_turnstiles.py [-h] [-s START] [-e END] [-o OUTPUT] [-m MANIFEST] [-p PREFIX]
+usage: process_turnstiles.py [-h] [-s START] [-e END] [-i INTERVAL] [-o OUTPUT] [-m MANIFEST] [-p PREFIX]
 
 Downloads turnstile data for a given time period, interpolates and aggregates to station level
 
@@ -86,6 +86,8 @@ optional arguments:
   -s START, --start START
                         Date to start pulling data from
   -e END, --end END     Date to stop pulling data from
+  -i INTERVAL, --interval INTERVAL
+                        The interpolation interval, 1H, 15M etc
   -o OUTPUT, --output OUTPUT
                         Directory to output to.
   -m MANIFEST, --manifest MANIFEST
