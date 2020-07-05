@@ -10,12 +10,12 @@ import requests
 from ast import literal_eval
 from datetime import datetime, timedelta
 from html.parser import HTMLParser
-from typing import Dict
+from typing import List, Dict
 
 # This module provides methods that handles MTA turnstile data
 
 
-def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
+def _process_raw_data(raw_data: pd.DataFrame, group_by: List[str]) -> pd.DataFrame:
     logging.getLogger().info("Cleaning turnstile data")
 
     # create datetime from DATE and TIME columns
@@ -26,7 +26,7 @@ def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
 
     # remove mysterious duplicate index along STATION + UNIT
     processed = processed.groupby(
-        ['STATION','LINENAME', 'UNIT', 'SCP', 'datetime']).sum().reset_index()
+        group_by + ['datetime']).sum().reset_index()
 
     processed = processed.set_index(pd.DatetimeIndex(processed.datetime))
     processed.drop(columns=['datetime'], inplace=True)
@@ -34,7 +34,7 @@ def _process_raw_data(raw_data: pd.DataFrame) -> pd.DataFrame:
     # clean up whitespace in the columns
     processed.rename(columns={c: c.strip()
                               for c in processed.columns}, inplace=True)
-    
+
     return processed
 
 
@@ -76,12 +76,12 @@ def _process_grouped_data(grouped: pd.DataFrame,
     else:
         interpolated_group.cleaned_entries.interpolate(
             method='linear', inplace=True)
-        
+
     if interpolated_group[interpolated_group.cleaned_exits.notnull()].shape[0] > 2:
         interpolated_group.cleaned_exits.interpolate(method='quadratic', inplace=True)
     else:
         interpolated_group.cleaned_exits.interpolate(method='linear', inplace=True)
-        
+
     interpolated_group = interpolated_group.assign(
         estimated_entries=interpolated_group.cleaned_entries.diff().round(),
         estimated_exits=interpolated_group.cleaned_exits.diff().round())
@@ -98,11 +98,12 @@ def _process_grouped_data(grouped: pd.DataFrame,
 
 
 def _interpolate(intervalized_data: pd.DataFrame,
+                 group_by: List[str],
                  frequency: str) -> pd.DataFrame:
     logging.getLogger().info("Start interpolating turnstile data")
 
     interpolated = []
-    intervalized_data.groupby(['UNIT', 'SCP']).apply(
+    intervalized_data.groupby(group_by).apply(
         lambda g: interpolated.append(_process_grouped_data(g, frequency)))
     logging.getLogger().info("Finish interpolating")
     result = pd.concat(interpolated)
@@ -190,6 +191,7 @@ def download_turnstile_data(start_date: datetime,
 def create_interpolated_turnstile_data(
         start_date: datetime,
         end_date: datetime = None,
+        group_by: List[str] = ['UNIT', 'SCP'],
         frequency: str = '1H') -> pd.DataFrame:
     """
     Create interpolated turnstile data
@@ -202,23 +204,27 @@ def create_interpolated_turnstile_data(
     Parameters
     start_date : datetime
     end_date : datetime, optional
+    group_by : List(str), optional
     frequency: str, optional
 
     Returns
     dataframe
-    [STATION: str,
-     UNIT: str
-     SCP: str
+    [group_by_keys: List[str]
      estimated_entries: int
      estimated_exits: int]
 
     """
+
+    if not set(group_by).issubset(['STATION', 'LINENAME', 'UNIT', 'SCP']):
+        raise Exception("Unsupported group by keys: " + str(group_by))
+
+
     raw = download_turnstile_data(start_date, end_date)
     raw['date'] = pd.to_datetime(raw.DATE)
     raw = raw[(raw.date <= (end_date + timedelta(1))) & (raw.date >= (start_date - timedelta(1)))]
     raw.drop('date',axis=1,inplace=True)
-    
-    interpolated = _interpolate(_process_raw_data(raw), frequency)
+
+    interpolated = _interpolate(_process_raw_data(raw, group_by), group_by, frequency)
     end_date = end_date or interpolated.index.max()
     return interpolated[interpolated.index.to_series().between(
         start_date, end_date)] .drop(columns=["entry_diffs", "exit_diffs"])
@@ -249,7 +255,7 @@ def aggregate_turnstile_data_by_station(turnstile_data: pd.DataFrame,
             re.sub(
                 r"[/|-]",
                 " ",
-                '_'.join(station))) + 
+                '_'.join(station))) +
         ".csv": df for (
             station,
             df) in aggregated_by_station.groupby(
