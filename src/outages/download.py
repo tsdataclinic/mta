@@ -44,7 +44,9 @@ class OutageDownloader:
             print(datetime.now(), result)
 
         # use the current time as the actual return to service time
-        result = result.assign(actualreturntoservice=current_time)
+        result = result.assign(
+            actualreturntoservice=current_time,
+            duration=current_time-pd.to_datetime(result.outagedate))
 
         #result['estimatedreturntoservice'] = pd.to_datetime(result['estimatedreturntoservice'])
         #result.loc[result['estimatedreturntoservice'].isnull(), 'estimatedreturntoservice'] = current_time
