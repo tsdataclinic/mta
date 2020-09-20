@@ -43,10 +43,7 @@ station_name,equipment_id,from,to,platform_id
 34 St - Herald Sq,EL211,Mezzanine,Platform,Q-south/W-south/N-south/R-south
 34 St - Herald Sq,EL210,Mezzanine,Platform,F-north/D-north/M-north/B-north
 34 St - Herald Sq,EL212,Mezzanine,Platform,Q-north/R-north/N-north/W-north
-34 St - Hudson Yards,EL603,Street,Street,
 34 St - Hudson Yards,EL600,Mezzanine,Platform,7-flushing main st
-34 St - Hudson Yards,EL602,Mezzanine,Street,
-34 St - Hudson Yards,EL601,Mezzanine,Street,
 42 St - Grand Central,EL244,Mezzanine,Platform,7-north/7-south
 42 St - Grand Central,EL205,Mezzanine,Platform,5-south/6-south/4-south
 42 St - Grand Central,EL206,Mezzanine,Platform,5-north/4-north/6-north
@@ -55,7 +52,6 @@ station_name,equipment_id,from,to,platform_id
 47-50 St - Rockefeller Ctr,EL236,Mezzanine,Platform,B-south/F-south/D-south/M-south
 47-50 St - Rockefeller Ctr,EL235,Mezzanine,Platform,D-north/F-north/B-north/M-north
 49 St,EL268X,Street,Platform,W-north/R-north/N-north
-51 St,EL201,Mezzanine,Unknown,
 61 St - Woodside,EL417X,Mezzanine,Platform,7-flushing main st
 61 St - Woodside,EL416X,Mezzanine,Platform,7-manhattan
 61 St - Woodside,EL415X,Street,Mezzanine,
@@ -99,7 +95,6 @@ Church Av,EL373,Street,Mezzanine,
 Church Av,EL320,Street,Platform,2-manhattan/5-manhattan
 Church Av,EL321,Street,Platform,5-flatbush av brooklyn college/2-flatbush av brooklyn college
 Court Square,EL447,Mezzanine,Platform,7-manhattan
-Court Square,EL445X,Unknown,Platform,7-flushing main st
 Court Square,EL446,Street,Mezzanine,
 Crown Hts - Utica Av,EL322,Street,Mezzanine,
 Dyckman St,EL178,Street,Platform,1-south
@@ -127,6 +122,7 @@ Hunts Point,EL195,Street,Mezzanine,
 Jamaica - Van Wyck,EL409,Street,Mezzanine,
 Jamaica - Van Wyck,EL408,Mezzanine,Platform,E-north/E-south
 Jamaica Center Parsons/Archer,EL412,Street,Mezzanine,
+Jamaica Center Parsons/Archer,EL413,Mezzanine,Platform,E-south/Z-south/E-north/Z-north/J-south/J-north
 Jay St - MetroTech,EL706,Street,Mezzanine,
 Jay St - MetroTech,EL707,Mezzanine,Platform,C-manhattan/F-manhattan/A-manhattan
 Jay St - MetroTech,EL709,Mezzanine,Platform,R-south/R-north
@@ -139,8 +135,6 @@ Kew Gardens / Union Tpk,EL436,Mezzanine,Platform,F-manhattan/E-manhattan
 Kings Highway,EL760,Street,Platform,Q-manhattan/B-manhattan
 Kingsbridge Road,EL189,Street,Mezzanine,
 Kingsbridge Road,EL191,Mezzanine,Platform,D-manhattan/B-manhattan
-Lexington Av / 53 St,EL203X,Street,Mezzanine,
-Lexington Av / 53 St,EL245,Mezzanine,Platform,M-south/E-south/M-north/E-north
 Marcy Av,EL391,Street,Platform,Z-manhattan/J-manhattan/M-manhattan
 Myrtle Av / Wyckoff Av,EL396,Street,Mezzanine,
 Myrtle Av / Wyckoff Av,EL397,Mezzanine,Platform,L-south/L-north
@@ -271,8 +265,8 @@ Fulton St,EL717X,Street,Platform,5-north/4-north
 Fulton St,EL717X,Street,Concourse,
 Fulton St,EL718X,Street,Platform,5-north/4-north
 Fulton St,EL719,Nassau St Mezzanine,Platform,A-south/C-south/A-north/C-north
-Fulton St,EL720,Unknown1,Unknown2,
-Fulton St,EL721,Unknown3,Unknown4,
+Fulton St,EL720,Concourse,Platform,A-south/C-south/A-north/C-north
+Fulton St,EL721,2/3 Mezzanine and Retail,Platform,A-south/C-south/A-north/C-north
 Fulton St,,Nassau St Mezzanine,Platform,J-south/Z-south
 Fulton St,EL722,Street,Nassau St Mezzanine,
 Fulton St,EL723,Street,William St Mezzanine,
@@ -290,20 +284,28 @@ Crown Hts - Utica Av,EL323,Mezzanine,Platform,3-north/3-south/4-north/4-south
 Franklin Av,EL339,Street,Platform,C-euclid/S-euclid
 Franklin Av,EL339,Street,Footbridge,
 Franklin Av,EL340,Footbridge,Platform,C-manhattan
-168 St,EL140,Unknown,Platform,A-north/C-north
-168 St,EL140,Unknown,Platform,A-north/C-north
-179 St - Jamaica,EL433,Unknown,Platform,F-jamaica
-Brooklyn Bridge - City Hall,EL315,Unknown,Platform,4-south/5-south/6-south
-Euclid Av,EL343,Unknown,Platform,A-queens/C-queens
-Forest Hills - 71 Av,EL438,Unknown,Platform,E-jamaica/F-jamaica/M-jamaica/R-jamaica
-Utica Av,EL346,Unknown,Platform,C-euclid/A-queens
-Kingsbridge Road,EL190,Unknown,Platform,B-norwood 205 st/D-norwood 205 st
-Jamaica Center Parsons/Archer,EL413,Unknown,Platform,E-north/E-south/J-north/J-south/Z-north/Z-south
-51 St,EL202,Unknown,Platform,6-south/6-north/E-north/E-south/M-north/M-south
-161 St - Yankee Stadium,EL135,Unknown,Platform,B-norwood 205 st/D-norwood 205 st
 Marcy Av,EL392,Street,Platform,J-jamaica center/M-jamaica center/Z-jamaica center
 Coney Island Stillwell Av,EL701,Overpass,Platform,N-north/N-south/Q-north/Q-south
 Coney Island Stillwell Av,EL702,Overpass,Platform,D-north/D-South/F-north/F-south
-Church Av,EL374,Unknown,Platform,F-manhattan/G-queens
-Church Av,EL375,Unknown,Platform,F-coney/G-south
-Jay St - MetroTech,EL708,Unknown,Platform,F-coney island/A-queens/C-queens
+Euclid Av,EL343,Mezzanine,Platform,A-queens/C-queens
+Euclid Av,EL343,Mezzanine,Platform,A-queens/C-queens
+Forest Hills - 71 Av,EL438,Mezzanine,Platform,M-jamaica/F-jamaica/R-jamaica/E-jamaica
+Jay St - MetroTech,EL708,Mezzanine,Platform,F-coney island/A-queens/C-queens
+Kingsbridge Road,EL190,Mezzanine,Platform,B-bedford pk and norwood 205 st/E-bedford pk and norwood 205 st
+Utica Av,EL346,Mezzanine,Platform,C-euclid/A-queens
+Court Square,EL445X,Mezzanine,Platform,7-flushing main st
+Church Av,EL374,Mezzanine,Platform,F-manhattan/G-queens
+Church Av,EL375,Mezzanine,Platform,F-coney/G-coney
+Brooklyn Bridge - City Hall,EL315,Mezzanine,Platform,4-south/5-south/6-south
+50 St,EL375,Mezzanine,Platform,F-coney/G-coney
+51 St,EL375,Mezzanine,Platform,F-coney/G-coney
+Lexington Av / 53 St and 51 St,EL203X,Street,Mezzanine,
+Lexington Av / 53 St and 51 St,EL245,Mezzanine,Platform,E-north/E-south/M-north/M-south
+Lexington Av / 53 St and 51 St,EL201,Mezzanine,Platform,6-south
+Lexington Av / 53 St and 51 St,EL202,Mezzanine,Platform,6-north
+168 St,EL140,Mezzanine,Platform,C-north/A-north
+179 St - Jamaica,EL433,Mezzanine,Platform,F-jamaica
+161 St - Yankee Stadium,EL135,Mezzanine,Platform,B-bedford park blvd and norwood 205 st/D-bedford park blvd and norwood 205 st
+34 St - Hudson Yards,EL603,Street,Upper Mezzanine,
+34 St - Hudson Yards,EL601,Upper Mezzanine,Mezzanine,
+34 St - Hudson Yards,EL602,Upper Mezzanine,Mezzanine,
