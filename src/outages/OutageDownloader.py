@@ -9,7 +9,7 @@ from datetime import datetime, timezone
 from google.cloud import storage
 
 class OutageDownloader:
-    def __init__(self, data_dir=None, bucket_name=None, frequency: int):
+    def __init__(self, frequency: int, data_dir=None, bucket_name=None):
         self._frequency = frequency
         
         self._tz = dateutil.tz.gettz('America/New_York')
