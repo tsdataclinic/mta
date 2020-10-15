@@ -9,13 +9,15 @@ from datetime import datetime, timezone
 from google.cloud import storage
 
 class OutageDownloader:
-    def __init__(self, data_dir=None, bucket_name=None, frequency: int):
+    def __init__(self, frequency: int, data_dir=None, bucket_name=None):
         self._frequency = frequency
         
         self._tz = dateutil.tz.gettz('America/New_York')
         os.makedirs(data_dir, exist_ok=True)
         self.data_dir = data_dir
         self.bucket_name = bucket_name
+        self.gcs_client = storage.Client()
+        self.gcs_bucket = self.gcs_client.bucket(bucket_name)
     
     def get_dir_for_timestamp(self):
         now = datetime.now().astimezone(self._tz)
