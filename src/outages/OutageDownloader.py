@@ -37,6 +37,7 @@ class OutageDownloader:
 
         time_str = datetime.now().astimezone(self._tz).strftime("%Y%m%d-%I%M%S")
         base_dir = self.get_dir_for_timestamp()
+        Path(base_dir).mkdir(parents=True, exist_ok=True)
         destination = f"{base_dir}/outage_alerts_{time_str}.csv"
         if self.write_to_gcs:
             with tempfile.TemporaryDirectory() as temp_dir:
@@ -45,7 +46,6 @@ class OutageDownloader:
                 blob = self.gcs_bucket.blob(destination)
                 blob.upload_from_filename(temp_file)
         else:
-            Path(base_dir).mkdir(parents=True, exist_ok=True)
             df.to_csv(destination)
 
 
