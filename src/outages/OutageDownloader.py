@@ -39,6 +39,7 @@ class OutageDownloader:
         base_dir = self.get_dir_for_timestamp()
         Path(base_dir).mkdir(parents=True, exist_ok=True)
         destination = f"{base_dir}/outage_alerts_{time_str}.csv"
+        print(destination)
         if self.write_to_gcs:
             with tempfile.TemporaryDirectory() as temp_dir:
                 temp_file = f"{temp_dir}/tmp.csv"
@@ -55,7 +56,7 @@ class OutageDownloader:
         alerts = [n for n in ET.fromstring(response.text) if n.tag == 'outage']
         current_snapshot = pd.DataFrame(
             [{field.tag: field.text for field in alert} for alert in alerts])
-
+        print("fetching data")
         self.write_dataframe(current_snapshot)
 
 
