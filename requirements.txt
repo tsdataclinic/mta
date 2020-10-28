@@ -22,7 +22,7 @@ chardet=3.0.4=py38_1003
 click=7.1.1=py_0
 click-plugins=1.1.1=py_0
 cligj=0.5.0=py38_0
-cryptography=2.8=py38h1ba5d50_0
+cryptography>=3.2
 curl=7.67.0=hbc83047_0
 cycler=0.10.0=py38_0
 dbus=1.13.12=h746ee38_0
