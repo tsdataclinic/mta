@@ -43,11 +43,11 @@ class OutageDownloader:
         if self.write_to_gcs:
             with tempfile.TemporaryDirectory() as temp_dir:
                 temp_file = f"{temp_dir}/tmp.csv"
-                df.to_csv(temp_file)
+                df.to_csv(temp_file, index=False)
                 blob = self.gcs_bucket.blob(destination)
                 blob.upload_from_filename(temp_file)
         else:
-            df.to_csv(destination)
+            df.to_csv(destination, index=False)
 
 
     def run(self):
