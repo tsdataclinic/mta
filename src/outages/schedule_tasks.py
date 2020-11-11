@@ -15,7 +15,7 @@ if __name__ == '__main__':
     data_collector = OutageDownloader(output_path="gcs:{}".format(data_dir), bucket_name=data_clinic_bucket)
     daily_file_creator = MergedFileCreator(bucket_name=data_clinic_bucket,run_in_cloud=True)
     schedule.every(poll_freq).seconds.do(data_collector.run)
-    schedule.every().day.at("12:30").do(daily_file_creator.process_pending)
+    schedule.every().day.at("05:30").do(daily_file_creator.process_pending)
     while True:
         schedule.run_pending()
         time.sleep(1)

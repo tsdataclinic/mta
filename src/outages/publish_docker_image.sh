@@ -1,5 +1,5 @@
 #!/bin/bash
 
 docker build . -t mta_outage_collector
-docker tag mta_outage_collector gcr.io/ts-dataclinic-dev/mta_outage_collector:tag4
-docker push gcr.io/ts-dataclinic-dev/mta_outage_collector:tag4
+docker tag mta_outage_collector gcr.io/ts-dataclinic-dev/mta_outage_collector:tag7
+docker push gcr.io/ts-dataclinic-dev/mta_outage_collector:tag7
