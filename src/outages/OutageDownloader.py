@@ -39,7 +39,7 @@ class OutageDownloader:
         base_dir = self.get_dir_for_timestamp()
         Path(base_dir).mkdir(parents=True, exist_ok=True)
         destination = f"{base_dir}/outage_alerts_{time_str}.csv"
-        print(destination)
+        
         if self.write_to_gcs:
             with tempfile.TemporaryDirectory() as temp_dir:
                 temp_file = f"{temp_dir}/tmp.csv"
