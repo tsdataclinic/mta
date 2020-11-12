@@ -14,6 +14,7 @@ MAPS_FIGURES      := figures/elevator_maps
 EDGELIST_W_PID    := $(GRAPH_DATA)/edgelist_w_pid.csv
 EDGELIST_W_STNS_1 := $(GRAPH_DATA)/mta-elevators-w-station-connections-tmp1.graphml
 EDGELIST_W_STNS   := $(GRAPH_DATA)/mta-elevators-w-station-connections.graphml
+ELEV_IMPORTANCE   := $(GRAPH_DATA)/elevator-importance.csv
 EQUIP_GRAPH_CSV   := $(GRAPH_DATA)/mta-elevators-graph.csv
 EQUIP_GRAPHML     := $(GRAPH_DATA)/mta-elevators.graphml
 EQUIP_TO_LINE_DIR := $(GRAPH_DATA)/elevator_to_line_dir_station.csv
@@ -24,7 +25,8 @@ PLAT2GTFS_CSV     := $(CROSSWALK_DATA)/platform_id_to_GTFS_mapping.csv
 # TODO: some of these are just intermediate products that needn't
 # be in the 'all' target
 all: $(EQUIP_TO_LINE_DIR) $(EQUIP_GRAPH_CSV) $(EQUIP_GRAPHML) $(MAPS_TIMESTAMP) \
-     $(EDGELIST_W_PID) $(EDGELIST_W_STNS) $(PLAT2GTFS_CSV) $(STN2STN_CSV)
+     $(EDGELIST_W_PID) $(EDGELIST_W_STNS) $(PLAT2GTFS_CSV) $(STN2STN_CSV) \
+     $(ELEV_IMPORTANCE)
 
 #
 # Delete all derived data
@@ -125,3 +127,11 @@ $(EDGELIST_W_STNS): src/stationgraph/update_graph_w_station_connections.R \
 	  --gtfsmapping $(PLAT2GTFS_CSV) \
 	  --stops $(GTFS_STOPS)
 	mv $(@:.graphml=.tmp.graphml) $@
+    
+#
+# elevator redundancy analysis
+#
+$(ELEV_IMPORTANCE): src/stationgraph/elevator_importance.py $(EDGELIST_W_STNS_1) $(EDGELIST_W_STNS)
+	> $@ python3 $< \
+	  --individual-station-graph $(EDGELIST_W_STNS_1) \
+	  --complete-station-graph $(EDGELIST_W_STNS) \

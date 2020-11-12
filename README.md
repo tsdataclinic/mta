@@ -53,15 +53,19 @@ get_equipment_list.py +---->station_to_elevator.py
                                       +
                                       |
                                       v
-                             assign_platform_ids.R
-                                      +
-   station_to_station.py              |
-            +                         v
-            |               map_platforms_to_GTFS.py
-            |                         +
-            |                         |
-            |                         v
-            +------->update_graph_w_station_connections.R
+                             assign_platform_ids.R+---------+
+                                      +                     |
+   station_to_station.py              |                     |
+            +                         v                     |
+            |               map_platforms_to_GTFS.py        |
+            |                         +                     |
+            |                         |                     |
+            |                         v                     |
+            +------->update_graph_w_station_connections.R   |
+                                      +                     |
+                                      |                     |
+                                      v                     |
+                          elevator_importance.py<-----------+
 ```
 #### Pipeline descriptions
 1. ``get_equipment_list.py`` - Gets the list of all equipment (elevators and escalators) and their descriptions from MTA Data portal.
@@ -73,6 +77,7 @@ get_equipment_list.py +---->station_to_elevator.py
 1. ``station_to_station.py`` - Uses ``GTFS_ROUTES`` and ``GTFS_STOP_TIMES`` to determine which platforms are connected by which trains. It is designed to determine the weekday schedule, which is what the standard NYC subway map shows.
 1. ``update_graph_w_station_connections.R`` - Connects all the individual station maps together by the train lines that service them. It adds intermediary nodes for stations without any elevators, creating a complete  view of all stations in the subway system, mapped from street to train back to street via ADA compliant routes.
 1. ``visualize_graphs.R`` - Produces individual station graphs.
+1. ``elevator_importance.py`` - Analyzes the redundancy of individual elevators, with the goal of "measuring" the impact of it breaking down.
 
 ### Turnstile Data
 
