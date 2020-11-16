@@ -25,4 +25,4 @@ def get_outages_in_range(start_date, end_date, start_time=None, end_time=None):
             dfs.append(pd.read_csv(io.StringIO(blob.download_as_string().decode('utf-8'))))
     merged = pd.concat(dfs)
     merged.sort_values(by=['outagedate'])
-    return merged.drop_duplicates(subset=['equipment', 'outagedate', 'ongoing_outage'])
+    return merged.drop_duplicates(subset=['equipment', 'outagedate'],keep='last')
