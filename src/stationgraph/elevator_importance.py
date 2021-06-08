@@ -17,7 +17,7 @@ def calc_betweeness(graph):
 
     return rez    
 
-def elevator_redudancy_analysis(stations):
+def elevator_redundancy_analysis(stations):
     # mode is ignored in this case, because it's undirected
     graph = stations.clusters(mode="WEAK")
 
@@ -29,6 +29,9 @@ def elevator_redudancy_analysis(stations):
 def analyze_station(station):
     """ Analyze elevator importance at a station"""
     rez = []
+    
+    total_trains = len(station.vs.select(lambda vertex: vertex["node_type"] == "Train"))
+    
     # test what changes to accessbility when you remove a single elevator from it
     for v in station.vs:
         if v["node_type"] != "Elevator":
@@ -44,7 +47,8 @@ def analyze_station(station):
         severity = 0
         for split in station_split:
             severity += calc_elevator_importance(t, split)
-        rez.append([v["station"], v["id"], severity])
+        perc = severity / total_trains * 100
+        rez.append([v["station"], v["id"], severity, perc])
     return rez
 
 def calc_elevator_importance(graph, vs):
@@ -71,8 +75,8 @@ def main():
     opts = parser.parse_args()
 
     independent_stations_graph = igraph.Graph.Read_GraphML(opts.individual_station_graph)
-    importance = elevator_redudancy_analysis(independent_stations_graph)
-    output = pd.DataFrame(importance, columns = ['Station', 'Elevator', 'Importance'])  
+    importance = elevator_redundancy_analysis(independent_stations_graph)
+    output = pd.DataFrame(importance, columns = ['Station', 'Elevator', 'Importance', 'Perc. Importance'])  
     
     full_graph = igraph.Graph.Read_GraphML(opts.complete_station_graph)
     betweenness = calc_betweeness(full_graph)
