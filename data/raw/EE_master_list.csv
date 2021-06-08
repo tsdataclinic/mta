@@ -1,12 +1,12 @@
 station_name,equipment_id,description,borough,subway_lines,equipment_type,ada_compliant,is_active,direction,subset_lines,connection_to_street
-125 St,EL125,125 St & Lexington Ave (NE corner) to mezzanine for service in both directions,MN,4/5/6,EL,Y,Y,both directions,4/5/6,Y
-125 St,EL142,125 St & St Nicholas Ave (SW corner) to mezzanine for service in both directions,MN,A/B/C/D,EL,Y,Y,both directions,A/B/C/D,Y
-125 St,EL143,mezzanine to downtown platform,MN,A/B/C/D,EL,Y,Y,downtown,A/B/C/D,N
-125 St,EL126,mezzanine to platforms for service in both directions,MN,4/5/6,EL,Y,Y,both directions,4/5/6,N
-125 St,EL144,mezzanine to uptown platform ,MN,A/B/C/D,EL,Y,Y,uptown,A/B/C/D,N
-125 St,ES102,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
-125 St,ES101,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
-125 St,ES103,It operates between street near SE corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
+Harlem-125 St,EL125,125 St & Lexington Ave (NE corner) to mezzanine for service in both directions,MN,4/5/6,EL,Y,Y,both directions,4/5/6,Y
+125 St (IRT Third Avenue Line),EL142,125 St & St Nicholas Ave (SW corner) to mezzanine for service in both directions,MN,A/B/C/D,EL,Y,Y,both directions,A/B/C/D,Y
+125 St (IRT Third Avenue Line),EL143,mezzanine to downtown platform,MN,A/B/C/D,EL,Y,Y,downtown,A/B/C/D,N
+Harlem-125 St,EL126,mezzanine to platforms for service in both directions,MN,4/5/6,EL,Y,Y,both directions,4/5/6,N
+125 St (IRT Third Avenue Line),EL144,mezzanine to uptown platform ,MN,A/B/C/D,EL,Y,Y,uptown,A/B/C/D,N
+125 St (IRT Broadway-Seventh Avenue Line),ES102,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
+125 St (IRT Broadway-Seventh Avenue Line),ES101,It operates between street near SW corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
+125 St (IRT Broadway-Seventh Avenue Line),ES103,It operates between street near SE corner of 125 St & Broadway and mezzanine,MN,1,ES,N,Y,,['1'],N
 135 St,EL180,135 St & Lenox Ave (NE corner) to uptown and the Bronx-bound platform,MN,2/3,EL,Y,Y,uptown,2/3,Y
 135 St,EL181,135 St & Lenox Ave (SW corner) to downtown platform,MN,2/3,EL,Y,Y,downtown,2/3,Y
 14 St - 8 Av,EL221,8th Ave & 14 St (SW corner) to mezzanine for A/C/E/L service in both directions,MN,A/C/E/L,EL,Y,Y,both directions,['A/C/E/L'],N

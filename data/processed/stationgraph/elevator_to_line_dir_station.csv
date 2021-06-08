@@ -2,12 +2,12 @@ equipment_id,line,direction,station
 EL122,6,manhattan,Pelham Bay Park
 EL124,A,north,175 St
 EL124,A,south,175 St
-EL126,5,south,125 St
-EL126,4,south,125 St
-EL126,6,north,125 St
-EL126,4,north,125 St
-EL126,5,north,125 St
-EL126,6,south,125 St
+EL126,5,south,Harlem-125 St
+EL126,4,south,Harlem-125 St
+EL126,6,north,Harlem-125 St
+EL126,4,north,Harlem-125 St
+EL126,5,north,Harlem-125 St
+EL126,6,south,Harlem-125 St
 EL127,5,bronx,Simpson St
 EL127,2,bronx,Simpson St
 EL128,5,manhattan,Simpson St
@@ -36,14 +36,14 @@ EL140,A,north,168 St
 EL140,C,south,168 St
 EL141,A,south,168 St
 EL141,C,south,168 St
-EL143,D,south,125 St
-EL143,C,south,125 St
-EL143,A,south,125 St
-EL143,B,south,125 St
-EL144,B,north,125 St
-EL144,A,north,125 St
-EL144,C,north,125 St
-EL144,D,north,125 St
+EL143,D,south,125 St (IRT Third Avenue Line)
+EL143,C,south,125 St (IRT Third Avenue Line)
+EL143,A,south,125 St (IRT Third Avenue Line)
+EL143,B,south,125 St (IRT Third Avenue Line)
+EL144,B,north,125 St (IRT Third Avenue Line)
+EL144,A,north,125 St (IRT Third Avenue Line)
+EL144,C,north,125 St (IRT Third Avenue Line)
+EL144,D,north,125 St (IRT Third Avenue Line)
 EL145,2,south,96 St
 EL145,3,south,96 St
 EL145,1,south,96 St
