@@ -1,9 +1,9 @@
 station_name,equipment_id,from,to,platform_id
-125 St,EL125,Street,Mezzanine,
-125 St,EL142,Street,Mezzanine,
-125 St,EL143,Mezzanine,Platform,D-south/C-south/A-south/B-south
-125 St,EL126,Mezzanine,Platform,5-south/4-south/6-north/4-north/5-north/6-south
-125 St,EL144,Mezzanine,Platform,B-north/A-north/C-north/D-north
+Harlem-125 St,EL125,Street,Mezzanine,
+125 St (IRT Third Avenue Line),EL142,Street,Mezzanine,
+125 St (IRT Third Avenue Line),EL143,Mezzanine,Platform,D-south/C-south/A-south/B-south
+Harlem-125 St,EL126,Mezzanine,Platform,5-south/4-south/6-north/4-north/5-north/6-south
+125 St (IRT Third Avenue Line),EL144,Mezzanine,Platform,B-north/A-north/C-north/D-north
 135 St,EL180,Street,Platform,3-bronx/2-bronx
 135 St,EL181,Street,Platform,3-south/2-south
 14 St - 8 Av,EL221,Street,Mezzanine,
