@@ -52,7 +52,7 @@ def calculate_walking_distances(nodes,graph, eculid_distances, no_candidates=30)
         for dest_station in list(nearest_candidates):
             if (dest_station, origin_station) not in distances.keys():
                 dest_node = nodes[dest_station]
-                distance  = nx.shortest_path_length(graph, origin_node, dest_node)
+                distance  = nx.shortest_path_length(graph, origin_node, dest_node, weight='length')
                 distances[(origin_station,dest_station)] = distance
             done+=1
             if(done%100==0):
@@ -74,7 +74,7 @@ def plot_route(graph, origin, destination):
     west = min(o['x'],d['x'])
     padding = 0.01
     local_graph = ox.truncate.truncate_graph_bbox(graph, north+padding,south -padding, east+padding,west-padding)
-    return ox.plot.plot_graph_route(local_graph, nx.shortest_path(graph,origin,destination),show=False)
+    return ox.plot.plot_graph_route(local_graph, nx.shortest_path(graph,origin,destination, weight='length'),show=False)
 
 def plot_all_routes(graph,nodes,routes):
     path = PROCESSED_DATA_PATH / "plots"
