@@ -1,3 +1,5 @@
+**This project is no longer maintained by Two Sigma. We continue to encourage independent development.**
+
 # mta_data_repo
 During a Data Clinic Hack Day back in December 2019, we set out to use open data to better understand the impact of elevator outages within the NYC subway system. Our goal was to use the insights we derived to a) offer a data-driven method to prioritize and schedule elevator maintenance to minimize rider impact, b) enhance alternative routing capabilities during outages, and c) inspire members of the public to build solutions, tools, apps, etc. to support elevator riders navigate the subway system more effectively.
 
